@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "f001",
+    "module": 1,
+    "topic": "WHO criteria",
+    "front": "WHO T-score cutoff for osteoporosis",
+    "back": "T-score <= -2.5 at lumbar spine, total hip, or femoral neck (33% radius in specific cases).",
+    "category": "criteria",
+    "subCategory": "WHO criteria",
+    "highYield": true
+  },
+  {
+    "id": "f002",
+    "module": 1,
+    "topic": "WHO criteria",
+    "front": "WHO T-score range for osteopenia (low bone mass)",
+    "back": "Between -1.0 and -2.5.",
+    "category": "criteria",
+    "subCategory": "WHO criteria",
+    "highYield": true
+  },
+  {
+    "id": "f003",
+    "module": 1,
+    "topic": "WHO criteria",
+    "front": "Normal T-score per WHO",
+    "back": ">= -1.0.",
+    "category": "criteria",
+    "subCategory": "WHO criteria",
+    "highYield": true
+  },
+  {
+    "id": "f004",
+    "module": 1,
+    "topic": "WHO criteria",
+    "front": "Severe (established) osteoporosis definition",
+    "back": "T-score <= -2.5 PLUS one or more fragility fractures.",
+    "category": "criteria",
+    "subCategory": "WHO criteria",
+    "highYield": true
+  },
+  {
+    "id": "f005",
+    "module": 1,
+    "topic": "LSC",
+    "front": "LSC formula at 95% confidence (baseline + 1 follow-up)",
+    "back": "LSC = 2.77 × precision error. Derivation: 1.96 × sqrt(2).",
+    "category": "statistics",
+    "subCategory": "LSC",
+    "highYield": true
+  },
+  {
+    "id": "f006",
+    "module": 1,
+    "topic": "precision study",
+    "front": "ISCD precision study design",
+    "back": "30 patients scanned twice OR 15 patients scanned three times, with repositioning. Both yield 30 degrees of freedom.",
+    "category": "criteria",
+    "subCategory": "precision study",
+    "highYield": true
+  },
+  {
+    "id": "f007",
+    "module": 1,
+    "topic": "ISCD precision",
+    "front": "ISCD minimum precision at lumbar spine, total hip, femoral neck",
+    "back": "Spine 1.9%, total hip 1.8%, femoral neck 2.5%. LSCs: 5.3%, 5.0%, 6.9%.",
+    "category": "criteria",
+    "subCategory": "ISCD precision",
+    "highYield": false
+  },
+  {
+    "id": "f008",
+    "module": 1,
+    "topic": "reporting",
+    "front": "ISCD decimal places",
+    "back": "BMD: 3 decimals. Area and BMC: 2 decimals. T-score and Z-score: 1 decimal. Percent: integer.",
+    "category": "criteria",
+    "subCategory": "reporting",
+    "highYield": false
+  },
+  {
+    "id": "f009",
+    "module": 1,
+    "topic": "BMD formula",
+    "front": "BMD formula",
+    "back": "BMD = BMC / Area, in g/cm². Areal (2D projection).",
+    "category": "statistics",
+    "subCategory": "BMD formula",
+    "highYield": false
+  },
+  {
+    "id": "f010",
+    "module": 1,
+    "topic": "T-score formula",
+    "front": "T-score formula",
+    "back": "(Patient BMD - Young-adult mean BMD) / Young-adult SD. Reference: white female age 20-29.",
+    "category": "statistics",
+    "subCategory": "T-score formula",
+    "highYield": true
+  },
+  {
+    "id": "f011",
+    "module": 1,
+    "topic": "Z-score formula",
+    "front": "Z-score formula and interpretation",
+    "back": "(Patient BMD - Age-matched mean) / Age-matched SD. Z <= -2.0 is 'below expected range for age.'",
+    "category": "statistics",
+    "subCategory": "Z-score formula",
+    "highYield": true
+  },
+  {
+    "id": "f012",
+    "module": 1,
+    "topic": "BMMA",
+    "front": "Bone Mass Measurement Act coverage interval",
+    "back": "Medicare covers central DXA every 23 months (with 5 qualifying conditions and exceptions).",
+    "category": "criteria",
+    "subCategory": "BMMA",
+    "highYield": true
+  },
+  {
+    "id": "f013",
+    "module": 1,
+    "topic": "SPA/DPA isotopes",
+    "front": "SPA and DPA isotopes",
+    "back": "SPA: Iodine-125 (single energy). DPA: Gadolinium-153 (dual energy, 44 and 100 keV).",
+    "category": "equipment-qc",
+    "subCategory": "SPA/DPA isotopes",
+    "highYield": false
+  },
+  {
+    "id": "f014",
+    "module": 1,
+    "topic": "ARRT exam",
+    "front": "ARRT BD exam structure (2022 spec)",
+    "back": "75 scored + 30 pilot = 105 items. 1h45m answering. Pass = 75 scaled score (~70% correct). 2024 first-time pass rate 68.8%.",
+    "category": "criteria",
+    "subCategory": "ARRT exam",
+    "highYield": false
+  },
+  {
+    "id": "f015",
+    "module": 2,
+    "topic": "cortical vs trabecular",
+    "front": "Cortical vs trabecular mass ratio",
+    "back": "80% cortical, 20% trabecular. Trabecular has higher turnover, responds earlier to therapy.",
+    "category": "physiology",
+    "subCategory": "cortical vs trabecular",
+    "highYield": false
+  },
+  {
+    "id": "f016",
+    "module": 2,
+    "topic": "site composition",
+    "front": "Site composition: spine, 33% radius, ultra-distal radius",
+    "back": "Vertebral bodies ~66% trabecular. 33% radius ~95% cortical. Ultra-distal radius mostly trabecular.",
+    "category": "physiology",
+    "subCategory": "site composition",
+    "highYield": false
+  },
+  {
+    "id": "f017",
+    "module": 2,
+    "topic": "bone cells",
+    "front": "Osteoblasts, osteoclasts, osteocytes roles",
+    "back": "Blasts build (mesenchymal). Clasts carve (hematopoietic). Cytes = mechanosensors in lacunae (make sclerostin, regulate RANKL).",
+    "category": "physiology",
+    "subCategory": "bone cells",
+    "highYield": false
+  },
+  {
+    "id": "f018",
+    "module": 2,
+    "topic": "remodeling cycle",
+    "front": "Remodeling cycle phases",
+    "back": "Activation, Resorption (2-3 wk), Reversal, Formation (~3 mo), Mineralization (months).",
+    "category": "physiology",
+    "subCategory": "remodeling cycle",
+    "highYield": false
+  },
+  {
+    "id": "f019",
+    "module": 2,
+    "topic": "ossification",
+    "front": "Intramembranous vs endochondral",
+    "back": "Intramembranous: flat skull bones, clavicle, direct from mesenchyme. Endochondral: long bones, via cartilage template.",
+    "category": "physiology",
+    "subCategory": "ossification",
+    "highYield": false
+  },
+  {
+    "id": "f020",
+    "module": 2,
+    "topic": "bone matrix",
+    "front": "Bone matrix composition",
+    "back": "~30% organic (90% type I collagen), ~70% inorganic (hydroxyapatite calcium phosphate).",
+    "category": "physiology",
+    "subCategory": "bone matrix",
+    "highYield": false
+  },
+  {
+    "id": "f021",
+    "module": 2,
+    "topic": "Haversian system",
+    "front": "Haversian system (osteon)",
+    "back": "Structural unit of CORTICAL bone. Concentric lamellae around central canal. Volkmann canals connect osteons.",
+    "category": "physiology",
+    "subCategory": "Haversian system",
+    "highYield": false
+  },
+  {
+    "id": "f022",
+    "module": 2,
+    "topic": "peak bone mass",
+    "front": "Peak bone mass timing",
+    "back": "~80-90% acquired by age 18; peak in late 20s. Girls accrue 40-50% of lifetime mass in early teen years.",
+    "category": "physiology",
+    "subCategory": "peak bone mass",
+    "highYield": false
+  },
+  {
+    "id": "f023",
+    "module": 3,
+    "topic": "Type 1 vs Type 2",
+    "front": "Type 1 vs Type 2 primary osteoporosis",
+    "back": "Type 1 (postmenopausal): trabecular loss, vertebral/distal forearm fractures. Type 2 (senile): cortical+trabecular, hip/vertebral, both sexes >70.",
+    "category": "physiology",
+    "subCategory": "Type 1 vs Type 2",
+    "highYield": false
+  },
+  {
+    "id": "f024",
+    "module": 3,
+    "topic": "secondary causes",
+    "front": "Common secondary osteoporosis causes",
+    "back": "Glucocorticoids (most common iatrogenic), hyperparathyroidism, hyperthyroidism, hypogonadism, malabsorption, CKD, myeloma, RA.",
+    "category": "physiology",
+    "subCategory": "secondary causes",
+    "highYield": false
+  },
+  {
+    "id": "f025",
+    "module": 3,
+    "topic": "hyperparathyroidism site",
+    "front": "Preferred DXA site in primary hyperparathyroidism",
+    "back": "33% radius because primary hyperparathyroidism preferentially damages cortical bone.",
+    "category": "special-pop",
+    "subCategory": "hyperparathyroidism site",
+    "highYield": false
+  },
+  {
+    "id": "f026",
+    "module": 3,
+    "topic": "formation markers",
+    "front": "Bone formation markers",
+    "back": "P1NP (preferred per IOF/IFCC), bone-specific alkaline phosphatase, osteocalcin.",
+    "category": "physiology",
+    "subCategory": "formation markers",
+    "highYield": false
+  },
+  {
+    "id": "f027",
+    "module": 3,
+    "topic": "resorption markers",
+    "front": "Bone resorption markers",
+    "back": "Serum CTX (preferred), urinary/serum NTX, deoxypyridinoline.",
+    "category": "physiology",
+    "subCategory": "resorption markers",
+    "highYield": false
+  },
+  {
+    "id": "f028",
+    "module": 3,
+    "topic": "labs",
+    "front": "Key labs in osteoporosis workup",
+    "back": "Calcium, 25-OH vitamin D (target >=30 ng/mL), PTH, ALP, TSH, sex hormones as indicated, 24hr urine calcium.",
+    "category": "physiology",
+    "subCategory": "labs",
+    "highYield": false
+  },
+  {
+    "id": "f029",
+    "module": 3,
+    "topic": "osteomalacia",
+    "front": "Osteomalacia vs osteoporosis",
+    "back": "Osteomalacia: defective mineralization, usually low vit D. Soft bone, pseudofractures. Osteoporosis: normal mineralization, reduced quantity.",
+    "category": "physiology",
+    "subCategory": "osteomalacia",
+    "highYield": false
+  },
+  {
+    "id": "f030",
+    "module": 4,
+    "topic": "calcium RDA",
+    "front": "Daily calcium RDA adults",
+    "back": "Under 50 and men 50-70: 1000 mg. Women 51+ and men 71+: 1200 mg.",
+    "category": "pharmacology",
+    "subCategory": "calcium RDA",
+    "highYield": false
+  },
+  {
+    "id": "f031",
+    "module": 4,
+    "topic": "vitamin D RDA",
+    "front": "Vitamin D RDA adults",
+    "back": "Adults <70: 600 IU. 71+: 800 IU. BHOF: 800-1000 IU supplemental for 50+. Serum 25(OH)D target >=30 ng/mL.",
+    "category": "pharmacology",
+    "subCategory": "vitamin D RDA",
+    "highYield": false
+  },
+  {
+    "id": "f032",
+    "module": 4,
+    "topic": "bisphosphonates",
+    "front": "Bisphosphonate mechanism",
+    "back": "Inhibit farnesyl pyrophosphate synthase, disabling osteoclasts. Bind hydroxyapatite for years (drug holiday possible).",
+    "category": "pharmacology",
+    "subCategory": "bisphosphonates",
+    "highYield": false
+  },
+  {
+    "id": "f033",
+    "module": 4,
+    "topic": "bisphosphonate dosing",
+    "front": "Standard bisphosphonate dosing",
+    "back": "Alendronate 70 mg PO weekly. Risedronate 35 mg weekly or 150 mg monthly. Ibandronate 150 mg PO monthly or 3 mg IV quarterly. Zoledronic acid 5 mg IV yearly.",
+    "category": "pharmacology",
+    "subCategory": "bisphosphonate dosing",
+    "highYield": true
+  },
+  {
+    "id": "f034",
+    "module": 4,
+    "topic": "denosumab",
+    "front": "Denosumab (Prolia) mechanism and risk",
+    "back": "Anti-RANKL mAb, 60 mg SC q6mo. Fully reversible. Discontinuation causes rebound fractures. Must transition to bisphosphonate.",
+    "category": "pharmacology",
+    "subCategory": "denosumab",
+    "highYield": true
+  },
+  {
+    "id": "f035",
+    "module": 4,
+    "topic": "teriparatide",
+    "front": "Teriparatide (Forteo)",
+    "back": "PTH 1-34 analog, 20 µg SC daily. ANABOLIC. Max 2 years. Must follow with antiresorptive.",
+    "category": "pharmacology",
+    "subCategory": "teriparatide",
+    "highYield": true
+  },
+  {
+    "id": "f036",
+    "module": 4,
+    "topic": "romosozumab",
+    "front": "Romosozumab (Evenity)",
+    "back": "Anti-sclerostin mAb, 210 mg SC monthly × 12 months. Dual action. Boxed CV warning.",
+    "category": "pharmacology",
+    "subCategory": "romosozumab",
+    "highYield": false
+  },
+  {
+    "id": "f037",
+    "module": 4,
+    "topic": "raloxifene",
+    "front": "Raloxifene (Evista)",
+    "back": "SERM, 60 mg PO daily. Reduces vertebral fracture AND invasive breast cancer. VTE risk.",
+    "category": "pharmacology",
+    "subCategory": "raloxifene",
+    "highYield": false
+  },
+  {
+    "id": "f038",
+    "module": 4,
+    "topic": "BHOF treatment",
+    "front": "BHOF treatment thresholds",
+    "back": "T-score <= -2.5; OR low bone mass + FRAX MOF >=20% or hip >=3%; OR hip/vertebral fragility fracture.",
+    "category": "criteria",
+    "subCategory": "BHOF treatment",
+    "highYield": true
+  },
+  {
+    "id": "f039",
+    "module": 4,
+    "topic": "drug holiday",
+    "front": "Bisphosphonate drug holiday",
+    "back": "After 5 years oral OR 3 years IV in patients no longer at high risk. NOT for denosumab or anabolics.",
+    "category": "pharmacology",
+    "subCategory": "drug holiday",
+    "highYield": false
+  },
+  {
+    "id": "f040",
+    "module": 5,
+    "topic": "beam geometry",
+    "front": "Pencil vs fan vs narrow-fan beam",
+    "back": "Pencil: single detector, slow, no magnification. Fan: array, fast, magnification. Narrow fan (GE Lunar): multi-pass, near-pencil geometry.",
+    "category": "equipment-qc",
+    "subCategory": "beam geometry",
+    "highYield": false
+  },
+  {
+    "id": "f041",
+    "module": 5,
+    "topic": "Hologic vs Lunar",
+    "front": "Hologic vs GE Lunar energy method",
+    "back": "Hologic: kVp switching (100/140 kV) + internal calibration wheel. GE Lunar: K-edge filter + external calibration.",
+    "category": "equipment-qc",
+    "subCategory": "Hologic vs Lunar",
+    "highYield": false
+  },
+  {
+    "id": "f042",
+    "module": 5,
+    "topic": "accuracy vs precision",
+    "front": "Accuracy vs precision vs trueness",
+    "back": "Accuracy = close to truth. Precision = reproducible. Trueness = systematic agreement with reference. Serial monitoring needs precision.",
+    "category": "equipment-qc",
+    "subCategory": "accuracy vs precision",
+    "highYield": false
+  },
+  {
+    "id": "f043",
+    "module": 5,
+    "topic": "daily QC",
+    "front": "Daily QC rule",
+    "back": "1.5% rule: Shewhart limits at ±1.5% of baseline. ISCD: weekly minimum; manufacturers: daily.",
+    "category": "equipment-qc",
+    "subCategory": "daily QC",
+    "highYield": true
+  },
+  {
+    "id": "f044",
+    "module": 5,
+    "topic": "Shewhart rules",
+    "front": "Shewhart control rules",
+    "back": "One point beyond ±3 SD; two consecutive beyond ±2 SD same side; four consecutive beyond ±1 SD same side; ten consecutive same side of mean.",
+    "category": "equipment-qc",
+    "subCategory": "Shewhart rules",
+    "highYield": false
+  },
+  {
+    "id": "f045",
+    "module": 5,
+    "topic": "cross-calibration",
+    "front": "Cross-calibration: same-make hardware service",
+    "back": "10 phantom scans before and after. Greater than 1% difference triggers service.",
+    "category": "equipment-qc",
+    "subCategory": "cross-calibration",
+    "highYield": true
+  },
+  {
+    "id": "f046",
+    "module": 5,
+    "topic": "cross-calibration diff tech",
+    "front": "Cross-calibration: different-technology scanner change",
+    "back": "30 patients once on old, twice on new within 60 days. One-time intersystem LSC only.",
+    "category": "equipment-qc",
+    "subCategory": "cross-calibration diff tech",
+    "highYield": true
+  },
+  {
+    "id": "f047",
+    "module": 5,
+    "topic": "cross-calibration same-model",
+    "front": "Cross-calibration: adding same-model scanner",
+    "back": "Spine phantom on both scanners on 20 different days. Greater than 0.5% difference triggers service.",
+    "category": "equipment-qc",
+    "subCategory": "cross-calibration same-model",
+    "highYield": true
+  },
+  {
+    "id": "f048",
+    "module": 5,
+    "topic": "sBMD",
+    "front": "Standardized BMD (sBMD)",
+    "back": "Converts manufacturer BMD to common scale. NOT for serial monitoring across manufacturers.",
+    "category": "equipment-qc",
+    "subCategory": "sBMD",
+    "highYield": false
+  },
+  {
+    "id": "f049",
+    "module": 6,
+    "topic": "DXA dose",
+    "front": "Typical DXA effective dose",
+    "back": "Central DXA 1-15 µSv per scan. Less than 1 day of natural background (~8 µSv/day, 3000/year).",
+    "category": "radiation-safety",
+    "subCategory": "DXA dose",
+    "highYield": false
+  },
+  {
+    "id": "f050",
+    "module": 6,
+    "topic": "dose comparisons",
+    "front": "Dose comparisons to DXA",
+    "back": "Chest x-ray 20-100 µSv. Mammogram 400 µSv. Tc bone scan ~3000 µSv. CT abdomen 8000-10000 µSv.",
+    "category": "radiation-safety",
+    "subCategory": "dose comparisons",
+    "highYield": false
+  },
+  {
+    "id": "f051",
+    "module": 6,
+    "topic": "contrast wait",
+    "front": "Wait times before DXA",
+    "back": "IV iodinated contrast 72hr. Barium 7-14d. Nuclear med 10 half-lives (Tc-99m 72hr). Oral iodine 3-7d.",
+    "category": "patient-care",
+    "subCategory": "contrast wait",
+    "highYield": false
+  },
+  {
+    "id": "f052",
+    "module": 6,
+    "topic": "pregnancy",
+    "front": "Pregnancy and DXA",
+    "back": "ABSOLUTE contraindication to body composition. Strong relative to BMD. Defer unless clear benefit.",
+    "category": "radiation-safety",
+    "subCategory": "pregnancy",
+    "highYield": false
+  },
+  {
+    "id": "f053",
+    "module": 6,
+    "topic": "operator distance",
+    "front": "Minimum operator distance from scan table",
+    "back": "1 m (3 ft). Scatter at 1 m: pencil ~0.01 µSv/hr, fan ~5 µSv/hr.",
+    "category": "radiation-safety",
+    "subCategory": "operator distance",
+    "highYield": false
+  },
+  {
+    "id": "f054",
+    "module": 6,
+    "topic": "ALARA",
+    "front": "Three ALARA principles",
+    "back": "Time, Distance, Shielding.",
+    "category": "radiation-safety",
+    "subCategory": "ALARA",
+    "highYield": false
+  },
+  {
+    "id": "f055",
+    "module": 6,
+    "topic": "occupational limits",
+    "front": "ICRP occupational dose limit",
+    "back": "20 mSv/year avg over 5 years, 50 mSv single-year max. Declared pregnant: 1 mGy conceptus.",
+    "category": "radiation-safety",
+    "subCategory": "occupational limits",
+    "highYield": false
+  },
+  {
+    "id": "f056",
+    "module": 7,
+    "topic": "pediatric terminology",
+    "front": "Prohibited terms in pediatric DXA reports",
+    "back": "T-scores: NEVER. 'Osteopenia': NEVER. 'Osteoporosis': only with clinically significant fracture history.",
+    "category": "pediatric",
+    "subCategory": "pediatric terminology",
+    "highYield": false
+  },
+  {
+    "id": "f057",
+    "module": 7,
+    "topic": "pediatric diagnosis",
+    "front": "Pediatric osteoporosis diagnostic rule",
+    "back": "Vertebral compression fracture alone = diagnosis. OR Z-score <= -2.0 PLUS 2+ long-bone fx by 10 or 3+ by 19.",
+    "category": "pediatric",
+    "subCategory": "pediatric diagnosis",
+    "highYield": false
+  },
+  {
+    "id": "f058",
+    "module": 7,
+    "topic": "pediatric sites",
+    "front": "Preferred pediatric DXA sites",
+    "back": "PA spine L1-L4 and TBLH. Other: 33% radius (ambulatory), lateral distal femur (non-ambulatory).",
+    "category": "pediatric",
+    "subCategory": "pediatric sites",
+    "highYield": false
+  },
+  {
+    "id": "f059",
+    "module": 7,
+    "topic": "pediatric language",
+    "front": "Preferred pediatric language for low Z-score",
+    "back": "'Low bone mineral mass or bone mineral density for chronologic age' when Z-score <= -2.0.",
+    "category": "pediatric",
+    "subCategory": "pediatric language",
+    "highYield": false
+  },
+  {
+    "id": "f060",
+    "module": 7,
+    "topic": "pediatric height adj",
+    "front": "Pediatric height adjustment",
+    "back": "Spine: BMAD or height-for-age Z-score. TBLH: height-for-age Z-score. CHOP calculator is the BHOF-referenced tool.",
+    "category": "pediatric",
+    "subCategory": "pediatric height adj",
+    "highYield": false
+  },
+  {
+    "id": "f061",
+    "module": 8,
+    "topic": "FRAX basics",
+    "front": "FRAX age range and outputs",
+    "back": "Ages 40-90. Outputs 10-yr MOF and 10-yr hip fracture probability. MOF = vertebral + hip + forearm + proximal humerus.",
+    "category": "criteria",
+    "subCategory": "FRAX basics",
+    "highYield": true
+  },
+  {
+    "id": "f062",
+    "module": 8,
+    "topic": "FRAX BMD input",
+    "front": "FRAX accepted BMD input",
+    "back": "Femoral neck BMD ONLY. Not total hip, not lumbar spine. Entering BMD auto-inactivates secondary osteoporosis flag.",
+    "category": "criteria",
+    "subCategory": "FRAX BMD input",
+    "highYield": true
+  },
+  {
+    "id": "f063",
+    "module": 8,
+    "topic": "FRAX risk factors",
+    "front": "FRAX clinical risk factors",
+    "back": "Age, sex, weight, height, prior fracture, parental hip fx, smoking, oral glucocorticoids, RA, secondary osteoporosis, alcohol 3+ u/d.",
+    "category": "criteria",
+    "subCategory": "FRAX risk factors",
+    "highYield": true
+  },
+  {
+    "id": "f064",
+    "module": 8,
+    "topic": "FRAX limitations",
+    "front": "FRAX known limitations",
+    "back": "Binary inputs, no # or recency of fractures, no lumbar BMD, no falls, no type 2 diabetes, no TBS in core model.",
+    "category": "criteria",
+    "subCategory": "FRAX limitations",
+    "highYield": true
+  },
+  {
+    "id": "f065",
+    "module": 9,
+    "topic": "VFA range",
+    "front": "VFA scan range",
+    "back": "T4 to L4. Mid-thoracic and thoracolumbar junction are most common fracture sites.",
+    "category": "vfa",
+    "subCategory": "VFA range",
+    "highYield": true
+  },
+  {
+    "id": "f066",
+    "module": 9,
+    "topic": "VFA indications",
+    "front": "ISCD VFA indications",
+    "back": "T-score < -1.0 AND one of: women 70+/men 80+; height loss >4cm; undocumented prior vert fx; glucocorticoid 5mg+/d 3+ months.",
+    "category": "vfa",
+    "subCategory": "VFA indications",
+    "highYield": true
+  },
+  {
+    "id": "f067",
+    "module": 9,
+    "topic": "Genant",
+    "front": "Genant semi-quantitative grading",
+    "back": "Grade 0 normal. Grade 1 mild 20-25%. Grade 2 moderate 25-40%. Grade 3 severe >40%.",
+    "category": "vfa",
+    "subCategory": "Genant",
+    "highYield": true
+  },
+  {
+    "id": "f068",
+    "module": 9,
+    "topic": "VFA advantages",
+    "front": "VFA advantages over plain radiographs",
+    "back": "Much lower dose (4-50 µSv vs ~600 µSv). Point-of-care at time of BMD.",
+    "category": "vfa",
+    "subCategory": "VFA advantages",
+    "highYield": true
+  },
+  {
+    "id": "f069",
+    "module": 10,
+    "topic": "spine positioning",
+    "front": "Leg elevation for AP spine DXA",
+    "back": "Flattens lordosis. 60-90 degrees hip/knee flexion typical. Replicate at follow-up.",
+    "category": "spine",
+    "subCategory": "spine positioning",
+    "highYield": false
+  },
+  {
+    "id": "f070",
+    "module": 10,
+    "topic": "vertebral labeling",
+    "front": "Spine labeling landmarks",
+    "back": "Iliac crests at L4-L5 disc. Lowest ribs at T12. L3 has longest transverse processes. L5 is flat block.",
+    "category": "spine",
+    "subCategory": "vertebral labeling",
+    "highYield": false
+  },
+  {
+    "id": "f071",
+    "module": 10,
+    "topic": "exclusion rule",
+    "front": "1.0 T-score rule",
+    "back": "Exclude vertebra if it differs from adjacent by >1.0 T-score. Also exclude fractures, severe degen change, hardware, laminectomy.",
+    "category": "spine",
+    "subCategory": "exclusion rule",
+    "highYield": false
+  },
+  {
+    "id": "f072",
+    "module": 10,
+    "topic": "minimum vertebrae",
+    "front": "Minimum evaluable vertebrae for diagnosis",
+    "back": "2 minimum. If only 1 evaluable, diagnose from different site. LSC modified for <4.",
+    "category": "spine",
+    "subCategory": "minimum vertebrae",
+    "highYield": true
+  },
+  {
+    "id": "f073",
+    "module": 10,
+    "topic": "spine artifacts elevate",
+    "front": "Artifacts that FALSELY ELEVATE spine BMD",
+    "back": "Osteophytes, facet sclerosis, navel piercing, surgical clips, kyphoplasty cement, barium, iodine contrast.",
+    "category": "spine",
+    "subCategory": "spine artifacts elevate",
+    "highYield": false
+  },
+  {
+    "id": "f074",
+    "module": 10,
+    "topic": "spine artifacts lower",
+    "front": "Artifacts that FALSELY LOWER spine BMD",
+    "back": "Laminectomy, bowel gas overlying a vertebra, scoliosis rotation.",
+    "category": "spine",
+    "subCategory": "spine artifacts lower",
+    "highYield": false
+  },
+  {
+    "id": "f075",
+    "module": 11,
+    "topic": "hip rotation",
+    "front": "Proximal femur internal rotation",
+    "back": "15-20 degrees. Visual: small or hidden lesser trochanter.",
+    "category": "hip",
+    "subCategory": "hip rotation",
+    "highYield": false
+  },
+  {
+    "id": "f076",
+    "module": 11,
+    "topic": "lesser trochanter",
+    "front": "Lesser trochanter visual cue",
+    "back": "Prominent = under-rotated = falsely elevates neck BMD. Small/hidden = correct.",
+    "category": "hip",
+    "subCategory": "lesser trochanter",
+    "highYield": false
+  },
+  {
+    "id": "f077",
+    "module": 11,
+    "topic": "hip ROIs",
+    "front": "Hip ROIs for diagnosis",
+    "back": "Femoral neck and total hip. Use LOWER T-score. Ward's and greater trochanter NOT for diagnosis.",
+    "category": "hip",
+    "subCategory": "hip ROIs",
+    "highYield": false
+  },
+  {
+    "id": "f078",
+    "module": 11,
+    "topic": "bilateral hip",
+    "front": "Bilateral hip: diagnosis vs monitoring",
+    "back": "DIAGNOSIS: lowest T-score of 4 (R/L × neck/total hip). MONITORING: mean bilateral total hip BMD.",
+    "category": "hip",
+    "subCategory": "bilateral hip",
+    "highYield": false
+  },
+  {
+    "id": "f079",
+    "module": 11,
+    "topic": "total hip preferred",
+    "front": "Which hip ROI has best precision",
+    "back": "Total hip (LSC 5.0% vs femoral neck 6.9%). Preferred for monitoring. Femoral neck is FRAX input.",
+    "category": "hip",
+    "subCategory": "total hip preferred",
+    "highYield": false
+  },
+  {
+    "id": "f080",
+    "module": 11,
+    "topic": "AFF screening",
+    "front": "Atypical femur fracture screening (ISCD 2023)",
+    "back": "Bilateral full-length femur imaging after >=3 years cumulative antiresorptive. Categories: Nondiagnostic/Low/Moderate/High.",
+    "category": "hip",
+    "subCategory": "AFF screening",
+    "highYield": true
+  },
+  {
+    "id": "f081",
+    "module": 12,
+    "topic": "forearm indications",
+    "front": "ISCD 33% radius indications",
+    "back": "Hip/spine cannot be measured or interpreted; hyperparathyroidism; over scanner weight limit.",
+    "category": "forearm",
+    "subCategory": "forearm indications",
+    "highYield": false
+  },
+  {
+    "id": "f082",
+    "module": 12,
+    "topic": "forearm side",
+    "front": "Which forearm to scan",
+    "back": "Non-dominant (reference database). If contraindicated, use contralateral and document.",
+    "category": "forearm",
+    "subCategory": "forearm side",
+    "highYield": false
+  },
+  {
+    "id": "f083",
+    "module": 12,
+    "topic": "33% ROI location",
+    "front": "33% radius ROI location",
+    "back": "20 mm segment of radial shaft centered at 1/3 of ulnar styloid-to-olecranon distance.",
+    "category": "forearm",
+    "subCategory": "33% ROI location",
+    "highYield": true
+  },
+  {
+    "id": "f084",
+    "module": 12,
+    "topic": "forearm monitoring",
+    "front": "Why forearm is not used for therapy monitoring",
+    "back": "Mostly cortical bone, BMD change rate too slow to detect.",
+    "category": "forearm",
+    "subCategory": "forearm monitoring",
+    "highYield": false
+  },
+  {
+    "id": "f085",
+    "module": 13,
+    "topic": "body comp indications",
+    "front": "ISCD body composition DXA indications",
+    "back": "HIV on specific antiretrovirals; bariatric surgery or >10% weight loss; muscle weakness.",
+    "category": "body-comp",
+    "subCategory": "body comp indications",
+    "highYield": false
+  },
+  {
+    "id": "f086",
+    "module": 13,
+    "topic": "body comp precision",
+    "front": "Body composition minimum precision",
+    "back": "Total fat 3%, total lean 2%, percent fat 2%. Separate from BMD precision study.",
+    "category": "body-comp",
+    "subCategory": "body comp precision",
+    "highYield": false
+  },
+  {
+    "id": "f087",
+    "module": 13,
+    "topic": "whole body positioning",
+    "front": "NHANES whole body positioning",
+    "back": "Supine centered, arms slightly angled with gap from trunk palms down, legs straight feet vertical, ankles strapped, all metal removed.",
+    "category": "body-comp",
+    "subCategory": "whole body positioning",
+    "highYield": false
+  },
+  {
+    "id": "f088",
+    "module": 14,
+    "topic": "precision RMS-SD",
+    "front": "RMS-SD calculation",
+    "back": "Pair SD = |BMD1-BMD2|/sqrt(2). RMS-SD = sqrt(sum SD² / n). RMS-%CV = RMS-SD / mean × 100.",
+    "category": "statistics",
+    "subCategory": "precision RMS-SD",
+    "highYield": true
+  },
+  {
+    "id": "f089",
+    "module": 14,
+    "topic": "when repeat precision",
+    "front": "When to repeat precision study",
+    "back": "New DXA system. Major software/hardware change. Technologist skill change. Initial after ~100 supervised scans.",
+    "category": "equipment-qc",
+    "subCategory": "when repeat precision",
+    "highYield": false
+  },
+  {
+    "id": "f090",
+    "module": 14,
+    "topic": "LSC example",
+    "front": "LSC example: precision 0.015 g/cm²",
+    "back": "LSC = 2.77 × 0.015 = 0.042 g/cm². Change must exceed this for 95% confidence.",
+    "category": "statistics",
+    "subCategory": "LSC example",
+    "highYield": true
+  },
+  {
+    "id": "f091",
+    "module": 1,
+    "topic": "TBS 2023",
+    "front": "TBS per ISCD 2023",
+    "back": "Adults 40+, within BMI range, L1-L4 no exclusions. Adjusts FRAX. NOT alone for treatment. NO routine serial TBS monitoring.",
+    "category": "criteria",
+    "subCategory": "TBS 2023",
+    "highYield": false
+  },
+  {
+    "id": "f092",
+    "module": 1,
+    "topic": "DXA terminology",
+    "front": "ISCD 2023 preferred terminology",
+    "back": "DXA (not DEXA). T-score hyphenated. 'White' not 'Caucasian'. 'Hip' not 'femur'. 'Bilateral hips' for both.",
+    "category": "criteria",
+    "subCategory": "DXA terminology",
+    "highYield": false
+  },
+  {
+    "id": "f093",
+    "module": 1,
+    "topic": "T-score vs Z-score use",
+    "front": "When to use T-score vs Z-score",
+    "back": "T-score: postmenopausal women and men 50+. Z-score: premenopausal, men <50, children.",
+    "category": "statistics",
+    "subCategory": "T-score vs Z-score use",
+    "highYield": true
+  },
+  {
+    "id": "f094",
+    "module": 1,
+    "topic": "WHO reference",
+    "front": "WHO reference database for T-scores",
+    "back": "Female white NHANES III age 20-29 for femoral neck/total hip. Uniform white female database regardless of ethnicity.",
+    "category": "criteria",
+    "subCategory": "WHO reference",
+    "highYield": true
+  },
+  {
+    "id": "f095",
+    "module": 3,
+    "topic": "manufacturer BMD differences",
+    "front": "Hologic vs GE Lunar BMD",
+    "back": "Lunar spine BMD runs ~0.1 g/cm² HIGHER than Hologic spine. Cannot interchange. Return to same machine.",
+    "category": "equipment-qc",
+    "subCategory": "manufacturer BMD differences",
+    "highYield": false
+  },
+  {
+    "id": "f096",
+    "module": 4,
+    "topic": "calcitonin",
+    "front": "Calcitonin salmon",
+    "back": "200 IU intranasal daily. Rarely used. Vertebral fracture only. Cancer safety signal.",
+    "category": "pharmacology",
+    "subCategory": "calcitonin",
+    "highYield": false
+  },
+  {
+    "id": "f097",
+    "module": 4,
+    "topic": "HRT",
+    "front": "HRT and bone",
+    "back": "Preserves BMD, reduces vertebral/hip/non-vertebral fractures (WHI). Not first-line for osteoporosis alone.",
+    "category": "pharmacology",
+    "subCategory": "HRT",
+    "highYield": false
+  },
+  {
+    "id": "f098",
+    "module": 5,
+    "topic": "pencil beam speed",
+    "front": "Pencil beam scan time",
+    "back": "Adult lumbar spine 3-6 minutes. Whole body 10-20 minutes on DPX and DPX-L. Fan beam 10-60 seconds.",
+    "category": "equipment-qc",
+    "subCategory": "pencil beam speed",
+    "highYield": false
+  },
+  {
+    "id": "f099",
+    "module": 14,
+    "topic": "cross-calibration inter-machine",
+    "front": "Inter-machine LSC rule",
+    "back": "Inter-machine LSC must never be applied to patients scanned on a single device. Patients return to same device for follow-up.",
+    "category": "equipment-qc",
+    "subCategory": "cross-calibration inter-machine",
+    "highYield": true
+  },
+  {
+    "id": "f100",
+    "module": 1,
+    "topic": "NOF to BHOF",
+    "front": "NOF rebranding",
+    "back": "National Osteoporosis Foundation rebranded to Bone Health and Osteoporosis Foundation (BHOF) in June 2022.",
+    "category": "criteria",
+    "subCategory": "NOF to BHOF",
+    "highYield": false
+  },
+  {
+    "id": "f101",
+    "module": 10,
+    "topic": "scan extent spine",
+    "front": "PA spine scan extent",
+    "back": "Mid-L5 (or upper S1) through T12 capturing lowest rib pair. L5 labeled but NOT included in L1-L4 diagnostic sum.",
+    "category": "spine",
+    "subCategory": "scan extent spine",
+    "highYield": false
+  },
+  {
+    "id": "f102",
+    "module": 11,
+    "topic": "hip axis length",
+    "front": "Hip Axis Length (HAL)",
+    "back": "Longer HAL = higher hip fracture risk in postmenopausal women, independent of BMD. Other HSA parameters NOT recommended per ISCD.",
+    "category": "hip",
+    "subCategory": "hip axis length",
+    "highYield": false
+  },
+  {
+    "id": "f103",
+    "module": 6,
+    "topic": "weight limits",
+    "front": "DXA scanner weight limits",
+    "back": "Lunar Prodigy 159 kg/350 lb. Lunar iDXA 204 kg/450 lb. Hologic Horizon ~227 kg/500 lb. Norland Elite 283.5 kg/625 lb.",
+    "category": "patient-care",
+    "subCategory": "weight limits",
+    "highYield": false
+  },
+  {
+    "id": "f104",
+    "module": 1,
+    "topic": "transgender reporting",
+    "front": "Transgender DXA reporting (ISCD 2023)",
+    "back": "Uniform white female database for T-scores regardless of gender identity/hormones. Diagnose at T <= -2.5 in all TGNC 50+.",
+    "category": "special-pop",
+    "subCategory": "transgender reporting",
+    "highYield": false
+  },
+  {
+    "id": "f105",
+    "module": 1,
+    "topic": "SCI sites",
+    "front": "Spinal cord injury DXA sites",
+    "back": "Total hip, proximal tibia, and distal femur as soon as medically stable.",
+    "category": "special-pop",
+    "subCategory": "SCI sites",
+    "highYield": false
+  },
+  {
+    "id": "f106",
+    "module": 3,
+    "topic": "remodeling uncoupling",
+    "front": "What uncouples remodeling toward net loss",
+    "back": "Estrogen deficiency, glucocorticoids, hyperparathyroidism. Antiresorptives preserve; anabolics build.",
+    "category": "physiology",
+    "subCategory": "remodeling uncoupling",
+    "highYield": false
+  },
+  {
+    "id": "f107",
+    "module": 11,
+    "topic": "FFI categories",
+    "front": "FFI reporting categories (AFF screening)",
+    "back": "Nondiagnostic (inadequate), LOW, MODERATE (questionable thickening, warrant radiographs), HIGH (thickening + transverse lucent line, urgent consult).",
+    "category": "hip",
+    "subCategory": "FFI categories",
+    "highYield": false
+  },
+  {
+    "id": "f108",
+    "module": 1,
+    "topic": "2022 vs 2027 spec",
+    "front": "ARRT BD spec timing",
+    "back": "2022 spec in force through Dec 31, 2026. 2027 spec takes effect Jan 1, 2027. Travis tests against 2022 unless 2027+.",
+    "category": "criteria",
+    "subCategory": "2022 vs 2027 spec",
+    "highYield": false
+  },
+  {
+    "id": "f109",
+    "module": 2,
+    "topic": "cancellous synonyms",
+    "front": "Cancellous bone synonyms",
+    "back": "Trabecular, spongy. Opposite of cortical/compact.",
+    "category": "physiology",
+    "subCategory": "cancellous synonyms",
+    "highYield": false
+  },
+  {
+    "id": "f110",
+    "module": 11,
+    "topic": "Pike's Peak",
+    "front": "Pike's Peak sign",
+    "back": "Prominent lesser trochanter on hip DXA = insufficient internal rotation. Artifact falsely elevates femoral neck BMD.",
+    "category": "hip",
+    "subCategory": "Pike's Peak",
+    "highYield": false
+  }
+]

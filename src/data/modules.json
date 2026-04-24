@@ -1,0 +1,76 @@
+{
+  "source": "ASRT Bone Densitometry Basics (2017), 14-module series",
+  "notes": "Module content is ASRT 2017. Flag any clinical claim against ISCD 2023 Adult and 2019 Pediatric Official Positions and the 2022 ARRT BD Content Specifications.",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Fundamentals",
+      "topics": ["history of densitometry", "SPA", "DPA", "DXA", "QCT", "QUS", "pencil vs fan beam", "manufacturers", "T-score", "Z-score", "Bone Mass Measurement Act", "calibration", "accuracy and precision", "bone ash method", "precision study design", "LSC", "risk factors", "WHO criteria", "ISCD 2015 overview"]
+    },
+    {
+      "id": 2,
+      "title": "Osteology",
+      "topics": ["anatomical nomenclature", "planes of reference", "bone features", "joint classifications", "synovial joint types", "cortical vs trabecular composition", "medullary cavity", "periosteum", "endosteum", "woven vs lamellar bone", "Haversian systems", "osteoblasts", "osteocytes", "osteoclasts", "intramembranous vs endochondral ossification", "bone repair stages", "aging and peak bone mass"]
+    },
+    {
+      "id": 3,
+      "title": "Pathology",
+      "topics": ["osteoporosis definition", "genetic vs environmental factors", "Type 1 postmenopausal", "Type 2 senile", "secondary osteoporosis", "peak bone mass determinants", "statistics (mean, SD, CV)", "accuracy vs precision", "T-score vs Z-score", "falsely elevated or decreased BMD", "remodeling cycle", "labs (Ca, vit D, PTH)", "BTMs", "metabolic bone disease", "OI", "bone cancers", "arthritis", "spine pathology"]
+    },
+    {
+      "id": 4,
+      "title": "Treatment and Prevention",
+      "topics": ["nutrition", "calcium and vitamin D RDA", "exercise", "fall prevention", "BTMs clinically", "NOF/BHOF thresholds", "bisphosphonates (alendronate, risedronate, ibandronate, zoledronic acid)", "calcitonin", "raloxifene SERM", "HRT", "teriparatide PTH", "denosumab RANKL", "compliance", "drug holidays"]
+    },
+    {
+      "id": 5,
+      "title": "Equipment",
+      "topics": ["DXA principles", "attenuation", "manufacturer differences (Hologic, GE Lunar, Norland)", "beam configuration (pencil, fan, narrow fan)", "K-edge filter vs kVp switching", "accuracy", "precision", "trueness", "calibration", "daily QC", "phantoms", "scanner maintenance"]
+    },
+    {
+      "id": 6,
+      "title": "Scanning Preparation and Safety",
+      "topics": ["patient preparation", "questionnaire", "contraindications (contrast, nuclear med, barium wait times)", "pregnancy", "positioning instructions", "x-ray basics", "units of radiation dose", "typical DXA effective dose", "ALARA", "time distance shielding", "occupational dose"]
+    },
+    {
+      "id": 7,
+      "title": "Pediatric Skeletal Health Assessment",
+      "topics": ["pediatric osteoporosis definition", "pediatric indications", "pediatric disease processes", "pediatric report elements", "terminology (no T-score, no osteopenia, qualified osteoporosis)", "preferred sites (PA spine, TBLH)", "pediatric scanning problems"]
+    },
+    {
+      "id": 8,
+      "title": "Essentials of FRAX",
+      "topics": ["FRAX definition", "FRAX history and development", "applications", "risk factors and inputs", "outputs (10-year MOF, hip fracture probability)", "country calibration", "limitations"]
+    },
+    {
+      "id": 9,
+      "title": "Essentials of VFA",
+      "topics": ["VFA definition", "vertebral fracture significance", "indications", "advantages and disadvantages", "assessment methods (Genant semi-quantitative)", "reporting", "scan range T4 to L5", "analysis problems"]
+    },
+    {
+      "id": 10,
+      "title": "DXA Scanning of the Lumbar Spine",
+      "topics": ["lumbar anatomy and variations", "landmarks and ROI", "scan parameters", "patient positioning", "leg elevation", "vertebral labeling (iliac crest, T12 rib, L3 transverse process)", "analysis", "exclusion rules (1.0 T-score difference, fracture, hardware)", "artifacts (osteophytes, aortic calcification, navel piercing)", "minimum 2 evaluable vertebrae"]
+    },
+    {
+      "id": 11,
+      "title": "DXA Scanning of the Proximal Femur",
+      "topics": ["proximal femur anatomy", "scan acquisition", "15-25 degree internal rotation", "lesser trochanter visual indicator", "ROIs (femoral neck, trochanter, total hip, Ward's)", "Ward's not for diagnosis", "bilateral hip rules (lowest for diagnosis, mean for monitoring)", "challenges and limitations", "hip axis length"]
+    },
+    {
+      "id": 12,
+      "title": "DXA Scanning of the Forearm",
+      "topics": ["forearm indications (hyperparathyroidism, over weight limit, spine/hip unusable)", "non-dominant forearm", "hand and forearm anatomy", "33% radius ROI placement", "ultra-distal radius", "forearm scan acquisition", "analysis and reporting", "common problems"]
+    },
+    {
+      "id": 13,
+      "title": "Patient Care and Bone Health Risk Factors (Body Composition focus)",
+      "topics": ["body composition methods", "DXA total body indications", "body elements (fat, lean, bone, water)", "applications and limitations", "patient preparation", "TBC interpretation"]
+    },
+    {
+      "id": 14,
+      "title": "Precision Studies, Serial Scanning, and QC",
+      "topics": ["manufacturer comparison", "accuracy vs precision vs trueness", "precision calculation (RMS-SD, CV)", "precision study (30x2 or 15x3)", "calibration", "cross-calibration", "serial scanning", "LSC (2.77 multiplier)", "ISCD minimum precision (1.9/1.8/2.5%)", "QC programs", "phantoms", "Shewhart rules", "CUSUM", "maintenance"]
+    }
+  ]
+}
