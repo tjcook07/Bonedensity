@@ -4,8 +4,8 @@ import { navigate } from '../js/router.js';
 import { shuffle, shuffleOptions, percent } from '../js/util.js';
 import { recordAttempt, startSession, endSession } from '../js/storage.js';
 import { getReviewQuestions } from '../js/stats.js';
+import { renderQuizBuilder, consumeBuilderSession } from './quiz-builder.js';
 import questions from '../data/questions.json';
-import modules from '../data/modules.json';
 
 function dedupShuffle(pool) {
   const shuffled = shuffle(pool);
@@ -19,80 +19,36 @@ function dedupShuffle(pool) {
   return result;
 }
 
-function moduleLabel(n) {
-  const mod = (modules.modules || []).find(m => m.id === n);
-  return mod ? `${n}. ${mod.title}` : `Module ${n}`;
-}
-
-function picker(container) {
-  const moduleCounts = {};
-  for (const q of questions) moduleCounts[q.module] = (moduleCounts[q.module] || 0) + 1;
-  const moduleList = Object.keys(moduleCounts).map(Number).sort((a, b) => a - b);
-
-  const body = `
-    <div class="mb-4">
-      <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Quick drills</div>
-      <div class="grid gap-3">
-        <button data-go="all" class="card card-hover flex items-center gap-3 text-left">
-          <span class="text-accent-amber">${icon('zap', 'w-6 h-6')}</span>
-          <span class="flex-1">
-            <div class="font-display text-lg">Mixed drill</div>
-            <div class="text-bone-300 text-xs">15 random questions across modules</div>
-          </span>
-          <span class="text-bone-300">${icon('chevron_right', 'w-5 h-5')}</span>
-        </button>
-        <button data-go="review" class="card card-hover flex items-center gap-3 text-left">
-          <span class="text-accent-amber">${icon('target', 'w-6 h-6')}</span>
-          <span class="flex-1">
-            <div class="font-display text-lg">Review weak areas</div>
-            <div class="text-bone-300 text-xs">Prioritizes unseen and missed questions</div>
-          </span>
-          <span class="text-bone-300">${icon('chevron_right', 'w-5 h-5')}</span>
-        </button>
-      </div>
-    </div>
-    <div>
-      <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">By module</div>
-      <div class="grid gap-2">
-        ${moduleList.map(m => `
-          <button data-go="module-${m}" class="card card-hover flex items-center gap-3 text-left py-3">
-            <span class="font-mono text-accent-amber text-sm w-6 text-center">${m}</span>
-            <span class="flex-1 text-sm">${moduleLabel(m)}</span>
-            <span class="chip-muted">${moduleCounts[m]}</span>
-            <span class="text-bone-300">${icon('chevron_right', 'w-4 h-4')}</span>
-          </button>
-        `).join('')}
-      </div>
-    </div>
-  `;
-
-  container.innerHTML = pageShell('Quiz', body);
-  attachBackButton(container);
-  container.querySelectorAll('[data-go]').forEach(btn => {
-    btn.addEventListener('click', () => navigate(`quiz/run/${btn.getAttribute('data-go')}`));
-  });
-}
-
 async function pickQuestions(key) {
+  if (key === 'custom') {
+    const session = consumeBuilderSession();
+    if (!session || !Array.isArray(session.questions) || session.questions.length === 0) {
+      return { list: [], mode: 'study' };
+    }
+    return {
+      list: session.questions.map(shuffleOptions),
+      mode: session.mode === 'test' ? 'test' : 'study'
+    };
+  }
   if (key === 'all') {
     const pool = dedupShuffle(questions);
-    return pool.slice(0, 15).map(shuffleOptions);
+    return { list: pool.slice(0, 15).map(shuffleOptions), mode: 'study' };
   }
   if (key === 'review') {
     const pool = await getReviewQuestions(15);
     const deduped = dedupShuffle(pool);
-    return deduped.map(shuffleOptions);
+    return { list: deduped.map(shuffleOptions), mode: 'study' };
   }
   if (key.startsWith('module-')) {
     const m = parseInt(key.slice(7), 10);
     const pool = dedupShuffle(questions.filter(q => q.module === m));
-    return pool.map(shuffleOptions);
+    return { list: pool.map(shuffleOptions), mode: 'study' };
   }
-  return [];
+  return { list: [], mode: 'study' };
 }
 
 async function runner(container, key) {
-  const quiz = await pickQuestions(key);
+  const { list: quiz, mode } = await pickQuestions(key);
   if (quiz.length === 0) {
     container.innerHTML = pageShell('Quiz', `
       <div class="card text-center py-10">
@@ -116,6 +72,7 @@ async function runner(container, key) {
         <span class="chip-muted">Mod ${q.module}</span>
         ${q.topic ? `<span class="chip-muted">${q.topic}</span>` : ''}
         ${q.difficulty ? `<span class="chip-${q.difficulty === 'hard' ? 'err' : q.difficulty === 'medium' ? 'warn' : 'ok'}">${q.difficulty}</span>` : ''}
+        ${mode === 'test' ? `<span class="chip-muted">test mode</span>` : ''}
       </div>
     `;
     const opts = q.options.map((o, i) => `
@@ -124,6 +81,7 @@ async function runner(container, key) {
       </button>
     `).join('');
 
+    const nextLabel = state.index + 1 === quiz.length ? 'Finish' : 'Next';
     const body = `
       <div class="flex items-center justify-between mb-3">
         <span class="text-bone-300 text-xs">Question ${state.index + 1} of ${quiz.length}</span>
@@ -141,18 +99,19 @@ async function runner(container, key) {
         <div class="text-bone-100 text-sm leading-relaxed">${q.explanation || ''}</div>
         ${q.mnemonic ? `<div class="mt-3 text-bone-300 text-sm"><span class="text-accent-amber font-medium">Mnemonic:</span> ${q.mnemonic}</div>` : ''}
         ${q.source ? `<div class="mt-2 text-bone-300 text-xs">${q.source}</div>` : ''}
-        <div class="mt-4 flex gap-2">
-          <button id="next-btn" class="btn-primary flex-1">
-            ${state.index + 1 === quiz.length ? 'Finish' : 'Next'}
-            ${icon('chevron_right', 'w-4 h-4')}
-          </button>
-        </div>
+      </div>
+      <div id="advance" class="hidden mt-4">
+        <button id="next-btn" class="btn-primary w-full">
+          ${nextLabel}
+          ${icon('chevron_right', 'w-4 h-4')}
+        </button>
       </div>
     `;
     container.innerHTML = pageShell('Quiz', body, { back: true, backTo: 'quiz' });
     attachBackButton(container);
 
     const explainEl = container.querySelector('#explain');
+    const advanceEl = container.querySelector('#advance');
     const optsEl = container.querySelector('#opts');
     const tStart = Date.now();
 
@@ -167,7 +126,8 @@ async function runner(container, key) {
           if (idx === q.correct) b.classList.add('correct');
           else if (idx === chosen) b.classList.add('wrong');
         });
-        explainEl.classList.remove('hidden');
+        if (mode === 'study') explainEl.classList.remove('hidden');
+        advanceEl.classList.remove('hidden');
         await recordAttempt({ qId: q.id, correct, sessionId, timeMs: Date.now() - tStart });
         const nextBtn = container.querySelector('#next-btn');
         nextBtn.addEventListener('click', () => {
@@ -226,5 +186,5 @@ export async function renderQuiz(container, params = []) {
     await runner(container, params[1]);
     return;
   }
-  picker(container);
+  renderQuizBuilder(container);
 }
