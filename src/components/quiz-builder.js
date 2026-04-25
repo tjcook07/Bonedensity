@@ -341,7 +341,7 @@ function attachHandlers(container, state) {
 }
 
 function rerender(container, state) {
-  container.innerHTML = pageShell('Quiz', buildBody(state));
+  container.innerHTML = pageShell('Quiz', buildBody(state), { back: true, backTo: 'home' });
   attachBackButton(container);
   attachHandlers(container, state);
 }
