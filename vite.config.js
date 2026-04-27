@@ -7,9 +7,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons/*.png'],
       manifest: {
-        name: 'DEXA Registry Prep',
-        short_name: 'DEXA Prep',
-        description: 'ARRT Bone Densitometry Registry exam prep',
+        name: 'RegistryReady',
+        short_name: 'RegistryReady',
+        description: 'Comprehensive prep for the ARRT Bone Densitometry Registry exam.',
         theme_color: '#0a0e1a',
         background_color: '#0a0e1a',
         display: 'standalone',
@@ -22,7 +22,8 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}']
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}'],
+        maximumFileSizeToCacheInBytes: 3145728
       }
     })
   ]
