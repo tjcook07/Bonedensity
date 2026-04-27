@@ -26,7 +26,7 @@
   },
   {
     "id": "ptest-q002",
-    "module": 1,
+    "module": 14,
     "topic": "DXA technology",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -48,7 +48,7 @@
   },
   {
     "id": "ptest-q003",
-    "module": 2,
+    "module": 1,
     "topic": "bone composition",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -145,7 +145,7 @@
   },
   {
     "id": "ptest-q007",
-    "module": 1,
+    "module": 6,
     "topic": "QCT",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -168,7 +168,7 @@
   },
   {
     "id": "ptest-q008",
-    "module": 1,
+    "module": 10,
     "topic": "peripheral densitometry",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -190,7 +190,7 @@
   },
   {
     "id": "ptest-q009",
-    "module": 3,
+    "module": 10,
     "topic": "osteoporosis consequences",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -213,7 +213,7 @@
   },
   {
     "id": "ptest-q010",
-    "module": 8,
+    "module": 12,
     "topic": "FRAX",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -260,7 +260,7 @@
   },
   {
     "id": "ptest-q012",
-    "module": 2,
+    "module": 1,
     "topic": "trabecular distribution",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -306,7 +306,7 @@
   },
   {
     "id": "ptest-q014",
-    "module": 3,
+    "module": 1,
     "topic": "peak bone mass",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -354,7 +354,7 @@
   },
   {
     "id": "ptest-q016",
-    "module": 1,
+    "module": 6,
     "topic": "QUS",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -402,7 +402,7 @@
   },
   {
     "id": "ptest-q018",
-    "module": 1,
+    "module": 10,
     "topic": "TBS",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -425,7 +425,7 @@
   },
   {
     "id": "ptest-q019",
-    "module": 3,
+    "module": 4,
     "topic": "Type 2 osteoporosis",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -471,7 +471,7 @@
   },
   {
     "id": "ptest-q021",
-    "module": 2,
+    "module": 4,
     "topic": "bone cells",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -494,7 +494,7 @@
   },
   {
     "id": "ptest-q022",
-    "module": 10,
+    "module": 14,
     "topic": "vertebral labeling",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -543,7 +543,7 @@
   },
   {
     "id": "ptest-q024",
-    "module": 1,
+    "module": 10,
     "topic": "BMMA",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -566,7 +566,7 @@
   },
   {
     "id": "m1-q025",
-    "module": 1,
+    "module": 14,
     "topic": "precision study design",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -590,7 +590,7 @@
   },
   {
     "id": "m1-q026",
-    "module": 1,
+    "module": 14,
     "topic": "LSC formula",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -615,7 +615,7 @@
   },
   {
     "id": "m1-q027",
-    "module": 1,
+    "module": 13,
     "topic": "ISCD minimum precision",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -663,7 +663,7 @@
   },
   {
     "id": "m2-q029",
-    "module": 2,
+    "module": 1,
     "topic": "bone matrix",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -686,7 +686,7 @@
   },
   {
     "id": "m2-q031",
-    "module": 2,
+    "module": 1,
     "topic": "ossification types",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -708,7 +708,7 @@
   },
   {
     "id": "m2-q032",
-    "module": 2,
+    "module": 12,
     "topic": "spine trabecular percentage",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -732,7 +732,7 @@
   },
   {
     "id": "m3-q033",
-    "module": 3,
+    "module": 12,
     "topic": "Type 1 osteoporosis",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -754,7 +754,7 @@
   },
   {
     "id": "m3-q034",
-    "module": 3,
+    "module": 1,
     "topic": "secondary causes",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -777,7 +777,7 @@
   },
   {
     "id": "m3-q035",
-    "module": 3,
+    "module": 1,
     "topic": "resorption markers",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -800,7 +800,7 @@
   },
   {
     "id": "m3-q036",
-    "module": 3,
+    "module": 10,
     "topic": "falsely elevated BMD",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -824,7 +824,7 @@
   },
   {
     "id": "m3-q037",
-    "module": 3,
+    "module": 12,
     "topic": "hyperparathyroidism DXA",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -896,7 +896,7 @@
   },
   {
     "id": "m4-q040",
-    "module": 4,
+    "module": 10,
     "topic": "denosumab",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -943,7 +943,7 @@
   },
   {
     "id": "m4-q042",
-    "module": 4,
+    "module": 10,
     "topic": "raloxifene",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -989,7 +989,7 @@
   },
   {
     "id": "m4-q044",
-    "module": 4,
+    "module": 10,
     "topic": "BHOF treatment thresholds",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1058,7 +1058,7 @@
   },
   {
     "id": "m5-q047",
-    "module": 5,
+    "module": 11,
     "topic": "pencil vs fan beam",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "m5-q048",
-    "module": 5,
+    "module": 1,
     "topic": "narrow fan beam",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1104,7 +1104,7 @@
   },
   {
     "id": "m5-q049",
-    "module": 5,
+    "module": 14,
     "topic": "accuracy vs precision",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -1127,7 +1127,7 @@
   },
   {
     "id": "m5-q050",
-    "module": 5,
+    "module": 14,
     "topic": "daily QC",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1151,7 +1151,7 @@
   },
   {
     "id": "m5-q051",
-    "module": 5,
+    "module": 14,
     "topic": "Westgard rules",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1173,7 +1173,7 @@
   },
   {
     "id": "m5-q052",
-    "module": 5,
+    "module": 14,
     "topic": "CUSUM",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1196,7 +1196,7 @@
   },
   {
     "id": "m5-q053",
-    "module": 5,
+    "module": 9,
     "topic": "sBMD",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1218,7 +1218,7 @@
   },
   {
     "id": "m5-q054",
-    "module": 5,
+    "module": 1,
     "topic": "areal BMD",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -1242,7 +1242,7 @@
   },
   {
     "id": "m6-q055",
-    "module": 6,
+    "module": 10,
     "topic": "effective dose",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "m6-q057",
-    "module": 6,
+    "module": 13,
     "topic": "pregnancy",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -1404,7 +1404,7 @@
   },
   {
     "id": "m7-q062",
-    "module": 7,
+    "module": 12,
     "topic": "pediatric sites",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1427,7 +1427,7 @@
   },
   {
     "id": "m8-q064",
-    "module": 8,
+    "module": 10,
     "topic": "FRAX inputs",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1450,7 +1450,7 @@
   },
   {
     "id": "m8-q065",
-    "module": 8,
+    "module": 12,
     "topic": "FRAX outputs",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": "m8-q066",
-    "module": 8,
+    "module": 11,
     "topic": "FRAX secondary osteoporosis",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1636,7 +1636,7 @@
   },
   {
     "id": "m10-q073",
-    "module": 10,
+    "module": 14,
     "topic": "minimum vertebrae",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1731,7 +1731,7 @@
   },
   {
     "id": "m11-q077",
-    "module": 11,
+    "module": 14,
     "topic": "Ward's area",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -1755,7 +1755,7 @@
   },
   {
     "id": "m11-q078",
-    "module": 11,
+    "module": 14,
     "topic": "bilateral hip rules",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -1802,7 +1802,7 @@
   },
   {
     "id": "m11-q080",
-    "module": 11,
+    "module": 4,
     "topic": "atypical femur fracture",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2014,7 +2014,7 @@
   },
   {
     "id": "m14-q090",
-    "module": 14,
+    "module": 10,
     "topic": "cross-calibration same-model",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2084,7 +2084,7 @@
   },
   {
     "id": "iscd-q093",
-    "module": 1,
+    "module": 14,
     "topic": "bilateral hip diagnosis",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2108,7 +2108,7 @@
   },
   {
     "id": "iscd-q094",
-    "module": 3,
+    "module": 7,
     "topic": "T-score vs Z-score",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2131,7 +2131,7 @@
   },
   {
     "id": "iscd-q095",
-    "module": 1,
+    "module": 10,
     "topic": "reference database",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2224,7 +2224,7 @@
   },
   {
     "id": "iscd-q100",
-    "module": 1,
+    "module": 11,
     "topic": "T-score formula",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2248,7 +2248,7 @@
   },
   {
     "id": "m2-q101",
-    "module": 2,
+    "module": 4,
     "topic": "bone cells - osteocytes",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2271,7 +2271,7 @@
   },
   {
     "id": "m2-q102",
-    "module": 2,
+    "module": 11,
     "topic": "remodeling cycle",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2294,7 +2294,7 @@
   },
   {
     "id": "m3-q103",
-    "module": 3,
+    "module": 7,
     "topic": "osteomalacia",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2317,7 +2317,7 @@
   },
   {
     "id": "m3-q106",
-    "module": 3,
+    "module": 12,
     "topic": "arthritis",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -2364,7 +2364,7 @@
   },
   {
     "id": "m4-q108",
-    "module": 4,
+    "module": 14,
     "topic": "drug holiday",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2410,7 +2410,7 @@
   },
   {
     "id": "m5-q110",
-    "module": 5,
+    "module": 14,
     "topic": "manufacturer calibration",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2433,7 +2433,7 @@
   },
   {
     "id": "m5-q111",
-    "module": 5,
+    "module": 6,
     "topic": "volumetric BMD",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2456,7 +2456,7 @@
   },
   {
     "id": "m6-q112",
-    "module": 6,
+    "module": 5,
     "topic": "nuclear medicine wait",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2503,7 +2503,7 @@
   },
   {
     "id": "m7-q114",
-    "module": 7,
+    "module": 12,
     "topic": "pediatric age sites",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2551,7 +2551,7 @@
   },
   {
     "id": "m8-q116",
-    "module": 8,
+    "module": 10,
     "topic": "FRAX limitations",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2620,7 +2620,7 @@
   },
   {
     "id": "m11-q119",
-    "module": 11,
+    "module": 14,
     "topic": "total hip preferred",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2692,7 +2692,7 @@
   },
   {
     "id": "m14-q122",
-    "module": 14,
+    "module": 1,
     "topic": "follow-up interval",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2716,7 +2716,7 @@
   },
   {
     "id": "iscd-q123",
-    "module": 1,
+    "module": 12,
     "topic": "WHO femoral neck",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -2764,7 +2764,7 @@
   },
   {
     "id": "iscd-q125",
-    "module": 3,
+    "module": 10,
     "topic": "severe osteoporosis",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -2787,7 +2787,7 @@
   },
   {
     "id": "ptest-q025",
-    "module": 5,
+    "module": 14,
     "topic": "QC failure action",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -2880,7 +2880,7 @@
   },
   {
     "id": "ptest-q029",
-    "module": 11,
+    "module": 12,
     "topic": "fracture prediction site",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2904,7 +2904,7 @@
   },
   {
     "id": "ptest-q031",
-    "module": 5,
+    "module": 10,
     "topic": "DXA error factors",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -2950,7 +2950,7 @@
   },
   {
     "id": "ptest-q033",
-    "module": 5,
+    "module": 10,
     "topic": "anthropomorphic phantom",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -2994,7 +2994,7 @@
   },
   {
     "id": "ptest-q035",
-    "module": 5,
+    "module": 14,
     "topic": "QA frequency",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3017,7 +3017,7 @@
   },
   {
     "id": "ptest-q037",
-    "module": 5,
+    "module": 14,
     "topic": "voltage switching calibration",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3130,7 +3130,7 @@
   },
   {
     "id": "ptest-q042",
-    "module": 5,
+    "module": 1,
     "topic": "bone edge detection",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3222,7 +3222,7 @@
   },
   {
     "id": "ptest-q046",
-    "module": 10,
+    "module": 11,
     "topic": "artifact remove rescan",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3313,7 +3313,7 @@
   },
   {
     "id": "ptest-q050",
-    "module": 4,
+    "module": 10,
     "topic": "raloxifene breast",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3359,7 +3359,7 @@
   },
   {
     "id": "ptest-q052",
-    "module": 3,
+    "module": 12,
     "topic": "Type 1 menopause",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3382,7 +3382,7 @@
   },
   {
     "id": "ptest-q053",
-    "module": 2,
+    "module": 1,
     "topic": "remodeling cells",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3404,7 +3404,7 @@
   },
   {
     "id": "ptest-q054",
-    "module": 4,
+    "module": 10,
     "topic": "SERM raloxifene",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3426,7 +3426,7 @@
   },
   {
     "id": "ptest-q055",
-    "module": 2,
+    "module": 1,
     "topic": "peak bone mass age",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3449,7 +3449,7 @@
   },
   {
     "id": "ptest-q056",
-    "module": 5,
+    "module": 14,
     "topic": "cross-calibration new",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3494,7 +3494,7 @@
   },
   {
     "id": "ptest-q058",
-    "module": 2,
+    "module": 1,
     "topic": "bone types",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3563,7 +3563,7 @@
   },
   {
     "id": "ptest-q061",
-    "module": 7,
+    "module": 12,
     "topic": "pediatric sites",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3587,7 +3587,7 @@
   },
   {
     "id": "ptest-q062",
-    "module": 2,
+    "module": 12,
     "topic": "cortical percentage",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "ptest-q063",
-    "module": 3,
+    "module": 11,
     "topic": "uncontrollable risk",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3677,7 +3677,7 @@
   },
   {
     "id": "ptest-q066",
-    "module": 10,
+    "module": 14,
     "topic": "spine ROI width",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3746,7 +3746,7 @@
   },
   {
     "id": "ptest-q069",
-    "module": 1,
+    "module": 11,
     "topic": "WHO osteopenia range",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3768,7 +3768,7 @@
   },
   {
     "id": "ptest-q070",
-    "module": 2,
+    "module": 7,
     "topic": "remodeling imbalance",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3838,7 +3838,7 @@
   },
   {
     "id": "ptest-q073",
-    "module": 5,
+    "module": 14,
     "topic": "Shewhart 1.5 percent",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -3862,7 +3862,7 @@
   },
   {
     "id": "ptest-q074",
-    "module": 3,
+    "module": 14,
     "topic": "mean definition",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3930,7 +3930,7 @@
   },
   {
     "id": "ptest-q077",
-    "module": 5,
+    "module": 14,
     "topic": "accuracy vs precision serial",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -3953,7 +3953,7 @@
   },
   {
     "id": "ptest-q079",
-    "module": 2,
+    "module": 10,
     "topic": "cortical location",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3975,7 +3975,7 @@
   },
   {
     "id": "ptest-q080",
-    "module": 2,
+    "module": 12,
     "topic": "spine trabecular percentage",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -3999,7 +3999,7 @@
   },
   {
     "id": "ptest-q081",
-    "module": 2,
+    "module": 12,
     "topic": "appendicular skeleton",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4091,7 +4091,7 @@
   },
   {
     "id": "ptest-q085",
-    "module": 1,
+    "module": 7,
     "topic": "Z-score under 20",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4115,7 +4115,7 @@
   },
   {
     "id": "ptest-q086",
-    "module": 1,
+    "module": 10,
     "topic": "DPA isotope repeat",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -4161,7 +4161,7 @@
   },
   {
     "id": "ptest-q088",
-    "module": 11,
+    "module": 14,
     "topic": "Wards area location",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4251,7 +4251,7 @@
   },
   {
     "id": "ptest-q092",
-    "module": 8,
+    "module": 11,
     "topic": "FRAX age range",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -4298,7 +4298,7 @@
   },
   {
     "id": "ptest-q094",
-    "module": 10,
+    "module": 12,
     "topic": "early menopause site",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "ptest-q095",
-    "module": 2,
+    "module": 4,
     "topic": "remodeling balance",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4344,7 +4344,7 @@
   },
   {
     "id": "ptest-q096",
-    "module": 10,
+    "module": 14,
     "topic": "trabecular measurement site",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4367,7 +4367,7 @@
   },
   {
     "id": "ptest-q097",
-    "module": 3,
+    "module": 4,
     "topic": "hypogonadism",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4390,7 +4390,7 @@
   },
   {
     "id": "ptest-q098",
-    "module": 1,
+    "module": 10,
     "topic": "DXA uses",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4504,7 +4504,7 @@
   },
   {
     "id": "ptest-q104",
-    "module": 14,
+    "module": 13,
     "topic": "baseline comparison",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -4527,7 +4527,7 @@
   },
   {
     "id": "ptest-q105",
-    "module": 3,
+    "module": 10,
     "topic": "steroid bone type",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -4574,7 +4574,7 @@
   },
   {
     "id": "ptest-q107",
-    "module": 4,
+    "module": 11,
     "topic": "fall prevention",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -4596,7 +4596,7 @@
   },
   {
     "id": "ptest-q108",
-    "module": 3,
+    "module": 1,
     "topic": "low bone mass prevalence",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -4642,7 +4642,7 @@
   },
   {
     "id": "ptest-q110",
-    "module": 10,
+    "module": 14,
     "topic": "single vertebra diagnosis",
     "difficulty": "medium",
     "type": "true_false",
@@ -4666,7 +4666,7 @@
   },
   {
     "id": "ptest-q111",
-    "module": 14,
+    "module": 13,
     "topic": "archive frequency",
     "difficulty": "easy",
     "type": "true_false",
@@ -4689,7 +4689,7 @@
   },
   {
     "id": "ptest-q112",
-    "module": 1,
+    "module": 12,
     "topic": "QUS calcaneus",
     "difficulty": "easy",
     "type": "true_false",
@@ -4736,7 +4736,7 @@
   },
   {
     "id": "ptest-q114",
-    "module": 6,
+    "module": 13,
     "topic": "height importance",
     "difficulty": "easy",
     "type": "true_false",
@@ -4759,7 +4759,7 @@
   },
   {
     "id": "ptest-q115",
-    "module": 3,
+    "module": 14,
     "topic": "SD definition",
     "difficulty": "easy",
     "type": "true_false",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": "ptest-q117",
-    "module": 6,
+    "module": 12,
     "topic": "weight limit varies",
     "difficulty": "easy",
     "type": "true_false",
@@ -4876,7 +4876,7 @@
   },
   {
     "id": "ptest-q120",
-    "module": 3,
+    "module": 10,
     "topic": "discordance common",
     "difficulty": "hard",
     "type": "true_false",
@@ -4923,7 +4923,7 @@
   },
   {
     "id": "ptest-q122",
-    "module": 5,
+    "module": 1,
     "topic": "pencil beam rectilinear",
     "difficulty": "medium",
     "type": "true_false",
@@ -4946,7 +4946,7 @@
   },
   {
     "id": "ptest-q123",
-    "module": 14,
+    "module": 1,
     "topic": "T-score not serial",
     "difficulty": "medium",
     "type": "true_false",
@@ -5040,7 +5040,7 @@
   },
   {
     "id": "ptest-q127",
-    "module": 5,
+    "module": 14,
     "topic": "accuracy diagnosis",
     "difficulty": "medium",
     "type": "true_false",
@@ -5063,7 +5063,7 @@
   },
   {
     "id": "ptest-q128",
-    "module": 1,
+    "module": 14,
     "topic": "standard score definition",
     "difficulty": "medium",
     "type": "true_false",
@@ -5087,7 +5087,7 @@
   },
   {
     "id": "ptest-q129",
-    "module": 1,
+    "module": 10,
     "topic": "fracture not required",
     "difficulty": "medium",
     "type": "true_false",
@@ -5133,7 +5133,7 @@
   },
   {
     "id": "ptest-q131",
-    "module": 5,
+    "module": 14,
     "topic": "precision definition",
     "difficulty": "easy",
     "type": "true_false",
@@ -5180,7 +5180,7 @@
   },
   {
     "id": "ptest-q133",
-    "module": 3,
+    "module": 8,
     "topic": "RA osteoporosis",
     "difficulty": "easy",
     "type": "true_false",
@@ -5203,7 +5203,7 @@
   },
   {
     "id": "ptest-q134",
-    "module": 1,
+    "module": 6,
     "topic": "QCT units",
     "difficulty": "medium",
     "type": "true_false",
@@ -5250,7 +5250,7 @@
   },
   {
     "id": "ptest-q136",
-    "module": 3,
+    "module": 4,
     "topic": "Type 2 not drug",
     "difficulty": "medium",
     "type": "true_false",
@@ -5274,7 +5274,7 @@
   },
   {
     "id": "ptest-q137",
-    "module": 3,
+    "module": 12,
     "topic": "early menopause trabecular",
     "difficulty": "medium",
     "type": "true_false",
@@ -5347,7 +5347,7 @@
   },
   {
     "id": "ptest-q140",
-    "module": 5,
+    "module": 14,
     "topic": "precision vs accuracy",
     "difficulty": "easy",
     "type": "true_false",
@@ -5440,7 +5440,7 @@
   },
   {
     "id": "ptest-q144",
-    "module": 2,
+    "module": 1,
     "topic": "cortical cancellous confuse",
     "difficulty": "easy",
     "type": "true_false",
@@ -5463,7 +5463,7 @@
   },
   {
     "id": "ptest-q145",
-    "module": 2,
+    "module": 1,
     "topic": "osteoblast wrong resorb",
     "difficulty": "easy",
     "type": "true_false",
@@ -5556,7 +5556,7 @@
   },
   {
     "id": "ptest-q149",
-    "module": 1,
+    "module": 11,
     "topic": "T-score relative risk",
     "difficulty": "hard",
     "type": "true_false",
@@ -5580,7 +5580,7 @@
   },
   {
     "id": "ptest-q150",
-    "module": 2,
+    "module": 4,
     "topic": "resorption exceeds formation",
     "difficulty": "easy",
     "type": "true_false",
@@ -5674,7 +5674,7 @@
   },
   {
     "id": "m10-q129",
-    "module": 10,
+    "module": 14,
     "topic": "scoliosis",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5698,7 +5698,7 @@
   },
   {
     "id": "m10-q130",
-    "module": 10,
+    "module": 14,
     "topic": "compression fracture handling",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -5722,7 +5722,7 @@
   },
   {
     "id": "m10-q131",
-    "module": 10,
+    "module": 14,
     "topic": "serial comparison vertebrae",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5770,7 +5770,7 @@
   },
   {
     "id": "m10-q133",
-    "module": 10,
+    "module": 9,
     "topic": "Schmorl node",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5793,7 +5793,7 @@
   },
   {
     "id": "m10-q134",
-    "module": 10,
+    "module": 14,
     "topic": "spine followup positioning",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -5839,7 +5839,7 @@
   },
   {
     "id": "m10-q136",
-    "module": 10,
+    "module": 14,
     "topic": "spine scan mode selection",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -5885,7 +5885,7 @@
   },
   {
     "id": "m10-q138",
-    "module": 10,
+    "module": 14,
     "topic": "soft tissue calibration",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5908,7 +5908,7 @@
   },
   {
     "id": "m10-q139",
-    "module": 10,
+    "module": 14,
     "topic": "weight change effect",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5932,7 +5932,7 @@
   },
   {
     "id": "m10-q140",
-    "module": 10,
+    "module": 14,
     "topic": "lateral spine use",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -5955,7 +5955,7 @@
   },
   {
     "id": "m10-q142",
-    "module": 10,
+    "module": 9,
     "topic": "PPM",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -5978,7 +5978,7 @@
   },
   {
     "id": "m10-q143",
-    "module": 10,
+    "module": 14,
     "topic": "vertebrae number rule",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -6025,7 +6025,7 @@
   },
   {
     "id": "m10-q145",
-    "module": 10,
+    "module": 14,
     "topic": "vertebral body number variants",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -6095,7 +6095,7 @@
   },
   {
     "id": "m10-q148",
-    "module": 10,
+    "module": 14,
     "topic": "pitfalls list",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6142,7 +6142,7 @@
   },
   {
     "id": "m10-q150",
-    "module": 10,
+    "module": 14,
     "topic": "Harrington rod / hardware",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6188,7 +6188,7 @@
   },
   {
     "id": "m11-q152",
-    "module": 11,
+    "module": 14,
     "topic": "ROI neck box",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6330,7 +6330,7 @@
   },
   {
     "id": "m11-q158",
-    "module": 11,
+    "module": 14,
     "topic": "shaft parallel",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6376,7 +6376,7 @@
   },
   {
     "id": "m11-q160",
-    "module": 11,
+    "module": 14,
     "topic": "Ward's area purpose",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6400,7 +6400,7 @@
   },
   {
     "id": "m11-q161",
-    "module": 11,
+    "module": 12,
     "topic": "ROI sites excluded from diagnosis",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6424,7 +6424,7 @@
   },
   {
     "id": "m11-q162",
-    "module": 11,
+    "module": 10,
     "topic": "FRAX femoral neck input",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6472,7 +6472,7 @@
   },
   {
     "id": "m11-q166",
-    "module": 11,
+    "module": 1,
     "topic": "AFF radiographic signs",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -6520,7 +6520,7 @@
   },
   {
     "id": "m11-q168",
-    "module": 11,
+    "module": 4,
     "topic": "AFF prodromal",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -6544,7 +6544,7 @@
   },
   {
     "id": "m11-q169",
-    "module": 11,
+    "module": 12,
     "topic": "both hips replaced",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -6568,7 +6568,7 @@
   },
   {
     "id": "m11-q170",
-    "module": 11,
+    "module": 14,
     "topic": "serial hip comparison",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6638,7 +6638,7 @@
   },
   {
     "id": "m11-q173",
-    "module": 11,
+    "module": 14,
     "topic": "ROI placement errors",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6662,7 +6662,7 @@
   },
   {
     "id": "m11-q174",
-    "module": 11,
+    "module": 14,
     "topic": "total hip components",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -6940,7 +6940,7 @@
   },
   {
     "id": "m12-q186",
-    "module": 12,
+    "module": 14,
     "topic": "forearm ulnar styloid",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7010,7 +7010,7 @@
   },
   {
     "id": "m12-q189",
-    "module": 12,
+    "module": 14,
     "topic": "forearm precision difficulty",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -7267,7 +7267,7 @@
   },
   {
     "id": "m12-q200",
-    "module": 12,
+    "module": 14,
     "topic": "forearm compensation",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -7290,7 +7290,7 @@
   },
   {
     "id": "m5-q201",
-    "module": 5,
+    "module": 9,
     "topic": "DXA x-ray tube",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7313,7 +7313,7 @@
   },
   {
     "id": "m5-q202",
-    "module": 5,
+    "module": 6,
     "topic": "collimation",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7382,7 +7382,7 @@
   },
   {
     "id": "m5-q205",
-    "module": 5,
+    "module": 10,
     "topic": "phantom types",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7405,7 +7405,7 @@
   },
   {
     "id": "m5-q206",
-    "module": 5,
+    "module": 14,
     "topic": "phantom expected BMD",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7429,7 +7429,7 @@
   },
   {
     "id": "m5-q207",
-    "module": 5,
+    "module": 14,
     "topic": "cross-calibration human factor",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -7452,7 +7452,7 @@
   },
   {
     "id": "m5-q208",
-    "module": 5,
+    "module": 14,
     "topic": "QC log requirements",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7474,7 +7474,7 @@
   },
   {
     "id": "m5-q209",
-    "module": 5,
+    "module": 14,
     "topic": "phantom fail action",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7498,7 +7498,7 @@
   },
   {
     "id": "m5-q210",
-    "module": 5,
+    "module": 14,
     "topic": "Hologic auto calibration",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7521,7 +7521,7 @@
   },
   {
     "id": "m5-q211",
-    "module": 5,
+    "module": 14,
     "topic": "GE external calibration",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7544,7 +7544,7 @@
   },
   {
     "id": "m5-q212",
-    "module": 5,
+    "module": 14,
     "topic": "precision before hardware service",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -7567,7 +7567,7 @@
   },
   {
     "id": "m5-q214",
-    "module": 5,
+    "module": 14,
     "topic": "different tech scanner swap",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -7591,7 +7591,7 @@
   },
   {
     "id": "m5-q215",
-    "module": 5,
+    "module": 14,
     "topic": "software upgrade",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7779,7 +7779,7 @@
   },
   {
     "id": "m14-q223",
-    "module": 14,
+    "module": 13,
     "topic": "precision site-specific",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7825,7 +7825,7 @@
   },
   {
     "id": "m14-q225",
-    "module": 14,
+    "module": 4,
     "topic": "serial scan interval",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7920,7 +7920,7 @@
   },
   {
     "id": "m14-q229",
-    "module": 14,
+    "module": 4,
     "topic": "rapid change follow-up",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -7966,7 +7966,7 @@
   },
   {
     "id": "m1-q231",
-    "module": 1,
+    "module": 10,
     "topic": "BMMA qualifying conditions",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8014,7 +8014,7 @@
   },
   {
     "id": "m1-q233",
-    "module": 1,
+    "module": 6,
     "topic": "DPA obsolete",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8036,7 +8036,7 @@
   },
   {
     "id": "m1-q234",
-    "module": 1,
+    "module": 14,
     "topic": "trueness definition",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8059,7 +8059,7 @@
   },
   {
     "id": "m1-q235",
-    "module": 1,
+    "module": 14,
     "topic": "bone ash comparison",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8081,7 +8081,7 @@
   },
   {
     "id": "m1-q236",
-    "module": 1,
+    "module": 14,
     "topic": "what site is monitored",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8104,7 +8104,7 @@
   },
   {
     "id": "m1-q237",
-    "module": 1,
+    "module": 11,
     "topic": "FRAX without BMD",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8126,7 +8126,7 @@
   },
   {
     "id": "m1-q238",
-    "module": 1,
+    "module": 11,
     "topic": "T-score conversion",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8171,7 +8171,7 @@
   },
   {
     "id": "m1-q240",
-    "module": 1,
+    "module": 7,
     "topic": "T-score use age cutoff",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8195,7 +8195,7 @@
   },
   {
     "id": "m2-q242",
-    "module": 2,
+    "module": 4,
     "topic": "osteoclast origin",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8218,7 +8218,7 @@
   },
   {
     "id": "m2-q249",
-    "module": 2,
+    "module": 4,
     "topic": "estrogen bone effect",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8241,7 +8241,7 @@
   },
   {
     "id": "m3-q250",
-    "module": 3,
+    "module": 14,
     "topic": "standard deviation concept",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -8263,7 +8263,7 @@
   },
   {
     "id": "m3-q251",
-    "module": 3,
+    "module": 14,
     "topic": "CV concept",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8285,7 +8285,7 @@
   },
   {
     "id": "m3-q253",
-    "module": 3,
+    "module": 6,
     "topic": "Cushings",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8308,7 +8308,7 @@
   },
   {
     "id": "m3-q254",
-    "module": 3,
+    "module": 7,
     "topic": "vitamin D deficiency",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -8331,7 +8331,7 @@
   },
   {
     "id": "m3-q255",
-    "module": 3,
+    "module": 1,
     "topic": "25-OH vs 1,25-OH",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8354,7 +8354,7 @@
   },
   {
     "id": "m3-q256",
-    "module": 3,
+    "module": 1,
     "topic": "renal osteodystrophy",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8378,7 +8378,7 @@
   },
   {
     "id": "m3-q257",
-    "module": 3,
+    "module": 10,
     "topic": "multiple myeloma",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8400,7 +8400,7 @@
   },
   {
     "id": "m3-q258",
-    "module": 3,
+    "module": 7,
     "topic": "osteosarcoma demographics",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8422,7 +8422,7 @@
   },
   {
     "id": "m3-q261",
-    "module": 3,
+    "module": 12,
     "topic": "ankylosing spondylitis",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8445,7 +8445,7 @@
   },
   {
     "id": "m3-q262",
-    "module": 3,
+    "module": 4,
     "topic": "premature menopause risk",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8468,7 +8468,7 @@
   },
   {
     "id": "m1-q263",
-    "module": 1,
+    "module": 12,
     "topic": "WHO reference site",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8492,7 +8492,7 @@
   },
   {
     "id": "m1-q264",
-    "module": 1,
+    "module": 13,
     "topic": "DXA radiation perception",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -8514,7 +8514,7 @@
   },
   {
     "id": "m1-q265",
-    "module": 1,
+    "module": 6,
     "topic": "Who can perform DXA",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8536,7 +8536,7 @@
   },
   {
     "id": "web-q001",
-    "module": 1,
+    "module": 10,
     "topic": "WHO reference standard site",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8560,7 +8560,7 @@
   },
   {
     "id": "web-q002",
-    "module": 1,
+    "module": 10,
     "topic": "uniform reference database",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8584,7 +8584,7 @@
   },
   {
     "id": "web-q003",
-    "module": 10,
+    "module": 12,
     "topic": "vertebrae exclusion minimum",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8608,7 +8608,7 @@
   },
   {
     "id": "web-q004",
-    "module": 10,
+    "module": 14,
     "topic": "fewer vertebrae LSC",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8633,7 +8633,7 @@
   },
   {
     "id": "web-q006",
-    "module": 11,
+    "module": 14,
     "topic": "bilateral hip monitoring",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8755,7 +8755,7 @@
   },
   {
     "id": "web-q012",
-    "module": 5,
+    "module": 14,
     "topic": "cross-calibration hardware change",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8779,7 +8779,7 @@
   },
   {
     "id": "web-q013",
-    "module": 5,
+    "module": 14,
     "topic": "cross-calibration different technology",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8803,7 +8803,7 @@
   },
   {
     "id": "web-q014",
-    "module": 5,
+    "module": 10,
     "topic": "adding same-model scanner",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -8828,7 +8828,7 @@
   },
   {
     "id": "web-q015",
-    "module": 14,
+    "module": 5,
     "topic": "DXA spelling",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -8852,7 +8852,7 @@
   },
   {
     "id": "web-q016",
-    "module": 1,
+    "module": 7,
     "topic": "osteopenia terminology",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -8876,7 +8876,7 @@
   },
   {
     "id": "web-q017",
-    "module": 1,
+    "module": 12,
     "topic": "forearm ROI diagnosis",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8973,7 +8973,7 @@
   },
   {
     "id": "web-q021",
-    "module": 1,
+    "module": 11,
     "topic": "bilateral hip terminology",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -8998,7 +8998,7 @@
   },
   {
     "id": "web-q022",
-    "module": 11,
+    "module": 14,
     "topic": "Ward's area and greater trochanter",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9022,7 +9022,7 @@
   },
   {
     "id": "web-q023",
-    "module": 5,
+    "module": 14,
     "topic": "phantom scan frequency",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9118,7 +9118,7 @@
   },
   {
     "id": "web-q027",
-    "module": 10,
+    "module": 12,
     "topic": "TBS BMI range",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9166,7 +9166,7 @@
   },
   {
     "id": "web-q029",
-    "module": 10,
+    "module": 1,
     "topic": "TBS clinical use threshold",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9190,7 +9190,7 @@
   },
   {
     "id": "web-q030",
-    "module": 10,
+    "module": 1,
     "topic": "TBS monitoring",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9214,7 +9214,7 @@
   },
   {
     "id": "web-q031",
-    "module": 10,
+    "module": 1,
     "topic": "TBS normal range",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9238,7 +9238,7 @@
   },
   {
     "id": "web-q032",
-    "module": 8,
+    "module": 4,
     "topic": "FRAX age validation",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -9261,7 +9261,7 @@
   },
   {
     "id": "web-q033",
-    "module": 8,
+    "module": 12,
     "topic": "FRAX BMD site",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9285,7 +9285,7 @@
   },
   {
     "id": "web-q034",
-    "module": 8,
+    "module": 5,
     "topic": "FRAX US ethnicities",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9309,7 +9309,7 @@
   },
   {
     "id": "web-q035",
-    "module": 8,
+    "module": 10,
     "topic": "BHOF treatment threshold",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9333,7 +9333,7 @@
   },
   {
     "id": "web-q036",
-    "module": 8,
+    "module": 12,
     "topic": "BHOF diagnosis without BMD",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9357,7 +9357,7 @@
   },
   {
     "id": "web-q037",
-    "module": 8,
+    "module": 7,
     "topic": "FRAX previous fracture",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9380,7 +9380,7 @@
   },
   {
     "id": "web-q038",
-    "module": 8,
+    "module": 9,
     "topic": "FRAX glucocorticoid threshold",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9404,7 +9404,7 @@
   },
   {
     "id": "web-q039",
-    "module": 14,
+    "module": 4,
     "topic": "follow-up BMD rapid change",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9428,7 +9428,7 @@
   },
   {
     "id": "web-q040",
-    "module": 14,
+    "module": 4,
     "topic": "follow-up BMD drug holiday",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9475,7 +9475,7 @@
   },
   {
     "id": "web-q042",
-    "module": 4,
+    "module": 6,
     "topic": "ARRT 2027 spec dose terminology",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9500,7 +9500,7 @@
   },
   {
     "id": "web-q043",
-    "module": 1,
+    "module": 12,
     "topic": "ARRT 2027 spec additions",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9525,7 +9525,7 @@
   },
   {
     "id": "web-q044",
-    "module": 1,
+    "module": 14,
     "topic": "ARRT 2027 removed topics",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9548,7 +9548,7 @@
   },
   {
     "id": "web-q045",
-    "module": 14,
+    "module": 12,
     "topic": "ARRT 2027 follow-up additions",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9572,7 +9572,7 @@
   },
   {
     "id": "web-q046",
-    "module": 3,
+    "module": 1,
     "topic": "9th PDC ISCD 2023",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9596,7 +9596,7 @@
   },
   {
     "id": "web-q047",
-    "module": 8,
+    "module": 10,
     "topic": "FRAX TBS adjustment",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9620,7 +9620,7 @@
   },
   {
     "id": "web-q048",
-    "module": 3,
+    "module": 1,
     "topic": "opportunistic CT HU",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9644,7 +9644,7 @@
   },
   {
     "id": "web-q049",
-    "module": 4,
+    "module": 1,
     "topic": "BHOF formerly NOF",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -9812,7 +9812,7 @@
   },
   {
     "id": "web-q056",
-    "module": 4,
+    "module": 10,
     "topic": "denosumab rebound",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -9883,7 +9883,7 @@
   },
   {
     "id": "web-q059",
-    "module": 4,
+    "module": 10,
     "topic": "raloxifene VTE",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9907,7 +9907,7 @@
   },
   {
     "id": "web-q060",
-    "module": 4,
+    "module": 6,
     "topic": "calcium PPI absorption",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -9979,7 +9979,7 @@
   },
   {
     "id": "web-q063",
-    "module": 7,
+    "module": 12,
     "topic": "pediatric sites",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -10147,7 +10147,7 @@
   },
   {
     "id": "web-q070",
-    "module": 5,
+    "module": 12,
     "topic": "peripheral vs central DXA",
     "difficulty": "easy",
     "type": "multiple_choice",
@@ -10361,7 +10361,7 @@
   },
   {
     "id": "web-q089",
-    "module": 3,
+    "module": 10,
     "topic": "multiple myeloma workup",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -10385,7 +10385,7 @@
   },
   {
     "id": "web-q090",
-    "module": 6,
+    "module": 5,
     "topic": "ALARA distance",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -10456,7 +10456,7 @@
   },
   {
     "id": "web-q094",
-    "module": 10,
+    "module": 9,
     "topic": "vertebral height Schmorl",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -10503,7 +10503,7 @@
   },
   {
     "id": "web-q098",
-    "module": 14,
+    "module": 13,
     "topic": "ARRT 2022 blueprint",
     "difficulty": "medium",
     "type": "multiple_choice",
@@ -10527,7 +10527,7 @@
   },
   {
     "id": "web-q099",
-    "module": 1,
+    "module": 12,
     "topic": "ARRT 2022 categories",
     "difficulty": "hard",
     "type": "multiple_choice",
@@ -14327,7 +14327,7 @@
   },
   {
     "id": "exp-q160",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom daily QC",
     "highYield": false,
@@ -14351,7 +14351,7 @@
   },
   {
     "id": "exp-q162",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "Shewhart trends",
     "highYield": false,
@@ -14401,7 +14401,7 @@
   },
   {
     "id": "exp-q164",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom types",
     "highYield": true,
@@ -14425,7 +14425,7 @@
   },
   {
     "id": "exp-q165",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom after service",
     "highYield": false,
@@ -14450,7 +14450,7 @@
   },
   {
     "id": "exp-q166",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "corrective action thresholds",
     "highYield": false,
@@ -14475,7 +14475,7 @@
   },
   {
     "id": "exp-q170",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "no cross-cal consequence",
     "highYield": true,
@@ -14745,7 +14745,7 @@
   },
   {
     "id": "exp-q184",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "service log maintenance",
     "highYield": false,
@@ -14769,7 +14769,7 @@
   },
   {
     "id": "exp-q185",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QA vs QC difference",
     "highYield": true,
@@ -14914,7 +14914,7 @@
   },
   {
     "id": "exp-q191",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "manufacturer manuals",
     "highYield": false,
@@ -14962,7 +14962,7 @@
   },
   {
     "id": "exp-q193",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan mode copy",
     "highYield": false,
@@ -14986,7 +14986,7 @@
   },
   {
     "id": "exp-q194",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "BMD inversely related error",
     "highYield": false,
@@ -15034,7 +15034,7 @@
   },
   {
     "id": "exp-q196",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QC plot review",
     "highYield": false,
@@ -15082,7 +15082,7 @@
   },
   {
     "id": "exp-q198",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision manufacturer vs facility",
     "highYield": true,
@@ -15107,7 +15107,7 @@
   },
   {
     "id": "exp-q199",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "detector calibration frequency",
     "highYield": false,
@@ -15131,7 +15131,7 @@
   },
   {
     "id": "exp-q200",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "pass fail criteria",
     "highYield": false,
@@ -16439,7 +16439,7 @@
   },
   {
     "id": "exp-q266",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF treatment thresholds",
     "highYield": true,
@@ -16463,7 +16463,7 @@
   },
   {
     "id": "exp-q268",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF T-score diagnostic sites",
     "highYield": true,
@@ -16488,7 +16488,7 @@
   },
   {
     "id": "exp-q269",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD diagnostic T-score sites",
     "highYield": true,
@@ -16512,7 +16512,7 @@
   },
   {
     "id": "exp-q270",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO reference standard",
     "highYield": true,
@@ -16537,7 +16537,7 @@
   },
   {
     "id": "exp-q271",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "low bone mass definition",
     "highYield": true,
@@ -16561,7 +16561,7 @@
   },
   {
     "id": "exp-q272",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "severe osteoporosis",
     "highYield": true,
@@ -16584,7 +16584,7 @@
   },
   {
     "id": "exp-q273",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "fragility fracture definition",
     "highYield": false,
@@ -16631,7 +16631,7 @@
   },
   {
     "id": "exp-q283",
-    "module": 14,
+    "module": 1,
     "category": "criteria",
     "subCategory": "follow-up intervals individualized",
     "highYield": false,
@@ -16655,7 +16655,7 @@
   },
   {
     "id": "exp-q284",
-    "module": 14,
+    "module": 1,
     "category": "criteria",
     "subCategory": "same scanner follow-up",
     "highYield": true,
@@ -16679,7 +16679,7 @@
   },
   {
     "id": "exp-q286",
-    "module": 3,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD Z-score population specific",
     "highYield": false,
@@ -16703,7 +16703,7 @@
   },
   {
     "id": "exp-q289",
-    "module": 1,
+    "module": 8,
     "category": "criteria",
     "subCategory": "secondary osteoporosis FRAX",
     "highYield": false,
@@ -16823,7 +16823,7 @@
   },
   {
     "id": "exp-q298",
-    "module": 14,
+    "module": 1,
     "category": "criteria",
     "subCategory": "follow-up report elements",
     "highYield": false,
@@ -17960,7 +17960,7 @@
   },
   {
     "id": "exp-q351",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "bone remodeling cycle",
     "highYield": false,
@@ -17984,7 +17984,7 @@
   },
   {
     "id": "exp-q352",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteoclast",
     "highYield": false,
@@ -18008,7 +18008,7 @@
   },
   {
     "id": "exp-q353",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteoblast",
     "highYield": false,
@@ -18032,7 +18032,7 @@
   },
   {
     "id": "exp-q354",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteocyte",
     "highYield": true,
@@ -18057,7 +18057,7 @@
   },
   {
     "id": "exp-q355",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "RANKL",
     "highYield": false,
@@ -18082,7 +18082,7 @@
   },
   {
     "id": "exp-q356",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "cortical trabecular",
     "highYield": false,
@@ -18106,7 +18106,7 @@
   },
   {
     "id": "exp-q357",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "peak bone mass",
     "highYield": true,
@@ -18129,7 +18129,7 @@
   },
   {
     "id": "exp-q358",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "menopause bone loss",
     "highYield": true,
@@ -18153,7 +18153,7 @@
   },
   {
     "id": "exp-q359",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "primary osteoporosis",
     "highYield": false,
@@ -18176,7 +18176,7 @@
   },
   {
     "id": "exp-q360",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "secondary causes",
     "highYield": false,
@@ -18199,7 +18199,7 @@
   },
   {
     "id": "exp-q361",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "hyperparathyroidism",
     "highYield": true,
@@ -18223,7 +18223,7 @@
   },
   {
     "id": "exp-q362",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "hyperthyroidism",
     "highYield": false,
@@ -18246,7 +18246,7 @@
   },
   {
     "id": "exp-q363",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteomalacia",
     "highYield": false,
@@ -18269,7 +18269,7 @@
   },
   {
     "id": "exp-q366",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "calcium regulation",
     "highYield": false,
@@ -18292,7 +18292,7 @@
   },
   {
     "id": "exp-q367",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "vitamin D activation",
     "highYield": false,
@@ -18315,7 +18315,7 @@
   },
   {
     "id": "exp-q368",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "bone composition",
     "highYield": false,
@@ -18339,7 +18339,7 @@
   },
   {
     "id": "exp-q370",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "risk factors",
     "highYield": false,
@@ -18825,7 +18825,7 @@
   },
   {
     "id": "exp-q392",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteoporosis epidemiology",
     "highYield": false,
@@ -18848,7 +18848,7 @@
   },
   {
     "id": "exp-q393",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "hip fracture mortality",
     "highYield": false,
@@ -18872,7 +18872,7 @@
   },
   {
     "id": "exp-q394",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "immobilization bone loss",
     "highYield": false,
@@ -18896,7 +18896,7 @@
   },
   {
     "id": "exp-q395",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "CKD MBD",
     "highYield": false,
@@ -18919,7 +18919,7 @@
   },
   {
     "id": "exp-q396",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "ankylosing spondylitis",
     "highYield": true,
@@ -18942,7 +18942,7 @@
   },
   {
     "id": "exp-q397",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "celiac bone",
     "highYield": false,
@@ -18966,7 +18966,7 @@
   },
   {
     "id": "exp-q399",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "anorexia bone",
     "highYield": false,
@@ -18989,7 +18989,7 @@
   },
   {
     "id": "exp-q400",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "hypogonadism men",
     "highYield": false,
@@ -19254,7 +19254,7 @@
   },
   {
     "id": "exp-q423",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "CKD DXA interpretation",
     "highYield": false,
@@ -19277,7 +19277,7 @@
   },
   {
     "id": "exp-q424",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "men low peak mass",
     "highYield": false,
@@ -19300,7 +19300,7 @@
   },
   {
     "id": "exp-q425",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "premenopausal osteoporosis",
     "highYield": true,
@@ -19917,7 +19917,7 @@
   },
   {
     "id": "exp-q453",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "juvenile idiopathic",
     "highYield": true,
@@ -19941,7 +19941,7 @@
   },
   {
     "id": "exp-q454",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF test interval",
     "highYield": true,
@@ -20060,7 +20060,7 @@
   },
   {
     "id": "exp-q459",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom baseline",
     "highYield": false,
@@ -20271,7 +20271,7 @@
   },
   {
     "id": "exp-q468",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "HPT primary workup",
     "highYield": true,
@@ -20813,7 +20813,7 @@
   },
   {
     "id": "exp-q491",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "archive import",
     "highYield": false,
@@ -20978,7 +20978,7 @@
   },
   {
     "id": "exp-q498",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "Cushing bone",
     "highYield": true,
@@ -21257,7 +21257,7 @@
   },
   {
     "id": "rr-q009",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "screening indications",
     "highYield": false,
@@ -21283,7 +21283,7 @@
   },
   {
     "id": "rr-q010",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "Medicare BMMA",
     "highYield": true,
@@ -21309,7 +21309,7 @@
   },
   {
     "id": "rr-q011",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "Medicare BMMA",
     "highYield": true,
@@ -21335,7 +21335,7 @@
   },
   {
     "id": "rr-q012",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO classification",
     "highYield": true,
@@ -21466,7 +21466,7 @@
   },
   {
     "id": "rr-q017",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QC testing types",
     "highYield": false,
@@ -21492,7 +21492,7 @@
   },
   {
     "id": "rr-q018",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QC testing types",
     "highYield": true,
@@ -21519,7 +21519,7 @@
   },
   {
     "id": "rr-q019",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision recalculation triggers",
     "highYield": true,
@@ -21545,7 +21545,7 @@
   },
   {
     "id": "rr-q020",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "LSC calculation",
     "highYield": false,
@@ -21753,7 +21753,7 @@
   },
   {
     "id": "rr-q028",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "artifact identification",
     "highYield": false,
@@ -21779,7 +21779,7 @@
   },
   {
     "id": "rr-q029",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA indications",
     "highYield": true,
@@ -21805,7 +21805,7 @@
   },
   {
     "id": "rr-q030",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "daily QC",
     "highYield": false,
@@ -21831,7 +21831,7 @@
   },
   {
     "id": "rr-q031",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "Shewhart charts",
     "highYield": false,
@@ -21857,7 +21857,7 @@
   },
   {
     "id": "rr-q032",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom selection",
     "highYield": true,
@@ -21883,7 +21883,7 @@
   },
   {
     "id": "rr-q033",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "cross-calibration",
     "highYield": true,
@@ -21909,7 +21909,7 @@
   },
   {
     "id": "rr-q034",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "manufacturer differences",
     "highYield": true,
@@ -21936,7 +21936,7 @@
   },
   {
     "id": "rr-q035",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "system warm-up",
     "highYield": true,
@@ -21962,7 +21962,7 @@
   },
   {
     "id": "rr-q036",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision study",
     "highYield": true,
@@ -21989,7 +21989,7 @@
   },
   {
     "id": "rr-q037",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision acceptable values",
     "highYield": true,
@@ -22016,7 +22016,7 @@
   },
   {
     "id": "rr-q038",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision study sites",
     "highYield": true,
@@ -22042,7 +22042,7 @@
   },
   {
     "id": "rr-q039",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "longitudinal monitoring",
     "highYield": true,
@@ -22068,7 +22068,7 @@
   },
   {
     "id": "rr-q040",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "dose comparison",
     "highYield": false,
@@ -22094,7 +22094,7 @@
   },
   {
     "id": "rr-q041",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "ALARA",
     "highYield": true,
@@ -22120,7 +22120,7 @@
   },
   {
     "id": "rr-q042",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "occupational dose",
     "highYield": false,
@@ -22146,7 +22146,7 @@
   },
   {
     "id": "rr-q043",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "pregnancy",
     "highYield": false,
@@ -22172,7 +22172,7 @@
   },
   {
     "id": "rr-q044",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "radiation terminology",
     "highYield": false,
@@ -22198,7 +22198,7 @@
   },
   {
     "id": "rr-q045",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "patient screening",
     "highYield": true,
@@ -22224,7 +22224,7 @@
   },
   {
     "id": "rr-q046",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "patient history",
     "highYield": true,
@@ -22250,7 +22250,7 @@
   },
   {
     "id": "rr-q047",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "informed consent",
     "highYield": false,
@@ -22302,7 +22302,7 @@
   },
   {
     "id": "rr-q049",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "patient preparation",
     "highYield": false,
@@ -22354,7 +22354,7 @@
   },
   {
     "id": "rr-q051",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "height and weight measurement",
     "highYield": false,
@@ -22380,7 +22380,7 @@
   },
   {
     "id": "rr-q052",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "highYield": true,
@@ -22406,7 +22406,7 @@
   },
   {
     "id": "rr-q053",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan modes",
     "highYield": false,
@@ -22432,7 +22432,7 @@
   },
   {
     "id": "rr-q054",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "scatter radiation",
     "highYield": false,
@@ -22458,7 +22458,7 @@
   },
   {
     "id": "rr-q055",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "fan beam vs pencil beam",
     "highYield": false,
@@ -22484,7 +22484,7 @@
   },
   {
     "id": "rr-q056",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "calibration",
     "highYield": false,
@@ -22510,7 +22510,7 @@
   },
   {
     "id": "rr-q057",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "positioning",
     "highYield": false,
@@ -22666,7 +22666,7 @@
   },
   {
     "id": "rr-q063",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "T-score interpretation",
     "highYield": true,
@@ -22692,7 +22692,7 @@
   },
   {
     "id": "rr-q064",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "Z-score use",
     "highYield": true,
@@ -22718,7 +22718,7 @@
   },
   {
     "id": "rr-q065",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO classification",
     "highYield": true,
@@ -22744,7 +22744,7 @@
   },
   {
     "id": "rr-q066",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX",
     "highYield": true,
@@ -22770,7 +22770,7 @@
   },
   {
     "id": "rr-q067",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX",
     "highYield": true,
@@ -22796,7 +22796,7 @@
   },
   {
     "id": "rr-q068",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "treatment thresholds",
     "highYield": true,
@@ -22952,7 +22952,7 @@
   },
   {
     "id": "rr-q074",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring intervals",
     "highYield": true,
@@ -22978,7 +22978,7 @@
   },
   {
     "id": "rr-q075",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "treatment response",
     "highYield": false,
@@ -23030,7 +23030,7 @@
   },
   {
     "id": "rr-q077",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1-L4 ROI",
     "highYield": true,
@@ -23056,7 +23056,7 @@
   },
   {
     "id": "rr-q078",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1-L4 identification",
     "highYield": true,
@@ -23082,7 +23082,7 @@
   },
   {
     "id": "rr-q079",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "highYield": false,
@@ -23108,7 +23108,7 @@
   },
   {
     "id": "rr-q080",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "LSC math",
     "highYield": false,
@@ -23134,7 +23134,7 @@
   },
   {
     "id": "rr-q081",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "percent change",
     "highYield": true,
@@ -23160,7 +23160,7 @@
   },
   {
     "id": "rr-q082",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "LSC interpretation",
     "highYield": true,
@@ -23186,7 +23186,7 @@
   },
   {
     "id": "rr-q083",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "RMS-SD vs RMS-CV",
     "highYield": true,
@@ -23212,7 +23212,7 @@
   },
   {
     "id": "rr-q084",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom long-term tracking",
     "highYield": false,
@@ -23238,7 +23238,7 @@
   },
   {
     "id": "rr-q085",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scanner failure modes",
     "highYield": true,
@@ -23264,7 +23264,7 @@
   },
   {
     "id": "rr-q086",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "baseline establishment",
     "highYield": false,
@@ -23290,7 +23290,7 @@
   },
   {
     "id": "rr-q087",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "Z-score below expected",
     "highYield": true,
@@ -23316,7 +23316,7 @@
   },
   {
     "id": "rr-q088",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BMD reporting requirements",
     "highYield": true,
@@ -23342,7 +23342,7 @@
   },
   {
     "id": "rr-q089",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA indications",
     "highYield": true,
@@ -23368,7 +23368,7 @@
   },
   {
     "id": "rr-q090",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "highYield": false,
@@ -23394,7 +23394,7 @@
   },
   {
     "id": "rr-q091",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA limitations",
     "highYield": true,
@@ -23576,7 +23576,7 @@
   },
   {
     "id": "rr-q104",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "AP vs lateral",
     "highYield": false,
@@ -23602,7 +23602,7 @@
   },
   {
     "id": "rr-q105",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score discordance",
     "highYield": true,
@@ -23628,7 +23628,7 @@
   },
   {
     "id": "rr-q106",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "posterior calcification",
     "highYield": true,
@@ -23654,7 +23654,7 @@
   },
   {
     "id": "rr-q107",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX limitations",
     "highYield": true,
@@ -23680,7 +23680,7 @@
   },
   {
     "id": "rr-q108",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX risk factors",
     "highYield": true,
@@ -23706,7 +23706,7 @@
   },
   {
     "id": "rr-q109",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "TBS",
     "highYield": false,
@@ -23732,7 +23732,7 @@
   },
   {
     "id": "rr-q110",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom storage",
     "highYield": false,
@@ -23784,7 +23784,7 @@
   },
   {
     "id": "rr-q112",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "spine BMD acquisition",
     "highYield": false,
@@ -23888,7 +23888,7 @@
   },
   {
     "id": "rr-q116",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "shielding",
     "highYield": true,
@@ -23914,7 +23914,7 @@
   },
   {
     "id": "rr-q117",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric ISCD",
     "highYield": true,
@@ -23940,7 +23940,7 @@
   },
   {
     "id": "rr-q118",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric site selection",
     "highYield": true,
@@ -23966,7 +23966,7 @@
   },
   {
     "id": "rr-q119",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric height adjustment",
     "highYield": true,
@@ -23992,7 +23992,7 @@
   },
   {
     "id": "rr-q120",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric prohibited terminology",
     "highYield": true,
@@ -24018,7 +24018,7 @@
   },
   {
     "id": "rr-q121",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "longitudinal precision",
     "highYield": true,
@@ -24044,7 +24044,7 @@
   },
   {
     "id": "rr-q122",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T12-L5 borders",
     "highYield": false,
@@ -24070,7 +24070,7 @@
   },
   {
     "id": "rr-q123",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "diagnosis older men",
     "highYield": true,
@@ -24200,7 +24200,7 @@
   },
   {
     "id": "rr-q128",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan repeat criteria",
     "highYield": false,
@@ -24226,7 +24226,7 @@
   },
   {
     "id": "rr-q129",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "extra vertebrae",
     "highYield": true,
@@ -24252,7 +24252,7 @@
   },
   {
     "id": "rr-q130",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD 2023 male reference",
     "highYield": true,
@@ -24305,7 +24305,7 @@
   },
   {
     "id": "rr-q132",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "TBS sourcing",
     "highYield": false,
@@ -24332,7 +24332,7 @@
   },
   {
     "id": "rr-q133",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric hip site",
     "highYield": false,
@@ -24411,7 +24411,7 @@
   },
   {
     "id": "rr-q136",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "operator distance",
     "highYield": true,
@@ -24437,7 +24437,7 @@
   },
   {
     "id": "rr-q137",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "discordance frequency",
     "highYield": true,
@@ -24463,7 +24463,7 @@
   },
   {
     "id": "rr-q138",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "precision study LSC",
     "highYield": true,
@@ -24542,7 +24542,7 @@
   },
   {
     "id": "rr-q141",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "lateral distal femur",
     "highYield": true,
@@ -24646,7 +24646,7 @@
   },
   {
     "id": "rr-q145",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "transgender DXA",
     "highYield": false,
@@ -24672,7 +24672,7 @@
   },
   {
     "id": "rr-q146",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "spinal cord injury",
     "highYield": false,
@@ -24698,7 +24698,7 @@
   },
   {
     "id": "rr-q147",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "peri-prosthetic",
     "highYield": false,
@@ -24724,7 +24724,7 @@
   },
   {
     "id": "rr-q148",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "monitoring on therapy",
     "highYield": true,
@@ -24750,7 +24750,7 @@
   },
   {
     "id": "rr-q149",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX hip threshold",
     "highYield": true,
@@ -24802,7 +24802,7 @@
   },
   {
     "id": "rr-q151",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "in vivo precision",
     "highYield": true,
@@ -24828,7 +24828,7 @@
   },
   {
     "id": "rr-q152",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "highYield": true,
@@ -24906,7 +24906,7 @@
   },
   {
     "id": "rr-q155",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO severe osteoporosis",
     "highYield": true,
@@ -24958,7 +24958,7 @@
   },
   {
     "id": "rr-q157",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA glucocorticoid",
     "highYield": true,
@@ -25010,7 +25010,7 @@
   },
   {
     "id": "rr-q159",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "bone remodeling cycle",
     "highYield": true,
@@ -25036,7 +25036,7 @@
   },
   {
     "id": "rr-q160",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "RANKL pathway",
     "highYield": true,
@@ -25062,7 +25062,7 @@
   },
   {
     "id": "rr-q161",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "calcitonin",
     "highYield": false,
@@ -25088,7 +25088,7 @@
   },
   {
     "id": "rr-q162",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "PTH primary hyperparathyroidism",
     "highYield": true,
@@ -25166,7 +25166,7 @@
   },
   {
     "id": "rr-q165",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "highYield": true,
@@ -25218,7 +25218,7 @@
   },
   {
     "id": "rr-q167",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "spine phantom verification",
     "highYield": true,
@@ -25244,7 +25244,7 @@
   },
   {
     "id": "rr-q168",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "fracture exclusion",
     "highYield": true,
@@ -25322,7 +25322,7 @@
   },
   {
     "id": "rr-q171",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scanner location",
     "highYield": false,
@@ -25348,7 +25348,7 @@
   },
   {
     "id": "rr-q172",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "secondary osteoporosis",
     "highYield": true,
@@ -25374,7 +25374,7 @@
   },
   {
     "id": "rr-q173",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "DXA dose comparison",
     "highYield": false,
@@ -25426,7 +25426,7 @@
   },
   {
     "id": "rr-q175",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "Shewhart limits",
     "highYield": false,
@@ -25530,7 +25530,7 @@
   },
   {
     "id": "rr-q179",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "BERT",
     "highYield": false,
@@ -25608,7 +25608,7 @@
   },
   {
     "id": "rr-q182",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "TGNC T-scores",
     "highYield": false,
@@ -25634,7 +25634,7 @@
   },
   {
     "id": "rr-q183",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "PTH continuous vs intermittent",
     "highYield": true,
@@ -25660,7 +25660,7 @@
   },
   {
     "id": "rr-q184",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "SCI fracture sites",
     "highYield": false,
@@ -25686,7 +25686,7 @@
   },
   {
     "id": "rr-q185",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "peri-prosthetic methods",
     "highYield": false,
@@ -25712,7 +25712,7 @@
   },
   {
     "id": "rr-q186",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom Hologic anthropomorphic",
     "highYield": true,
@@ -25764,7 +25764,7 @@
   },
   {
     "id": "rr-q188",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "parathyroidectomy recovery",
     "highYield": true,
@@ -25790,7 +25790,7 @@
   },
   {
     "id": "rr-q189",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "vertebral fracture diagnosis",
     "highYield": true,
@@ -25816,7 +25816,7 @@
   },
   {
     "id": "rr-q190",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "premenopausal Z-score",
     "highYield": true,
@@ -25868,7 +25868,7 @@
   },
   {
     "id": "rr-q192",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "NCRP reports",
     "highYield": false,
@@ -25894,7 +25894,7 @@
   },
   {
     "id": "rr-q193",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "Shewhart sourcing",
     "highYield": false,
@@ -25946,7 +25946,7 @@
   },
   {
     "id": "rr-q195",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "obesity DXA",
     "highYield": true,
@@ -25972,7 +25972,7 @@
   },
   {
     "id": "rr-q196",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX without BMD",
     "highYield": true,
@@ -26024,7 +26024,7 @@
   },
   {
     "id": "rr-q198",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "spinal fusion exclusion",
     "highYield": true,
@@ -26050,7 +26050,7 @@
   },
   {
     "id": "rr-q199",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom serial number",
     "highYield": true,
@@ -26102,7 +26102,7 @@
   },
   {
     "id": "rr-q201",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "33% radius alternative",
     "highYield": true,
@@ -26128,7 +26128,7 @@
   },
   {
     "id": "rr-q202",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan time vs precision",
     "highYield": false,
@@ -26154,7 +26154,7 @@
   },
   {
     "id": "rr-q203",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "single beam vs DXA",
     "highYield": false,
@@ -26180,7 +26180,7 @@
   },
   {
     "id": "rr-q204",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "calibration",
     "highYield": true,
@@ -26206,7 +26206,7 @@
   },
   {
     "id": "rr-q205",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1 importance",
     "highYield": true,
@@ -26232,7 +26232,7 @@
   },
   {
     "id": "rr-q206",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring vs diagnosis",
     "highYield": true,
@@ -26284,7 +26284,7 @@
   },
   {
     "id": "rr-q208",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "pregnancy DXA",
     "highYield": true,
@@ -26362,7 +26362,7 @@
   },
   {
     "id": "rr-q211",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD 2023 fewer than 4 vertebrae",
     "highYield": true,
@@ -26388,7 +26388,7 @@
   },
   {
     "id": "rr-q212",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "AFF screening DXA",
     "highYield": true,
@@ -26466,7 +26466,7 @@
   },
   {
     "id": "rr-q215",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "post-processing",
     "highYield": true,
@@ -26570,7 +26570,7 @@
   },
   {
     "id": "rr-q219",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral count anatomy",
     "highYield": true,
@@ -26622,7 +26622,7 @@
   },
   {
     "id": "rr-q221",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "tube on indicator",
     "highYield": false,
@@ -26648,7 +26648,7 @@
   },
   {
     "id": "rr-q222",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO origin",
     "highYield": true,
@@ -26726,7 +26726,7 @@
   },
   {
     "id": "rr-q225",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "in vivo precision",
     "highYield": true,
@@ -26752,7 +26752,7 @@
   },
   {
     "id": "rr-q226",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score variability",
     "highYield": true,
@@ -26804,7 +26804,7 @@
   },
   {
     "id": "rr-q229",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring intervals",
     "highYield": true,
@@ -26830,7 +26830,7 @@
   },
   {
     "id": "rr-q230",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD pediatric long bone",
     "highYield": true,
@@ -26856,7 +26856,7 @@
   },
   {
     "id": "rr-q231",
-    "module": 12,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "TBLH preferred site",
     "highYield": true,
@@ -26908,7 +26908,7 @@
   },
   {
     "id": "rr-q235",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "ALARA principles",
     "highYield": true,
@@ -26986,7 +26986,7 @@
   },
   {
     "id": "rr-q238",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "LSC 2.77 RMS-SD",
     "highYield": true,
@@ -27012,7 +27012,7 @@
   },
   {
     "id": "rr-q239",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "VFA height threshold",
     "highYield": true,
@@ -27038,7 +27038,7 @@
   },
   {
     "id": "rr-q240",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "Genant grades",
     "highYield": true,
@@ -27064,7 +27064,7 @@
   },
   {
     "id": "rr-q241",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "T4 visualization",
     "highYield": true,
@@ -27090,7 +27090,7 @@
   },
   {
     "id": "rr-q242",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX age range",
     "highYield": true,
@@ -27116,7 +27116,7 @@
   },
   {
     "id": "rr-q243",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "cross-calibration",
     "highYield": true,
@@ -27220,7 +27220,7 @@
   },
   {
     "id": "rr-q247",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "pediatric vertebral fracture",
     "highYield": true,
@@ -27246,7 +27246,7 @@
   },
   {
     "id": "rr-q249",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "iliac crest landmark",
     "highYield": false,
@@ -27324,7 +27324,7 @@
   },
   {
     "id": "rr-q252",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "transplant osteoporosis",
     "highYield": false,
@@ -27376,7 +27376,7 @@
   },
   {
     "id": "rr-q254",
-    "module": 7,
+    "module": 5,
     "category": "equipment-qc",
     "subCategory": "Reclast contraindication CrCl",
     "highYield": false,
@@ -27480,7 +27480,7 @@
   },
   {
     "id": "rr-q258",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom QC frequency",
     "highYield": false,
@@ -27506,7 +27506,7 @@
   },
   {
     "id": "rr-q259",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis effect direction",
     "highYield": true,
@@ -27532,7 +27532,7 @@
   },
   {
     "id": "rr-q260",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO categories",
     "highYield": true,
@@ -27584,7 +27584,7 @@
   },
   {
     "id": "rr-q263",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "ICRP 103 effective dose",
     "highYield": false,
@@ -27662,7 +27662,7 @@
   },
   {
     "id": "rr-q266",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "estrogen RANKL OPG",
     "highYield": true,
@@ -27688,7 +27688,7 @@
   },
   {
     "id": "rr-q267",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA vs lateral X-ray",
     "highYield": false,
@@ -27714,7 +27714,7 @@
   },
   {
     "id": "rr-q268",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring frequency rapid loss",
     "highYield": true,
@@ -27766,7 +27766,7 @@
   },
   {
     "id": "rr-q270",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "operator credentialing",
     "highYield": false,
@@ -27792,7 +27792,7 @@
   },
   {
     "id": "rr-q271",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "TBS interpretation",
     "highYield": true,
@@ -27818,7 +27818,7 @@
   },
   {
     "id": "rr-q272",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "pediatric reference data",
     "highYield": true,
@@ -27896,7 +27896,7 @@
   },
   {
     "id": "rr-q275",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan analysis software updates",
     "highYield": true,
@@ -27922,7 +27922,7 @@
   },
   {
     "id": "rr-q277",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring spine vs hip",
     "highYield": false,
@@ -27948,7 +27948,7 @@
   },
   {
     "id": "rr-q278",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "secondary osteoporosis women",
     "highYield": true,
@@ -27974,7 +27974,7 @@
   },
   {
     "id": "rr-q279",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "VFA reading systems",
     "highYield": true,
@@ -28000,7 +28000,7 @@
   },
   {
     "id": "rr-q280",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral landmarks",
     "highYield": true,
@@ -28026,7 +28026,7 @@
   },
   {
     "id": "rr-q281",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral landmarks",
     "highYield": false,
@@ -28052,7 +28052,7 @@
   },
   {
     "id": "rr-q282",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "ROI placement",
     "highYield": true,
@@ -28077,7 +28077,7 @@
   },
   {
     "id": "rr-q283",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "highYield": false,
@@ -28103,7 +28103,7 @@
   },
   {
     "id": "rr-q284",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "highYield": true,
@@ -28129,7 +28129,7 @@
   },
   {
     "id": "rr-q285",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "highYield": true,
@@ -28154,7 +28154,7 @@
   },
   {
     "id": "rr-q286",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient positioning",
     "highYield": false,
@@ -28179,7 +28179,7 @@
   },
   {
     "id": "rr-q287",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient positioning",
     "highYield": false,
@@ -28204,7 +28204,7 @@
   },
   {
     "id": "rr-q288",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "highYield": true,
@@ -28229,7 +28229,7 @@
   },
   {
     "id": "rr-q289",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "degenerative changes",
     "highYield": true,
@@ -28254,7 +28254,7 @@
   },
   {
     "id": "rr-q290",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "aortic calcification",
     "highYield": true,
@@ -28279,7 +28279,7 @@
   },
   {
     "id": "rr-q291",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "surgical hardware",
     "highYield": true,
@@ -28304,7 +28304,7 @@
   },
   {
     "id": "rr-q292",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "surgical hardware",
     "highYield": true,
@@ -28330,7 +28330,7 @@
   },
   {
     "id": "rr-q293",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "edge detection",
     "highYield": false,
@@ -28355,7 +28355,7 @@
   },
   {
     "id": "rr-q294",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "intervertebral spaces",
     "highYield": true,
@@ -28380,7 +28380,7 @@
   },
   {
     "id": "rr-q295",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "fracture exclusion",
     "highYield": true,
@@ -28405,7 +28405,7 @@
   },
   {
     "id": "rr-q296",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "reported values",
     "highYield": true,
@@ -28431,7 +28431,7 @@
   },
   {
     "id": "rr-q297",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score Z-score",
     "highYield": true,
@@ -28457,7 +28457,7 @@
   },
   {
     "id": "rr-q298",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score Z-score",
     "highYield": true,
@@ -28482,7 +28482,7 @@
   },
   {
     "id": "rr-q299",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "follow-up reproducibility",
     "highYield": true,
@@ -28507,7 +28507,7 @@
   },
   {
     "id": "rr-q300",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient history",
     "highYield": false,
@@ -28532,7 +28532,7 @@
   },
   {
     "id": "rr-q301",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "compensation low BMD",
     "highYield": false,
@@ -28557,7 +28557,7 @@
   },
   {
     "id": "rr-q302",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "anatomic variants",
     "highYield": false,
@@ -28582,7 +28582,7 @@
   },
   {
     "id": "rr-q303",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central distinction",
     "highYield": true,
@@ -28607,7 +28607,7 @@
   },
   {
     "id": "rr-q304",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO criteria",
     "highYield": true,
@@ -28633,7 +28633,7 @@
   },
   {
     "id": "rr-q305",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO criteria",
     "highYield": true,
@@ -28659,7 +28659,7 @@
   },
   {
     "id": "rr-q306",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "lowest T-score diagnosis",
     "highYield": true,
@@ -28684,7 +28684,7 @@
   },
   {
     "id": "rr-q307",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "clinical context",
     "highYield": true,
@@ -28710,7 +28710,7 @@
   },
   {
     "id": "rr-q308",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "low BMD report",
     "highYield": true,
@@ -28736,7 +28736,7 @@
   },
   {
     "id": "rr-q309",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "monitoring frequency",
     "highYield": true,
@@ -28762,7 +28762,7 @@
   },
   {
     "id": "rr-q310",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient history",
     "highYield": true,
@@ -28787,7 +28787,7 @@
   },
   {
     "id": "rr-q311",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "trabecular content",
     "highYield": false,
@@ -28812,7 +28812,7 @@
   },
   {
     "id": "rr-q312",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "PA vs lateral",
     "highYield": false,
@@ -28837,7 +28837,7 @@
   },
   {
     "id": "rr-q313",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral fracture severity",
     "highYield": true,
@@ -28863,7 +28863,7 @@
   },
   {
     "id": "rr-q314",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD precision",
     "highYield": true,
@@ -28888,7 +28888,7 @@
   },
   {
     "id": "rr-q315",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L5 not used",
     "highYield": true,
@@ -28914,7 +28914,7 @@
   },
   {
     "id": "rr-q316",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "precision study",
     "highYield": true,
@@ -28939,7 +28939,7 @@
   },
   {
     "id": "rr-q317",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD calculation",
     "highYield": false,
@@ -28964,7 +28964,7 @@
   },
   {
     "id": "rr-q318",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "pre-scan checklist",
     "highYield": false,
@@ -28989,7 +28989,7 @@
   },
   {
     "id": "rr-q319",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient pregnancy",
     "highYield": true,
@@ -29014,7 +29014,7 @@
   },
   {
     "id": "rr-q320",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO postmenopausal",
     "highYield": true,
@@ -29040,7 +29040,7 @@
   },
   {
     "id": "rr-q321",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central distinction",
     "highYield": true,
@@ -29065,7 +29065,7 @@
   },
   {
     "id": "rr-q322",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD precision per ROI",
     "highYield": true,
@@ -29091,7 +29091,7 @@
   },
   {
     "id": "rr-q323",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scan time",
     "highYield": false,
@@ -29116,7 +29116,7 @@
   },
   {
     "id": "rr-q324",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "verify auto-analysis",
     "highYield": true,
@@ -29141,7 +29141,7 @@
   },
   {
     "id": "rr-q325",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "communication",
     "highYield": false,
@@ -29166,7 +29166,7 @@
   },
   {
     "id": "rr-q326",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "weight limit",
     "highYield": true,
@@ -29191,7 +29191,7 @@
   },
   {
     "id": "rr-q327",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "graphical displays",
     "highYield": false,
@@ -29216,7 +29216,7 @@
   },
   {
     "id": "rr-q328",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "clinical action",
     "highYield": false,
@@ -29241,7 +29241,7 @@
   },
   {
     "id": "rr-q329",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central tendency",
     "highYield": false,
@@ -29266,7 +29266,7 @@
   },
   {
     "id": "rr-q455",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "anatomy",
     "highYield": false,
@@ -29291,7 +29291,7 @@
   },
   {
     "id": "rr-q456",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "highYield": true,
@@ -29316,7 +29316,7 @@
   },
   {
     "id": "rr-q457",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "highYield": false,
@@ -29341,7 +29341,7 @@
   },
   {
     "id": "rr-q458",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "compensation",
     "highYield": false,
@@ -29366,7 +29366,7 @@
   },
   {
     "id": "rr-q459",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "spine arms",
     "highYield": false,
@@ -29391,7 +29391,7 @@
   },
   {
     "id": "rr-q460",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1-L2 only",
     "highYield": false,
@@ -29416,7 +29416,7 @@
   },
   {
     "id": "rr-q461",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scan field",
     "highYield": true,
@@ -29441,7 +29441,7 @@
   },
   {
     "id": "rr-q462",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "motion",
     "highYield": false,
@@ -29466,7 +29466,7 @@
   },
   {
     "id": "rr-q463",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "hardware change",
     "highYield": true,
@@ -29491,7 +29491,7 @@
   },
   {
     "id": "rr-q464",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "history",
     "highYield": true,
@@ -29516,7 +29516,7 @@
   },
   {
     "id": "rr-q465",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD report",
     "highYield": true,
@@ -29541,7 +29541,7 @@
   },
   {
     "id": "rr-q466",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "report",
     "highYield": false,
@@ -29566,7 +29566,7 @@
   },
   {
     "id": "rr-q467",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L4 vertebra",
     "highYield": true,
@@ -29591,7 +29591,7 @@
   },
   {
     "id": "rr-q468",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "compression history",
     "highYield": true,
@@ -29616,7 +29616,7 @@
   },
   {
     "id": "rr-q469",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "alignment lateral tilt",
     "highYield": false,
@@ -29641,7 +29641,7 @@
   },
   {
     "id": "rr-q470",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "comparing reports",
     "highYield": false,
@@ -29666,7 +29666,7 @@
   },
   {
     "id": "rr-q471",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "trabecular content",
     "highYield": false,
@@ -29691,7 +29691,7 @@
   },
   {
     "id": "rr-q472",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "PA vs lateral",
     "highYield": false,
@@ -29716,7 +29716,7 @@
   },
   {
     "id": "rr-q473",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "premenopausal",
     "highYield": true,
@@ -29742,7 +29742,7 @@
   },
   {
     "id": "rr-q474",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "clinical significance",
     "highYield": true,
@@ -29768,7 +29768,7 @@
   },
   {
     "id": "rr-q475",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD calculation",
     "highYield": false,
@@ -29793,7 +29793,7 @@
   },
   {
     "id": "rr-q476",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "piercing artifact",
     "highYield": false,
@@ -29818,7 +29818,7 @@
   },
   {
     "id": "rr-q477",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "lateral tilt",
     "highYield": true,
@@ -29843,7 +29843,7 @@
   },
   {
     "id": "rr-q478",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "FRAX limitation",
     "highYield": true,
@@ -29868,7 +29868,7 @@
   },
   {
     "id": "rr-q479",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central diagnosis",
     "highYield": true,
@@ -31789,7 +31789,7 @@
   },
   {
     "id": "rr-q380",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "anatomy",
     "highYield": false,
@@ -31815,7 +31815,7 @@
   },
   {
     "id": "rr-q381",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "diagnostic ROI",
     "highYield": true,
@@ -31840,7 +31840,7 @@
   },
   {
     "id": "rr-q382",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "side selection",
     "highYield": false,
@@ -31865,7 +31865,7 @@
   },
   {
     "id": "rr-q383",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "indications",
     "highYield": true,
@@ -31890,7 +31890,7 @@
   },
   {
     "id": "rr-q384",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "hyperparathyroidism",
     "highYield": true,
@@ -31916,7 +31916,7 @@
   },
   {
     "id": "rr-q385",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO criteria",
     "highYield": true,
@@ -31941,7 +31941,7 @@
   },
   {
     "id": "rr-q386",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "acquisition",
     "highYield": false,
@@ -31966,7 +31966,7 @@
   },
   {
     "id": "rr-q387",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "ROI types",
     "highYield": true,
@@ -31991,7 +31991,7 @@
   },
   {
     "id": "rr-q388",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "positioning Lunar",
     "highYield": false,
@@ -32016,7 +32016,7 @@
   },
   {
     "id": "rr-q389",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "positioning Hologic",
     "highYield": true,
@@ -32041,7 +32041,7 @@
   },
   {
     "id": "rr-q390",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "positioning rotation",
     "highYield": false,
@@ -32066,7 +32066,7 @@
   },
   {
     "id": "rr-q391",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "adjacent structures",
     "highYield": true,
@@ -32091,7 +32091,7 @@
   },
   {
     "id": "rr-q392",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "common challenges",
     "highYield": false,
@@ -32116,7 +32116,7 @@
   },
   {
     "id": "rr-q393",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "contraindications",
     "highYield": false,
@@ -32141,7 +32141,7 @@
   },
   {
     "id": "rr-q394",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "33% radius cortical",
     "highYield": true,
@@ -32166,7 +32166,7 @@
   },
   {
     "id": "rr-q395",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "highYield": true,
@@ -32191,7 +32191,7 @@
   },
   {
     "id": "rr-q396",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "low BMD",
     "highYield": true,
@@ -32216,7 +32216,7 @@
   },
   {
     "id": "rr-q397",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "obese patient forearm",
     "highYield": true,
@@ -32242,7 +32242,7 @@
   },
   {
     "id": "rr-q398",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "precision",
     "highYield": true,
@@ -32267,7 +32267,7 @@
   },
   {
     "id": "rr-q399",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT clinical",
     "highYield": true,
@@ -32293,7 +32293,7 @@
   },
   {
     "id": "rr-q400",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "NHANES",
     "highYield": true,
@@ -32318,7 +32318,7 @@
   },
   {
     "id": "rr-q401",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "technologist judgment",
     "highYield": false,
@@ -32343,7 +32343,7 @@
   },
   {
     "id": "rr-q402",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "technologist judgment",
     "highYield": true,
@@ -32367,7 +32367,7 @@
   },
   {
     "id": "rr-q403",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT management",
     "highYield": true,
@@ -32392,7 +32392,7 @@
   },
   {
     "id": "rr-q404",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "non-dominant scan",
     "highYield": false,
@@ -32417,7 +32417,7 @@
   },
   {
     "id": "rr-q405",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "jewelry",
     "highYield": true,
@@ -32442,7 +32442,7 @@
   },
   {
     "id": "rr-q407",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "FRAX limitation",
     "highYield": true,
@@ -32467,7 +32467,7 @@
   },
   {
     "id": "rr-q408",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO postmenopausal",
     "highYield": true,
@@ -32493,7 +32493,7 @@
   },
   {
     "id": "rr-q409",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reported values",
     "highYield": true,
@@ -32518,7 +32518,7 @@
   },
   {
     "id": "rr-q410",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radiation dose",
     "highYield": true,
@@ -32543,7 +32543,7 @@
   },
   {
     "id": "rr-q411",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "patient comfort",
     "highYield": false,
@@ -32568,7 +32568,7 @@
   },
   {
     "id": "rr-q412",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central distinction",
     "highYield": true,
@@ -32593,7 +32593,7 @@
   },
   {
     "id": "rr-q413",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "low BMD edge",
     "highYield": true,
@@ -32618,7 +32618,7 @@
   },
   {
     "id": "rr-q414",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "manual ROI verification",
     "highYield": true,
@@ -32643,7 +32643,7 @@
   },
   {
     "id": "rr-q415",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compare prior",
     "highYield": true,
@@ -32668,7 +32668,7 @@
   },
   {
     "id": "rr-q416",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "scan mode",
     "highYield": false,
@@ -32693,7 +32693,7 @@
   },
   {
     "id": "rr-q417",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "pediatric forearm",
     "highYield": true,
@@ -32718,7 +32718,7 @@
   },
   {
     "id": "rr-q418",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "acquisition",
     "highYield": false,
@@ -32743,7 +32743,7 @@
   },
   {
     "id": "rr-q419",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO criteria",
     "highYield": true,
@@ -32769,7 +32769,7 @@
   },
   {
     "id": "rr-q420",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compensate body habitus",
     "highYield": true,
@@ -32794,7 +32794,7 @@
   },
   {
     "id": "rr-q421",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "patient history",
     "highYield": true,
@@ -32819,7 +32819,7 @@
   },
   {
     "id": "rr-q422",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "NBHA criteria",
     "highYield": false,
@@ -32844,7 +32844,7 @@
   },
   {
     "id": "rr-q423",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "highYield": true,
@@ -32869,7 +32869,7 @@
   },
   {
     "id": "rr-q424",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "weight limit",
     "highYield": true,
@@ -32894,7 +32894,7 @@
   },
   {
     "id": "rr-q425",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "variant anatomy",
     "highYield": true,
@@ -32919,7 +32919,7 @@
   },
   {
     "id": "rr-q426",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "scope of practice",
     "highYield": false,
@@ -32944,7 +32944,7 @@
   },
   {
     "id": "rr-q427",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central diagnostic order",
     "highYield": true,
@@ -32969,7 +32969,7 @@
   },
   {
     "id": "rr-q428",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "acquisition",
     "highYield": false,
@@ -32994,7 +32994,7 @@
   },
   {
     "id": "rr-q429",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "distal vs 33%",
     "highYield": true,
@@ -33019,7 +33019,7 @@
   },
   {
     "id": "rr-q505",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radius cortical",
     "highYield": true,
@@ -33044,7 +33044,7 @@
   },
   {
     "id": "rr-q506",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "highYield": true,
@@ -33069,7 +33069,7 @@
   },
   {
     "id": "rr-q507",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "low BMD",
     "highYield": false,
@@ -33094,7 +33094,7 @@
   },
   {
     "id": "rr-q508",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "obese alternative",
     "highYield": true,
@@ -33119,7 +33119,7 @@
   },
   {
     "id": "rr-q509",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "precision",
     "highYield": true,
@@ -33144,7 +33144,7 @@
   },
   {
     "id": "rr-q510",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT",
     "highYield": true,
@@ -33170,7 +33170,7 @@
   },
   {
     "id": "rr-q511",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "NHANES reference",
     "highYield": true,
@@ -33195,7 +33195,7 @@
   },
   {
     "id": "rr-q512",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "tremor",
     "highYield": false,
@@ -33220,7 +33220,7 @@
   },
   {
     "id": "rr-q513",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "healed fracture",
     "highYield": false,
@@ -33244,7 +33244,7 @@
   },
   {
     "id": "rr-q514",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT pattern",
     "highYield": true,
@@ -33269,7 +33269,7 @@
   },
   {
     "id": "rr-q515",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "verify dominance",
     "highYield": false,
@@ -33294,7 +33294,7 @@
   },
   {
     "id": "rr-q516",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "jewelry",
     "highYield": true,
@@ -33319,7 +33319,7 @@
   },
   {
     "id": "rr-q517",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "BMD calculation",
     "highYield": false,
@@ -33344,7 +33344,7 @@
   },
   {
     "id": "rr-q518",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "FRAX",
     "highYield": true,
@@ -33369,7 +33369,7 @@
   },
   {
     "id": "rr-q519",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO normal",
     "highYield": true,
@@ -33395,7 +33395,7 @@
   },
   {
     "id": "rr-q520",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "BMD report",
     "highYield": true,
@@ -33420,7 +33420,7 @@
   },
   {
     "id": "rr-q521",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radiation",
     "highYield": true,
@@ -33445,7 +33445,7 @@
   },
   {
     "id": "rr-q522",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "patient comfort",
     "highYield": false,
@@ -33470,7 +33470,7 @@
   },
   {
     "id": "rr-q523",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central distinction",
     "highYield": true,
@@ -33495,7 +33495,7 @@
   },
   {
     "id": "rr-q524",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "thin patient",
     "highYield": true,
@@ -33520,7 +33520,7 @@
   },
   {
     "id": "rr-q525",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "manual ROI",
     "highYield": true,
@@ -33545,7 +33545,7 @@
   },
   {
     "id": "rr-q526",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compare prior",
     "highYield": true,
@@ -33570,7 +33570,7 @@
   },
   {
     "id": "rr-q527",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "scan mode",
     "highYield": false,
@@ -33595,7 +33595,7 @@
   },
   {
     "id": "rr-q528",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "pediatric",
     "highYield": true,
@@ -33620,7 +33620,7 @@
   },
   {
     "id": "rr-q529",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "hand securing",
     "highYield": false,
@@ -33645,7 +33645,7 @@
   },
   {
     "id": "rr-q430",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "definition",
     "highYield": true,
@@ -33670,7 +33670,7 @@
   },
   {
     "id": "rr-q431",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "indications",
     "highYield": true,
@@ -33695,7 +33695,7 @@
   },
   {
     "id": "rr-q432",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "indications",
     "highYield": true,
@@ -33720,7 +33720,7 @@
   },
   {
     "id": "rr-q433",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "highYield": true,
@@ -33745,7 +33745,7 @@
   },
   {
     "id": "rr-q434",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "highYield": false,
@@ -33770,7 +33770,7 @@
   },
   {
     "id": "rr-q435",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "highYield": true,
@@ -33795,7 +33795,7 @@
   },
   {
     "id": "rr-q436",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant morphology",
     "highYield": false,
@@ -33821,7 +33821,7 @@
   },
   {
     "id": "rr-q437",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "location pattern",
     "highYield": true,
@@ -33846,7 +33846,7 @@
   },
   {
     "id": "rr-q438",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "visualization",
     "highYield": false,
@@ -33871,7 +33871,7 @@
   },
   {
     "id": "rr-q439",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "upper thoracic",
     "highYield": false,
@@ -33896,7 +33896,7 @@
   },
   {
     "id": "rr-q440",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "radiation dose",
     "highYield": true,
@@ -33921,7 +33921,7 @@
   },
   {
     "id": "rr-q441",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "variants",
     "highYield": false,
@@ -33946,7 +33946,7 @@
   },
   {
     "id": "rr-q442",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "reporting",
     "highYield": true,
@@ -33971,7 +33971,7 @@
   },
   {
     "id": "rr-q443",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "clinical significance",
     "highYield": true,
@@ -33996,7 +33996,7 @@
   },
   {
     "id": "rr-q444",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "identification",
     "highYield": true,
@@ -34021,7 +34021,7 @@
   },
   {
     "id": "rr-q445",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "acquisition",
     "highYield": false,
@@ -34046,7 +34046,7 @@
   },
   {
     "id": "rr-q446",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "clinical action",
     "highYield": false,
@@ -34071,7 +34071,7 @@
   },
   {
     "id": "rr-q447",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA timing",
     "highYield": false,
@@ -34096,7 +34096,7 @@
   },
   {
     "id": "rr-q448",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "compare prior",
     "highYield": true,
@@ -34121,7 +34121,7 @@
   },
   {
     "id": "rr-q449",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA limit",
     "highYield": false,
@@ -34146,7 +34146,7 @@
   },
   {
     "id": "rr-q450",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA technologist",
     "highYield": true,
@@ -34171,7 +34171,7 @@
   },
   {
     "id": "rr-q451",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "acquisition timing",
     "highYield": false,
@@ -34196,7 +34196,7 @@
   },
   {
     "id": "rr-q452",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "clinical context",
     "highYield": true,
@@ -34221,7 +34221,7 @@
   },
   {
     "id": "rr-q453",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "wedge anterior",
     "highYield": true,
@@ -34246,7 +34246,7 @@
   },
   {
     "id": "rr-q454",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "biconcave",
     "highYield": true,

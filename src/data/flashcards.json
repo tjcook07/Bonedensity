@@ -56,7 +56,7 @@
   {
     "id": "fc-0004",
     "questionId": "ptest-q009",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "osteoporosis consequences",
@@ -74,7 +74,7 @@
   {
     "id": "fc-0005",
     "questionId": "ptest-q014",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "",
     "topic": "peak bone mass",
@@ -110,7 +110,7 @@
   {
     "id": "fc-0007",
     "questionId": "ptest-q022",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "vertebral labeling",
@@ -146,7 +146,7 @@
   {
     "id": "fc-0009",
     "questionId": "ptest-q024",
-    "module": 1,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "BMMA",
@@ -164,7 +164,7 @@
   {
     "id": "fc-0010",
     "questionId": "m2-q032",
-    "module": 2,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "spine trabecular percentage",
@@ -182,7 +182,7 @@
   {
     "id": "fc-0011",
     "questionId": "m3-q036",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "falsely elevated BMD",
@@ -200,7 +200,7 @@
   {
     "id": "fc-0012",
     "questionId": "m3-q037",
-    "module": 3,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "hyperparathyroidism DXA",
@@ -236,7 +236,7 @@
   {
     "id": "fc-0014",
     "questionId": "m4-q040",
-    "module": 4,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "denosumab",
@@ -290,7 +290,7 @@
   {
     "id": "fc-0017",
     "questionId": "m4-q044",
-    "module": 4,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "BHOF treatment thresholds",
@@ -308,7 +308,7 @@
   {
     "id": "fc-0018",
     "questionId": "m5-q053",
-    "module": 5,
+    "module": 9,
     "category": "vfa",
     "subCategory": "",
     "topic": "sBMD",
@@ -395,7 +395,7 @@
   {
     "id": "fc-0023",
     "questionId": "m7-q062",
-    "module": 7,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "pediatric sites",
@@ -412,7 +412,7 @@
   {
     "id": "fc-0024",
     "questionId": "m8-q064",
-    "module": 8,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "FRAX inputs",
@@ -465,7 +465,7 @@
   {
     "id": "fc-0027",
     "questionId": "m10-q073",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "minimum vertebrae",
@@ -537,7 +537,7 @@
   {
     "id": "fc-0031",
     "questionId": "m11-q077",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "Ward's area",
@@ -555,7 +555,7 @@
   {
     "id": "fc-0032",
     "questionId": "m11-q078",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "bilateral hip rules",
@@ -574,7 +574,7 @@
   {
     "id": "fc-0033",
     "questionId": "m11-q080",
-    "module": 11,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "atypical femur fracture",
@@ -646,7 +646,7 @@
   {
     "id": "fc-0037",
     "questionId": "m14-q090",
-    "module": 14,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "cross-calibration same-model",
@@ -663,7 +663,7 @@
   {
     "id": "fc-0038",
     "questionId": "iscd-q093",
-    "module": 1,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "bilateral hip diagnosis",
@@ -681,7 +681,7 @@
   {
     "id": "fc-0039",
     "questionId": "iscd-q094",
-    "module": 3,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "T-score vs Z-score",
@@ -698,7 +698,7 @@
   {
     "id": "fc-0040",
     "questionId": "iscd-q095",
-    "module": 1,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "reference database",
@@ -716,7 +716,7 @@
   {
     "id": "fc-0041",
     "questionId": "m2-q102",
-    "module": 2,
+    "module": 11,
     "category": "hip",
     "subCategory": "",
     "topic": "remodeling cycle",
@@ -734,7 +734,7 @@
   {
     "id": "fc-0042",
     "questionId": "m3-q103",
-    "module": 3,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "osteomalacia",
@@ -770,7 +770,7 @@
   {
     "id": "fc-0044",
     "questionId": "m4-q108",
-    "module": 4,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "drug holiday",
@@ -805,7 +805,7 @@
   {
     "id": "fc-0046",
     "questionId": "m7-q114",
-    "module": 7,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "pediatric age sites",
@@ -841,7 +841,7 @@
   {
     "id": "fc-0048",
     "questionId": "m8-q116",
-    "module": 8,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "FRAX limitations",
@@ -876,7 +876,7 @@
   {
     "id": "fc-0050",
     "questionId": "m11-q119",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "total hip preferred",
@@ -930,7 +930,7 @@
   {
     "id": "fc-0053",
     "questionId": "iscd-q123",
-    "module": 1,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "WHO femoral neck",
@@ -966,7 +966,7 @@
   {
     "id": "fc-0055",
     "questionId": "iscd-q125",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "severe osteoporosis",
@@ -1108,7 +1108,7 @@
   {
     "id": "fc-0063",
     "questionId": "ptest-q052",
-    "module": 3,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "Type 1 menopause",
@@ -1126,7 +1126,7 @@
   {
     "id": "fc-0064",
     "questionId": "ptest-q056",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "cross-calibration new",
@@ -1143,7 +1143,7 @@
   {
     "id": "fc-0065",
     "questionId": "ptest-q069",
-    "module": 1,
+    "module": 11,
     "category": "hip",
     "subCategory": "",
     "topic": "WHO osteopenia range",
@@ -1160,7 +1160,7 @@
   {
     "id": "fc-0066",
     "questionId": "ptest-q070",
-    "module": 2,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "remodeling imbalance",
@@ -1214,7 +1214,7 @@
   {
     "id": "fc-0069",
     "questionId": "ptest-q085",
-    "module": 1,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "Z-score under 20",
@@ -1266,7 +1266,7 @@
   {
     "id": "fc-0072",
     "questionId": "ptest-q095",
-    "module": 2,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "remodeling balance",
@@ -1302,7 +1302,7 @@
   {
     "id": "fc-0074",
     "questionId": "ptest-q110",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "single vertebra diagnosis",
@@ -1338,7 +1338,7 @@
   {
     "id": "fc-0076",
     "questionId": "ptest-q114",
-    "module": 6,
+    "module": 13,
     "category": "body-comp",
     "subCategory": "",
     "topic": "height importance",
@@ -1374,7 +1374,7 @@
   {
     "id": "fc-0078",
     "questionId": "ptest-q117",
-    "module": 6,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "weight limit varies",
@@ -1392,7 +1392,7 @@
   {
     "id": "fc-0079",
     "questionId": "ptest-q120",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "discordance common",
@@ -1410,7 +1410,7 @@
   {
     "id": "fc-0080",
     "questionId": "ptest-q123",
-    "module": 14,
+    "module": 1,
     "category": "criteria",
     "subCategory": "",
     "topic": "T-score not serial",
@@ -1447,7 +1447,7 @@
   {
     "id": "fc-0082",
     "questionId": "ptest-q128",
-    "module": 1,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "standard score definition",
@@ -1466,7 +1466,7 @@
   {
     "id": "fc-0083",
     "questionId": "ptest-q129",
-    "module": 1,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "fracture not required",
@@ -1484,7 +1484,7 @@
   {
     "id": "fc-0084",
     "questionId": "ptest-q131",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "precision definition",
@@ -1520,7 +1520,7 @@
   {
     "id": "fc-0086",
     "questionId": "ptest-q133",
-    "module": 3,
+    "module": 8,
     "category": "criteria",
     "subCategory": "",
     "topic": "RA osteoporosis",
@@ -1538,7 +1538,7 @@
   {
     "id": "fc-0087",
     "questionId": "ptest-q134",
-    "module": 1,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "",
     "topic": "QCT units",
@@ -1575,7 +1575,7 @@
   {
     "id": "fc-0089",
     "questionId": "ptest-q136",
-    "module": 3,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "Type 2 not drug",
@@ -1594,7 +1594,7 @@
   {
     "id": "fc-0090",
     "questionId": "ptest-q137",
-    "module": 3,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "early menopause trabecular",
@@ -1724,7 +1724,7 @@
   {
     "id": "fc-0097",
     "questionId": "ptest-q150",
-    "module": 2,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "resorption exceeds formation",
@@ -1778,7 +1778,7 @@
   {
     "id": "fc-0100",
     "questionId": "m10-q129",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "scoliosis",
@@ -1796,7 +1796,7 @@
   {
     "id": "fc-0101",
     "questionId": "m10-q130",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "compression fracture handling",
@@ -1814,7 +1814,7 @@
   {
     "id": "fc-0102",
     "questionId": "m10-q131",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "serial comparison vertebrae",
@@ -1832,7 +1832,7 @@
   {
     "id": "fc-0103",
     "questionId": "m10-q134",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "spine followup positioning",
@@ -1868,7 +1868,7 @@
   {
     "id": "fc-0105",
     "questionId": "m10-q140",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "lateral spine use",
@@ -1885,7 +1885,7 @@
   {
     "id": "fc-0106",
     "questionId": "m10-q143",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "vertebrae number rule",
@@ -1957,7 +1957,7 @@
   {
     "id": "fc-0110",
     "questionId": "m10-q148",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "pitfalls list",
@@ -1975,7 +1975,7 @@
   {
     "id": "fc-0111",
     "questionId": "m10-q150",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "Harrington rod / hardware",
@@ -2029,7 +2029,7 @@
   {
     "id": "fc-0114",
     "questionId": "m11-q158",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "shaft parallel",
@@ -2065,7 +2065,7 @@
   {
     "id": "fc-0116",
     "questionId": "m11-q160",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "Ward's area purpose",
@@ -2083,7 +2083,7 @@
   {
     "id": "fc-0117",
     "questionId": "m11-q161",
-    "module": 11,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "ROI sites excluded from diagnosis",
@@ -2101,7 +2101,7 @@
   {
     "id": "fc-0118",
     "questionId": "m11-q162",
-    "module": 11,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "FRAX femoral neck input",
@@ -2137,7 +2137,7 @@
   {
     "id": "fc-0120",
     "questionId": "m11-q166",
-    "module": 11,
+    "module": 1,
     "category": "criteria",
     "subCategory": "",
     "topic": "AFF radiographic signs",
@@ -2173,7 +2173,7 @@
   {
     "id": "fc-0122",
     "questionId": "m11-q168",
-    "module": 11,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "AFF prodromal",
@@ -2191,7 +2191,7 @@
   {
     "id": "fc-0123",
     "questionId": "m11-q169",
-    "module": 11,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "both hips replaced",
@@ -2209,7 +2209,7 @@
   {
     "id": "fc-0124",
     "questionId": "m11-q170",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "serial hip comparison",
@@ -2407,7 +2407,7 @@
   {
     "id": "fc-0135",
     "questionId": "m12-q200",
-    "module": 12,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "forearm compensation",
@@ -2425,7 +2425,7 @@
   {
     "id": "fc-0136",
     "questionId": "m5-q207",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "cross-calibration human factor",
@@ -2442,7 +2442,7 @@
   {
     "id": "fc-0137",
     "questionId": "m5-q212",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "precision before hardware service",
@@ -2459,7 +2459,7 @@
   {
     "id": "fc-0138",
     "questionId": "m5-q214",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "different tech scanner swap",
@@ -2477,7 +2477,7 @@
   {
     "id": "fc-0139",
     "questionId": "m5-q215",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "software upgrade",
@@ -2545,7 +2545,7 @@
   {
     "id": "fc-0143",
     "questionId": "m14-q225",
-    "module": 14,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "serial scan interval",
@@ -2581,7 +2581,7 @@
   {
     "id": "fc-0145",
     "questionId": "m14-q229",
-    "module": 14,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "rapid change follow-up",
@@ -2599,7 +2599,7 @@
   {
     "id": "fc-0146",
     "questionId": "m1-q231",
-    "module": 1,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "BMMA qualifying conditions",
@@ -2635,7 +2635,7 @@
   {
     "id": "fc-0148",
     "questionId": "m1-q237",
-    "module": 1,
+    "module": 11,
     "category": "hip",
     "subCategory": "",
     "topic": "FRAX without BMD",
@@ -2652,7 +2652,7 @@
   {
     "id": "fc-0149",
     "questionId": "m1-q238",
-    "module": 1,
+    "module": 11,
     "category": "hip",
     "subCategory": "",
     "topic": "T-score conversion",
@@ -2686,7 +2686,7 @@
   {
     "id": "fc-0151",
     "questionId": "m1-q240",
-    "module": 1,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "T-score use age cutoff",
@@ -2704,7 +2704,7 @@
   {
     "id": "fc-0152",
     "questionId": "m3-q257",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "multiple myeloma",
@@ -2721,7 +2721,7 @@
   {
     "id": "fc-0153",
     "questionId": "m3-q261",
-    "module": 3,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "ankylosing spondylitis",
@@ -2738,7 +2738,7 @@
   {
     "id": "fc-0154",
     "questionId": "m1-q263",
-    "module": 1,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "WHO reference site",
@@ -2756,7 +2756,7 @@
   {
     "id": "fc-0155",
     "questionId": "web-q001",
-    "module": 1,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "WHO reference standard site",
@@ -2774,7 +2774,7 @@
   {
     "id": "fc-0156",
     "questionId": "web-q003",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "vertebrae exclusion minimum",
@@ -2792,7 +2792,7 @@
   {
     "id": "fc-0157",
     "questionId": "web-q004",
-    "module": 10,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "fewer vertebrae LSC",
@@ -2811,7 +2811,7 @@
   {
     "id": "fc-0158",
     "questionId": "web-q006",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "bilateral hip monitoring",
@@ -2867,7 +2867,7 @@
   {
     "id": "fc-0161",
     "questionId": "web-q012",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "",
     "topic": "cross-calibration hardware change",
@@ -2885,7 +2885,7 @@
   {
     "id": "fc-0162",
     "questionId": "web-q013",
-    "module": 5,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "cross-calibration different technology",
@@ -2903,7 +2903,7 @@
   {
     "id": "fc-0163",
     "questionId": "web-q014",
-    "module": 5,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "adding same-model scanner",
@@ -2922,7 +2922,7 @@
   {
     "id": "fc-0164",
     "questionId": "web-q016",
-    "module": 1,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "osteopenia terminology",
@@ -2940,7 +2940,7 @@
   {
     "id": "fc-0165",
     "questionId": "web-q017",
-    "module": 1,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "forearm ROI diagnosis",
@@ -2995,7 +2995,7 @@
   {
     "id": "fc-0168",
     "questionId": "web-q022",
-    "module": 11,
+    "module": 14,
     "category": "statistics",
     "subCategory": "",
     "topic": "Ward's area and greater trochanter",
@@ -3067,7 +3067,7 @@
   {
     "id": "fc-0172",
     "questionId": "web-q029",
-    "module": 10,
+    "module": 1,
     "category": "criteria",
     "subCategory": "",
     "topic": "TBS clinical use threshold",
@@ -3085,7 +3085,7 @@
   {
     "id": "fc-0173",
     "questionId": "web-q033",
-    "module": 8,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "FRAX BMD site",
@@ -3103,7 +3103,7 @@
   {
     "id": "fc-0174",
     "questionId": "web-q035",
-    "module": 8,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "BHOF treatment threshold",
@@ -3121,7 +3121,7 @@
   {
     "id": "fc-0175",
     "questionId": "web-q036",
-    "module": 8,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "BHOF diagnosis without BMD",
@@ -3139,7 +3139,7 @@
   {
     "id": "fc-0176",
     "questionId": "web-q037",
-    "module": 8,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "",
     "topic": "FRAX previous fracture",
@@ -3156,7 +3156,7 @@
   {
     "id": "fc-0177",
     "questionId": "web-q038",
-    "module": 8,
+    "module": 9,
     "category": "vfa",
     "subCategory": "",
     "topic": "FRAX glucocorticoid threshold",
@@ -3174,7 +3174,7 @@
   {
     "id": "fc-0178",
     "questionId": "web-q039",
-    "module": 14,
+    "module": 4,
     "category": "pharmacology",
     "subCategory": "",
     "topic": "follow-up BMD rapid change",
@@ -3210,7 +3210,7 @@
   {
     "id": "fc-0180",
     "questionId": "web-q043",
-    "module": 1,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "ARRT 2027 spec additions",
@@ -3229,7 +3229,7 @@
   {
     "id": "fc-0181",
     "questionId": "web-q044",
-    "module": 1,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "",
     "topic": "ARRT 2027 removed topics",
@@ -3390,7 +3390,7 @@
   {
     "id": "fc-0190",
     "questionId": "web-q063",
-    "module": 7,
+    "module": 12,
     "category": "forearm",
     "subCategory": "",
     "topic": "pediatric sites",
@@ -3534,7 +3534,7 @@
   {
     "id": "fc-0198",
     "questionId": "web-q089",
-    "module": 3,
+    "module": 10,
     "category": "spine",
     "subCategory": "",
     "topic": "multiple myeloma workup",
@@ -3552,7 +3552,7 @@
   {
     "id": "fc-0199",
     "questionId": "web-q090",
-    "module": 6,
+    "module": 5,
     "category": "equipment-qc",
     "subCategory": "",
     "topic": "ALARA distance",
@@ -4586,7 +4586,7 @@
   {
     "id": "fc-0257",
     "questionId": "exp-q164",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom types",
     "topic": "phantom types",
@@ -4603,7 +4603,7 @@
   {
     "id": "fc-0258",
     "questionId": "exp-q170",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "no cross-cal consequence",
     "topic": "no cross-cal established",
@@ -4637,7 +4637,7 @@
   {
     "id": "fc-0260",
     "questionId": "exp-q185",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QA vs QC difference",
     "topic": "QA vs QC",
@@ -4655,7 +4655,7 @@
   {
     "id": "fc-0261",
     "questionId": "exp-q198",
-    "module": 5,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision manufacturer vs facility",
     "topic": "manufacturer precision",
@@ -4933,7 +4933,7 @@
   {
     "id": "fc-0277",
     "questionId": "exp-q266",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF treatment thresholds",
     "topic": "BHOF thresholds",
@@ -4950,7 +4950,7 @@
   {
     "id": "fc-0278",
     "questionId": "exp-q268",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF T-score diagnostic sites",
     "topic": "BHOF T-score sites",
@@ -4968,7 +4968,7 @@
   {
     "id": "fc-0279",
     "questionId": "exp-q269",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD diagnostic T-score sites",
     "topic": "ISCD T-score sites",
@@ -4985,7 +4985,7 @@
   {
     "id": "fc-0280",
     "questionId": "exp-q270",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO reference standard",
     "topic": "WHO reference standard",
@@ -5003,7 +5003,7 @@
   {
     "id": "fc-0281",
     "questionId": "exp-q271",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "low bone mass definition",
     "topic": "low bone mass T-range",
@@ -5020,7 +5020,7 @@
   {
     "id": "fc-0282",
     "questionId": "exp-q272",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "severe osteoporosis",
     "topic": "severe osteoporosis",
@@ -5036,7 +5036,7 @@
   {
     "id": "fc-0283",
     "questionId": "exp-q284",
-    "module": 14,
+    "module": 1,
     "category": "criteria",
     "subCategory": "same scanner follow-up",
     "topic": "same scanner",
@@ -5259,7 +5259,7 @@
   {
     "id": "fc-0296",
     "questionId": "exp-q354",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "osteocyte",
     "topic": "osteocyte function",
@@ -5277,7 +5277,7 @@
   {
     "id": "fc-0297",
     "questionId": "exp-q357",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "peak bone mass",
     "topic": "peak bone mass age",
@@ -5293,7 +5293,7 @@
   {
     "id": "fc-0298",
     "questionId": "exp-q358",
-    "module": 2,
+    "module": 1,
     "category": "physiology",
     "subCategory": "menopause bone loss",
     "topic": "menopausal bone loss",
@@ -5310,7 +5310,7 @@
   {
     "id": "fc-0299",
     "questionId": "exp-q361",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "hyperparathyroidism",
     "topic": "PHPT cortical",
@@ -5376,7 +5376,7 @@
   {
     "id": "fc-0303",
     "questionId": "exp-q396",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "ankylosing spondylitis",
     "topic": "AS bone",
@@ -5460,7 +5460,7 @@
   {
     "id": "fc-0308",
     "questionId": "exp-q425",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "premenopausal osteoporosis",
     "topic": "premenopausal osteoporosis",
@@ -5614,7 +5614,7 @@
   {
     "id": "fc-0317",
     "questionId": "exp-q453",
-    "module": 3,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "juvenile idiopathic",
     "topic": "idiopathic juvenile osteoporosis",
@@ -5631,7 +5631,7 @@
   {
     "id": "fc-0318",
     "questionId": "exp-q454",
-    "module": 8,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BHOF test interval",
     "topic": "repeat testing interval",
@@ -5681,7 +5681,7 @@
   {
     "id": "fc-0321",
     "questionId": "exp-q468",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "HPT primary workup",
     "topic": "PHPT workup",
@@ -5781,7 +5781,7 @@
   {
     "id": "fc-0327",
     "questionId": "exp-q498",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "Cushing bone",
     "topic": "Cushing osteoporosis",
@@ -5926,7 +5926,7 @@
   {
     "id": "fc-0335",
     "questionId": "rr-q010",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "Medicare BMMA",
     "topic": "Bone Mass Measurement Act 1997",
@@ -5945,7 +5945,7 @@
   {
     "id": "fc-0336",
     "questionId": "rr-q011",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "Medicare BMMA",
     "topic": "BMMA 24-month rule exception",
@@ -5964,7 +5964,7 @@
   {
     "id": "fc-0337",
     "questionId": "rr-q012",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO classification",
     "topic": "severe osteoporosis",
@@ -5984,7 +5984,7 @@
   {
     "id": "fc-0338",
     "questionId": "rr-q018",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "QC testing types",
     "topic": "in vivo precision",
@@ -6004,7 +6004,7 @@
   {
     "id": "fc-0339",
     "questionId": "rr-q019",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision recalculation triggers",
     "topic": "when to recalculate LSC",
@@ -6099,7 +6099,7 @@
   {
     "id": "fc-0344",
     "questionId": "rr-q029",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA indications",
     "topic": "VFA indications list",
@@ -6118,7 +6118,7 @@
   {
     "id": "fc-0345",
     "questionId": "rr-q032",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom selection",
     "topic": "phantom types",
@@ -6137,7 +6137,7 @@
   {
     "id": "fc-0346",
     "questionId": "rr-q033",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "cross-calibration",
     "topic": "cross-calibration after scanner replacement",
@@ -6156,7 +6156,7 @@
   {
     "id": "fc-0347",
     "questionId": "rr-q034",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "manufacturer differences",
     "topic": "BMD comparison across manufacturers",
@@ -6176,7 +6176,7 @@
   {
     "id": "fc-0348",
     "questionId": "rr-q035",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "system warm-up",
     "topic": "scanner warm-up requirements",
@@ -6195,7 +6195,7 @@
   {
     "id": "fc-0349",
     "questionId": "rr-q036",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision study",
     "topic": "ISCD precision study requirements",
@@ -6215,7 +6215,7 @@
   {
     "id": "fc-0350",
     "questionId": "rr-q037",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision acceptable values",
     "topic": "ISCD acceptable precision",
@@ -6235,7 +6235,7 @@
   {
     "id": "fc-0351",
     "questionId": "rr-q038",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "precision study sites",
     "topic": "precision study site requirements",
@@ -6254,7 +6254,7 @@
   {
     "id": "fc-0352",
     "questionId": "rr-q039",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "longitudinal monitoring",
     "topic": "follow-up scan ROI matching",
@@ -6273,7 +6273,7 @@
   {
     "id": "fc-0353",
     "questionId": "rr-q041",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "ALARA",
     "topic": "ALARA principle in DXA",
@@ -6292,7 +6292,7 @@
   {
     "id": "fc-0354",
     "questionId": "rr-q045",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "patient screening",
     "topic": "pre-scan questionnaire artifacts",
@@ -6311,7 +6311,7 @@
   {
     "id": "fc-0355",
     "questionId": "rr-q046",
-    "module": 2,
+    "module": 6,
     "category": "patient-care",
     "subCategory": "patient history",
     "topic": "essential pre-scan history",
@@ -6349,7 +6349,7 @@
   {
     "id": "fc-0357",
     "questionId": "rr-q052",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "topic": "ISCD vertebral exclusion criteria",
@@ -6463,7 +6463,7 @@
   {
     "id": "fc-0363",
     "questionId": "rr-q063",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "T-score interpretation",
     "topic": "T-score lowest of valid sites",
@@ -6482,7 +6482,7 @@
   {
     "id": "fc-0364",
     "questionId": "rr-q064",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "Z-score use",
     "topic": "Z-score for premenopausal women",
@@ -6501,7 +6501,7 @@
   {
     "id": "fc-0365",
     "questionId": "rr-q065",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO classification",
     "topic": "T-score osteopenia range",
@@ -6520,7 +6520,7 @@
   {
     "id": "fc-0366",
     "questionId": "rr-q066",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX",
     "topic": "FRAX clinical use",
@@ -6539,7 +6539,7 @@
   {
     "id": "fc-0367",
     "questionId": "rr-q067",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX",
     "topic": "FRAX BMD input",
@@ -6558,7 +6558,7 @@
   {
     "id": "fc-0368",
     "questionId": "rr-q068",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "treatment thresholds",
     "topic": "BHOF treatment thresholds",
@@ -6653,7 +6653,7 @@
   {
     "id": "fc-0373",
     "questionId": "rr-q074",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring intervals",
     "topic": "follow-up DXA interval",
@@ -6672,7 +6672,7 @@
   {
     "id": "fc-0374",
     "questionId": "rr-q077",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1-L4 ROI",
     "topic": "minimum vertebrae for spine analysis",
@@ -6691,7 +6691,7 @@
   {
     "id": "fc-0375",
     "questionId": "rr-q078",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1-L4 identification",
     "topic": "L4 identification on DXA",
@@ -6710,7 +6710,7 @@
   {
     "id": "fc-0376",
     "questionId": "rr-q081",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "percent change",
     "topic": "calculate percent change",
@@ -6729,7 +6729,7 @@
   {
     "id": "fc-0377",
     "questionId": "rr-q082",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "LSC interpretation",
     "topic": "annual rate of change",
@@ -6748,7 +6748,7 @@
   {
     "id": "fc-0378",
     "questionId": "rr-q083",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "RMS-SD vs RMS-CV",
     "topic": "precision metrics",
@@ -6767,7 +6767,7 @@
   {
     "id": "fc-0379",
     "questionId": "rr-q085",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scanner failure modes",
     "topic": "X-ray tube replacement effect",
@@ -6786,7 +6786,7 @@
   {
     "id": "fc-0380",
     "questionId": "rr-q087",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "Z-score below expected",
     "topic": "Z-score interpretation premenopausal",
@@ -6805,7 +6805,7 @@
   {
     "id": "fc-0381",
     "questionId": "rr-q088",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "BMD reporting requirements",
     "topic": "ISCD report elements",
@@ -6824,7 +6824,7 @@
   {
     "id": "fc-0382",
     "questionId": "rr-q089",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA indications",
     "topic": "VFA height loss threshold",
@@ -6843,7 +6843,7 @@
   {
     "id": "fc-0383",
     "questionId": "rr-q091",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA limitations",
     "topic": "VFA visualization limitations",
@@ -6900,7 +6900,7 @@
   {
     "id": "fc-0386",
     "questionId": "rr-q105",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score discordance",
     "topic": "spine vs hip discordance",
@@ -6919,7 +6919,7 @@
   {
     "id": "fc-0387",
     "questionId": "rr-q106",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "posterior calcification",
     "topic": "aortic calcification artifact",
@@ -6938,7 +6938,7 @@
   {
     "id": "fc-0388",
     "questionId": "rr-q107",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX limitations",
     "topic": "FRAX age limits",
@@ -6957,7 +6957,7 @@
   {
     "id": "fc-0389",
     "questionId": "rr-q108",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX risk factors",
     "topic": "FRAX inputs",
@@ -7014,7 +7014,7 @@
   {
     "id": "fc-0392",
     "questionId": "rr-q116",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "shielding",
     "topic": "shielding necessity for DXA",
@@ -7033,7 +7033,7 @@
   {
     "id": "fc-0393",
     "questionId": "rr-q117",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric ISCD",
     "topic": "pediatric DXA terminology",
@@ -7052,7 +7052,7 @@
   {
     "id": "fc-0394",
     "questionId": "rr-q118",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric site selection",
     "topic": "pediatric DXA sites",
@@ -7071,7 +7071,7 @@
   {
     "id": "fc-0395",
     "questionId": "rr-q119",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric height adjustment",
     "topic": "height adjustment Z-score",
@@ -7090,7 +7090,7 @@
   {
     "id": "fc-0396",
     "questionId": "rr-q120",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "pediatric prohibited terminology",
     "topic": "no T-score in pediatrics",
@@ -7109,7 +7109,7 @@
   {
     "id": "fc-0397",
     "questionId": "rr-q121",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "longitudinal precision",
     "topic": "scanner upgrade impact",
@@ -7128,7 +7128,7 @@
   {
     "id": "fc-0398",
     "questionId": "rr-q123",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "diagnosis older men",
     "topic": "T-score in men",
@@ -7166,7 +7166,7 @@
   {
     "id": "fc-0400",
     "questionId": "rr-q129",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "extra vertebrae",
     "topic": "transitional vertebrae",
@@ -7185,7 +7185,7 @@
   {
     "id": "fc-0401",
     "questionId": "rr-q130",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD 2023 male reference",
     "topic": "uniform White female reference for men",
@@ -7244,7 +7244,7 @@
   {
     "id": "fc-0404",
     "questionId": "rr-q136",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "operator distance",
     "topic": "minimum operator distances",
@@ -7263,7 +7263,7 @@
   {
     "id": "fc-0405",
     "questionId": "rr-q137",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "discordance frequency",
     "topic": "spine-hip discordance epidemiology",
@@ -7282,7 +7282,7 @@
   {
     "id": "fc-0406",
     "questionId": "rr-q138",
-    "module": 7,
+    "module": 14,
     "category": "statistics",
     "subCategory": "precision study LSC",
     "topic": "facility LSC reporting",
@@ -7340,7 +7340,7 @@
   {
     "id": "fc-0409",
     "questionId": "rr-q141",
-    "module": 14,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "lateral distal femur",
     "topic": "LDF non-ambulatory children",
@@ -7397,7 +7397,7 @@
   {
     "id": "fc-0412",
     "questionId": "rr-q148",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "monitoring on therapy",
     "topic": "monitoring frequency on bisphosphonate",
@@ -7416,7 +7416,7 @@
   {
     "id": "fc-0413",
     "questionId": "rr-q149",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX hip threshold",
     "topic": "BHOF treatment threshold detail",
@@ -7435,7 +7435,7 @@
   {
     "id": "fc-0414",
     "questionId": "rr-q151",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "in vivo precision",
     "topic": "in vivo vs in vitro precision",
@@ -7454,7 +7454,7 @@
   {
     "id": "fc-0415",
     "questionId": "rr-q152",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "topic": "scoliosis effect on spine BMD",
@@ -7511,7 +7511,7 @@
   {
     "id": "fc-0418",
     "questionId": "rr-q155",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO severe osteoporosis",
     "topic": "WHO severe osteoporosis criteria",
@@ -7530,7 +7530,7 @@
   {
     "id": "fc-0419",
     "questionId": "rr-q157",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA glucocorticoid",
     "topic": "VFA indication glucocorticoid",
@@ -7549,7 +7549,7 @@
   {
     "id": "fc-0420",
     "questionId": "rr-q159",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "bone remodeling cycle",
     "topic": "BMU cycle phases",
@@ -7568,7 +7568,7 @@
   {
     "id": "fc-0421",
     "questionId": "rr-q160",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "RANKL pathway",
     "topic": "OPG and RANKL",
@@ -7587,7 +7587,7 @@
   {
     "id": "fc-0422",
     "questionId": "rr-q162",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "PTH primary hyperparathyroidism",
     "topic": "primary hyperparathyroidism bone effect",
@@ -7625,7 +7625,7 @@
   {
     "id": "fc-0424",
     "questionId": "rr-q165",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "topic": "max vertebrae excluded",
@@ -7663,7 +7663,7 @@
   {
     "id": "fc-0426",
     "questionId": "rr-q167",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "spine phantom verification",
     "topic": "Hologic vs Lunar phantom",
@@ -7682,7 +7682,7 @@
   {
     "id": "fc-0427",
     "questionId": "rr-q168",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "fracture exclusion",
     "topic": "fractured vertebra inclusion criteria",
@@ -7720,7 +7720,7 @@
   {
     "id": "fc-0429",
     "questionId": "rr-q172",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "secondary osteoporosis",
     "topic": "secondary causes evaluation",
@@ -7758,7 +7758,7 @@
   {
     "id": "fc-0431",
     "questionId": "rr-q183",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "PTH continuous vs intermittent",
     "topic": "intermittent vs continuous PTH",
@@ -7777,7 +7777,7 @@
   {
     "id": "fc-0432",
     "questionId": "rr-q186",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom Hologic anthropomorphic",
     "topic": "Hologic vs Lunar phantom design",
@@ -7796,7 +7796,7 @@
   {
     "id": "fc-0433",
     "questionId": "rr-q188",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "parathyroidectomy recovery",
     "topic": "BMD recovery after parathyroidectomy",
@@ -7815,7 +7815,7 @@
   {
     "id": "fc-0434",
     "questionId": "rr-q189",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "vertebral fracture diagnosis",
     "topic": "NBHA vs WHO severe",
@@ -7834,7 +7834,7 @@
   {
     "id": "fc-0435",
     "questionId": "rr-q190",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "premenopausal Z-score",
     "topic": "premenopausal terminology",
@@ -7872,7 +7872,7 @@
   {
     "id": "fc-0437",
     "questionId": "rr-q195",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "obesity DXA",
     "topic": "obesity DXA limitations",
@@ -7891,7 +7891,7 @@
   {
     "id": "fc-0438",
     "questionId": "rr-q196",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX without BMD",
     "topic": "FRAX without BMD utility",
@@ -7929,7 +7929,7 @@
   {
     "id": "fc-0440",
     "questionId": "rr-q198",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "spinal fusion exclusion",
     "topic": "lumbar fusion DXA",
@@ -7948,7 +7948,7 @@
   {
     "id": "fc-0441",
     "questionId": "rr-q199",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "phantom serial number",
     "topic": "phantom serial tracking",
@@ -7986,7 +7986,7 @@
   {
     "id": "fc-0443",
     "questionId": "rr-q201",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "33% radius alternative",
     "topic": "33% radius diagnostic role",
@@ -8005,7 +8005,7 @@
   {
     "id": "fc-0444",
     "questionId": "rr-q204",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "calibration",
     "topic": "internal calibration wheel",
@@ -8024,7 +8024,7 @@
   {
     "id": "fc-0445",
     "questionId": "rr-q205",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L1 importance",
     "topic": "L1 vertebra significance",
@@ -8043,7 +8043,7 @@
   {
     "id": "fc-0446",
     "questionId": "rr-q206",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring vs diagnosis",
     "topic": "diagnostic vs monitoring sites",
@@ -8062,7 +8062,7 @@
   {
     "id": "fc-0447",
     "questionId": "rr-q208",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "pregnancy DXA",
     "topic": "pregnancy DXA postponement",
@@ -8100,7 +8100,7 @@
   {
     "id": "fc-0449",
     "questionId": "rr-q211",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD 2023 fewer than 4 vertebrae",
     "topic": "reporting fewer than 4 vertebrae",
@@ -8119,7 +8119,7 @@
   {
     "id": "fc-0450",
     "questionId": "rr-q212",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "AFF screening DXA",
     "topic": "ISCD 2023 full femur AFF",
@@ -8157,7 +8157,7 @@
   {
     "id": "fc-0452",
     "questionId": "rr-q215",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "post-processing",
     "topic": "BMD calculation steps",
@@ -8233,7 +8233,7 @@
   {
     "id": "fc-0456",
     "questionId": "rr-q219",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral count anatomy",
     "topic": "five lumbar vertebrae standard",
@@ -8271,7 +8271,7 @@
   {
     "id": "fc-0458",
     "questionId": "rr-q222",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO origin",
     "topic": "WHO 1994 study group",
@@ -8290,7 +8290,7 @@
   {
     "id": "fc-0459",
     "questionId": "rr-q225",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "in vivo precision",
     "topic": "facility precision study",
@@ -8309,7 +8309,7 @@
   {
     "id": "fc-0460",
     "questionId": "rr-q226",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score variability",
     "topic": "individual vertebra T-score variation",
@@ -8347,7 +8347,7 @@
   {
     "id": "fc-0462",
     "questionId": "rr-q229",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring intervals",
     "topic": "screening intervals USPSTF",
@@ -8366,7 +8366,7 @@
   {
     "id": "fc-0463",
     "questionId": "rr-q230",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "ISCD pediatric long bone",
     "topic": "pediatric clinically significant fracture",
@@ -8385,7 +8385,7 @@
   {
     "id": "fc-0464",
     "questionId": "rr-q231",
-    "module": 12,
+    "module": 7,
     "category": "pediatric",
     "subCategory": "TBLH preferred site",
     "topic": "pediatric DXA preferred sites",
@@ -8404,7 +8404,7 @@
   {
     "id": "fc-0465",
     "questionId": "rr-q235",
-    "module": 8,
+    "module": 6,
     "category": "radiation-safety",
     "subCategory": "ALARA principles",
     "topic": "ALARA implementation DXA",
@@ -8461,7 +8461,7 @@
   {
     "id": "fc-0468",
     "questionId": "rr-q238",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "LSC 2.77 RMS-SD",
     "topic": "LSC formula",
@@ -8480,7 +8480,7 @@
   {
     "id": "fc-0469",
     "questionId": "rr-q239",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "VFA height threshold",
     "topic": "VFA historical height loss",
@@ -8499,7 +8499,7 @@
   {
     "id": "fc-0470",
     "questionId": "rr-q240",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "Genant grades",
     "topic": "Genant fracture grading",
@@ -8518,7 +8518,7 @@
   {
     "id": "fc-0471",
     "questionId": "rr-q241",
-    "module": 13,
+    "module": 9,
     "category": "vfa",
     "subCategory": "T4 visualization",
     "topic": "VFA limitations upper thoracic",
@@ -8537,7 +8537,7 @@
   {
     "id": "fc-0472",
     "questionId": "rr-q242",
-    "module": 5,
+    "module": 8,
     "category": "criteria",
     "subCategory": "FRAX age range",
     "topic": "FRAX validated age range",
@@ -8556,7 +8556,7 @@
   {
     "id": "fc-0473",
     "questionId": "rr-q243",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "cross-calibration",
     "topic": "scanner replacement protocol",
@@ -8613,7 +8613,7 @@
   {
     "id": "fc-0476",
     "questionId": "rr-q247",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "pediatric vertebral fracture",
     "topic": "pediatric VF diagnostic alone",
@@ -8727,7 +8727,7 @@
   {
     "id": "fc-0482",
     "questionId": "rr-q259",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis effect direction",
     "topic": "scoliosis BMD direction",
@@ -8746,7 +8746,7 @@
   {
     "id": "fc-0483",
     "questionId": "rr-q260",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "WHO categories",
     "topic": "WHO 1994 four categories",
@@ -8784,7 +8784,7 @@
   {
     "id": "fc-0485",
     "questionId": "rr-q266",
-    "module": 3,
+    "module": 1,
     "category": "physiology",
     "subCategory": "estrogen RANKL OPG",
     "topic": "estrogen mechanism on bone",
@@ -8803,7 +8803,7 @@
   {
     "id": "fc-0486",
     "questionId": "rr-q268",
-    "module": 5,
+    "module": 1,
     "category": "criteria",
     "subCategory": "monitoring frequency rapid loss",
     "topic": "follow-up DXA expected rapid loss",
@@ -8841,7 +8841,7 @@
   {
     "id": "fc-0488",
     "questionId": "rr-q271",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "TBS interpretation",
     "topic": "TBS clinical interpretation",
@@ -8860,7 +8860,7 @@
   {
     "id": "fc-0489",
     "questionId": "rr-q272",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "pediatric reference data",
     "topic": "pediatric reference databases",
@@ -8898,7 +8898,7 @@
   {
     "id": "fc-0491",
     "questionId": "rr-q275",
-    "module": 7,
+    "module": 14,
     "category": "equipment-qc",
     "subCategory": "scan analysis software updates",
     "topic": "software upgrade implications",
@@ -8917,7 +8917,7 @@
   {
     "id": "fc-0492",
     "questionId": "rr-q278",
-    "module": 14,
+    "module": 13,
     "category": "special-pop",
     "subCategory": "secondary osteoporosis women",
     "topic": "premenopausal osteoporosis evaluation",
@@ -8936,7 +8936,7 @@
   {
     "id": "fc-0493",
     "questionId": "rr-q279",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "VFA reading systems",
     "topic": "VFA reading methods",
@@ -8955,7 +8955,7 @@
   {
     "id": "fc-0494",
     "questionId": "rr-q280",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral landmarks",
     "topic": "T12 identification by lowest ribs",
@@ -8974,7 +8974,7 @@
   {
     "id": "fc-0495",
     "questionId": "rr-q282",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "ROI placement",
     "topic": "standard L1-L4 ROI",
@@ -8992,7 +8992,7 @@
   {
     "id": "fc-0496",
     "questionId": "rr-q284",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "topic": "single vertebra never",
@@ -9011,7 +9011,7 @@
   {
     "id": "fc-0497",
     "questionId": "rr-q285",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral exclusion",
     "topic": "exclude all 4 fall back",
@@ -9029,7 +9029,7 @@
   {
     "id": "fc-0498",
     "questionId": "rr-q288",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "topic": "scoliosis BMD direction",
@@ -9047,7 +9047,7 @@
   {
     "id": "fc-0499",
     "questionId": "rr-q289",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "degenerative changes",
     "topic": "osteophytes false elevation",
@@ -9065,7 +9065,7 @@
   {
     "id": "fc-0500",
     "questionId": "rr-q290",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "aortic calcification",
     "topic": "aortic calcification effect",
@@ -9083,7 +9083,7 @@
   {
     "id": "fc-0501",
     "questionId": "rr-q291",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "surgical hardware",
     "topic": "laminectomy effect",
@@ -9101,7 +9101,7 @@
   {
     "id": "fc-0502",
     "questionId": "rr-q292",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "surgical hardware",
     "topic": "spinal fusion exclusion",
@@ -9120,7 +9120,7 @@
   {
     "id": "fc-0503",
     "questionId": "rr-q294",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "intervertebral spaces",
     "topic": "obscured spaces",
@@ -9138,7 +9138,7 @@
   {
     "id": "fc-0504",
     "questionId": "rr-q295",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "fracture exclusion",
     "topic": "vertebral fracture exclusion",
@@ -9156,7 +9156,7 @@
   {
     "id": "fc-0505",
     "questionId": "rr-q296",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "reported values",
     "topic": "BMC area BMD units",
@@ -9175,7 +9175,7 @@
   {
     "id": "fc-0506",
     "questionId": "rr-q297",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score Z-score",
     "topic": "T-score reference young adult",
@@ -9194,7 +9194,7 @@
   {
     "id": "fc-0507",
     "questionId": "rr-q298",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "T-score Z-score",
     "topic": "Z-score reference age matched",
@@ -9212,7 +9212,7 @@
   {
     "id": "fc-0508",
     "questionId": "rr-q299",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "follow-up reproducibility",
     "topic": "follow-up scan reproducibility",
@@ -9230,7 +9230,7 @@
   {
     "id": "fc-0509",
     "questionId": "rr-q303",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central distinction",
     "topic": "spine as central site",
@@ -9248,7 +9248,7 @@
   {
     "id": "fc-0510",
     "questionId": "rr-q304",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO criteria",
     "topic": "spine T-score osteoporosis",
@@ -9267,7 +9267,7 @@
   {
     "id": "fc-0511",
     "questionId": "rr-q305",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO criteria",
     "topic": "spine T-score osteopenia",
@@ -9286,7 +9286,7 @@
   {
     "id": "fc-0512",
     "questionId": "rr-q306",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "lowest T-score diagnosis",
     "topic": "lowest T-score for diagnosis",
@@ -9304,7 +9304,7 @@
   {
     "id": "fc-0513",
     "questionId": "rr-q307",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "clinical context",
     "topic": "spine vs hip discordance",
@@ -9323,7 +9323,7 @@
   {
     "id": "fc-0514",
     "questionId": "rr-q308",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "low BMD report",
     "topic": "Z-score below expected range",
@@ -9342,7 +9342,7 @@
   {
     "id": "fc-0515",
     "questionId": "rr-q309",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "monitoring frequency",
     "topic": "follow-up DXA interval",
@@ -9361,7 +9361,7 @@
   {
     "id": "fc-0516",
     "questionId": "rr-q310",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient history",
     "topic": "glucocorticoid history threshold",
@@ -9379,7 +9379,7 @@
   {
     "id": "fc-0517",
     "questionId": "rr-q313",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "vertebral fracture severity",
     "topic": "vertebral fracture and severe osteoporosis",
@@ -9398,7 +9398,7 @@
   {
     "id": "fc-0518",
     "questionId": "rr-q314",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD precision",
     "topic": "T-score LSC",
@@ -9416,7 +9416,7 @@
   {
     "id": "fc-0519",
     "questionId": "rr-q315",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L5 not used",
     "topic": "L5 exclusion default",
@@ -9435,7 +9435,7 @@
   {
     "id": "fc-0520",
     "questionId": "rr-q316",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "precision study",
     "topic": "in vivo precision study spine",
@@ -9453,7 +9453,7 @@
   {
     "id": "fc-0521",
     "questionId": "rr-q319",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "patient pregnancy",
     "topic": "pregnancy verification",
@@ -9471,7 +9471,7 @@
   {
     "id": "fc-0522",
     "questionId": "rr-q320",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "WHO postmenopausal",
     "topic": "WHO validity population",
@@ -9490,7 +9490,7 @@
   {
     "id": "fc-0523",
     "questionId": "rr-q321",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central distinction",
     "topic": "central diagnostic standard",
@@ -9508,7 +9508,7 @@
   {
     "id": "fc-0524",
     "questionId": "rr-q322",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD precision per ROI",
     "topic": "spine LSC typical",
@@ -9527,7 +9527,7 @@
   {
     "id": "fc-0525",
     "questionId": "rr-q324",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "verify auto-analysis",
     "topic": "verify auto-analysis",
@@ -9545,7 +9545,7 @@
   {
     "id": "fc-0526",
     "questionId": "rr-q326",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "weight limit",
     "topic": "scanner weight limit",
@@ -9563,7 +9563,7 @@
   {
     "id": "fc-0527",
     "questionId": "rr-q456",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scoliosis",
     "topic": "mild vs severe scoliosis",
@@ -9581,7 +9581,7 @@
   {
     "id": "fc-0528",
     "questionId": "rr-q461",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "scan field",
     "topic": "scan field placement",
@@ -9599,7 +9599,7 @@
   {
     "id": "fc-0529",
     "questionId": "rr-q463",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "hardware change",
     "topic": "manufacturer change baseline",
@@ -9617,7 +9617,7 @@
   {
     "id": "fc-0530",
     "questionId": "rr-q464",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "history",
     "topic": "fragility fracture definition",
@@ -9635,7 +9635,7 @@
   {
     "id": "fc-0531",
     "questionId": "rr-q465",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "BMD report",
     "topic": "spine BMD decimal places",
@@ -9653,7 +9653,7 @@
   {
     "id": "fc-0532",
     "questionId": "rr-q467",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "L4 vertebra",
     "topic": "L4 problems with iliac crest",
@@ -9671,7 +9671,7 @@
   {
     "id": "fc-0533",
     "questionId": "rr-q468",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "compression history",
     "topic": "sudden height loss",
@@ -9689,7 +9689,7 @@
   {
     "id": "fc-0534",
     "questionId": "rr-q473",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "premenopausal",
     "topic": "premenopausal Z-score below expected",
@@ -9708,7 +9708,7 @@
   {
     "id": "fc-0535",
     "questionId": "rr-q474",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "clinical significance",
     "topic": "vertebral fracture severe osteoporosis",
@@ -9727,7 +9727,7 @@
   {
     "id": "fc-0536",
     "questionId": "rr-q477",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "lateral tilt",
     "topic": "lateral spine for monitoring only",
@@ -9745,7 +9745,7 @@
   {
     "id": "fc-0537",
     "questionId": "rr-q478",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "FRAX limitation",
     "topic": "FRAX no spine BMD",
@@ -9763,7 +9763,7 @@
   {
     "id": "fc-0538",
     "questionId": "rr-q479",
-    "module": 9,
+    "module": 10,
     "category": "spine",
     "subCategory": "central diagnosis",
     "topic": "central DXA standard",
@@ -10716,7 +10716,7 @@
   {
     "id": "fc-0590",
     "questionId": "rr-q381",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "diagnostic ROI",
     "topic": "33% radius diagnostic",
@@ -10734,7 +10734,7 @@
   {
     "id": "fc-0591",
     "questionId": "rr-q383",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "indications",
     "topic": "ISCD forearm indications",
@@ -10752,7 +10752,7 @@
   {
     "id": "fc-0592",
     "questionId": "rr-q384",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "hyperparathyroidism",
     "topic": "PHPT cortical loss",
@@ -10771,7 +10771,7 @@
   {
     "id": "fc-0593",
     "questionId": "rr-q385",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO criteria",
     "topic": "WHO at 33% radius",
@@ -10789,7 +10789,7 @@
   {
     "id": "fc-0594",
     "questionId": "rr-q387",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "ROI types",
     "topic": "forearm ROI list",
@@ -10807,7 +10807,7 @@
   {
     "id": "fc-0595",
     "questionId": "rr-q389",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "positioning Hologic",
     "topic": "Hologic forearm seated supine",
@@ -10825,7 +10825,7 @@
   {
     "id": "fc-0596",
     "questionId": "rr-q391",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "adjacent structures",
     "topic": "carpal bones soft tissue",
@@ -10843,7 +10843,7 @@
   {
     "id": "fc-0597",
     "questionId": "rr-q394",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "33% radius cortical",
     "topic": "33% radius cortical fraction",
@@ -10861,7 +10861,7 @@
   {
     "id": "fc-0598",
     "questionId": "rr-q395",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "topic": "forearm reproducibility critical",
@@ -10879,7 +10879,7 @@
   {
     "id": "fc-0599",
     "questionId": "rr-q396",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "low BMD",
     "topic": "forearm low BMD edge",
@@ -10897,7 +10897,7 @@
   {
     "id": "fc-0600",
     "questionId": "rr-q397",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "obese patient forearm",
     "topic": "forearm bypass body habitus",
@@ -10916,7 +10916,7 @@
   {
     "id": "fc-0601",
     "questionId": "rr-q398",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "precision",
     "topic": "forearm precision technologist",
@@ -10934,7 +10934,7 @@
   {
     "id": "fc-0602",
     "questionId": "rr-q399",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT clinical",
     "topic": "PHPT post-PTX recovery",
@@ -10953,7 +10953,7 @@
   {
     "id": "fc-0603",
     "questionId": "rr-q400",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "NHANES",
     "topic": "forearm reference Hologic NHANES",
@@ -10971,7 +10971,7 @@
   {
     "id": "fc-0604",
     "questionId": "rr-q402",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "technologist judgment",
     "topic": "forearm fracture history",
@@ -10988,7 +10988,7 @@
   {
     "id": "fc-0605",
     "questionId": "rr-q403",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT management",
     "topic": "PHPT spine 33% pattern",
@@ -11006,7 +11006,7 @@
   {
     "id": "fc-0606",
     "questionId": "rr-q405",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "jewelry",
     "topic": "forearm jewelry artifact",
@@ -11024,7 +11024,7 @@
   {
     "id": "fc-0607",
     "questionId": "rr-q407",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "FRAX limitation",
     "topic": "FRAX no forearm BMD",
@@ -11042,7 +11042,7 @@
   {
     "id": "fc-0608",
     "questionId": "rr-q408",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO postmenopausal",
     "topic": "WHO 33% radius postmenopausal",
@@ -11061,7 +11061,7 @@
   {
     "id": "fc-0609",
     "questionId": "rr-q409",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reported values",
     "topic": "forearm decimal places",
@@ -11079,7 +11079,7 @@
   {
     "id": "fc-0610",
     "questionId": "rr-q410",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radiation dose",
     "topic": "forearm DXA dose",
@@ -11097,7 +11097,7 @@
   {
     "id": "fc-0611",
     "questionId": "rr-q412",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central distinction",
     "topic": "forearm vs peripheral",
@@ -11115,7 +11115,7 @@
   {
     "id": "fc-0612",
     "questionId": "rr-q413",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "low BMD edge",
     "topic": "thin patient forearm",
@@ -11133,7 +11133,7 @@
   {
     "id": "fc-0613",
     "questionId": "rr-q414",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "manual ROI verification",
     "topic": "verify forearm ROI",
@@ -11151,7 +11151,7 @@
   {
     "id": "fc-0614",
     "questionId": "rr-q415",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compare prior",
     "topic": "compare prior forearm",
@@ -11169,7 +11169,7 @@
   {
     "id": "fc-0615",
     "questionId": "rr-q417",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "pediatric forearm",
     "topic": "pediatric forearm secondary",
@@ -11187,7 +11187,7 @@
   {
     "id": "fc-0616",
     "questionId": "rr-q419",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO criteria",
     "topic": "WHO at radius normal",
@@ -11206,7 +11206,7 @@
   {
     "id": "fc-0617",
     "questionId": "rr-q420",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compensate body habitus",
     "topic": "forearm always work obese",
@@ -11224,7 +11224,7 @@
   {
     "id": "fc-0618",
     "questionId": "rr-q421",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "patient history",
     "topic": "forearm history fracture",
@@ -11242,7 +11242,7 @@
   {
     "id": "fc-0619",
     "questionId": "rr-q423",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "topic": "forearm follow-up same arm",
@@ -11260,7 +11260,7 @@
   {
     "id": "fc-0620",
     "questionId": "rr-q424",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "weight limit",
     "topic": "forearm exceeds central limit",
@@ -11278,7 +11278,7 @@
   {
     "id": "fc-0621",
     "questionId": "rr-q425",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "variant anatomy",
     "topic": "forearm short radius",
@@ -11296,7 +11296,7 @@
   {
     "id": "fc-0622",
     "questionId": "rr-q427",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central diagnostic order",
     "topic": "diagnostic site priority",
@@ -11314,7 +11314,7 @@
   {
     "id": "fc-0623",
     "questionId": "rr-q429",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "distal vs 33%",
     "topic": "ultradistal trabecular",
@@ -11332,7 +11332,7 @@
   {
     "id": "fc-0624",
     "questionId": "rr-q505",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radius cortical",
     "topic": "33% radius cortical",
@@ -11350,7 +11350,7 @@
   {
     "id": "fc-0625",
     "questionId": "rr-q506",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "reproducibility",
     "topic": "forearm reproducibility",
@@ -11368,7 +11368,7 @@
   {
     "id": "fc-0626",
     "questionId": "rr-q508",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "obese alternative",
     "topic": "obese forearm alternative",
@@ -11386,7 +11386,7 @@
   {
     "id": "fc-0627",
     "questionId": "rr-q509",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "precision",
     "topic": "forearm precision technologist",
@@ -11404,7 +11404,7 @@
   {
     "id": "fc-0628",
     "questionId": "rr-q510",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT",
     "topic": "PHPT post-PTX recovery",
@@ -11423,7 +11423,7 @@
   {
     "id": "fc-0629",
     "questionId": "rr-q511",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "NHANES reference",
     "topic": "forearm NHANES reference",
@@ -11441,7 +11441,7 @@
   {
     "id": "fc-0630",
     "questionId": "rr-q514",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "PHPT pattern",
     "topic": "PHPT DXA pattern",
@@ -11459,7 +11459,7 @@
   {
     "id": "fc-0631",
     "questionId": "rr-q516",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "jewelry",
     "topic": "forearm jewelry removal",
@@ -11477,7 +11477,7 @@
   {
     "id": "fc-0632",
     "questionId": "rr-q518",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "FRAX",
     "topic": "FRAX no forearm BMD",
@@ -11495,7 +11495,7 @@
   {
     "id": "fc-0633",
     "questionId": "rr-q519",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "WHO normal",
     "topic": "WHO at 33% normal",
@@ -11514,7 +11514,7 @@
   {
     "id": "fc-0634",
     "questionId": "rr-q520",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "BMD report",
     "topic": "forearm decimal places",
@@ -11532,7 +11532,7 @@
   {
     "id": "fc-0635",
     "questionId": "rr-q521",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "radiation",
     "topic": "forearm dose",
@@ -11550,7 +11550,7 @@
   {
     "id": "fc-0636",
     "questionId": "rr-q523",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "central distinction",
     "topic": "forearm central equivalent",
@@ -11568,7 +11568,7 @@
   {
     "id": "fc-0637",
     "questionId": "rr-q524",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "thin patient",
     "topic": "thin forearm scan",
@@ -11586,7 +11586,7 @@
   {
     "id": "fc-0638",
     "questionId": "rr-q525",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "manual ROI",
     "topic": "verify forearm ROI",
@@ -11604,7 +11604,7 @@
   {
     "id": "fc-0639",
     "questionId": "rr-q526",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "compare prior",
     "topic": "compare prior forearm",
@@ -11622,7 +11622,7 @@
   {
     "id": "fc-0640",
     "questionId": "rr-q528",
-    "module": 10,
+    "module": 12,
     "category": "forearm",
     "subCategory": "pediatric",
     "topic": "pediatric forearm secondary",
@@ -11640,7 +11640,7 @@
   {
     "id": "fc-0641",
     "questionId": "rr-q430",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "definition",
     "topic": "VFA purpose",
@@ -11658,7 +11658,7 @@
   {
     "id": "fc-0642",
     "questionId": "rr-q431",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "indications",
     "topic": "VFA height loss indication",
@@ -11676,7 +11676,7 @@
   {
     "id": "fc-0643",
     "questionId": "rr-q432",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "indications",
     "topic": "VFA glucocorticoid",
@@ -11694,7 +11694,7 @@
   {
     "id": "fc-0644",
     "questionId": "rr-q433",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "topic": "Genant Grade 1 mild",
@@ -11712,7 +11712,7 @@
   {
     "id": "fc-0645",
     "questionId": "rr-q435",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "Genant grading",
     "topic": "Genant Grade 3 severe",
@@ -11730,7 +11730,7 @@
   {
     "id": "fc-0646",
     "questionId": "rr-q437",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "location pattern",
     "topic": "thoracolumbar junction",
@@ -11748,7 +11748,7 @@
   {
     "id": "fc-0647",
     "questionId": "rr-q440",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "radiation dose",
     "topic": "VFA vs lateral X-ray dose",
@@ -11766,7 +11766,7 @@
   {
     "id": "fc-0648",
     "questionId": "rr-q442",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "reporting",
     "topic": "VFA report content",
@@ -11784,7 +11784,7 @@
   {
     "id": "fc-0649",
     "questionId": "rr-q443",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "clinical significance",
     "topic": "VFA fracture clinical",
@@ -11802,7 +11802,7 @@
   {
     "id": "fc-0650",
     "questionId": "rr-q444",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "identification",
     "topic": "VFA labeling",
@@ -11820,7 +11820,7 @@
   {
     "id": "fc-0651",
     "questionId": "rr-q448",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "compare prior",
     "topic": "VFA follow-up",
@@ -11838,7 +11838,7 @@
   {
     "id": "fc-0652",
     "questionId": "rr-q450",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "VFA technologist",
     "topic": "VFA scope distinguishing",
@@ -11856,7 +11856,7 @@
   {
     "id": "fc-0653",
     "questionId": "rr-q452",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "clinical context",
     "topic": "VFA adds to BMD",
@@ -11874,7 +11874,7 @@
   {
     "id": "fc-0654",
     "questionId": "rr-q453",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "wedge anterior",
     "topic": "wedge anterior height loss",
@@ -11892,7 +11892,7 @@
   {
     "id": "fc-0655",
     "questionId": "rr-q454",
-    "module": 12,
+    "module": 9,
     "category": "vfa",
     "subCategory": "biconcave",
     "topic": "biconcave mid-vertebral",
