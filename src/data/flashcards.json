@@ -7351,5 +7351,304 @@
       "BMMA",
       "23-month"
     ]
+  },
+  {
+    "id": "fc-rr-s5-001",
+    "question_id": "rr-s5-001",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Bisphosphonate mechanism inhibit osteoclast",
+    "front": "Which of the following best describes the primary mechanism of action for bisphosphonates?",
+    "back": "Inhibit osteoclast-mediated bone resorption\n\nBisphosphonates bind to bone mineral (hydroxyapatite) and disrupt the function and survival of osteoclasts, the cells responsible for bone resorption. Nitrogen-containing bisphosphonates specifically inhibit osteoclast farnesyl pyrophosphate synthase. This shifts the remodeling balance toward formation and modestly increases BMD.",
+    "source": "FDA Prescribing Information for Bisphosphonates",
+    "tags": [
+      "pharmacology",
+      "bisphosphonate",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-002",
+    "question_id": "rr-s5-002",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Denosumab targets RANKL",
+    "front": "Denosumab (Prolia) reduces bone resorption by targeting and neutralizing which of the following?",
+    "back": "RANK ligand (RANKL)\n\nDenosumab is a monoclonal antibody that intercepts RANKL, a crucial cytokine required for the maturation, function, and survival of osteoclasts. Binding RANKL prevents activation of RANK receptors on osteoclast precursors. Sclerostin is the romosozumab target. Raloxifene modulates estrogen receptors. No osteoporosis drug directly targets PTH.",
+    "source": "FDA Prescribing Information for Prolia",
+    "tags": [
+      "pharmacology",
+      "denosumab",
+      "RANKL"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-003",
+    "question_id": "rr-s5-003",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Raloxifene vertebral only",
+    "front": "Clinical trials have demonstrated that the SERM raloxifene (Evista) is effective in reducing the risk of which specific fracture type?",
+    "back": "Vertebral fractures\n\nData from the MORE trial demonstrate raloxifene reduces vertebral fracture risk by 30 to 50 percent in postmenopausal osteoporosis. It has NOT shown statistically significant risk reduction for hip or other non-vertebral fractures. This vertebral-only profile distinguishes raloxifene from bisphosphonates and is a common exam point.",
+    "source": "MORE Trial (Ettinger 1999); FDA Prescribing Information for Evista",
+    "tags": [
+      "pharmacology",
+      "raloxifene",
+      "vertebral"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-004",
+    "question_id": "rr-s5-004",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Teriparatide anabolic classification",
+    "front": "Which of the following osteoporosis medications is classified as an anabolic agent?",
+    "back": "Teriparatide\n\nTeriparatide is a recombinant PTH(1-34) analog that actively stimulates osteoblasts to build new bone, unlike the other options which are all antiresorptive. Abaloparatide (a PTHrP analog) is also anabolic. Romosozumab is dual-action (anabolic plus antiresorptive). Intermittent daily PTH dosing is anabolic; continuous PTH excess (as in hyperparathyroidism) is catabolic.",
+    "source": "FDA Prescribing Information for Forteo; ASBMR drug classification",
+    "tags": [
+      "pharmacology",
+      "teriparatide",
+      "anabolic"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-005",
+    "question_id": "rr-s5-005",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Bisphosphonate renal contraindication 35 mL/min",
+    "front": "A patient with severe renal impairment presents for a DXA scan. Bisphosphonates are generally contraindicated when the patient's creatinine clearance falls below what threshold?",
+    "back": "35 mL/min\n\nBisphosphonates are renally cleared and contraindicated when creatinine clearance falls below 35 mL/min due to the risk of toxic accumulation, acute kidney injury, and severe hypocalcemia. This 35 mL/min threshold is specified across alendronate, risedronate, ibandronate, and zoledronic acid labels. Denosumab does not require renal dose adjustment but carries a January 2024 boxed warning for severe hypocalcemia in advanced CKD.",
+    "source": "FDA Prescribing Information for Bisphosphonates; ISCD Guidelines",
+    "tags": [
+      "pharmacology",
+      "renal",
+      "contraindication"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-006",
+    "question_id": "rr-s5-006",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Raloxifene VTE risk",
+    "front": "What is a recognized, potentially severe side effect associated with raloxifene (Evista)?",
+    "back": "Deep vein thrombosis\n\nRaloxifene carries a boxed warning for venous thromboembolism (DVT, PE) and increased death due to stroke in women at risk. Because raloxifene modulates estrogen receptors, it carries a vascular and blood-clotting risk profile similar to traditional systemic hormone replacement therapy. Atypical femoral fractures and ONJ are bisphosphonate or denosumab risks. Esophageal irritation is an oral bisphosphonate concern.",
+    "source": "FDA Prescribing Information for Evista; RUTH Trial cardiovascular safety",
+    "tags": [
+      "pharmacology",
+      "raloxifene",
+      "VTE"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-007",
+    "question_id": "rr-s5-007",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Denosumab subcutaneous every 6 months",
+    "front": "Which of the following best describes the standard dosing schedule and route for denosumab?",
+    "back": "Biannual subcutaneous injection\n\nDenosumab for osteoporosis is administered by a healthcare professional as a 60 mg subcutaneous injection every 6 months (biannually), typically into the upper arm, thigh, or abdomen. Patients should take calcium and vitamin D throughout therapy. Discontinuation requires sequential antiresorptive therapy (typically bisphosphonate) to prevent rebound vertebral fractures.",
+    "source": "FDA Prescribing Information for Prolia",
+    "tags": [
+      "pharmacology",
+      "denosumab",
+      "dosing"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-008",
+    "question_id": "rr-s5-008",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Bisphosphonate skeletal half-life",
+    "front": "Which medication is known to have an exceptionally long skeletal half-life, remaining in the bone matrix for years after discontinuation?",
+    "back": "Zoledronic acid\n\nAll bisphosphonates including zoledronic acid bind tightly to hydroxyapatite crystals, creating a skeletal reservoir that lasts over 10 years after the last dose. This long retention underlies the drug holiday concept after 3 to 5 years of therapy. SERMs (raloxifene) and biologics (abaloparatide, romosozumab) do not bind bone mineral and dissipate within weeks to months of discontinuation.",
+    "source": "FDA Prescribing Information for Reclast; ASBMR drug holiday position",
+    "tags": [
+      "pharmacology",
+      "bisphosphonate",
+      "half-life"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-009",
+    "question_id": "rr-s5-009",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Teriparatide 2020 FDA label update",
+    "front": "In 2020, the FDA updated the prescribing information for teriparatide (Forteo). Which of the following statements reflects this current labeling?",
+    "back": "The boxed warning for osteosarcoma and the 24-month lifetime limit were removed.\n\nIn November 2020, the FDA removed the boxed warning for osteosarcoma AND the strict 24-month lifetime maximum duration for teriparatide. The removal was based on 18 years of post-market surveillance showing no increased osteosarcoma signal in humans. Caution is still warranted in patients with baseline osteosarcoma risk factors (Paget disease, prior skeletal radiation, open epiphyses). Older study materials referencing the 24-month cap are outdated.",
+    "source": "FDA Label Update, Forteo, November 2020",
+    "tags": [
+      "pharmacology",
+      "teriparatide",
+      "label-update"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-010",
+    "question_id": "rr-s5-010",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Calcitonin acute vertebral pain",
+    "front": "What is a unique secondary clinical benefit often associated with calcitonin nasal spray?",
+    "back": "Relief of acute vertebral pain\n\nCalcitonin is a weak antiresorptive, but it is frequently prescribed for its notable analgesic effect following a recent vertebral compression fracture. It has limited fracture reduction efficacy (modest vertebral only, no proven hip benefit) and is no longer first-line for osteoporosis treatment. Regulatory reviews identified a possible small cancer signal with long-term use.",
+    "source": "ACR Guidelines for Osteoporosis; Miacalcin FDA label",
+    "tags": [
+      "pharmacology",
+      "calcitonin",
+      "analgesic"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-011",
+    "question_id": "rr-s5-011",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Denosumab rebound vertebral fractures",
+    "front": "A patient abruptly stops their denosumab treatment. What is the most immediate clinical concern?",
+    "back": "Rapid bone loss and fracture risk\n\nBecause denosumab does not embed in the bone matrix, stopping it leads to a rapid resurgence of osteoclast activity. This rebound effect is specifically associated with a high risk of MULTIPLE vertebral fractures within months of discontinuation. ASBMR strongly recommends transitioning patients to a bisphosphonate (typically oral alendronate or IV zoledronic acid) rather than simple discontinuation.",
+    "source": "ASBMR Guidelines on Denosumab Discontinuation 2017",
+    "tags": [
+      "pharmacology",
+      "denosumab",
+      "rebound"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-012",
+    "question_id": "rr-s5-012",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Romosozumab sclerostin inhibitor",
+    "front": "Romosozumab (Evenity) is unique because it promotes bone formation and decreases bone resorption by inhibiting:",
+    "back": "Sclerostin\n\nRomosozumab is a humanized monoclonal antibody that blocks sclerostin, a glycoprotein produced by osteocytes that normally suppresses bone growth. Inhibiting sclerostin removes the brake on osteoblasts (anabolic effect) while also reducing osteoclast activity (antiresorptive effect). This dual action is unique to romosozumab. Cathepsin K inhibitors were investigational and not approved for osteoporosis.",
+    "source": "FDA Prescribing Information for Evenity; FRAME and ARCH trials",
+    "tags": [
+      "pharmacology",
+      "romosozumab",
+      "sclerostin"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-013",
+    "question_id": "rr-s5-013",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Alendronate oral administration",
+    "front": "Which of the following patient instructions is mandatory for the oral administration of alendronate?",
+    "back": "Take fasting and remain upright\n\nOral bisphosphonates like alendronate have extremely poor absorption (under 1 percent) and are highly irritating to the esophagus. Patient must take on empty stomach with 6 to 8 oz plain water, then remain upright (sit or stand) for at least 30 minutes to use gravity to protect the esophagus. Food, calcium, and antacids bind bisphosphonates and prevent absorption. Ibandronate requires 60 minutes upright.",
+    "source": "FDA Prescribing Information for Fosamax",
+    "tags": [
+      "pharmacology",
+      "alendronate",
+      "administration"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-014",
+    "question_id": "rr-s5-014",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Drug holiday bisphosphonate specific",
+    "front": "A planned interruption of therapy, often referred to as a 'drug holiday,' is considered standard clinical practice for which specific scenario?",
+    "back": "After 3 to 5 years of oral bisphosphonate therapy\n\nDrug holidays apply specifically to bisphosphonates because their long skeletal half-life (over 10 years) allows residual benefit after stopping. ASBMR suggests considering a holiday after 3 to 5 years of oral or 3 years of IV bisphosphonate in low-risk patients to reduce atypical femoral fracture risk. Denosumab does NOT get a holiday (rebound vertebral fracture risk). Anabolic agents require sequential antiresorptive, not a holiday.",
+    "source": "ASBMR Task Force on Bisphosphonate Drug Holidays 2016 and 2019",
+    "tags": [
+      "pharmacology",
+      "drug-holiday",
+      "bisphosphonate"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-015",
+    "question_id": "rr-s5-015",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "ONJ bisphosphonate association",
+    "front": "Osteonecrosis of the jaw (ONJ) is a rare but serious adverse event most closely associated with the long-term use of:",
+    "back": "Bisphosphonates\n\nONJ is primarily linked to high doses or prolonged duration of potent antiresorptives, including bisphosphonates and denosumab. Risk is much higher in cancer-dose use (Zometa, Xgeva) than osteoporosis-dose use (Reclast, Prolia). Invasive dental work significantly increases risk. Patients should complete major dental procedures before starting therapy when possible. Anabolic agents, SERMs, and calcitonin are not associated with ONJ.",
+    "source": "AAOMS Position Paper on Medication-Related Osteonecrosis of the Jaw",
+    "tags": [
+      "pharmacology",
+      "ONJ",
+      "bisphosphonate"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-016",
+    "question_id": "rr-s5-016",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Romosozumab CV boxed warning",
+    "front": "Romosozumab carries a boxed warning that restricts its use in patients with a recent history of what specific condition?",
+    "back": "Myocardial infarction or stroke\n\nRomosozumab carries a boxed warning indicating it should NOT be initiated in patients who have had a myocardial infarction or stroke within the preceding year, based on cardiovascular signal observed in the ARCH trial. Risk-benefit balance must be weighed in patients with significant cardiovascular risk factors.",
+    "source": "FDA Prescribing Information for Evenity; ARCH Trial 2017",
+    "tags": [
+      "pharmacology",
+      "romosozumab",
+      "CV-warning"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-017",
+    "question_id": "rr-s5-017",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Anabolic must be followed by antiresorptive",
+    "front": "To prevent the rapid loss of newly formed bone, an anabolic agent like abaloparatide must be immediately followed by which type of therapy?",
+    "back": "An antiresorptive agent\n\nBone mass gained during anabolic therapy (teriparatide, abaloparatide, romosozumab) is quickly lost once the drug is stopped. Clinical guidelines mandate immediate follow-up with an antiresorptive (bisphosphonate or denosumab) to preserve the gains. The anabolic-then-antiresorptive sequence is standard practice in severe osteoporosis. Prior antiresorptive use blunts the anabolic response, so sequence matters.",
+    "source": "Endocrine Society Clinical Practice Guidelines on Pharmacologic Management",
+    "tags": [
+      "pharmacology",
+      "sequential-therapy"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-018",
+    "question_id": "rr-s5-018",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Zoledronic acid acute phase reaction",
+    "front": "Which adverse event is commonly experienced by patients within 24 to 72 hours after their first intravenous infusion of zoledronic acid?",
+    "back": "Acute phase reaction with flu-like symptoms\n\nApproximately 25 percent of patients experience an acute phase reaction characterized by fever, myalgia, arthralgia, and flu-like symptoms within 24 to 72 hours of the first zoledronic acid infusion. Symptoms typically resolve within 4 days and are much less common with subsequent annual infusions. Pre-infusion hydration and post-infusion acetaminophen reduce severity. Bisphosphonates cause hypocalcemia not hypercalcemia, and atypical femur fractures occur after years of use, not acutely.",
+    "source": "FDA Prescribing Information for Reclast",
+    "tags": [
+      "pharmacology",
+      "zoledronic-acid",
+      "acute-phase-reaction"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-019",
+    "question_id": "rr-s5-019",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Estrogen therapy current indication",
+    "front": "According to current clinical guidelines, when is systemic estrogen therapy most appropriately utilized for the prevention of osteoporosis?",
+    "back": "In recently menopausal women at high fracture risk experiencing menopausal symptoms\n\nFollowing WHI 2002 findings of increased stroke, breast cancer, and thromboembolic risk with combined hormone therapy, estrogen is no longer first-line for osteoporosis prevention alone. Per NAMS 2022, hormone therapy is most appropriate for recently menopausal women (within 10 years of menopause or under age 60) who have high fracture risk AND are concurrently seeking relief from vasomotor menopausal symptoms. Women with an intact uterus require estrogen plus progestin (not estrogen alone).",
+    "source": "NAMS 2022 Position Statement on Hormone Therapy; WHI 2002",
+    "tags": [
+      "pharmacology",
+      "estrogen-therapy",
+      "WHI"
+    ]
+  },
+  {
+    "id": "fc-rr-s5-020",
+    "question_id": "rr-s5-020",
+    "category": "pharmacology",
+    "module": 4,
+    "topic": "Teriparatide and abaloparatide PTH receptor",
+    "front": "Abaloparatide (Tymlos) and teriparatide (Forteo) both stimulate bone formation by acting on the same receptor. What naturally occurring hormone do these drugs mimic?",
+    "back": "Parathyroid hormone\n\nBoth abaloparatide and teriparatide bind the PTH1 receptor on osteoblasts to stimulate bone formation. Teriparatide is recombinant PTH(1-34) and mimics parathyroid hormone directly. Abaloparatide is technically a PTHrP(1-34) analog (parathyroid hormone-related peptide), but PTH and PTHrP share the same PTH1 receptor target, which is why both drugs work through the same pathway. Intermittent daily dosing is anabolic; continuous PTH excess is catabolic.",
+    "source": "FDA Prescribing Information for Tymlos and Forteo",
+    "tags": [
+      "pharmacology",
+      "PTH-receptor",
+      "mechanism"
+    ]
   }
 ]
