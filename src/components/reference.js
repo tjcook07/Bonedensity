@@ -34,8 +34,8 @@ const CONTENT = {
     <div class="card mb-4">
       ${kv([
         ['BMD', 'BMC / Area (g/cm²)'],
-        ['T score', '(measured BMD − young adult mean) / young adult SD<div class="text-xs text-bone-300 mt-1 font-body">Hip: NHANES III White female reference for all patients. Spine: manufacturer young-adult reference.</div>'],
-        ['Z score', '(measured BMD − age/sex/ethnicity matched mean) / matched SD'],
+        ['T score', '(measured BMD − young adult mean) / young adult SD<div class="text-xs text-bone-300 mt-1 font-body">Used for postmenopausal women and men age 50+. Compares the patient\'s BMD against a healthy 30-year-old at peak bone mass to quantify total bone loss.<br/>Hip: NHANES III White female reference for all patients. Spine: manufacturer young-adult reference.</div>'],
+        ['Z score', '(measured BMD − age/sex/ethnicity matched mean) / matched SD<div class="text-xs text-bone-300 mt-1 font-body">Used for premenopausal women, men under 50, and children. Compares BMD against an age-, sex-, and ethnicity-matched reference population.</div>'],
         ['LSC (95% confidence, serial)', '2.77 × precision error'],
         ['LSC (80% confidence, serial)', '1.81 × precision error'],
         ['LSC (single vs fixed reference)', '1.96 × precision error'],
