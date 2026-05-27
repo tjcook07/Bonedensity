@@ -26,7 +26,6 @@ function defaultFilters() {
   return {
     categories: [...ALL_CATEGORIES],
     types: ['multiple_choice', 'true_false'],
-    highYieldOnly: false,
     count: 25,
     mode: 'study',
     order: 'random'
@@ -44,7 +43,6 @@ function loadFilters() {
         ? parsed.categories.filter(c => ALL_CATEGORIES.includes(c))
         : fallback.categories,
       types: Array.isArray(parsed.types) && parsed.types.length ? parsed.types : fallback.types,
-      highYieldOnly: parsed.highYieldOnly === true,
       count: clampCount(parsed.count ?? fallback.count),
       mode: parsed.mode === 'test' ? 'test' : 'study',
       order: parsed.order === 'category' ? 'category' : 'random'
@@ -69,8 +67,7 @@ function applyFilters(state) {
   const types = new Set(state.types);
   return questions.filter(q =>
     cats.has(q.category) &&
-    types.has(q.type) &&
-    (!state.highYieldOnly || q.highYield === true)
+    types.has(q.type)
   );
 }
 
@@ -165,11 +162,6 @@ function buildBody(state) {
     </div>
 
     <div class="card mb-4">
-      <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Source</div>
-      ${checkbox('high-yield', 'High-yield only', state.highYieldOnly)}
-    </div>
-
-    <div class="card mb-4">
       <div class="flex items-center justify-between mb-2">
         <div class="text-bone-300 text-xs uppercase tracking-widest">Count</div>
         <div class="font-mono text-accent-amber text-lg" id="count-display">${state.count}</div>
@@ -259,14 +251,6 @@ function attachHandlers(container, state) {
       rerender(container, state);
     });
   }
-
-  // High-yield checkbox
-  const hy = container.querySelector('#high-yield');
-  if (hy) hy.addEventListener('change', () => {
-    state.highYieldOnly = hy.checked;
-    saveFilters(state);
-    refreshMatchLine(container, state);
-  });
 
   // Count slider
   const slider = container.querySelector('#count-slider');
