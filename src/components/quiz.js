@@ -67,13 +67,11 @@ async function runner(container, key) {
     const q = quiz[state.index];
     const isTF = q.type === 'true_false';
     const prefixLabels = isTF ? ['T', 'F'] : ['A', 'B', 'C', 'D', 'E', 'F'];
-    const chips = `
+    const chips = mode === 'test' ? `
       <div class="flex flex-wrap gap-2 text-xs mb-3">
-        <span class="chip-muted">Mod ${q.module}</span>
-        ${q.topic ? `<span class="chip-muted">${q.topic}</span>` : ''}
-        ${mode === 'test' ? `<span class="chip-muted">test mode</span>` : ''}
+        <span class="chip-muted">test mode</span>
       </div>
-    `;
+    ` : '';
     const opts = q.options.map((o, i) => `
       <button class="answer-option" data-opt="${i}">
         <span class="font-mono text-accent-amber mr-2">${prefixLabels[i] || (i + 1)}</span>${o}
