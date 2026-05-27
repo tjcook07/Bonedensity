@@ -973,7 +973,7 @@
     "module": 4,
     "topic": "Bisphosphonate skeletal half-life",
     "front": "What is the biological half-life of most bisphosphonates in human bone?",
-    "back": "Greater than 10 years\n\nBisphosphonates bind strongly to hydroxyapatite in bone mineral and can persist in the skeleton for over 10 years after the last dose. This long skeletal half-life is the basis for the 'drug holiday' concept after 3-5 years of bisphosphonate therapy in low-risk patients. Denosumab in contrast has no skeletal retention and requires uninterrupted dosing.",
+    "back": "Over 10 years\n\nBisphosphonates bind strongly to hydroxyapatite in bone mineral and can persist in the skeleton for over 10 years after the last dose. This long skeletal half-life is the basis for the 'drug holiday' concept after 3-5 years of bisphosphonate therapy in low-risk patients. Denosumab in contrast has no skeletal retention and requires uninterrupted dosing.",
     "source": "FDA bisphosphonate labels; ASBMR drug holiday position",
     "tags": [
       "pharmacology",
@@ -3060,7 +3060,7 @@
     "module": 10,
     "topic": "Standard L1-L4 spine ROI",
     "front": "What is the standard diagnostic ROI in a lumbar spine DXA?",
-    "back": "L1-L4 (all four lumbar vertebrae)\n\nL1-L4 is the ISCD standard diagnostic ROI for lumbar spine DXA. All four lumbar vertebrae are included, with individual vertebrae excluded only when they show artifacts, fractures, surgical changes, or T-score discrepancy greater than 1.0 from adjacent vertebrae. T12 and L5 are not typically included; L5 is often partially obscured by the iliac crest.",
+    "back": "L1-L4\n\nL1-L4 is the ISCD standard diagnostic ROI for lumbar spine DXA. All four lumbar vertebrae are included, with individual vertebrae excluded only when they show artifacts, fractures, surgical changes, or T-score discrepancy greater than 1.0 from adjacent vertebrae. T12 and L5 are not typically included; L5 is often partially obscured by the iliac crest.",
     "source": "ISCD 2023 Adult Official Positions, spine acquisition",
     "tags": [
       "spine",

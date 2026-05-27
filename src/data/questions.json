@@ -1432,7 +1432,7 @@
       "24 hours",
       "2-4 weeks",
       "1-2 years",
-      "Greater than 10 years"
+      "Over 10 years"
     ],
     "correct": 3,
     "explanation": "Bisphosphonates bind strongly to hydroxyapatite in bone mineral and can persist in the skeleton for over 10 years after the last dose. This long skeletal half-life is the basis for the 'drug holiday' concept after 3-5 years of bisphosphonate therapy in low-risk patients. Denosumab in contrast has no skeletal retention and requires uninterrupted dosing.",
@@ -2281,10 +2281,10 @@
     "type": "multiple_choice",
     "question": "Which demographic factor does the FRAX tool NOT explicitly require?",
     "options": [
-      "Age",
-      "Sex",
+      "Age in years",
+      "Sex of the patient",
       "Fasting blood glucose",
-      "BMI (Height/Weight)"
+      "BMI from height and weight"
     ],
     "correct": 2,
     "explanation": "FRAX inputs: age, sex, weight, height (used to calculate BMI), prior fragility fracture, parental hip fracture, current smoking, glucocorticoid use, rheumatoid arthritis, secondary osteoporosis, alcohol intake (3+ units/day), and femoral neck BMD (optional but recommended). Fasting blood glucose is NOT a FRAX input, although secondary diabetes can be entered via 'secondary osteoporosis' if applicable.",
@@ -4498,8 +4498,8 @@
     "options": [
       "L1-L3 only",
       "L2-L4 only",
-      "L1-L4 (all four lumbar vertebrae)",
-      "T12-L5 (extended range)"
+      "L1-L4",
+      "T12-L5 extended range"
     ],
     "correct": 2,
     "explanation": "L1-L4 is the ISCD standard diagnostic ROI for lumbar spine DXA. All four lumbar vertebrae are included, with individual vertebrae excluded only when they show artifacts, fractures, surgical changes, or T-score discrepancy greater than 1.0 from adjacent vertebrae. T12 and L5 are not typically included; L5 is often partially obscured by the iliac crest.",
@@ -10762,10 +10762,10 @@
     "type": "multiple_choice",
     "question": "Per ISCD, acceptable in vivo precision RMS-CV benchmarks for technologists are approximately:",
     "options": [
-      "Less than 0.5 percent at all sites",
+      "0.5 percent at spine, 0.4 percent at total hip, 0.6 percent at femoral neck",
       "1.9 percent at spine, 1.8 percent at total hip, 2.5 percent at femoral neck",
-      "Less than 0.1 percent at all sites",
-      "Less than 10 percent at all sites"
+      "3.5 percent at spine, 3.0 percent at total hip, 4.0 percent at femoral neck",
+      "5.0 percent at spine, 5.0 percent at total hip, 5.0 percent at femoral neck"
     ],
     "correct": 1,
     "explanation": "ISCD provides acceptable precision RMS-CV benchmarks of approximately 1.9 percent at the lumbar spine, 1.8 percent at the total hip, and 2.5 percent at the femoral neck. Technologists exceeding these benchmarks should pursue retraining and re-evaluation of technique. Better-than-benchmark precision is achievable with consistent positioning and ROI placement. Each facility uses its own measured precision to calculate the facility-specific LSC.",
