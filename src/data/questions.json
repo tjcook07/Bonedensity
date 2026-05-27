@@ -950,10 +950,10 @@
     "type": "multiple_choice",
     "question": "Which of the following represents the correct formula for calculating Bone Mineral Density (BMD)?",
     "options": [
-      "BMC (g) + Area (cm2)",
-      "BMC (g) / Area (cm2)",
-      "Area (cm2) / BMC (g)",
-      "BMC (g) x Area (cm2)"
+      "BMC + Area",
+      "BMC / Area",
+      "Area / BMC",
+      "BMC \u00d7 Area"
     ],
     "correct": 1,
     "explanation": "Areal BMD = BMC / Area, expressed in g/cm2. BMC is the bone mineral content in grams measured by DXA; Area is the projected 2D bone area in cm2. Because DXA measures areal (not volumetric) density, it underestimates true density in small bones (children, short adults) and overestimates in large bones.",
@@ -1058,10 +1058,10 @@
     "type": "multiple_choice",
     "question": "When evaluating a DXA scan, bone mineral content (BMC) is measured in:",
     "options": [
-      "Centimeters squared (cm2)",
-      "Grams per centimeter squared (g/cm2)",
-      "Grams (g)",
-      "Millimeters (mm)"
+      "cm\u00b2",
+      "g/cm\u00b2",
+      "g",
+      "mm"
     ],
     "correct": 2,
     "explanation": "BMC is the absolute mass of mineral in the scanned region, reported in grams. Area is reported in cm2. Areal BMD = BMC / Area is reported in g/cm2. Per ISCD 2023, BMC is reported to 2 decimal places, Area to 2 decimals, and BMD to 3 decimals.",
@@ -3638,9 +3638,9 @@
     "type": "multiple_choice",
     "question": "Which of the following is considered an anabolic medication for osteoporosis?",
     "options": [
-      "Teriparatide (Forteo) recombinant PTH 1-34",
-      "Alendronate (Fosamax) oral bisphosphonate",
-      "Denosumab (Prolia) monoclonal antibody",
+      "Teriparatide (Forteo)",
+      "Alendronate (Fosamax)",
+      "Denosumab (Prolia)",
       "Calcium carbonate oral supplement"
     ],
     "correct": 0,
@@ -3726,9 +3726,9 @@
     "type": "multiple_choice",
     "question": "A VFA reveals a vertebra with a 45% reduction in anterior height. How is this graded using Genant's criteria?",
     "options": [
-      "Grade 1 (Mild) fracture",
-      "Grade 2 (Moderate) fracture",
-      "Grade 3 (Severe) fracture",
+      "Grade 1 (Mild)",
+      "Grade 2 (Moderate)",
+      "Grade 3 (Severe)",
       "Un-gradable due to deformity"
     ],
     "correct": 2,
@@ -4079,7 +4079,7 @@
     "question": "According to ISCD, the preferred format for reporting T-scores is:",
     "options": [
       "T score, Z score (no hyphen)",
-      "t-score, z-score (lowercase hyphenated)",
+      "t-score, z-score (lowercase)",
       "T-score, Z-score (capital, hyphenated)",
       "T-SCORE, Z-SCORE (all uppercase)"
     ],
@@ -4166,8 +4166,8 @@
     "type": "multiple_choice",
     "question": "The term 'osteomalacia' literally translates to:",
     "options": [
-      "Porous bones (decreased mass)",
-      "Soft bones (defective mineralization)",
+      "Porous bones",
+      "Soft bones",
       "Bone cancer or malignancy",
       "Bone infection or osteomyelitis"
     ],
@@ -4606,10 +4606,10 @@
     "type": "multiple_choice",
     "question": "What unit of measurement is utilized for Areal Bone Mineral Density (BMD)?",
     "options": [
-      "Grams per cubic centimeter (g/cm3)",
-      "Grams per square centimeter (g/cm2)",
-      "Grams per centimeter (g/cm)",
-      "Grams (g)"
+      "g/cm\u00b3",
+      "g/cm\u00b2",
+      "g/cm",
+      "g"
     ],
     "correct": 1,
     "explanation": "Areal BMD is reported in grams per square centimeter (g/cm2), reflecting that DXA measures projected 2D bone mineral content divided by projected 2D area. True volumetric density (g/cm3) requires 3D imaging like QCT. BMC alone is reported in grams. The areal nature of DXA underestimates true density in smaller bones (children, short adults).",
@@ -4628,10 +4628,10 @@
     "type": "multiple_choice",
     "question": "What unit of measurement is utilized for Bone Mineral Content (BMC)?",
     "options": [
-      "Grams per square centimeter (g/cm2)",
-      "Square centimeters (cm2) of area",
-      "Grams (g) of absolute mass",
-      "Milligrams per deciliter (mg/dl)"
+      "g/cm\u00b2",
+      "cm\u00b2",
+      "g",
+      "mg/dL"
     ],
     "correct": 2,
     "explanation": "BMC is the absolute mass of mineral in the scanned region, reported in grams. Area is reported in cm2. Areal BMD = BMC / Area is reported in g/cm2. Per ISCD 2023, BMC is reported to 2 decimal places (e.g., 31.76 g), Area to 2 decimals (cm2), and BMD to 3 decimals (g/cm2).",
@@ -4672,10 +4672,10 @@
     "type": "multiple_choice",
     "question": "Which specialized cells are responsible for the formation of new bone tissue?",
     "options": [
-      "Osteoblasts (bone-forming cells)",
-      "Osteocytes (mature embedded cells)",
-      "Osteoclasts (bone-resorbing cells)",
-      "Chondrocytes (cartilage-forming cells)"
+      "Osteoblasts",
+      "Osteocytes",
+      "Osteoclasts",
+      "Chondrocytes"
     ],
     "correct": 0,
     "explanation": "Osteoblasts are bone-forming cells that synthesize and secrete osteoid (collagen matrix) which subsequently mineralizes into bone. Osteocytes are former osteoblasts embedded in mineralized matrix; they serve as mechanosensors. Osteoclasts resorb bone. Chondrocytes form cartilage, not bone. The osteoblast-osteoclast balance determines whether bone mass increases (formation greater than resorption) or decreases (resorption greater than formation).",
@@ -5066,9 +5066,9 @@
     "type": "multiple_choice",
     "question": "When scanning a patient for a VFA, the image is typically acquired in which projection?",
     "options": [
-      "AP (anteroposterior) projection only",
-      "PA (posteroanterior) projection only",
-      "Lateral (side-on) projection",
+      "AP (anteroposterior)",
+      "PA (posteroanterior)",
+      "Lateral",
       "Oblique angled projection"
     ],
     "correct": 2,
@@ -5394,8 +5394,8 @@
     "type": "multiple_choice",
     "question": "Which ROI is the ONLY recommended diagnostic site in the forearm according to ISCD?",
     "options": [
-      "Ultradistal radius (highly trabecular)",
-      "33% (one-third) radius (predominantly cortical)",
+      "Ultradistal radius",
+      "33% (one-third) radius",
       "Radial head at the elbow joint",
       "Ulnar styloid distal projection"
     ],
@@ -5504,10 +5504,10 @@
     "type": "multiple_choice",
     "question": "Which is the current gold standard technique for measuring bone density?",
     "options": [
-      "DPA (dual photon absorptiometry)",
-      "DXA (dual-energy X-ray absorptiometry)",
-      "QCT (quantitative computed tomography)",
-      "QUS (quantitative ultrasound)"
+      "DPA",
+      "DXA",
+      "QCT",
+      "QUS"
     ],
     "correct": 1,
     "explanation": "DXA is the universally accepted gold standard for bone density measurement and the basis for WHO diagnostic criteria. It offers the best balance of precision, low radiation dose, cost, and reproducibility. DPA is obsolete (replaced by DXA). QCT provides true volumetric density but with higher dose. QUS is screening only and not diagnostic per ISCD.",
@@ -5569,10 +5569,10 @@
     "type": "multiple_choice",
     "question": "Which lumbar vertebra is described as having a characteristic shape of an X or H on a DXA PA spine scan?",
     "options": [
-      "L1 (smallest lumbar vertebra)",
-      "L2 (mid-upper lumbar)",
-      "L3 (mid-lumbar)",
-      "L4 (largest, with characteristic X or H shape)"
+      "L1",
+      "L2",
+      "L3",
+      "L4"
     ],
     "correct": 3,
     "explanation": "L4 has a distinctive X or H shape on PA DXA images due to its broad transverse processes and the visualization of the iliac crests at its level. This characteristic morphology helps confirm correct vertebral labeling. The iliac crest typically aligns with L4-L5, providing the anatomical reference for identifying L4.",
@@ -5788,7 +5788,7 @@
     "type": "multiple_choice",
     "question": "Which of the following sites is mostly composed of cortical bone?",
     "options": [
-      "Distal (ultradistal) forearm",
+      "Distal forearm",
       "Femoral neck of the proximal femur",
       "33% radius",
       "Vertebral bodies of the spine"
@@ -5897,10 +5897,10 @@
     "type": "multiple_choice",
     "question": "What technique uses images of the hand and an aluminum wedge?",
     "options": [
-      "SPA (single photon absorptiometry)",
-      "SXA (single energy X-ray absorptiometry)",
-      "RA (radiographic absorptiometry)",
-      "pDXA (peripheral DXA)"
+      "SPA",
+      "SXA",
+      "RA",
+      "pDXA"
     ],
     "correct": 2,
     "explanation": "Radiographic Absorptiometry (RA) uses a standard radiograph of the hand including an aluminum wedge as a calibration reference. Software analyzes the optical density of the middle phalanges of the second, third, and fourth fingers relative to the aluminum wedge to estimate BMD. RA is a legacy technique largely replaced by DXA and pDXA but is still occasionally used in screening.",
@@ -5919,10 +5919,8 @@
     "type": "multiple_choice",
     "question": "New bone is formed by:",
     "options": [
-      "Osteoblasts (bone-forming cells)",
-      "Osteoclasts (bone-resorbing cells)",
-      "Cortical bone tissue directly",
-      "Cancellous bone tissue directly"
+      "Osteoblasts",
+      "Osteoclasts"
     ],
     "correct": 0,
     "explanation": "Osteoblasts synthesize and mineralize osteoid (the bone matrix), forming new bone tissue. They are derived from mesenchymal stem cells and work in coordination with osteoclasts during the remodeling cycle. Osteoclasts resorb bone. Cortical and cancellous are types of bone tissue, not cellular agents of formation.",
@@ -5941,10 +5939,10 @@
     "type": "multiple_choice",
     "question": "Cancellous bone is also known as:",
     "options": [
-      "Compact bone (synonym for cortical)",
-      "Cortical bone (the dense outer shell)",
-      "Trabecular bone (the spongy internal network)",
-      "Osteocyte bone (a cellular category)"
+      "Compact bone",
+      "Cortical bone",
+      "Trabecular bone",
+      "Osteocyte bone"
     ],
     "correct": 2,
     "explanation": "Cancellous bone and trabecular bone are synonymous terms for the spongy, honeycomb-like internal bone network found in vertebrae and the ends of long bones. Cortical (compact) bone is the dense outer shell. Approximately 20% of the skeleton is trabecular and 80% is cortical, though the metabolic activity ratio is inverted.",
@@ -5965,7 +5963,7 @@
     "options": [
       "Let the analysis software label automatically without verification",
       "Start at L1 and count or label downward toward L4",
-      "Start at L4 (identified by iliac crests) and count or label upward",
+      "Start at L4 (identified by iliac crests) and count upward",
       "Start at T12 (identified by ribs) and count downward"
     ],
     "correct": 2,
@@ -6028,10 +6026,10 @@
     "type": "multiple_choice",
     "question": "According to WHO criteria, if a healthy female age 36, with no known medical condition, has a T-score of -1.6 SD, how would she be diagnosed?",
     "options": [
-      "Normal (T-score in normal range)",
-      "Osteopenia (low bone mass)",
-      "Osteoporosis (low BMD diagnostic)",
-      "None of the above (WHO criteria do not apply at age 36)"
+      "Normal",
+      "Osteopenia",
+      "Osteoporosis",
+      "None of the above \u2014 WHO criteria do not apply at age 36"
     ],
     "correct": 3,
     "explanation": "WHO T-score criteria apply only to postmenopausal women and men aged 50 and older. At age 36, this premenopausal woman should be evaluated using Z-scores, not T-scores. Per ISCD, a Z-score of -2.0 or lower is 'below the expected range for age,' and a Z-score above -2.0 is 'within the expected range.' WHO osteopenia/osteoporosis labels are inappropriate at her age.",
@@ -6071,9 +6069,9 @@
     "question": "The primary mechanism of action of antiresorptive therapies is direct interaction with:",
     "options": [
       "Bone lining cells covering quiescent surfaces",
-      "Osteoblasts (the bone-forming cells)",
-      "Osteoclasts (the bone-resorbing cells)",
-      "Osteocytes (the mechanosensing cells)"
+      "Osteoblasts",
+      "Osteoclasts",
+      "Osteocytes"
     ],
     "correct": 2,
     "explanation": "Antiresorptive therapies (bisphosphonates, denosumab, raloxifene, calcitonin) all target osteoclasts to reduce bone resorption. Bisphosphonates inhibit osteoclast farnesyl pyrophosphate synthase; denosumab is an anti-RANKL antibody that prevents osteoclast formation; raloxifene activates estrogen receptors to suppress osteoclast activity. Anabolic agents (teriparatide, romosozumab) target osteoblasts instead.",
@@ -6114,10 +6112,10 @@
     "type": "multiple_choice",
     "question": "Which of the following diseases is NOT associated with low BMD?",
     "options": [
-      "Osteomalacia (defective mineralization)",
-      "Multiple myeloma (plasma cell malignancy)",
-      "Osteopetrosis (rare disease of impaired osteoclast function causing HIGH BMD)",
-      "Osteogenesis imperfecta (genetic collagen disorder)"
+      "Osteomalacia",
+      "Multiple myeloma",
+      "Osteopetrosis",
+      "Osteogenesis imperfecta"
     ],
     "correct": 2,
     "explanation": "Osteopetrosis is the answer because it is a rare genetic disease of impaired osteoclast function leading to dense, brittle bones with HIGH BMD (not low). Despite high BMD, osteopetrotic bone is structurally abnormal and prone to fracture. The other options all reduce BMD: osteomalacia (defective mineralization), multiple myeloma (lytic bone lesions), and osteogenesis imperfecta (collagen defect causing low bone mass).",
@@ -6177,10 +6175,10 @@
     "type": "multiple_choice",
     "question": "Phantoms that mimic the shape and size of a skeletal region are called:",
     "options": [
-      "Block phantoms (geometric calibration)",
-      "Brass phantoms (legacy materials)",
-      "Anthropomorphic phantoms (skeleton-shaped)",
-      "Hydroxyapatite phantoms (material-based)"
+      "Block phantoms",
+      "Brass phantoms",
+      "Anthropomorphic phantoms",
+      "Hydroxyapatite phantoms"
     ],
     "correct": 2,
     "explanation": "Anthropomorphic phantoms are designed to mimic the shape, size, and attenuation properties of human skeletal regions (typically the lumbar spine). Examples include the European Spine Phantom, Hologic's CaHA-in-epoxy spine phantom, and GE's aluminum spine phantom. They are used for daily QC to monitor scanner stability under realistic clinical attenuation conditions.",
@@ -6542,10 +6540,10 @@
     "type": "multiple_choice",
     "question": "What pharmaceutical may be suggested for a woman with high risk of breast cancer and elevated lipids?",
     "options": [
-      "Actonel (risedronate, a bisphosphonate)",
-      "Evista (raloxifene, a SERM with breast benefit)",
-      "Fosamax (alendronate, a bisphosphonate)",
-      "Prolia (denosumab, an antiresorptive monoclonal antibody)"
+      "Actonel (risedronate)",
+      "Evista (raloxifene)",
+      "Fosamax (alendronate)",
+      "Prolia (denosumab)"
     ],
     "correct": 1,
     "explanation": "Raloxifene (Evista) is a Selective Estrogen Receptor Modulator (SERM) with three benefits: prevents bone loss (FDA approved for postmenopausal osteoporosis), reduces breast cancer risk (about 50% reduction in invasive breast cancer in high-risk women), and modestly improves lipid profile (lowers LDL). It is the only osteoporosis drug with explicit FDA breast cancer risk reduction labeling, making it ideal for this patient profile.",
@@ -6564,10 +6562,10 @@
     "type": "multiple_choice",
     "question": "What year was the Bone Mass Measurement Act proposed?",
     "options": [
-      "1991 (early Medicare reform era)",
-      "1993 (NIH consensus conference year)",
-      "1997 (BMMA established Medicare coverage)",
-      "1998 (BMMA implementation date)"
+      "1991",
+      "1993",
+      "1997",
+      "1998"
     ],
     "correct": 2,
     "explanation": "The Bone Mass Measurement Act of 1997 established uniform Medicare Part B coverage for bone density measurement. It defined five qualifying clinical indications (estrogen deficiency, vertebral abnormalities, glucocorticoid therapy, hyperparathyroidism, drug monitoring) and the 23-month follow-up interval. The BMMA standardized DXA reimbursement across the US starting in 1998.",
@@ -6586,10 +6584,10 @@
     "type": "multiple_choice",
     "question": "Which of the following best describes low bone mass due to menopause?",
     "options": [
-      "Primary osteoporosis Type I (postmenopausal, estrogen-related)",
-      "Primary osteoporosis Type II (senile, age-related)",
-      "Secondary osteoporosis (from underlying disease)",
-      "Idiopathic osteoporosis (no identifiable cause)"
+      "Primary osteoporosis Type I",
+      "Primary osteoporosis Type II",
+      "Secondary osteoporosis",
+      "Idiopathic osteoporosis"
     ],
     "correct": 0,
     "explanation": "Primary osteoporosis Type I (postmenopausal osteoporosis) is caused by estrogen deficiency in postmenopausal women, preferentially affecting trabecular bone. Type II (senile osteoporosis) occurs after age 70 in both sexes, affecting both cortical and trabecular bone. Secondary osteoporosis is from underlying conditions (PHPT, hyperthyroidism, glucocorticoids, etc.).",
@@ -6607,9 +6605,9 @@
     "type": "multiple_choice",
     "question": "Which of the following classes of cells are involved in bone remodeling?",
     "options": [
-      "Osteoblasts only (formation phase)",
-      "Osteoclasts only (resorption phase)",
-      "Osteocytes only (mechanosensing)",
+      "Osteoblasts only",
+      "Osteoclasts only",
+      "Osteocytes only",
       "Osteoblasts, osteoclasts, and osteocytes together"
     ],
     "correct": 3,
@@ -6628,10 +6626,10 @@
     "type": "multiple_choice",
     "question": "Which of the following therapies mimics the effects of estrogen on bone and has antiestrogenic effects in other tissue?",
     "options": [
-      "Alendronate (bisphosphonate)",
-      "Calcitonin (thyroid hormone)",
-      "Parathyroid hormone (PTH)",
-      "Raloxifene (Selective Estrogen Receptor Modulator)"
+      "Alendronate",
+      "Calcitonin",
+      "Parathyroid hormone",
+      "Raloxifene"
     ],
     "correct": 3,
     "explanation": "Raloxifene is a Selective Estrogen Receptor Modulator (SERM) that activates estrogen receptors in bone (preserves BMD, antiresorptive) while blocking them in breast tissue (reduces breast cancer risk by approximately 50% in high-risk women). It also has neutral or favorable effects on lipids. Raloxifene's tissue-selective activity makes it uniquely useful for postmenopausal women who also want breast cancer risk reduction.",
@@ -6650,10 +6648,10 @@
     "type": "multiple_choice",
     "question": "In both men and women, bone mass increases until approximately what age?",
     "options": [
-      "18 years (about 90 percent of peak)",
-      "30 years (peak bone mass achieved)",
-      "40 years (decline beginning)",
-      "50 years (significant postmenopausal loss)"
+      "18 years",
+      "30 years",
+      "40 years",
+      "50 years"
     ],
     "correct": 1,
     "explanation": "Peak bone mass is achieved at approximately age 30 in both sexes, after which gradual bone loss begins. Roughly 90% of peak bone mass is achieved by age 18, with the final 10% acquired between ages 18-30. After peak, men lose bone gradually (about 0.5% per year); women lose bone rapidly in the first 5-10 years postmenopause (about 2-3% per year), then more gradually.",
@@ -6845,10 +6843,10 @@
     "type": "multiple_choice",
     "question": "On a DXA report, the bone mineral density is expressed as:",
     "options": [
-      "g (absolute mass, this is BMC)",
-      "cm squared (this is area)",
-      "g/cm squared (areal BMD units)",
-      "g/cm cubed (this is volumetric, for QCT)"
+      "g",
+      "cm\u00b2",
+      "g/cm\u00b2",
+      "g/cm\u00b3"
     ],
     "correct": 2,
     "explanation": "Areal BMD is expressed in g/cm squared (grams per centimeter squared). It is calculated as BMC/Area. Per ISCD 2023, BMD is reported to 3 decimal places (e.g., 0.987 g/cm-squared). BMC alone is in grams; Area alone is in cm-squared. True volumetric density (g/cm-cubed) is provided by QCT, not DXA.",
@@ -7062,10 +7060,10 @@
     "type": "multiple_choice",
     "question": "Which of the following terms best describes the sum of the data values divided by the number of values?",
     "options": [
-      "Mean (arithmetic average)",
-      "Standard deviation (dispersion metric)",
-      "Variance (squared SD)",
-      "Coefficient of variation (relative dispersion)"
+      "Mean",
+      "Standard deviation",
+      "Variance",
+      "Coefficient of variation"
     ],
     "correct": 0,
     "explanation": "The mean (arithmetic average) is calculated by summing all values and dividing by the number of values. Standard deviation measures dispersion around the mean (square root of variance). Variance is the average of squared deviations. Coefficient of variation = SD/Mean (expressed as percentage). All four are fundamental descriptive statistics in DXA QC analysis.",
@@ -7105,10 +7103,10 @@
     "type": "multiple_choice",
     "question": "The characteristic shapes of the vertebrae seen on the DXA image are primarily based on the appearance of the:",
     "options": [
-      "Transverse processes (mostly hidden in PA projection)",
+      "Transverse processes",
       "Vertebral bodies plus visible posterior elements",
-      "Posterior elements (spinous process and laminae)",
-      "Intervertebral discs (not bone tissue)"
+      "Posterior elements",
+      "Intervertebral discs"
     ],
     "correct": 2,
     "explanation": "The characteristic vertebral shapes (L1 narrow, L2 broader, L3 with rectangular silhouette, L4 with X or H pattern) are primarily based on posterior elements (spinous processes, laminae, transverse processes) that project onto the PA DXA image. The vertebral bodies themselves are relatively uniform; the distinctive shapes come from posterior elements overlying them. This helps with vertebral labeling.",
@@ -7148,10 +7146,10 @@
     "type": "multiple_choice",
     "question": "In both men and women, bone mass increases until approximately what age?",
     "options": [
-      "18 years (about 90 percent of peak)",
-      "30 years (peak bone mass achieved)",
-      "40 years (decline beginning)",
-      "50 years (significant postmenopausal loss)"
+      "18 years",
+      "30 years",
+      "40 years",
+      "50 years"
     ],
     "correct": 1,
     "explanation": "Peak bone mass is achieved at approximately age 30 in both sexes. About 90% of peak is achieved by age 18; the final 10% is acquired during the third decade of life. After peak, men lose bone gradually; women lose bone rapidly in the first 5-10 years postmenopause due to estrogen withdrawal. Achieving optimal peak bone mass is a primary prevention strategy against later osteoporosis.",
@@ -7298,10 +7296,10 @@
     "type": "multiple_choice",
     "question": "When should Z-scores be used to make a diagnosis, instead of T-scores?",
     "options": [
-      "Females 65 and older (T-scores apply)",
-      "Males 65 and older (T-scores apply)",
-      "Postmenopausal females (T-scores apply)",
-      "Males or females under age 20 (Z-scores required)"
+      "Females 65 and older",
+      "Males 65 and older",
+      "Postmenopausal females",
+      "Males or females under age 20"
     ],
     "correct": 3,
     "explanation": "Per ISCD 2019 Pediatric Positions, T-scores must NEVER be used in patients under age 20. Z-scores compared to age-, sex-, and ethnicity-matched pediatric reference data are required. The rationale: T-scores reference young adult peak bone mass, which is inappropriate for skeletons that haven't reached peak. Z-scores are also used in premenopausal women (any age under 50 for women) and men under 50.",
@@ -7342,10 +7340,10 @@
     "type": "multiple_choice",
     "question": "Which of the following bone parameters is measured in grams?",
     "options": [
-      "Area (measured in cm-squared)",
-      "BMC (Bone Mineral Content, in grams)",
-      "BMD (Bone Mineral Density, in g/cm-squared)",
-      "Total scan time (in seconds)"
+      "Area",
+      "BMC (Bone Mineral Content)",
+      "BMD (Bone Mineral Density)",
+      "Total scan time"
     ],
     "correct": 1,
     "explanation": "Bone Mineral Content (BMC) is the absolute mass of bone mineral in the scanned region, measured in grams. Area is measured in cm-squared. BMD (the derived ratio BMC/Area) is in g/cm-squared. Per ISCD 2023, BMC is reported to 2 decimal places. These three parameters together describe the bone measurement: BMC tells you how much mineral, Area tells you the projected footprint, BMD normalizes mineral by footprint.",
@@ -7364,10 +7362,10 @@
     "type": "multiple_choice",
     "question": "The region of the proximal femur lying on the border of the femoral neck and the greater trochanter is termed:",
     "options": [
-      "Lesser trochanter (medial protrusion)",
-      "Femoral head (articular ball of the joint)",
-      "Hip axis length (a measurement, not an anatomical region)",
-      "Ward's area (Ward's triangle in the femoral neck region)"
+      "Lesser trochanter",
+      "Femoral head",
+      "Hip axis length",
+      "Ward's area"
     ],
     "correct": 3,
     "explanation": "Ward's area (or Ward's triangle) is a small region of highly trabecular bone in the femoral neck, near the junction with the greater trochanter. It is software-defined rather than anatomical. Ward's area is not used for diagnosis due to poor reproducibility. The femoral neck and total hip are the standard diagnostic ROIs in the proximal femur.",
@@ -7386,10 +7384,10 @@
     "type": "multiple_choice",
     "question": "Which of the following has the highest percentage of cortical bone?",
     "options": [
-      "Femoral neck (mixed, about 50% trabecular)",
-      "Fingers (small bones with mixed composition)",
-      "Whole body (averaged composition)",
-      "33% radius (about 95% cortical)"
+      "Femoral neck",
+      "Fingers",
+      "Whole body",
+      "33% radius"
     ],
     "correct": 3,
     "explanation": "The 33% radius is approximately 95% cortical bone, the highest cortical fraction among standard DXA sites. This is why ISCD recommends the 33% radius for monitoring primary hyperparathyroidism, which preferentially depletes cortical bone. The femoral neck is mixed, fingers vary, and whole body is an average. The ultradistal radius is contrastingly approximately 50-66% trabecular.",
@@ -7450,10 +7448,10 @@
     "type": "multiple_choice",
     "question": "What is the age range used with FRAX?",
     "options": [
-      "20-40 years (too young, peak bone mass)",
+      "20\u201340 years",
       "30-85 years",
       "40-85 years",
-      "40-90 years (FRAX validated range)"
+      "40\u201390 years"
     ],
     "correct": 3,
     "explanation": "FRAX is validated for ages 40-90 in untreated adults. Below age 40, fracture probability is too low and not well predicted by the clinical risk factors used in FRAX. Above age 90, data are sparse and competing mortality dominates. FRAX inputs do not include certain risk factors (e.g., falls history, vitamin D status, biochemistry), and ISCD recommends clinical judgment alongside FRAX output.",
@@ -7559,10 +7557,10 @@
     "type": "multiple_choice",
     "question": "Which of the following conditions can contribute to the development of osteoporosis EXCEPT:",
     "options": [
-      "Hyperparathyroidism (causes cortical bone loss)",
-      "Multiple myeloma (lytic bone lesions)",
-      "Rheumatoid arthritis (chronic inflammation, glucocorticoid use)",
-      "Hypergonadism in males (elevated sex hormones protect bone)"
+      "Hyperparathyroidism",
+      "Multiple myeloma",
+      "Rheumatoid arthritis",
+      "Hypergonadism in males"
     ],
     "correct": 3,
     "explanation": "Hypergonadism (excess sex hormones) protects bone and does NOT cause osteoporosis. HYPOGONADISM (LOW testosterone in men, LOW estrogen in women) causes bone loss. The other conditions all cause secondary osteoporosis: hyperparathyroidism depletes cortical bone, multiple myeloma causes lytic lesions, and rheumatoid arthritis combines inflammation-driven bone loss with frequent glucocorticoid therapy.",
@@ -7602,10 +7600,10 @@
     "type": "multiple_choice",
     "question": "Which combination of exercises is best for bone health?",
     "options": [
-      "Swimming and cycling (non-impact, less bone benefit)",
-      "Yoga and Pilates (flexibility, minimal load)",
-      "Walking and stretching (low impact)",
-      "Weight-bearing impact (running, dancing) plus muscle-strengthening resistance training"
+      "Swimming and cycling",
+      "Yoga and Pilates",
+      "Walking and stretching",
+      "Weight-bearing impact plus muscle-strengthening resistance training"
     ],
     "correct": 3,
     "explanation": "Optimal bone health exercise combines weight-bearing impact activity (running, jumping, dancing, racket sports) with resistance training (weights, bands, or body weight). Impact loading stimulates bone formation via mechanical strain; resistance training strengthens muscle attachments and improves balance. Swimming and cycling, while excellent cardiovascular exercises, provide minimal bone-loading stimulus because of buoyancy and seated mechanics.",
@@ -7690,10 +7688,10 @@
     "type": "multiple_choice",
     "question": "Sunlight is the main source of vitamin:",
     "options": [
-      "K (synthesized by gut bacteria)",
-      "D (synthesized in skin from UVB exposure)",
-      "C (obtained from diet)",
-      "A (obtained from diet)"
+      "K",
+      "D",
+      "C",
+      "A"
     ],
     "correct": 1,
     "explanation": "Vitamin D is synthesized in the skin when 7-dehydrocholesterol is converted to cholecalciferol (vitamin D3) by UVB radiation from sunlight. This endogenous production is the main natural source of vitamin D; dietary sources (fatty fish, fortified dairy, supplements) are secondary. Vitamin D deficiency contributes to osteomalacia and osteoporosis. BHOF recommends 800-1000 IU/day vitamin D supplementation for adults over 50.",
@@ -8248,7 +8246,7 @@
     "question": "Which signaling molecule directly stimulates osteoclast formation and activity?",
     "options": [
       "OPG (osteoprotegerin)",
-      "RANKL (receptor activator of NF-kB ligand)",
+      "RANKL",
       "Sclerostin from osteocytes",
       "Calcitonin from thyroid C-cells"
     ],
@@ -8656,10 +8654,10 @@
     "type": "multiple_choice",
     "question": "If a technologist doubles their distance from the X-ray source, their exposure is reduced to:",
     "options": [
-      "One-half (1/2) of original",
-      "One-fourth (1/4) of original",
-      "One-eighth (1/8) of original",
-      "One-sixteenth (1/16) of original"
+      "One-half",
+      "One-fourth",
+      "One-eighth",
+      "One-sixteenth"
     ],
     "correct": 1,
     "explanation": "The inverse square law states that radiation intensity decreases with the square of the distance. Doubling the distance reduces exposure to 1/4 (1 over 2-squared) of the original; tripling the distance reduces it to 1/9 (1 over 3-squared). This is why distance is such an effective protection strategy in DXA: even modest increases in operator-to-gantry distance produce large reductions in occupational dose.",
@@ -9058,10 +9056,9 @@
     "type": "multiple_choice",
     "question": "Which hip ROI has the LOWEST precision error and is therefore preferred for monitoring?",
     "options": [
-      "Femoral neck (smaller ROI, more variable)",
-      "Total hip (larger ROI, more reproducible)",
-      "Ward's triangle (small ROI, highly variable)",
-      "Greater trochanter alone"
+      "Femoral neck",
+      "Total hip",
+      "Ward's triangle"
     ],
     "correct": 1,
     "explanation": "Total hip has the lowest precision error (typically 1-2 percent CV) because it averages a larger anatomical area, making it less sensitive to small positioning variations. The femoral neck has slightly worse precision due to its smaller ROI and sensitivity to internal rotation. Ward's area has very poor precision and is not used for diagnosis or monitoring. ISCD recommends total hip for monitoring; femoral neck is used for diagnosis (lowest T-score) and FRAX input.",
@@ -9101,10 +9098,10 @@
     "type": "multiple_choice",
     "question": "The PA lumbar spine ROI should extend from approximately:",
     "options": [
-      "T10 to L5 (excessive cranial extent)",
+      "T10 to L5",
       "T12-L1 disc space to L4-L5 disc space",
-      "L2 to S1 (insufficient cranial coverage)",
-      "T6 to L1 (incorrect, thoracic only)"
+      "L2 to S1",
+      "T6 to L1"
     ],
     "correct": 1,
     "explanation": "The standard lumbar spine ROI extends from the T12-L1 disc space (top of L1) to the L4-L5 disc space (bottom of L4), encompassing L1-L4. This is the ISCD standard. T12 is excluded because it is thoracic; L5 is excluded due to frequent variant anatomy and overlap with sacral structures. The algorithm places horizontal intervertebral lines through the disc spaces between each labeled vertebra.",
@@ -9293,8 +9290,8 @@
     "type": "multiple_choice",
     "question": "Hologic spine phantoms are typically constructed of:",
     "options": [
-      "Pure aluminum metal blocks",
-      "Calcium hydroxyapatite (CaHA) embedded in epoxy resin",
+      "Accuracy",
+      "Precision",
       "Water-filled plastic cylinders",
       "Brass and copper alloy"
     ],
@@ -9807,9 +9804,9 @@
     "type": "multiple_choice",
     "question": "Quantitative CT (QCT) measures BMD in units of:",
     "options": [
-      "g per cm-squared (areal density)",
-      "mg per cm-cubed (volumetric density)",
-      "g per cm (linear density)",
+      "g/cm\u00b2",
+      "mg/cm\u00b3",
+      "g/cm",
       "Hounsfield units only"
     ],
     "correct": 1,
@@ -10850,7 +10847,7 @@
     "options": [
       "Sclerostin produced by osteocytes",
       "Estrogen receptors on osteoblasts",
-      "RANK ligand (RANKL)",
+      "RANKL",
       "Parathyroid hormone in circulation"
     ],
     "correct": 2,
