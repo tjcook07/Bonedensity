@@ -25,7 +25,6 @@ const CATEGORY_COUNTS = (() => {
 function defaultFilters() {
   return {
     categories: [...ALL_CATEGORIES],
-    difficulty: { easy: true, medium: true, hard: true },
     types: ['multiple_choice', 'true_false'],
     highYieldOnly: false,
     count: 25,
@@ -44,11 +43,6 @@ function loadFilters() {
       categories: Array.isArray(parsed.categories)
         ? parsed.categories.filter(c => ALL_CATEGORIES.includes(c))
         : fallback.categories,
-      difficulty: {
-        easy: parsed.difficulty?.easy !== false,
-        medium: parsed.difficulty?.medium !== false,
-        hard: parsed.difficulty?.hard !== false
-      },
       types: Array.isArray(parsed.types) && parsed.types.length ? parsed.types : fallback.types,
       highYieldOnly: parsed.highYieldOnly === true,
       count: clampCount(parsed.count ?? fallback.count),
@@ -72,11 +66,9 @@ function clampCount(n) {
 
 function applyFilters(state) {
   const cats = new Set(state.categories);
-  const diffs = new Set(Object.entries(state.difficulty).filter(([, on]) => on).map(([k]) => k));
   const types = new Set(state.types);
   return questions.filter(q =>
     cats.has(q.category) &&
-    diffs.has(q.difficulty) &&
     types.has(q.type) &&
     (!state.highYieldOnly || q.highYield === true)
   );
@@ -161,7 +153,7 @@ function buildBody(state) {
       <div class="flex gap-2">
         ${QUICK_STARTS.map(quickStartPill).join('')}
       </div>
-      <div class="text-bone-300 text-xs mt-2">All categories, all difficulties, random order, study mode.</div>
+      <div class="text-bone-300 text-xs mt-2">All categories, random order, study mode.</div>
     </div>
 
     <div class="card mb-4">
@@ -170,15 +162,6 @@ function buildBody(state) {
         <button data-action="all-cats" class="text-xs text-accent-amber hover:underline">${allSelected ? 'Clear' : 'All'}</button>
       </div>
       <div class="flex flex-wrap gap-2">${categoryChips}</div>
-    </div>
-
-    <div class="card mb-4">
-      <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Difficulty</div>
-      <div class="flex flex-wrap gap-2">
-        ${checkbox('diff-easy', 'Easy', state.difficulty.easy)}
-        ${checkbox('diff-medium', 'Medium', state.difficulty.medium)}
-        ${checkbox('diff-hard', 'Hard', state.difficulty.hard)}
-      </div>
     </div>
 
     <div class="card mb-4">
@@ -276,16 +259,6 @@ function attachHandlers(container, state) {
       rerender(container, state);
     });
   }
-
-  // Difficulty checkboxes
-  ['easy', 'medium', 'hard'].forEach(d => {
-    const el = container.querySelector(`#diff-${d}`);
-    if (el) el.addEventListener('change', () => {
-      state.difficulty[d] = el.checked;
-      saveFilters(state);
-      refreshMatchLine(container, state);
-    });
-  });
 
   // High-yield checkbox
   const hy = container.querySelector('#high-yield');

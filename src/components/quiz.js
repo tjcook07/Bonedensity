@@ -71,7 +71,6 @@ async function runner(container, key) {
       <div class="flex flex-wrap gap-2 text-xs mb-3">
         <span class="chip-muted">Mod ${q.module}</span>
         ${q.topic ? `<span class="chip-muted">${q.topic}</span>` : ''}
-        ${q.difficulty ? `<span class="chip-${q.difficulty === 'hard' ? 'err' : q.difficulty === 'medium' ? 'warn' : 'ok'}">${q.difficulty}</span>` : ''}
         ${mode === 'test' ? `<span class="chip-muted">test mode</span>` : ''}
       </div>
     `;

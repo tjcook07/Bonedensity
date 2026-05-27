@@ -21,8 +21,7 @@
       "contrast",
       "barium"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-002",
@@ -45,8 +44,7 @@
       "glucocorticoid",
       "secondary-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-003",
@@ -70,8 +68,7 @@
       "T-score",
       "diagnosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-004",
@@ -94,8 +91,7 @@
       "fracture-risk",
       "criteria"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-005",
@@ -118,8 +114,7 @@
       "anatomy",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-006",
@@ -142,8 +137,7 @@
       "positioning",
       "lordosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-007",
@@ -166,8 +160,7 @@
       "phantom",
       "QC-failure"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-008",
@@ -190,8 +183,7 @@
       "positioning",
       "lesser-trochanter"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-009",
@@ -214,8 +206,7 @@
       "exclusion",
       "laminectomy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-010",
@@ -238,8 +229,7 @@
       "precision",
       "CV"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-011",
@@ -261,8 +251,7 @@
       "equipment-qc",
       "phantom-baseline"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-012",
@@ -285,8 +274,7 @@
       "Z-score",
       "reference-population"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-013",
@@ -308,8 +296,7 @@
       "physiology",
       "risk-factors"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-014",
@@ -332,8 +319,7 @@
       "33-radius",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-015",
@@ -356,8 +342,7 @@
       "dose",
       "DXA-dose"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-016",
@@ -380,8 +365,7 @@
       "hip-replacement",
       "alternative-sites"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-017",
@@ -404,8 +388,7 @@
       "secondary-osteoporosis",
       "PHPT"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-018",
@@ -428,8 +411,7 @@
       "osteoclast",
       "remodeling"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-019",
@@ -452,8 +434,7 @@
       "positioning",
       "internal-rotation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-020",
@@ -476,8 +457,7 @@
       "artifact",
       "aortic-calcification"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-021",
@@ -499,8 +479,7 @@
       "criteria",
       "diagnostic-sites"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-022",
@@ -523,8 +502,7 @@
       "fan-beam",
       "pencil-beam"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-023",
@@ -547,8 +525,7 @@
       "edge-detection",
       "obesity"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-024",
@@ -571,8 +548,7 @@
       "precision-study",
       "ISCD"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-025",
@@ -595,8 +571,7 @@
       "LSC",
       "monitoring"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-026",
@@ -619,8 +594,7 @@
       "cortical",
       "anatomy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-027",
@@ -643,8 +617,7 @@
       "T-score",
       "osteopenia"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-028",
@@ -667,8 +640,7 @@
       "Z-score",
       "reporting"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-029",
@@ -691,8 +663,7 @@
       "T4-L4",
       "range"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-030",
@@ -714,8 +685,7 @@
       "hip",
       "metal-artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-031",
@@ -738,8 +708,7 @@
       "T-score-discrepancy",
       "exclusion"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-032",
@@ -762,8 +731,7 @@
       "radiography",
       "sensitivity"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-033",
@@ -786,8 +754,7 @@
       "detector",
       "physics"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-034",
@@ -810,8 +777,7 @@
       "weight-limit",
       "forearm"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-035",
@@ -834,8 +800,7 @@
       "accuracy",
       "precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-036",
@@ -858,8 +823,7 @@
       "Z-score",
       "below-expected"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-037",
@@ -881,8 +845,7 @@
       "spine",
       "minimum-vertebrae"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-038",
@@ -905,8 +868,7 @@
       "osteomalacia",
       "vitamin-D"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-039",
@@ -929,8 +891,7 @@
       "Shewhart",
       "shift"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-040",
@@ -953,8 +914,7 @@
       "Wards-area",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-041",
@@ -977,8 +937,7 @@
       "Wards-area",
       "reproducibility"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-042",
@@ -1001,8 +960,7 @@
       "denosumab",
       "antiresorptive"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-043",
@@ -1025,8 +983,7 @@
       "positioning",
       "pronated"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-044",
@@ -1048,8 +1005,7 @@
       "equipment-qc",
       "BMD-formula"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-045",
@@ -1071,8 +1027,7 @@
       "forearm",
       "soft-tissue-equivalent"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-046",
@@ -1095,8 +1050,7 @@
       "k-edge",
       "dual-energy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-047",
@@ -1119,8 +1073,7 @@
       "phantom",
       "drift"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-048",
@@ -1143,8 +1096,7 @@
       "kyphoplasty",
       "cement"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-049",
@@ -1167,8 +1119,7 @@
       "BMC",
       "units"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-050",
@@ -1191,8 +1142,7 @@
       "WHO",
       "population"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-051",
@@ -1215,8 +1165,7 @@
       "markers",
       "intervertebral"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-052",
@@ -1239,8 +1188,7 @@
       "dual-energy",
       "tissue-subtraction"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-053",
@@ -1263,8 +1211,7 @@
       "non-supine",
       "forearm"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-054",
@@ -1286,8 +1233,7 @@
       "criteria",
       "discordance"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-055",
@@ -1310,8 +1256,7 @@
       "laminectomy",
       "false-low"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-056",
@@ -1334,8 +1279,7 @@
       "lateral",
       "projection"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-057",
@@ -1358,8 +1302,7 @@
       "33-radius",
       "hyperparathyroidism"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-058",
@@ -1382,8 +1325,7 @@
       "femoral-neck",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-059",
@@ -1406,8 +1348,7 @@
       "alendronate",
       "bisphosphonate"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-060",
@@ -1429,8 +1370,7 @@
       "equipment-qc",
       "cross-calibration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-061",
@@ -1453,8 +1393,7 @@
       "obesity",
       "beam-hardening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-062",
@@ -1477,8 +1416,7 @@
       "Z-score",
       "premenopausal"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-063",
@@ -1501,8 +1439,7 @@
       "monitoring",
       "spine"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-064",
@@ -1525,8 +1462,7 @@
       "lesser-trochanter",
       "under-rotation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-065",
@@ -1548,8 +1484,7 @@
       "spine",
       "scoliosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-066",
@@ -1572,8 +1507,7 @@
       "bisphosphonate",
       "half-life"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-067",
@@ -1596,8 +1530,7 @@
       "vertebral-fracture",
       "symptoms"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-068",
@@ -1620,8 +1553,7 @@
       "33-radius",
       "measurement"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-069",
@@ -1644,8 +1576,7 @@
       "attenuation",
       "physics"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-070",
@@ -1668,8 +1599,7 @@
       "demographics",
       "risk"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-071",
@@ -1692,8 +1622,7 @@
       "barium",
       "artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-072",
@@ -1715,8 +1644,7 @@
       "equipment-qc",
       "phantom-positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-073",
@@ -1739,8 +1667,7 @@
       "osteopenia",
       "WHO"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-074",
@@ -1762,8 +1689,7 @@
       "pediatric",
       "reference-database"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-075",
@@ -1786,8 +1712,7 @@
       "DXA-vs-QCT",
       "dose"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-076",
@@ -1810,8 +1735,7 @@
       "entrance-dose",
       "ARRT-2022"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-077",
@@ -1834,8 +1758,7 @@
       "dose-equivalent",
       "occupational"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-078",
@@ -1858,8 +1781,7 @@
       "ergonomics",
       "ARRT-2022"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-079",
@@ -1881,8 +1803,7 @@
       "patient-care",
       "infection-control"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-080",
@@ -1905,8 +1826,7 @@
       "cross-calibration",
       "different-manufacturer"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-081",
@@ -1929,8 +1849,7 @@
       "exclusion",
       "1.0-T-score-rule"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-082",
@@ -1953,8 +1872,7 @@
       "BMMA",
       "23-month"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-083",
@@ -1977,8 +1895,7 @@
       "file-management",
       "ARRT-2022"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-084",
@@ -2001,8 +1918,7 @@
       "length",
       "ARRT-2022"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-085",
@@ -2025,8 +1941,7 @@
       "BMD",
       "decimal-places"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-086",
@@ -2049,8 +1964,7 @@
       "T-score",
       "decimal-places"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-087",
@@ -2073,8 +1987,7 @@
       "BMC",
       "decimal-places"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-088",
@@ -2096,8 +2009,7 @@
       "equipment-qc",
       "software-upgrade"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-089",
@@ -2120,8 +2032,7 @@
       "DXA",
       "terminology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-090",
@@ -2144,8 +2055,7 @@
       "Z-score",
       "terminology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-091",
@@ -2167,8 +2077,7 @@
       "pediatric",
       "fracture-history"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-092",
@@ -2191,8 +2100,7 @@
       "anorexia",
       "indication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-093",
@@ -2215,8 +2123,7 @@
       "LSC",
       "formula"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-094",
@@ -2239,8 +2146,7 @@
       "LSC",
       "calculation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-095",
@@ -2263,8 +2169,7 @@
       "RMS-SD",
       "precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-096",
@@ -2287,8 +2192,7 @@
       "reproducibility",
       "follow-up"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-097",
@@ -2311,8 +2215,7 @@
       "fragility-fracture",
       "NBHA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-098",
@@ -2335,8 +2238,7 @@
       "edge-detection",
       "osteophytes"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-099",
@@ -2359,8 +2261,7 @@
       "Genant",
       "Grade-1"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-100",
@@ -2383,8 +2284,7 @@
       "Genant",
       "Grade-2"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-101",
@@ -2407,8 +2307,7 @@
       "Genant",
       "Grade-3"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-102",
@@ -2430,8 +2329,7 @@
       "forearm",
       "alternative-site"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-103",
@@ -2454,8 +2352,7 @@
       "length",
       "landmarks"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-104",
@@ -2478,8 +2375,7 @@
       "treatment-failure",
       "monitoring"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-105",
@@ -2502,8 +2398,7 @@
       "FRAX",
       "inputs"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-106",
@@ -2526,8 +2421,7 @@
       "FRAX",
       "femoral-neck"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-107",
@@ -2550,8 +2444,7 @@
       "men",
       "screening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-108",
@@ -2574,8 +2467,7 @@
       "women",
       "screening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-109",
@@ -2598,8 +2490,7 @@
       "PHPT",
       "cortical"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-110",
@@ -2622,8 +2513,7 @@
       "ischium",
       "positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-111",
@@ -2646,8 +2536,7 @@
       "weight-gain",
       "scan-mode"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-112",
@@ -2670,8 +2559,7 @@
       "Z-score",
       "rationale"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-113",
@@ -2694,8 +2582,7 @@
       "aromatase-inhibitor",
       "bone-loss"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-114",
@@ -2718,8 +2605,7 @@
       "MTI",
       "monitoring"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-115",
@@ -2741,8 +2627,7 @@
       "criteria",
       "lowest-T-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-116",
@@ -2765,8 +2650,7 @@
       "radiopharmaceutical",
       "contraindication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-117",
@@ -2789,8 +2673,7 @@
       "NBHA",
       "vertebral-fracture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-118",
@@ -2812,8 +2695,7 @@
       "equipment-qc",
       "dual-energy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-119",
@@ -2836,8 +2718,7 @@
       "follow-up",
       "reproducibility"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-120",
@@ -2860,8 +2741,7 @@
       "exclusion",
       "T-score-outlier"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-121",
@@ -2884,8 +2764,7 @@
       "heparin",
       "secondary-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-122",
@@ -2907,8 +2786,7 @@
       "spine",
       "minimum-vertebrae"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-123",
@@ -2930,8 +2808,7 @@
       "statistics",
       "in-vivo-precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-124",
@@ -2954,8 +2831,7 @@
       "cross-calibration",
       "same-model"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s1-125",
@@ -2978,8 +2854,7 @@
       "contralateral",
       "positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-001",
@@ -3001,8 +2876,7 @@
       "equipment-qc",
       "cross-calibration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-002",
@@ -3025,8 +2899,7 @@
       "osteoarthritis",
       "false-elevation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-003",
@@ -3049,8 +2922,7 @@
       "unidentifiable",
       "follow-up"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-004",
@@ -3073,8 +2945,7 @@
       "Z-score",
       "positive"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-005",
@@ -3097,8 +2968,7 @@
       "cross-calibration",
       "different-manufacturer"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-006",
@@ -3121,8 +2991,7 @@
       "osteopenia",
       "WHO"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-007",
@@ -3145,8 +3014,7 @@
       "emergency-stop",
       "safety"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-008",
@@ -3169,8 +3037,7 @@
       "trabecular",
       "anatomy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-009",
@@ -3193,8 +3060,7 @@
       "artifact",
       "false-elevation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-010",
@@ -3217,8 +3083,7 @@
       "in-vivo",
       "precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-011",
@@ -3241,8 +3106,7 @@
       "bilateral",
       "dual-femur"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-012",
@@ -3265,8 +3129,7 @@
       "metal-artifact",
       "piercing"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-013",
@@ -3289,8 +3152,7 @@
       "demographics",
       "reference"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-014",
@@ -3313,8 +3175,7 @@
       "Area",
       "reporting"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-015",
@@ -3337,8 +3198,7 @@
       "exclusion",
       "artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-016",
@@ -3361,8 +3221,7 @@
       "PHPT",
       "secondary-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-017",
@@ -3385,8 +3244,7 @@
       "entrance-dose",
       "fan-beam"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-018",
@@ -3409,8 +3267,7 @@
       "height-loss",
       "VFA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-019",
@@ -3433,8 +3290,7 @@
       "kyphosis",
       "forearm-alternative"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-020",
@@ -3456,8 +3312,7 @@
       "patient-care",
       "dose-communication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-021",
@@ -3480,8 +3335,7 @@
       "DXA",
       "terminology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-022",
@@ -3504,8 +3358,7 @@
       "non-dominant",
       "Wolffs-law"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-023",
@@ -3528,8 +3381,7 @@
       "environmental",
       "temperature"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-024",
@@ -3552,8 +3404,7 @@
       "file-management",
       "backup"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-025",
@@ -3576,8 +3427,7 @@
       "estrogen",
       "menopause"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-026",
@@ -3600,8 +3450,7 @@
       "anatomy",
       "edge-detection"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-027",
@@ -3624,8 +3473,7 @@
       "sclerotic",
       "lytic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-028",
@@ -3648,8 +3496,7 @@
       "drift",
       "service"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-029",
@@ -3672,8 +3519,7 @@
       "CV",
       "formula"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-030",
@@ -3695,8 +3541,7 @@
       "pediatric",
       "bone-size-adjustment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-031",
@@ -3719,8 +3564,7 @@
       "MTI",
       "in-vivo"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-032",
@@ -3743,8 +3587,7 @@
       "exclusion",
       "L2"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-033",
@@ -3767,8 +3610,7 @@
       "LSC",
       "follow-up"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-034",
@@ -3791,8 +3633,7 @@
       "glucocorticoid",
       "GIO"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-035",
@@ -3815,8 +3656,7 @@
       "scoliosis",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-036",
@@ -3839,8 +3679,7 @@
       "trabecular",
       "metabolic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-037",
@@ -3863,8 +3702,7 @@
       "dose-equivalent",
       "Sievert"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-038",
@@ -3887,8 +3725,7 @@
       "positioner",
       "internal-rotation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-039",
@@ -3911,8 +3748,7 @@
       "barium",
       "reschedule"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-040",
@@ -3935,8 +3771,7 @@
       "phantom",
       "anthropomorphic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-041",
@@ -3959,8 +3794,7 @@
       "femoral-neck",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-042",
@@ -3983,8 +3817,7 @@
       "teriparatide",
       "anabolic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-043",
@@ -4007,8 +3840,7 @@
       "follow-up",
       "matching"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-044",
@@ -4031,8 +3863,7 @@
       "Z-score",
       "within-range"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-045",
@@ -4055,8 +3886,7 @@
       "Z-score",
       "fragility"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-046",
@@ -4079,8 +3909,7 @@
       "Genant",
       "severe-grade-3"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-047",
@@ -4103,8 +3932,7 @@
       "LSC",
       "absolute"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-048",
@@ -4127,8 +3955,7 @@
       "Wards-triangle",
       "not-for-diagnosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-049",
@@ -4151,8 +3978,7 @@
       "PHPT",
       "secondary-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-050",
@@ -4175,8 +4001,7 @@
       "fusion",
       "exclusion"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-051",
@@ -4199,8 +4024,7 @@
       "in-vivo",
       "precision-study"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-052",
@@ -4223,8 +4047,7 @@
       "consent",
       "precision-study"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-053",
@@ -4247,8 +4070,7 @@
       "contracture",
       "positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-054",
@@ -4271,8 +4093,7 @@
       "lowest-T-score",
       "central-sites"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-055",
@@ -4295,8 +4116,7 @@
       "drift",
       "calibration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-056",
@@ -4319,8 +4139,7 @@
       "relocation",
       "recalibration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-057",
@@ -4343,8 +4162,7 @@
       "follow-up",
       "matching"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-058",
@@ -4367,8 +4185,7 @@
       "arthritis",
       "hardware"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-059",
@@ -4391,8 +4208,7 @@
       "fall-risk",
       "intrinsic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-060",
@@ -4415,8 +4231,7 @@
       "positioning",
       "follow-up"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-061",
@@ -4439,8 +4254,7 @@
       "fan-beam",
       "centering"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-062",
@@ -4463,8 +4277,7 @@
       "T-score",
       "format"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-063",
@@ -4487,8 +4300,7 @@
       "QC-failure",
       "service"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-064",
@@ -4511,8 +4323,7 @@
       "symptoms",
       "asymptomatic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-065",
@@ -4535,8 +4346,7 @@
       "BMMA",
       "glucocorticoid"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-066",
@@ -4559,8 +4369,7 @@
       "osteomalacia",
       "terminology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-067",
@@ -4583,8 +4392,7 @@
       "ALARA",
       "distance"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-068",
@@ -4607,8 +4415,7 @@
       "laminectomy",
       "exclusion"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-069",
@@ -4631,8 +4438,7 @@
       "femoral-neck",
       "precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-070",
@@ -4655,8 +4461,7 @@
       "follow-up",
       "indication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-071",
@@ -4679,8 +4484,7 @@
       "33-radius",
       "indication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-072",
@@ -4703,8 +4507,7 @@
       "leg-block",
       "lordosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-073",
@@ -4727,8 +4530,7 @@
       "hip-fracture",
       "clinical-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-074",
@@ -4751,8 +4553,7 @@
       "collimator",
       "beam-shaping"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-075",
@@ -4775,8 +4576,7 @@
       "tissue-subtraction",
       "dual-energy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-076",
@@ -4799,8 +4599,7 @@
       "BMMA",
       "indications"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-077",
@@ -4823,8 +4622,7 @@
       "PHPT",
       "cortical"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-078",
@@ -4847,8 +4645,7 @@
       "cross-manufacturer",
       "BMD-comparison"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-079",
@@ -4871,8 +4668,7 @@
       "T4-L4",
       "range"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-080",
@@ -4895,8 +4691,7 @@
       "TBS",
       "L1-L4"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-081",
@@ -4919,8 +4714,7 @@
       "L1-L4",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-082",
@@ -4943,8 +4737,7 @@
       "WHO",
       "osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-083",
@@ -4967,8 +4760,7 @@
       "fall-prevention",
       "lifestyle"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-084",
@@ -4991,8 +4783,7 @@
       "T-score",
       "format"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-085",
@@ -5015,8 +4806,7 @@
       "Area",
       "decimal-places"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-086",
@@ -5039,8 +4829,7 @@
       "BMD",
       "units"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-087",
@@ -5063,8 +4852,7 @@
       "BMC",
       "units"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-088",
@@ -5087,8 +4875,7 @@
       "BMMA",
       "glucocorticoid"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-089",
@@ -5111,8 +4898,7 @@
       "osteoblast",
       "formation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-090",
@@ -5135,8 +4921,7 @@
       "ergonomics",
       "transfer"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-091",
@@ -5159,8 +4944,7 @@
       "calcium-supplements",
       "artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-092",
@@ -5183,8 +4967,7 @@
       "diagnosis",
       "Z-score-plus-fracture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-093",
@@ -5207,8 +4990,7 @@
       "file-management",
       "ARRT-2022"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-094",
@@ -5231,8 +5013,7 @@
       "accuracy",
       "precision"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-095",
@@ -5255,8 +5036,7 @@
       "cross-calibration",
       "ARRT-2027"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-096",
@@ -5279,8 +5059,7 @@
       "QC",
       "function"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-097",
@@ -5303,8 +5082,7 @@
       "T-score",
       "young-adult"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-098",
@@ -5327,8 +5105,7 @@
       "Z-score",
       "age-matched"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-099",
@@ -5351,8 +5128,7 @@
       "L2-fracture",
       "exclusion"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-100",
@@ -5374,8 +5150,7 @@
       "equipment-qc",
       "baseline-phantom"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-101",
@@ -5398,8 +5173,7 @@
       "dual-photon",
       "soft-tissue"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-102",
@@ -5422,8 +5196,7 @@
       "demographics",
       "risk"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-103",
@@ -5446,8 +5219,7 @@
       "WHO",
       "normal"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-104",
@@ -5470,8 +5242,7 @@
       "weight-limit",
       "forearm"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-105",
@@ -5493,8 +5264,7 @@
       "equipment-qc",
       "tissue-subtraction"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-106",
@@ -5517,8 +5287,7 @@
       "discordance",
       "T-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-107",
@@ -5541,8 +5310,7 @@
       "lateral",
       "projection"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-108",
@@ -5565,8 +5333,7 @@
       "alendronate",
       "antiresorptive"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-109",
@@ -5589,8 +5356,7 @@
       "obesity",
       "beam-hardening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-110",
@@ -5613,8 +5379,7 @@
       "premenopausal",
       "Z-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-111",
@@ -5637,8 +5402,7 @@
       "monitoring",
       "spine"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-112",
@@ -5661,8 +5425,7 @@
       "lesser-trochanter",
       "rotation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-113",
@@ -5685,8 +5448,7 @@
       "scoliosis",
       "ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-114",
@@ -5709,8 +5471,7 @@
       "bisphosphonate",
       "half-life"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-115",
@@ -5733,8 +5494,7 @@
       "attenuation",
       "physics"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-116",
@@ -5756,8 +5516,7 @@
       "equipment-qc",
       "phantom-positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-117",
@@ -5779,8 +5538,7 @@
       "pediatric",
       "reference-database"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-118",
@@ -5803,8 +5561,7 @@
       "DXA-vs-QCT",
       "dose"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-119",
@@ -5827,8 +5584,7 @@
       "window-level",
       "ARRT-2027"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-120",
@@ -5851,8 +5607,7 @@
       "landmarks",
       "T12-iliac"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-121",
@@ -5875,8 +5630,7 @@
       "internal-rotation",
       "15-25"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-122",
@@ -5899,8 +5653,7 @@
       "33-radius",
       "diagnostic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-123",
@@ -5923,8 +5676,7 @@
       "T7-L4",
       "purpose"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-124",
@@ -5947,8 +5699,7 @@
       "height-loss",
       "indication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s2-125",
@@ -5971,8 +5722,7 @@
       "Genant",
       "grading"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-001",
@@ -5995,8 +5745,7 @@
       "WHO",
       "T-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-002",
@@ -6019,8 +5768,7 @@
       "DXA",
       "gold-standard"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-003",
@@ -6043,8 +5791,7 @@
       "trabecular",
       "cancellous"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-004",
@@ -6066,8 +5813,7 @@
       "hip",
       "lesser-trochanter"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-005",
@@ -6090,8 +5836,7 @@
       "L4",
       "labeling"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-006",
@@ -6114,8 +5859,7 @@
       "Forteo",
       "bisphosphonates"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-007",
@@ -6138,8 +5882,7 @@
       "QCT",
       "volumetric"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-008",
@@ -6162,8 +5905,7 @@
       "peripheral-DXA",
       "screening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-009",
@@ -6186,8 +5928,7 @@
       "fracture",
       "consequence"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-010",
@@ -6209,8 +5950,7 @@
       "criteria",
       "FRAX"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-011",
@@ -6233,8 +5973,7 @@
       "precision",
       "technologist"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-012",
@@ -6257,8 +5996,7 @@
       "trabecular",
       "skeletal-composition"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-013",
@@ -6281,8 +6019,7 @@
       "monitoring",
       "cortical-turnover"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-014",
@@ -6305,8 +6042,7 @@
       "peak-bone-mass",
       "corticosteroids"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-015",
@@ -6329,8 +6065,7 @@
       "33-radius",
       "cortical"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-016",
@@ -6352,8 +6087,7 @@
       "equipment-qc",
       "QUS"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-017",
@@ -6376,8 +6110,7 @@
       "SPA",
       "history"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-018",
@@ -6400,8 +6133,7 @@
       "TBS",
       "microarchitecture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-019",
@@ -6424,8 +6156,7 @@
       "Type-2",
       "senile"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-020",
@@ -6448,8 +6179,7 @@
       "RA",
       "hand-imaging"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-021",
@@ -6472,8 +6202,7 @@
       "osteoblast",
       "formation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-022",
@@ -6496,8 +6225,7 @@
       "trabecular",
       "cancellous"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-023",
@@ -6520,8 +6248,7 @@
       "labeling",
       "iliac-crests"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-024",
@@ -6544,8 +6271,7 @@
       "rotation",
       "BMD-change"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-025",
@@ -6567,8 +6293,7 @@
       "equipment-qc",
       "QC-failure"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-026",
@@ -6590,8 +6315,7 @@
       "criteria",
       "premenopausal"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-027",
@@ -6613,8 +6337,7 @@
       "equipment-qc",
       "cross-manufacturer"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-028",
@@ -6637,8 +6360,7 @@
       "antiresorptive",
       "osteoclast"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-029",
@@ -6661,8 +6383,7 @@
       "fracture-prediction",
       "older-women"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-030",
@@ -6684,8 +6405,7 @@
       "physiology",
       "osteopetrosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-031",
@@ -6707,8 +6427,7 @@
       "equipment-qc",
       "DXA-influences"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-032",
@@ -6730,8 +6449,7 @@
       "forearm",
       "scan-quality"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-033",
@@ -6753,8 +6471,7 @@
       "equipment-qc",
       "anthropomorphic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-034",
@@ -6776,8 +6493,7 @@
       "statistics",
       "BMD-calculation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-035",
@@ -6799,8 +6515,7 @@
       "equipment-qc",
       "daily-QA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-036",
@@ -6823,8 +6538,7 @@
       "radiogrammetry",
       "history"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-037",
@@ -6847,8 +6561,7 @@
       "energy-switching",
       "calibration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-038",
@@ -6871,8 +6584,7 @@
       "photoelectric",
       "physics"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-039",
@@ -6894,8 +6606,7 @@
       "radiation-safety",
       "DXA-dose"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-040",
@@ -6917,8 +6628,7 @@
       "forearm",
       "non-dominant"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-041",
@@ -6940,8 +6650,7 @@
       "hip",
       "neck-ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-042",
@@ -6963,8 +6672,7 @@
       "equipment-qc",
       "edge-detection"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-043",
@@ -6987,8 +6695,7 @@
       "exercise",
       "weight-bearing"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-044",
@@ -7010,8 +6717,7 @@
       "equipment-qc",
       "dual-energy-methods"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-045",
@@ -7034,8 +6740,7 @@
       "positioner",
       "femoral-neck"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-046",
@@ -7057,8 +6762,7 @@
       "patient-care",
       "metal-artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-047",
@@ -7081,8 +6785,7 @@
       "bisphosphonate",
       "mechanism"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-048",
@@ -7105,8 +6808,7 @@
       "PHPT",
       "33-radius"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-049",
@@ -7129,8 +6831,7 @@
       "precision",
       "monitoring"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-050",
@@ -7153,8 +6854,7 @@
       "raloxifene",
       "SERM"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-051",
@@ -7177,8 +6877,7 @@
       "BMMA",
       "history"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-052",
@@ -7200,8 +6899,7 @@
       "physiology",
       "Type-1"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-053",
@@ -7223,8 +6921,7 @@
       "physiology",
       "remodeling"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-054",
@@ -7247,8 +6944,7 @@
       "raloxifene",
       "SERM"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-055",
@@ -7271,8 +6967,7 @@
       "peak-bone-mass",
       "age"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-056",
@@ -7295,8 +6990,7 @@
       "cross-calibration",
       "new-scanner"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-057",
@@ -7318,8 +7012,7 @@
       "statistics",
       "LSC"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-058",
@@ -7341,8 +7034,7 @@
       "physiology",
       "bone-types"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-059",
@@ -7365,8 +7057,7 @@
       "rate-of-change",
       "BMD"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-060",
@@ -7389,8 +7080,7 @@
       "positioning",
       "alignment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-061",
@@ -7413,8 +7103,7 @@
       "sites",
       "TBLH"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-062",
@@ -7436,8 +7125,7 @@
       "physiology",
       "cortical-percent"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-063",
@@ -7460,8 +7148,7 @@
       "race",
       "unmodifiable"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-064",
@@ -7483,8 +7170,7 @@
       "criteria",
       "BMD-units"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-065",
@@ -7506,8 +7192,7 @@
       "statistics",
       "precision-study"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-066",
@@ -7530,8 +7215,7 @@
       "ROI",
       "operator-error"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-067",
@@ -7554,8 +7238,7 @@
       "BMD",
       "decimal-places"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-068",
@@ -7578,8 +7261,7 @@
       "site-naming",
       "ulna"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-069",
@@ -7602,8 +7284,7 @@
       "osteopenia",
       "T-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-070",
@@ -7626,8 +7307,7 @@
       "remodeling",
       "uncoupling"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-071",
@@ -7650,8 +7330,7 @@
       "precision-study",
       "LSC"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-072",
@@ -7673,8 +7352,7 @@
       "equipment-qc",
       "pencil-beam"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-073",
@@ -7697,8 +7375,7 @@
       "Shewhart",
       "1.5-percent"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-074",
@@ -7720,8 +7397,7 @@
       "statistics",
       "mean"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-075",
@@ -7744,8 +7420,7 @@
       "k-edge",
       "current-integrating"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-076",
@@ -7767,8 +7442,7 @@
       "spine",
       "vertebrae-shapes"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-077",
@@ -7791,8 +7465,7 @@
       "accuracy",
       "exception"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-078",
@@ -7814,8 +7487,7 @@
       "physiology",
       "peak-bone-mass"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-079",
@@ -7838,8 +7510,7 @@
       "cortical",
       "outer-shell"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-080",
@@ -7861,8 +7532,7 @@
       "spine",
       "trabecular-percent"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-081",
@@ -7885,8 +7555,7 @@
       "appendicular",
       "anatomy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-082",
@@ -7909,8 +7578,7 @@
       "WHO",
       "history"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-083",
@@ -7932,8 +7600,7 @@
       "statistics",
       "compare-analysis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-084",
@@ -7955,8 +7622,7 @@
       "hip",
       "rotation-degrees"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-085",
@@ -7979,8 +7645,7 @@
       "Z-score",
       "under-20"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-086",
@@ -8003,8 +7668,7 @@
       "DPA",
       "Gd-153"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-087",
@@ -8027,8 +7691,7 @@
       "BMC",
       "grams"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-088",
@@ -8051,8 +7714,7 @@
       "Wards-area",
       "location"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-089",
@@ -8075,8 +7737,7 @@
       "33-radius",
       "cortical-content"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-090",
@@ -8098,8 +7759,7 @@
       "pediatric",
       "guidelines"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-091",
@@ -8121,8 +7781,7 @@
       "criteria",
       "BMD-formula"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-092",
@@ -8145,8 +7804,7 @@
       "FRAX",
       "age-range"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-093",
@@ -8169,8 +7827,7 @@
       "LSC",
       "2.77"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-094",
@@ -8193,8 +7850,7 @@
       "early-menopause",
       "spine"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-095",
@@ -8216,8 +7872,7 @@
       "physiology",
       "net-gain"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-096",
@@ -8240,8 +7895,7 @@
       "QCT",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-097",
@@ -8264,8 +7918,7 @@
       "hypergonadism",
       "exception"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-098",
@@ -8287,8 +7940,7 @@
       "equipment-qc",
       "DXA-applications"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-099",
@@ -8311,8 +7963,7 @@
       "exercise",
       "weight-bearing-and-resistance"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-100",
@@ -8335,8 +7986,7 @@
       "heel",
       "classifications"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-101",
@@ -8359,8 +8009,7 @@
       "monitoring",
       "DXA-serial"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-102",
@@ -8384,8 +8033,7 @@
       "DXA-influences",
       "all-above"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-103",
@@ -8408,8 +8056,7 @@
       "vitamin-D",
       "sunlight"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-104",
@@ -8431,8 +8078,7 @@
       "statistics",
       "compare-baseline"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-105",
@@ -8455,8 +8101,7 @@
       "glucocorticoid",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-106",
@@ -8478,8 +8123,7 @@
       "spine",
       "laminectomy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-107",
@@ -8501,8 +8145,7 @@
       "patient-care",
       "fall-prevention"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-108",
@@ -8524,8 +8167,7 @@
       "physiology",
       "epidemiology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-109",
@@ -8546,8 +8188,7 @@
       "alendronate",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-110",
@@ -8568,8 +8209,7 @@
       "minimum-vertebrae",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-111",
@@ -8590,8 +8230,7 @@
       "archiving",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-112",
@@ -8613,8 +8252,7 @@
       "heel",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-113",
@@ -8635,8 +8273,7 @@
       "Z-score",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-114",
@@ -8657,8 +8294,7 @@
       "height",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-115",
@@ -8679,8 +8315,7 @@
       "standard-deviation",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-116",
@@ -8701,8 +8336,7 @@
       "menopause-transition",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-117",
@@ -8723,8 +8357,7 @@
       "weight-limit",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-118",
@@ -8745,8 +8378,7 @@
       "neck-ROI",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-119",
@@ -8767,8 +8399,7 @@
       "fan-beam",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-120",
@@ -8789,8 +8420,7 @@
       "discordance",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-121",
@@ -8811,8 +8441,7 @@
       "hip-axis-length",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-122",
@@ -8833,8 +8462,7 @@
       "rectilinear",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-123",
@@ -8855,8 +8483,7 @@
       "T-score",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-124",
@@ -8877,8 +8504,7 @@
       "Sievert",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s3-125",
@@ -8899,8 +8525,7 @@
       "ultradistal",
       "true-false"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-001",
@@ -8923,8 +8548,7 @@
       "Type-1",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-002",
@@ -8947,8 +8571,7 @@
       "Type-2",
       "senile"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-003",
@@ -8971,8 +8594,7 @@
       "osteocytes",
       "mechanosensors"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-004",
@@ -8995,8 +8617,7 @@
       "modeling",
       "remodeling"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-005",
@@ -9019,8 +8640,7 @@
       "RANKL",
       "osteoclast"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-006",
@@ -9043,8 +8663,7 @@
       "estrogen",
       "RANKL"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-007",
@@ -9066,8 +8685,7 @@
       "criteria",
       "BMMA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-008",
@@ -9089,8 +8707,7 @@
       "patient-care",
       "pregnancy"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-009",
@@ -9112,8 +8729,7 @@
       "patient-care",
       "communication"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-010",
@@ -9135,8 +8751,7 @@
       "patient-care",
       "patient-ID"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-011",
@@ -9158,8 +8773,7 @@
       "pharmacology",
       "zoledronic-acid"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-012",
@@ -9182,8 +8796,7 @@
       "bisphosphonate",
       "administration"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-013",
@@ -9206,8 +8819,7 @@
       "denosumab",
       "dosing"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-014",
@@ -9230,8 +8842,7 @@
       "teriparatide",
       "anabolic"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-015",
@@ -9254,8 +8865,7 @@
       "romosozumab",
       "dual-action"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-016",
@@ -9278,8 +8888,7 @@
       "calcium",
       "intake"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-017",
@@ -9302,8 +8911,7 @@
       "vitamin-D",
       "supplementation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-018",
@@ -9326,8 +8934,7 @@
       "PPI",
       "secondary"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-019",
@@ -9350,8 +8957,7 @@
       "ADT",
       "men"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-020",
@@ -9373,8 +8979,7 @@
       "radiation-safety",
       "ALARA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-021",
@@ -9396,8 +9001,7 @@
       "radiation-safety",
       "occupational-limit"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-022",
@@ -9419,8 +9023,7 @@
       "radiation-safety",
       "background"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-023",
@@ -9442,8 +9045,7 @@
       "radiation-safety",
       "shielding"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-024",
@@ -9465,8 +9067,7 @@
       "radiation-safety",
       "inverse-square"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-025",
@@ -9488,8 +9089,7 @@
       "vfa",
       "indications"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-026",
@@ -9511,8 +9111,7 @@
       "vfa",
       "dose-advantage"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-027",
@@ -9534,8 +9133,7 @@
       "vfa",
       "bimodal-distribution"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-028",
@@ -9557,8 +9155,7 @@
       "vfa",
       "vertebra-plana"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-029",
@@ -9580,8 +9177,7 @@
       "vfa",
       "morphology"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-030",
@@ -9604,8 +9200,7 @@
       "anorexia",
       "amenorrhea"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-031",
@@ -9627,8 +9222,7 @@
       "special-pop",
       "athlete-triad"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-032",
@@ -9650,8 +9244,7 @@
       "special-pop",
       "transgender"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-033",
@@ -9673,8 +9266,7 @@
       "special-pop",
       "SCI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-034",
@@ -9696,8 +9288,7 @@
       "special-pop",
       "CKD-MBD"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-035",
@@ -9719,8 +9310,7 @@
       "patient-care",
       "hand-hygiene"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-036",
@@ -9742,8 +9332,7 @@
       "patient-care",
       "cleaning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-037",
@@ -9765,8 +9354,7 @@
       "criteria",
       "NHANES"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-038",
@@ -9788,8 +9376,7 @@
       "criteria",
       "bilateral-hip"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-039",
@@ -9812,8 +9399,7 @@
       "FRAX",
       "without-BMD"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-040",
@@ -9836,8 +9422,7 @@
       "FRAX",
       "treatment-threshold"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-041",
@@ -9859,8 +9444,7 @@
       "hip",
       "foot-strap"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-042",
@@ -9882,8 +9466,7 @@
       "hip",
       "total-hip-ROI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-043",
@@ -9906,8 +9489,7 @@
       "precision",
       "total-hip"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-044",
@@ -9929,8 +9511,7 @@
       "spine",
       "alignment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-045",
@@ -9953,8 +9534,7 @@
       "ROI",
       "L1-L4"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-046",
@@ -9976,8 +9556,7 @@
       "spine",
       "compression-fracture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-047",
@@ -9999,8 +9578,7 @@
       "forearm",
       "positioning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-048",
@@ -10023,8 +9601,7 @@
       "ultradistal",
       "trabecular"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-049",
@@ -10046,8 +9623,7 @@
       "forearm",
       "mid-radius"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-050",
@@ -10069,8 +9645,7 @@
       "statistics",
       "Bland-Altman"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-051",
@@ -10093,8 +9668,7 @@
       "CV",
       "hip"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-052",
@@ -10116,8 +9690,7 @@
       "statistics",
       "error-types"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-053",
@@ -10139,8 +9712,7 @@
       "equipment-qc",
       "trend"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-054",
@@ -10162,8 +9734,7 @@
       "equipment-qc",
       "phantom-material"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-055",
@@ -10185,8 +9756,7 @@
       "equipment-qc",
       "QC-retention"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-056",
@@ -10209,8 +9779,7 @@
       "Hologic",
       "kVp-switching"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-057",
@@ -10233,8 +9802,7 @@
       "GE-Lunar",
       "k-edge"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-058",
@@ -10256,8 +9824,7 @@
       "equipment-qc",
       "tube-heat"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-059",
@@ -10279,8 +9846,7 @@
       "equipment-qc",
       "scan-time"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-060",
@@ -10302,8 +9868,7 @@
       "equipment-qc",
       "tube-current"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-061",
@@ -10326,8 +9891,7 @@
       "WHO",
       "threshold-rationale"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-062",
@@ -10350,8 +9914,7 @@
       "WHO",
       "diagnosis-only"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-063",
@@ -10373,8 +9936,7 @@
       "criteria",
       "TBS-FRAX"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-064",
@@ -10397,8 +9959,7 @@
       "TBS",
       "microarchitecture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-065",
@@ -10421,8 +9982,7 @@
       "TBS",
       "T2DM"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-066",
@@ -10445,8 +10005,7 @@
       "lateral",
       "VFA"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-067",
@@ -10468,8 +10027,7 @@
       "spine",
       "artifact-review"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-068",
@@ -10492,8 +10050,7 @@
       "Cupids-bow",
       "variant"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-069",
@@ -10515,8 +10072,7 @@
       "pediatric",
       "height-adjustment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-070",
@@ -10538,8 +10094,7 @@
       "pediatric",
       "TBLH"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-071",
@@ -10561,8 +10116,7 @@
       "pediatric",
       "hip-avoidance"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-072",
@@ -10584,8 +10138,7 @@
       "pediatric",
       "indications"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-073",
@@ -10607,8 +10160,7 @@
       "hip",
       "fracture-mortality"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-074",
@@ -10631,8 +10183,7 @@
       "precision",
       "ROI-size"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-075",
@@ -10654,8 +10205,7 @@
       "hip",
       "sex-dimorphism"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-076",
@@ -10678,8 +10228,7 @@
       "premenopausal",
       "Z-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-077",
@@ -10701,8 +10250,7 @@
       "statistics",
       "phantom-fail"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-078",
@@ -10725,8 +10273,7 @@
       "QCT",
       "volumetric"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-079",
@@ -10748,8 +10295,7 @@
       "equipment-qc",
       "pQCT"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-080",
@@ -10772,8 +10318,7 @@
       "whole-body",
       "composition"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-081",
@@ -10795,8 +10340,7 @@
       "patient-care",
       "pain-assessment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-082",
@@ -10818,8 +10362,7 @@
       "patient-care",
       "cognitive-impairment"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-083",
@@ -10841,8 +10384,7 @@
       "patient-care",
       "kyphosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-084",
@@ -10864,8 +10406,7 @@
       "criteria",
       "severe-osteoporosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-085",
@@ -10888,8 +10429,7 @@
       "NBHA",
       "fracture-sites"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-086",
@@ -10911,8 +10451,7 @@
       "pharmacology",
       "drug-holiday"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-087",
@@ -10935,8 +10474,7 @@
       "denosumab",
       "rebound"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-088",
@@ -10958,8 +10496,7 @@
       "pharmacology",
       "ONJ"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-089",
@@ -10981,8 +10518,7 @@
       "pharmacology",
       "atypical-fracture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-090",
@@ -11004,8 +10540,7 @@
       "radiation-safety",
       "dosimetry"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-091",
@@ -11027,8 +10562,7 @@
       "radiation-safety",
       "operator-distance"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-092",
@@ -11050,8 +10584,7 @@
       "radiation-safety",
       "pregnancy-screening"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-093",
@@ -11073,8 +10606,7 @@
       "hip",
       "FRAX-outputs"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-094",
@@ -11096,8 +10628,7 @@
       "hip",
       "economic-cost"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-095",
@@ -11119,8 +10650,7 @@
       "statistics",
       "CV-formula"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-096",
@@ -11142,8 +10672,7 @@
       "statistics",
       "SD-percent"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-097",
@@ -11165,8 +10694,7 @@
       "equipment-qc",
       "spatial-resolution"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-098",
@@ -11188,8 +10716,7 @@
       "equipment-qc",
       "detector-tech"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-099",
@@ -11212,8 +10739,7 @@
       "collimation",
       "FOV"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-100",
@@ -11235,8 +10761,7 @@
       "statistics",
       "Pearson"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-101",
@@ -11258,8 +10783,7 @@
       "statistics",
       "LSC-reporting"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-102",
@@ -11282,8 +10806,7 @@
       "piercing",
       "artifact"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-103",
@@ -11305,8 +10828,7 @@
       "spine",
       "intervertebral-markers"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-104",
@@ -11328,8 +10850,7 @@
       "hip",
       "Wolffs-law"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-105",
@@ -11351,8 +10872,7 @@
       "hip",
       "fall-related-fracture"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-106",
@@ -11374,8 +10894,7 @@
       "criteria",
       "reporting"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-107",
@@ -11397,8 +10916,7 @@
       "criteria",
       "ISCD-diagnosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-108",
@@ -11420,8 +10938,7 @@
       "criteria",
       "men-diagnosis"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-109",
@@ -11443,8 +10960,7 @@
       "pharmacology",
       "calcitonin"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-110",
@@ -11467,8 +10983,7 @@
       "HRT",
       "WHI"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-111",
@@ -11491,8 +11006,7 @@
       "sequence",
       "anabolic-first"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-112",
@@ -11514,8 +11028,7 @@
       "patient-care",
       "history-taking"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-113",
@@ -11537,8 +11050,7 @@
       "patient-care",
       "open-design"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-114",
@@ -11560,8 +11072,7 @@
       "equipment-qc",
       "service-log"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-115",
@@ -11583,8 +11094,7 @@
       "equipment-qc",
       "software-upgrade"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-116",
@@ -11606,8 +11116,7 @@
       "criteria",
       "TBS-FRAX-utility"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-117",
@@ -11630,8 +11139,7 @@
       "discordance",
       "lowest-T-score"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-118",
@@ -11653,8 +11161,7 @@
       "spine",
       "TBS-projection"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-119",
@@ -11676,8 +11183,7 @@
       "statistics",
       "precision-frequency"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-120",
@@ -11699,8 +11205,7 @@
       "statistics",
       "LSC-meaning"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-121",
@@ -11723,8 +11228,7 @@
       "comfort",
       "elderly"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-122",
@@ -11746,8 +11250,7 @@
       "patient-care",
       "documentation"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-123",
@@ -11769,8 +11272,7 @@
       "statistics",
       "precision-benchmarks"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-124",
@@ -11792,8 +11294,7 @@
       "criteria",
       "FRAX-inputs"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   },
   {
     "id": "rr-s4-125",
@@ -11816,7 +11317,6 @@
       "BMMA",
       "23-month"
     ],
-    "highYield": true,
-    "difficulty": "medium"
+    "highYield": true
   }
 ]
