@@ -579,9 +579,9 @@
     "question": "A 65-year-old male patient has a T-score of -1.8 in the femoral neck. What is his WHO classification?",
     "options": [
       "Normal",
-      "Osteopenia (Low Bone Mass)",
+      "Osteopenia",
       "Osteoporosis",
-      "Severe Osteoporosis"
+      "Severe osteoporosis"
     ],
     "correct": 1,
     "explanation": "WHO classifies T-scores between -1.0 and -2.5 as osteopenia (low bone mass). The WHO criteria apply to postmenopausal women and men aged 50 and older. A T-score of -1.8 falls squarely in the osteopenia range. Osteoporosis requires T-score of -2.5 or lower; severe osteoporosis adds a fragility fracture.",
@@ -1191,7 +1191,7 @@
     "options": [
       "Aortic calcification",
       "Osteoarthritis with osteophytes",
-      "Previous laminectomy (removal of posterior elements)",
+      "Previous laminectomy",
       "Compression fracture"
     ],
     "correct": 2,
@@ -2106,9 +2106,9 @@
     "type": "multiple_choice",
     "question": "An adult patient presents with a T-score of -2.2 and a documented history of a vertebral fragility fracture. What is the correct diagnostic classification?",
     "options": [
-      "Osteopenia per T-score classification",
-      "Normal bone density for age",
-      "Clinical osteoporosis based on fracture history",
+      "Osteopenia per WHO T-score classification",
+      "Normal bone density for chronologic age",
+      "Clinical osteoporosis per NBHA criteria",
       "Severe osteopenia requiring further workup"
     ],
     "correct": 2,
@@ -2544,8 +2544,8 @@
     "type": "multiple_choice",
     "question": "A 68-year-old female presents with a vertebral fragility fracture and a T-score of -1.8. Does she have clinical osteoporosis?",
     "options": [
-      "No, T-score is the sole diagnostic criterion",
-      "Yes, the fragility fracture indicates clinical osteoporosis",
+      "No, T-score below -2.5 is the sole diagnostic criterion",
+      "Yes, per NBHA fragility-fracture diagnostic criteria",
       "No, because she is over 65 years old",
       "Yes, but only if her Z-score is also below -2.0"
     ],
@@ -2849,7 +2849,7 @@
     "question": "Which diagnostic standard utilizes a T-score of -1.0 to -2.5?",
     "options": [
       "Normal bone density per WHO criteria",
-      "Osteopenia (low bone mass) per WHO criteria",
+      "Osteopenia per WHO criteria",
       "Osteoporosis requiring pharmacologic treatment",
       "Severe osteoporosis with fracture history"
     ],
@@ -3614,15 +3614,15 @@
     "category": "hip",
     "topic": "Femoral neck ROI exclusions",
     "type": "multiple_choice",
-    "question": "Which anatomic structure must NOT be included in the femoral neck ROI box?",
+    "question": "Which structure must be excluded when placing the femoral neck ROI?",
     "options": [
-      "Greater trochanter superior portion",
-      "Ischium and ischiopubic ramus",
-      "Femoral shaft below the trochanter",
-      "All of the above"
+      "The greater trochanter laterally",
+      "The femoral shaft distally",
+      "The lesser trochanter medially",
+      "All three structures must be excluded from the neck ROI"
     ],
     "correct": 3,
-    "explanation": "The femoral neck ROI must capture only the femoral neck itself, centered across its narrowest portion perpendicular to the neck axis. Including the greater trochanter, ischium, or femoral shaft falsely alters both the projected area and BMC, producing incorrect BMD. The total hip ROI is broader and includes the trochanteric and intertrochanteric regions, but the femoral neck ROI is restricted.",
+    "explanation": "The femoral neck ROI must exclude the greater trochanter (laterally), the lesser trochanter and ischium (medially), and the femoral shaft (distally). Including any of these structures alters the projected area and corrupts BMD calculation. The neck ROI is centered across the narrowest portion of the femoral neck, perpendicular to the neck axis.",
     "source": "ISCD 2023 hip acquisition; manufacturer ROI guides",
     "tags": [
       "hip",
@@ -3992,7 +3992,7 @@
     "options": [
       "Left hip despite the arthritis",
       "Right hip around the prosthetic hardware",
-      "Lumbar spine (and 33% radius if needed)",
+      "Lumbar spine",
       "Non-dominant forearm only"
     ],
     "correct": 2,
@@ -4145,7 +4145,7 @@
     "question": "Under the Bone Mass Measurement Act, Medicare reimburses DXA for patients taking prolonged doses of which medication?",
     "options": [
       "Ibuprofen and other NSAIDs",
-      "Glucocorticoids (prolonged systemic therapy)",
+      "Glucocorticoids",
       "Antibiotics for chronic infections",
       "Antihistamines for allergic disorders"
     ],
@@ -4233,7 +4233,7 @@
     "question": "Which region of interest is typically the most difficult to achieve high precision in due to its reliance on strict internal rotation?",
     "options": [
       "Lumbar spine L1-L4",
-      "Proximal femur (femoral neck)",
+      "Proximal femur femoral neck",
       "Total body composition",
       "Forearm 33% radius"
     ],
@@ -4321,9 +4321,9 @@
     "question": "A patient presents with a T-score of -1.5 but has suffered a low-trauma hip fracture. What is their clinical diagnosis?",
     "options": [
       "Osteopenia based on T-score alone",
-      "Normal bone density per WHO",
-      "Clinical osteoporosis based on fragility fracture",
-      "Osteomalacia requiring vitamin D"
+      "Normal bone density per WHO categories",
+      "Osteoporosis by NBHA fragility-fracture criteria",
+      "Osteomalacia requiring vitamin D evaluation"
     ],
     "correct": 2,
     "explanation": "Per NBHA 2014 and BHOF, a low-trauma (fragility) hip fracture is diagnostic of clinical osteoporosis regardless of T-score. Hip fractures specifically meet the criterion alone (other sites need BMD context). This patient with a T-score of -1.5 would be labeled osteopenia by BMD alone, but the hip fracture upgrades the diagnosis to clinical osteoporosis, warranting bone-protective treatment.",
@@ -5088,10 +5088,10 @@
     "type": "multiple_choice",
     "question": "Which of the following is considered an antiresorptive medication?",
     "options": [
-      "Teriparatide (anabolic PTH analog)",
-      "Alendronate (oral bisphosphonate)",
-      "Romosozumab (anabolic-antiresorptive)",
-      "Calcium carbonate (mineral supplement)"
+      "Teriparatide (Forteo)",
+      "Alendronate (Fosamax)",
+      "Romosozumab (Evenity)",
+      "Calcium carbonate"
     ],
     "correct": 1,
     "explanation": "Alendronate (Fosamax) is an oral nitrogen-containing bisphosphonate that inhibits osteoclast farnesyl pyrophosphate synthase, reducing bone resorption. It is classed as a pure antiresorptive. Teriparatide is anabolic (stimulates formation). Romosozumab is dual-action (anabolic via sclerostin inhibition, with antiresorptive effects). Calcium is a supplement, not a drug class.",
@@ -5154,10 +5154,10 @@
     "type": "multiple_choice",
     "question": "Which skeletal site is generally preferred for monitoring the efficacy of osteoporosis treatment?",
     "options": [
-      "Proximal femur (less sensitive to early change)",
-      "Lumbar spine (highly responsive trabecular bone)",
-      "Distal forearm (predominantly cortical bone)",
-      "Calcaneus (peripheral and not validated)"
+      "Proximal femur",
+      "Lumbar spine",
+      "Distal forearm",
+      "Calcaneus"
     ],
     "correct": 1,
     "explanation": "The lumbar spine is approximately 66% trabecular bone and is metabolically active, responding faster and more measurably to antiresorptive or anabolic therapy than cortical-rich sites. Treatment-induced BMD changes are typically larger at the spine than the hip. ISCD recommends the spine as the primary monitoring site, with the hip used when the spine is invalid due to artifact or surgery.",
@@ -5329,7 +5329,7 @@
     "question": "According to the 2027 ARRT updates, what functional tool must technologists understand to optimize VFA image visualization?",
     "options": [
       "T-score adjustment in the software",
-      "Window level (contrast and brightness)",
+      "Window level",
       "Contrast media injection protocols",
       "Algorithm swapping between vendors"
     ],
@@ -5592,12 +5592,12 @@
     "question": "Which of the following is NOT a bisphosphonate?",
     "options": [
       "Alendronate (Fosamax)",
-      "Etidronate (early-generation bisphosphonate)",
-      "Forteo (teriparatide, an anabolic PTH analog)",
+      "Etidronate (Didronel)",
+      "Teriparatide (Forteo)",
       "Zoledronic acid (Reclast)"
     ],
     "correct": 2,
-    "explanation": "Forteo (teriparatide) is recombinant human PTH(1-34), an anabolic agent that stimulates bone formation. It is NOT a bisphosphonate. Alendronate, etidronate, and zoledronic acid are all bisphosphonates that bind hydroxyapatite and inhibit osteoclast resorption. The 24-month treatment cap and osteosarcoma boxed warning on Forteo were both removed by FDA in November 2020.",
+    "explanation": "Teriparatide (Forteo) is recombinant human PTH(1-34), an anabolic agent that stimulates bone formation by osteoblasts. It is NOT a bisphosphonate. Alendronate, etidronate, and zoledronic acid are all bisphosphonates that bind hydroxyapatite and inhibit osteoclast resorption. The 24-month treatment cap and osteosarcoma boxed warning on Forteo were both removed by FDA in November 2020.",
     "source": "FDA drug labels; ASBMR drug classification",
     "tags": [
       "pharmacology",
@@ -5658,7 +5658,7 @@
     "question": "What is the most important clinical consequence of osteoporosis?",
     "options": [
       "Change in body shape and posture",
-      "Fracture (the defining clinical outcome)",
+      "Fracture",
       "Loss of overall height",
       "Reduced bone mass on imaging"
     ],
@@ -5679,10 +5679,10 @@
     "type": "multiple_choice",
     "question": "What is the name of the tool that integrates clinical information in a quantitative manner to predict a 10-year probability of major osteoporotic fracture for both men and women?",
     "options": [
-      "TBS (Trabecular Bone Score)",
-      "FRAX (Fracture Risk Assessment Tool)",
+      "TBS",
+      "FRAX",
       "Precision calculator",
-      "BUB (bone ultrasound assessment)"
+      "BUB"
     ],
     "correct": 1,
     "explanation": "FRAX (Fracture Risk Assessment Tool) integrates 10 clinical risk factors with femoral neck BMD (or without BMD) to calculate the 10-year probability of major osteoporotic fracture and hip fracture. Validated for untreated adults aged 40-90, FRAX is country-specific and used to guide treatment decisions. TBS adjusts FRAX but does not calculate fracture probability alone.",
@@ -5790,7 +5790,7 @@
     "options": [
       "Distal (ultradistal) forearm",
       "Femoral neck of the proximal femur",
-      "Proximal forearm (33% radius)",
+      "33% radius",
       "Vertebral bodies of the spine"
     ],
     "correct": 2,
@@ -5853,10 +5853,10 @@
     "type": "multiple_choice",
     "question": "What is the texture index that evaluates the pixel gray-level variations in lumbar spine DXA images?",
     "options": [
-      "DXA itself (the underlying technology)",
-      "FRAX (a fracture probability tool)",
-      "QCT (volumetric CT-based density)",
-      "TBS (Trabecular Bone Score)"
+      "DXA",
+      "FRAX",
+      "QCT",
+      "TBS"
     ],
     "correct": 3,
     "explanation": "Trabecular Bone Score (TBS) is a textural index derived from the lumbar spine DXA image by analyzing pixel gray-level variations to estimate bone microarchitecture quality. TBS is independent of areal BMD and adds value in fracture risk prediction, particularly in T2DM and glucocorticoid-treated patients. ISCD 2023 endorses TBS use in adults aged 40+ within the manufacturer's BMI validity range.",
@@ -5876,7 +5876,7 @@
     "question": "Type 2 primary osteoporosis occurs:",
     "options": [
       "In premenopausal women",
-      "Generally after age 70 in both sexes (senile osteoporosis)",
+      "Generally after age 70 in both sexes",
       "As a side effect to certain medications",
       "Due to a decrease in estrogen after menopause"
     ],
@@ -5986,7 +5986,7 @@
     "question": "With changes in rotation of the femoral neck, what happens?",
     "options": [
       "BMC decreases proportionally",
-      "BMD changes (typically increases with under-rotation)",
+      "BMD changes with rotation angle",
       "BMC increases proportionally",
       "ROI size automatically expands"
     ],
@@ -6240,8 +6240,8 @@
     "type": "multiple_choice",
     "question": "Radiogrammetry is the measurement of bones using skeletal X-rays. Which site was often used?",
     "options": [
-      "Heel (calcaneus)",
-      "Metacarpals (hand bones)",
+      "Heel",
+      "Metacarpals",
       "Proximal femur",
       "Lumbar spine"
     ],
@@ -6262,7 +6262,7 @@
     "type": "multiple_choice",
     "question": "For voltage-switching DXA units, what type of calibration is used?",
     "options": [
-      "Continuous internal calibration (calibration wheel or drum)",
+      "Continuous internal calibration",
       "External calibration built into the phantom only",
       "No calibration is needed for these units",
       "Annual factory calibration only"
@@ -6284,10 +6284,10 @@
     "type": "multiple_choice",
     "question": "For low energies, the most common process of absorption is the:",
     "options": [
-      "Compton effect (dominant at higher energies)",
-      "Pair production (requires very high energy)",
-      "Photoelectric effect (dominant at low energies)",
-      "Photodisintegration (requires extreme energy)"
+      "Compton effect",
+      "Pair production",
+      "Photoelectric effect",
+      "Photodisintegration"
     ],
     "correct": 2,
     "explanation": "The photoelectric effect dominates at low X-ray energies (below approximately 50 keV) and is the primary mechanism for bone-to-soft-tissue attenuation contrast in DXA. The photoelectric absorption probability is proportional to Z-cubed (atomic number), so high-Z materials like calcium (Z=20) attenuate much more than soft tissue (effective Z about 7) at low energies. Compton dominates at higher energies; pair production requires >1.022 MeV.",
@@ -6306,12 +6306,12 @@
     "type": "multiple_choice",
     "question": "Which of the following would best describe the effective dose for a central DXA scan?",
     "options": [
-      "Less than a day of background radiation",
-      "Less than a round trip flight from Boston to LA",
-      "One-tenth of a chest X-ray",
-      "All of the above describe DXA effective dose"
+      "Comparable to a chest X-ray dose",
+      "About one-tenth of a day of background radiation",
+      "Less than a day of natural background radiation",
+      "Greater than a routine abdominal CT scan"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Central DXA effective dose (1-10 uSv) is comparable to all three references: less than one day of background radiation (about 7 uSv/day), less than a round-trip transcontinental flight (about 50-80 uSv), and roughly 1/10 the dose of a chest X-ray (about 20 uSv). These analogies are commonly used to reassure patients about the very low DXA dose.",
     "source": "ICRP recommendations; ISCD radiation safety white paper",
     "tags": [
@@ -6412,7 +6412,7 @@
     "type": "multiple_choice",
     "question": "What are the two most common methods for creating dual energies in DXA units?",
     "options": [
-      "K-edge filtering (GE Lunar) and rapid energy switching (Hologic)",
+      "K-edge filtering and rapid energy switching",
       "Compton scatter and photoelectric absorption alone",
       "Single energy with software simulation only",
       "Two separate X-ray tubes operating sequentially"
@@ -6694,10 +6694,10 @@
     "type": "multiple_choice",
     "question": "Which acronym describes the least amount of BMD change that can be statistically significant?",
     "options": [
-      "CV (Coefficient of Variation, expresses precision)",
-      "PE (Precision Error, used to calculate LSC)",
-      "SD (Standard Deviation, dispersion metric)",
-      "LSC (Least Significant Change)"
+      "CV",
+      "PE",
+      "SD",
+      "LSC"
     ],
     "correct": 3,
     "explanation": "Least Significant Change (LSC) is the minimum BMD change above measurement uncertainty at 95% confidence. LSC = 2.77 x precision error (RMS-SD). Any change less than the LSC is within measurement noise and not interpretable as true biological change. CV expresses precision; SD describes dispersion; PE is the input to the LSC formula but is not itself the threshold for significance.",
@@ -6715,10 +6715,10 @@
     "type": "multiple_choice",
     "question": "What are the two types of bone?",
     "options": [
-      "Osteoblasts and osteoclasts (these are cells, not bone types)",
-      "Compact and cortical (these are synonyms, not two types)",
-      "Cancellous and trabecular (these are synonyms, not two types)",
-      "Cortical and trabecular (the two distinct bone types)"
+      "Osteoblasts and osteoclasts",
+      "Compact and cortical",
+      "Cancellous and trabecular",
+      "Cortical and trabecular"
     ],
     "correct": 3,
     "explanation": "The two types of bone are cortical (compact, dense outer shell, 80% of skeletal mass) and trabecular (cancellous, spongy internal network, 20% of skeletal mass). The other options pair synonyms or list cell types (not bone types). Cortical bone has slow turnover; trabecular bone has rapid turnover and is the primary site of early osteoporotic loss.",
@@ -6736,10 +6736,10 @@
     "type": "multiple_choice",
     "question": "When a patient comes back for a follow-up study, what parameter is used to calculate the rate of change?",
     "options": [
-      "T-score (used for diagnosis, not monitoring)",
-      "Z-score (used for premenopausal, not monitoring)",
-      "BMD (the actual measured value for rate of change)",
-      "%CV (a precision metric, not a monitoring metric)"
+      "T-score",
+      "Z-score",
+      "BMD",
+      "%CV"
     ],
     "correct": 2,
     "explanation": "BMD is the parameter used for calculating rate of change in follow-up scans. The change is computed as (Follow-up BMD minus Baseline BMD), then compared to the LSC to determine statistical significance. T-scores and Z-scores are derived from BMD against reference populations and are not used directly for monitoring; they can shift when reference databases update independent of true biological change.",
@@ -6759,7 +6759,7 @@
     "question": "The shoulders of a patient should be squared with their:",
     "options": [
       "Neck and head alignment",
-      "Pelvis (for symmetric AP positioning)",
+      "Pelvis",
       "Ankles at the table edge",
       "Knees as they rest on the block"
     ],
@@ -6890,7 +6890,7 @@
       "Spine straight and centered in the field",
       "The top line of the ROI may be positioned between T12 and L1",
       "The bottom of the ROI line may be positioned between L4 and L5",
-      "Width is operator's choice (should be auto/standardized)"
+      "Width is operator's choice"
     ],
     "correct": 3,
     "explanation": "ROI width is NOT operator's choice in modern analysis. The width must be set by standardized algorithm parameters to ensure consistent area measurement across patients and follow-up scans. Other items listed are acceptable: spine should be straight and centered, the top line is placed between T12 and L1, and the bottom line between L4 and L5. Operator-driven width selection would invalidate precision.",
@@ -6909,10 +6909,10 @@
     "type": "multiple_choice",
     "question": "How many places to the right of the decimal point is used in reporting BMD?",
     "options": [
-      "0 (integer, never used for BMD)",
-      "1 (used for T-score and Z-score, not BMD)",
-      "2 (used for BMC and Area, not BMD)",
-      "3 (the ISCD standard for BMD reporting)"
+      "0",
+      "1",
+      "2",
+      "3"
     ],
     "correct": 3,
     "explanation": "Per ISCD 2023, BMD is reported to 3 decimal places (e.g., 0.987 g/cm-squared). The full reporting standard: BMD 3 decimals, BMC 2 decimals, Area 2 decimals, T-score 1 decimal, Z-score 1 decimal, percent reference values as integers. These standardize reporting and prevent over- or under-precision in clinical communication.",
@@ -6954,7 +6954,7 @@
     "question": "A postmenopausal woman with a femoral neck T-score of -2.0 SD below young adult is classified as:",
     "options": [
       "Normal bone density per WHO criteria",
-      "Osteopenia (low bone mass)",
+      "Osteopenia",
       "Osteoporosis per WHO threshold",
       "Severe osteoporosis with fracture"
     ],
@@ -7042,7 +7042,7 @@
     "options": [
       "0.5 percent of mean",
       "1.0 percent of mean",
-      "1.5 percent of mean (standard Shewhart tolerance for DXA QC)",
+      "1.5 percent of mean",
       "2.0 percent of mean"
     ],
     "correct": 2,
@@ -7083,9 +7083,9 @@
     "type": "multiple_choice",
     "question": "A DXA system that employs a rare earth filtered X-ray source uses what type of detector?",
     "options": [
-      "Calibration wheel (this is for energy switching, not k-edge)",
+      "Calibration wheel",
       "Pulse counting detector",
-      "Energy switching detector (this describes Hologic, not k-edge)",
+      "Energy switching detector",
       "Current integrating detector"
     ],
     "correct": 3,
@@ -7212,10 +7212,10 @@
     "type": "multiple_choice",
     "question": "The forearm, pelvis, and scapula all belong to which skeletal classification?",
     "options": [
-      "Appendicular skeleton (limbs and supporting girdles)",
-      "Axial skeleton (skull, spine, ribs, sternum)",
-      "Central skeleton (this is not a standard category)",
-      "Weight-bearing skeleton (functional, not anatomical)"
+      "Appendicular skeleton",
+      "Axial skeleton",
+      "Central skeleton",
+      "Weight-bearing skeleton"
     ],
     "correct": 0,
     "explanation": "The appendicular skeleton includes the upper and lower limbs (including the forearm) plus the pectoral girdle (scapula, clavicle) and pelvic girdle (pelvis). The axial skeleton includes the skull, vertebral column, ribs, and sternum. 'Central' and 'weight-bearing' are not standard anatomical classifications. DXA measures both: spine (axial), hip/forearm (appendicular).",
@@ -7254,12 +7254,12 @@
     "category": "statistics",
     "topic": "Compare analysis all requirements",
     "type": "multiple_choice",
-    "question": "In order to do a compare analysis:",
+    "question": "Compare analysis for a follow-up DXA requires:",
     "options": [
-      "The patient must have a previous scan done on the same anatomy",
-      "You must retrieve the baseline study",
-      "Patient position must be consistent",
-      "All of the above are required"
+      "A previous scan exists for the same anatomic site",
+      "The baseline study has been retrieved on the scanner",
+      "Patient positioning matches the original baseline",
+      "All three conditions must be met for valid compare analysis"
     ],
     "correct": 3,
     "explanation": "Valid compare analysis requires all three: a previous scan of the same anatomical site, retrieval of the baseline study for direct comparison, and consistent patient positioning matching the baseline. The copy/compare function on most scanners automates retrieval and helps match positioning. Any missing element invalidates the LSC-based comparison. Compare analysis is essential for monitoring treatment response.",
@@ -7278,7 +7278,7 @@
     "question": "How many degrees should you rotate the femur when positioning for a proximal femur scan?",
     "options": [
       "10-15 degrees",
-      "15-25 degrees (standard internal rotation)",
+      "15-25 degrees",
       "20-25 degrees",
       "25-30 degrees"
     ],
@@ -7320,10 +7320,10 @@
     "type": "multiple_choice",
     "question": "What is the name of the isotope used in DPA (dual photon absorptiometry)?",
     "options": [
-      "Americium-241 (used in smoke detectors, not DPA)",
-      "Gadolinium-153 (the DPA isotope)",
-      "Iodine-125 (used in SPA, not DPA)",
-      "Technetium-99m (used in nuclear medicine, not DPA)"
+      "Americium-241",
+      "Gadolinium-153",
+      "Iodine-125",
+      "Technetium-99m"
     ],
     "correct": 1,
     "explanation": "Dual Photon Absorptiometry (DPA) used Gadolinium-153 (Gd-153) as the radioisotope source, providing two photon energies (44 keV and 100 keV) needed for dual-energy subtraction of soft tissue. DPA was the predecessor to DXA and was replaced because DXA's X-ray tube produces higher photon flux (faster scans) and avoids the cost and decay limitations of radioisotopes. Iodine-125 was used in single photon absorptiometry (SPA).",
@@ -7406,12 +7406,12 @@
     "category": "pediatric",
     "topic": "Pediatric Z-scores low for age",
     "type": "multiple_choice",
-    "question": "In making a diagnosis for children, what are some guidelines?",
+    "question": "Per ISCD 2019 pediatric positions, diagnostic reporting in children requires:",
     "options": [
-      "Z-scores are used",
-      "Low for age is preferred over the term osteopenia",
-      "Pediatric software is highly recommended",
-      "All of the above are pediatric guidelines"
+      "Z-scores instead of T-scores",
+      "Use of 'low bone density for chronologic age' rather than osteopenia",
+      "Pediatric-specific reference software",
+      "All three are required for proper pediatric reporting"
     ],
     "correct": 3,
     "explanation": "Per ISCD 2019 Pediatric Positions, all of these apply: (1) Z-scores are used exclusively (T-scores never used in patients under 20), (2) 'Low bone density for chronologic age' is preferred over osteopenia/osteoporosis labels that imply pathology, and (3) pediatric-specific software with age-, sex-, and ethnicity-matched reference databases is required. Adult databases are inappropriate.",
@@ -7472,10 +7472,10 @@
     "type": "multiple_choice",
     "question": "To determine the least significant change at 95% confidence level (for baseline and one follow-up scan), the precision error is multiplied by:",
     "options": [
-      "2.77 (the LSC multiplier for 95% CI)",
-      "1.96 (z-score for 95% CI, but doesn't account for two measurements)",
-      "1.81 (not a standard statistical factor)",
-      "1.28 (z-score for 80% CI, not 95%)"
+      "2.77",
+      "1.96",
+      "1.81",
+      "1.28"
     ],
     "correct": 0,
     "explanation": "LSC = 2.77 x precision error. The 2.77 factor combines 1.96 (z-score for 95% confidence) multiplied by sqrt(2) (because two independent measurements are compared, baseline and follow-up: 1.96 x 1.414 = 2.77). This is the standard ISCD formula for two-time-point LSC at 95% confidence.",
@@ -7494,10 +7494,10 @@
     "type": "multiple_choice",
     "question": "What skeletal site may be preferred for assessing early menopause following an oophorectomy?",
     "options": [
-      "Calcaneus (heel, not a diagnostic site)",
-      "Forearm (cortical-rich, slow change)",
-      "Hip (mixed composition)",
-      "Spine (trabecular-rich, rapid response)"
+      "Calcaneus",
+      "Forearm",
+      "Hip",
+      "Spine"
     ],
     "correct": 3,
     "explanation": "Surgical menopause from bilateral oophorectomy causes abrupt, severe estrogen withdrawal that preferentially affects trabecular bone. The lumbar spine, with about 66% trabecular content, shows the most rapid and measurable BMD loss in this scenario. Spine BMD is therefore the most sensitive site for baseline and follow-up after oophorectomy, similar to its preferred role in monitoring antiresorptive therapy.",
@@ -7537,10 +7537,10 @@
     "type": "multiple_choice",
     "question": "Which of the following measures more trabecular bone?",
     "options": [
-      "PA spine measured by DXA (includes posterior cortical elements)",
-      "Lateral spine measured by DXA (less posterior overlap)",
-      "QCT spine (isolates trabecular bone in the vertebral body)",
-      "VFA (a morphology assessment, not BMD)"
+      "PA spine measured by DXA",
+      "Lateral spine measured by DXA",
+      "QCT spine",
+      "VFA"
     ],
     "correct": 2,
     "explanation": "QCT (Quantitative Computed Tomography) can specifically measure trabecular-only bone in the vertebral body, excluding posterior cortical elements. This trabecular isolation is impossible with DXA, which projects the entire vertebra in 2D. PA DXA spine is approximately 50-66% trabecular (mixed). Lateral spine DXA has less posterior overlap but still includes cortical bone. VFA assesses morphology, not BMD.",
@@ -7666,15 +7666,14 @@
     "category": "equipment-qc",
     "topic": "DXA all influences",
     "type": "multiple_choice",
-    "question": "DXA results may be influenced by:",
+    "question": "DXA accuracy can be influenced by:",
     "options": [
-      "Body thickness affecting beam penetration",
-      "Degenerative changes elevating spine BMD",
-      "Fractures concentrating bone area",
-      "Scan mode and speed selection",
-      "All of the above"
+      "Patient body habitus and tissue thickness",
+      "Degenerative changes in the spine",
+      "Vertebral compression fracture artifact",
+      "All of these factors can affect DXA accuracy"
     ],
-    "correct": 4,
+    "correct": 3,
     "explanation": "All listed factors influence DXA results. Body thickness affects photon attenuation and scan mode selection. Degenerative changes (osteophytes, facet hypertrophy, vascular calcification) falsely elevate spine BMD. Compression fractures concentrate bone into smaller area, also falsely elevating BMD. Scan mode (Standard, Thick, Express) affects acquisition parameters and must be matched between baseline and follow-up.",
     "source": "ISCD 2023; standard artifact references",
     "tags": [
@@ -7775,12 +7774,12 @@
     "category": "patient-care",
     "topic": "Fall prevention all",
     "type": "multiple_choice",
-    "question": "Fall prevention should always be part of a patient's management with low bone mass, which should include talking to them about:",
+    "question": "Patient fall-prevention counseling for low bone mass should include:",
     "options": [
-      "Installing grab bars in bathrooms",
-      "Ensuring good lighting throughout the home",
-      "Removing scatter rugs and trip hazards",
-      "All of the above"
+      "Bathroom grab bars and handrails",
+      "Good lighting in all walking areas",
+      "Removing loose rugs and trip hazards",
+      "All three are standard fall-prevention recommendations"
     ],
     "correct": 3,
     "explanation": "Comprehensive fall prevention addresses multiple environmental factors: grab bars (especially bathrooms and stairways), adequate lighting (night lights, motion-activated lights), and removing trip hazards (loose rugs, clutter, cords). Intrinsic factors (vision, balance, sedating medications, polypharmacy) also require attention. Fall prevention reduces fracture risk independent of BMD treatment and is a core patient education topic.",
@@ -8595,7 +8594,7 @@
     "question": "The NRC annual occupational whole-body dose limit for radiation workers is:",
     "options": [
       "5 mSv per year",
-      "50 mSv per year (5 rem)",
+      "50 mSv per year",
       "150 mSv per year",
       "500 mSv per year"
     ],
@@ -8742,7 +8741,7 @@
     "question": "Vertebra plana refers to:",
     "options": [
       "A normal flat vertebra in the cervical spine",
-      "Complete or near-complete vertebral body collapse (greater than 90 percent height loss)",
+      "Complete or near-complete vertebral body collapse",
       "A vertebra with horizontal endplates only",
       "The first vertebra above a compression fracture"
     ],
@@ -8953,7 +8952,7 @@
     "question": "Per ISCD 2023, when both hips are scanned, the diagnostic T-score is determined by:",
     "options": [
       "The average of both femoral neck T-scores",
-      "The lowest of four ROIs (left and right femoral neck and total hip)",
+      "The lowest of the four standard hip ROIs",
       "The right hip only by convention",
       "The dominant-side hip in all cases"
     ],
@@ -9167,7 +9166,7 @@
     "question": "The ultradistal radius differs from the 33% radius in that the ultradistal is:",
     "options": [
       "More cortical than the 33% site",
-      "More trabecular (approximately 50-66 percent)",
+      "More trabecular bone composition",
       "Located proximally near the elbow",
       "The only diagnostic site in the forearm"
     ],
@@ -9316,7 +9315,7 @@
     "question": "Daily QC records should be retained for:",
     "options": [
       "30 days only, then deleted",
-      "Per regulatory requirements (typically 5+ years)",
+      "Per regulatory requirements, typically 5 or more years",
       "Until the next QC failure",
       "Only the most recent 100 entries"
     ],
@@ -9466,7 +9465,7 @@
     "question": "WHO T-score criteria should be used for:",
     "options": [
       "Both diagnosis and serial monitoring",
-      "Diagnosis only (not for monitoring change)",
+      "Diagnosis only",
       "Pediatric assessment only",
       "Premenopausal women only"
     ],
@@ -9553,7 +9552,7 @@
     "question": "Lateral spine imaging in DXA is primarily used for:",
     "options": [
       "Diagnostic BMD measurement equivalent to PA spine",
-      "Vertebral fracture assessment (VFA), not BMD diagnosis",
+      "Vertebral fracture assessment via morphological grading",
       "Trabecular Bone Score calculation only",
       "Hip axis length measurement"
     ],
@@ -10043,7 +10042,7 @@
     "type": "multiple_choice",
     "question": "Atypical femoral fractures are a rare adverse effect associated with:",
     "options": [
-      "Long-term bisphosphonate use (typically over 5 years)",
+      "Long-term bisphosphonate use",
       "Acute teriparatide therapy in the first month",
       "Calcium supplementation alone",
       "Vitamin D toxicity"
@@ -10086,7 +10085,7 @@
     "question": "DXA operators are typically advised to maintain a minimum distance from the patient and gantry of approximately:",
     "options": [
       "Within 6 inches",
-      "1 meter (3 feet) or more",
+      "1 meter or more",
       "Always touching the patient for assistance",
       "Across the parking lot for safety"
     ],
@@ -10509,7 +10508,7 @@
     "question": "In severe osteoporosis, the preferred sequence is often:",
     "options": [
       "Antiresorptive first, then anabolic if no response",
-      "Anabolic first (teriparatide or romosozumab), then antiresorptive to maintain gains",
+      "Anabolic first, then antiresorptive to maintain gains",
       "Anabolic and antiresorptive together always",
       "Calcium and vitamin D alone with no further therapy"
     ],
@@ -10635,10 +10634,10 @@
     "type": "multiple_choice",
     "question": "A postmenopausal woman has spine T-score of -2.7 and total hip T-score of -1.8. Her diagnosis is:",
     "options": [
-      "Osteopenia (use the higher T-score)",
-      "Osteoporosis (use the lowest qualifying T-score from a standard site)",
-      "Normal (since hip is above -2.5)",
-      "Insufficient data to diagnose"
+      "Osteopenia based on the higher hip T-score",
+      "Osteoporosis based on the lowest qualifying T-score",
+      "Normal because the hip is above the diagnostic threshold",
+      "Insufficient data because sites disagree"
     ],
     "correct": 1,
     "explanation": "Per ISCD 2023, the diagnosis uses the LOWEST qualifying T-score from standard sites (lumbar spine, femoral neck, total hip, 33% radius). With spine T-score of -2.7 and hip T-score of -1.8, the spine is diagnostic for osteoporosis (-2.5 or lower). This T-score discordance between sites is common and not a reason to discount either measurement. The lowest T-score drives the WHO diagnostic classification.",
@@ -10657,7 +10656,7 @@
     "type": "multiple_choice",
     "question": "TBS is calculated from which DXA projection?",
     "options": [
-      "PA lumbar spine (the same image as BMD)",
+      "PA lumbar spine",
       "Lateral spine VFA only",
       "Total body composition scan",
       "Hip and femoral neck projection"
