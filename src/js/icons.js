@@ -22,7 +22,8 @@ const PATHS = {
   clock: 'M12 3 A9 9 0 1 0 12 21 A9 9 0 1 0 12 3 Z M12 7 V12 L15 14',
   refresh: 'M4 12 A8 8 0 0 1 18 7 L20 5 M20 5 V10 M20 5 H15 M20 12 A8 8 0 0 1 6 17 L4 19 M4 19 V14 M4 19 H9',
   trash: 'M4 7 H20 M9 7 V4 H15 V7 M6 7 L7 20 H17 L18 7 M10 11 V17 M14 11 V17',
-  zap: 'M13 3 L5 14 H11 L10 21 L19 10 H13 Z'
+  zap: 'M13 3 L5 14 H11 L10 21 L19 10 H13 Z',
+  pill: 'M10.5 3.5 L20.5 13.5 A3 3 0 0 1 16.5 17.5 L6.5 7.5 A3 3 0 0 1 10.5 3.5 Z M12.5 8.5 L15.5 11.5'
 };
 
 export function icon(name, className = 'w-5 h-5') {

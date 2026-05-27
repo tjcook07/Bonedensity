@@ -1,0 +1,217 @@
+{
+  "title": "Osteoporosis Drug Reference",
+  "lastVerified": "2026-05-27",
+  "sourceNote": "FDA labels and ASBMR/BHOF/ISCD 2023 guidance. Verify clinical changes against current product labeling before patient use.",
+  "classes": [
+    {
+      "className": "Bisphosphonates",
+      "classNotes": "Antiresorptive. Bind hydroxyapatite, inhibit osteoclast farnesyl pyrophosphate synthase. Long skeletal half-life (over 10 years in bone). Oral formulations require strict administration to avoid esophagitis: empty stomach, plain water, remain upright 30 to 60 minutes. Avoid in CrCl below 35 mL/min. Drug holiday considered after 3 to 5 years oral or 3 years IV in low-risk patients.",
+      "drugs": [
+        {
+          "generic": "Alendronate",
+          "brand": "Fosamax, Binosto",
+          "use": "Treatment and prevention of postmenopausal osteoporosis. Treatment of osteoporosis in men. Treatment of glucocorticoid-induced osteoporosis. Paget disease of bone.",
+          "dose": "70 mg orally once weekly (treatment). 35 mg orally once weekly (prevention). 10 mg daily and 5 mg daily forms also exist.",
+          "administration": "First thing in morning with 6 to 8 oz plain water on empty stomach. Wait at least 30 minutes and remain upright before food, drink, or other meds.",
+          "sideEffects": "GI: heartburn, dyspepsia, esophagitis, esophageal ulcer. Musculoskeletal pain. Rare: osteonecrosis of jaw, atypical femoral fracture, hypocalcemia.",
+          "warnings": "Contraindicated in esophageal abnormalities that delay emptying, inability to stand or sit upright 30 minutes, hypocalcemia, CrCl below 35 mL/min.",
+          "notes": "Most-studied bisphosphonate. Generic available."
+        },
+        {
+          "generic": "Risedronate",
+          "brand": "Actonel, Atelvia",
+          "use": "Treatment and prevention of postmenopausal osteoporosis. Treatment of osteoporosis in men. Glucocorticoid-induced osteoporosis. Paget disease.",
+          "dose": "35 mg orally once weekly OR 150 mg orally once monthly OR 5 mg orally daily. Atelvia is a delayed-release weekly form taken AFTER breakfast.",
+          "administration": "Standard (Actonel): empty stomach, plain water, upright 30 minutes. Delayed-release (Atelvia) is the exception and is taken immediately after breakfast.",
+          "sideEffects": "Similar GI profile to alendronate. Musculoskeletal pain. Rare ONJ, atypical femoral fracture.",
+          "warnings": "Same contraindications as alendronate. Use Atelvia for patients who cannot tolerate the empty-stomach requirement.",
+          "notes": "Reduces both spine and hip fracture risk."
+        },
+        {
+          "generic": "Ibandronate",
+          "brand": "Boniva",
+          "use": "Treatment and prevention of postmenopausal osteoporosis.",
+          "dose": "150 mg orally once monthly OR 3 mg IV every 3 months.",
+          "administration": "Oral: empty stomach, plain water, upright 60 minutes (longer than the other oral bisphosphonates). IV: 15 to 30 second injection by clinician.",
+          "sideEffects": "GI similar to others. IV form: acute-phase reaction (flu-like). Rare ONJ, atypical femoral fracture.",
+          "warnings": "Not shown to reduce non-vertebral fractures (including hip). Limited to vertebral fracture reduction evidence.",
+          "notes": "Monthly dosing improves adherence vs weekly."
+        },
+        {
+          "generic": "Zoledronic acid",
+          "brand": "Reclast (osteoporosis), Zometa (oncology)",
+          "use": "Treatment and prevention of postmenopausal osteoporosis. Treatment of osteoporosis in men. Glucocorticoid-induced osteoporosis. Paget disease.",
+          "dose": "5 mg IV infusion once yearly (treatment) or every 2 years (prevention). Infused over at least 15 minutes.",
+          "administration": "Patient must be adequately hydrated before infusion. Acetaminophen given after infusion reduces acute-phase reaction.",
+          "sideEffects": "Acute-phase reaction (flu-like, fever, myalgia, arthralgia) in about 25 percent, usually within 3 days and resolves within 4 days. Rare ONJ, atypical femoral fracture, hypocalcemia, renal impairment, atrial fibrillation.",
+          "warnings": "Contraindicated in CrCl below 35 mL/min. Correct hypocalcemia before treatment. Caution with concurrent nephrotoxic drugs.",
+          "notes": "Annual dosing improves adherence dramatically. Most potent bisphosphonate."
+        }
+      ]
+    },
+    {
+      "className": "RANKL Inhibitor",
+      "classNotes": "Antiresorptive monoclonal antibody. Does NOT bind to bone mineral, so has no skeletal retention. Effects fully reverse on discontinuation with rebound bone loss and multiple vertebral fracture risk. Do NOT stop without transitioning to a bisphosphonate.",
+      "drugs": [
+        {
+          "generic": "Denosumab",
+          "brand": "Prolia (osteoporosis), Xgeva (oncology)",
+          "use": "Treatment of postmenopausal women at high fracture risk. Treatment of men with osteoporosis at high fracture risk. Bone loss in men on androgen deprivation therapy. Bone loss in women on aromatase inhibitor therapy. Glucocorticoid-induced osteoporosis.",
+          "dose": "60 mg subcutaneous injection every 6 months by a clinician.",
+          "administration": "Administered by healthcare professional into upper arm, upper thigh, or abdomen. Patient takes calcium and vitamin D throughout therapy.",
+          "sideEffects": "Hypocalcemia, infection (especially skin), dermatologic reactions (eczema, dermatitis), musculoskeletal pain, rare ONJ, rare atypical femoral fracture.",
+          "warnings": "BOXED WARNING (added January 2024): severe hypocalcemia in patients with advanced CKD, especially on dialysis or with CKD-MBD. Contraindicated in hypocalcemia. Rebound vertebral fractures if discontinued without sequential antiresorptive therapy.",
+          "notes": "Never stop without transitioning to bisphosphonate. Effects on bone reverse rapidly after 6-month dosing interval."
+        }
+      ]
+    },
+    {
+      "className": "Anabolic Agents (PTH/PTHrP analogs)",
+      "classNotes": "Bone-building. Intermittent daily PTH or PTHrP stimulates osteoblasts (opposite of continuous PTH excess as in primary hyperparathyroidism, which is catabolic). Use first when feasible in severe osteoporosis, then transition to antiresorptive to maintain gains.",
+      "drugs": [
+        {
+          "generic": "Teriparatide",
+          "brand": "Forteo, Bonsity (generic)",
+          "use": "Postmenopausal women at high fracture risk. Men with primary or hypogonadal osteoporosis at high risk. Glucocorticoid-induced osteoporosis at high risk.",
+          "dose": "20 mcg subcutaneous self-injection once daily into thigh or abdomen.",
+          "administration": "Patient self-injects from prefilled pen. Refrigerate. Sit or lie down with first doses (orthostatic hypotension risk).",
+          "sideEffects": "Nausea, arthralgia, leg cramps, orthostatic hypotension, transient hypercalcemia, dizziness, injection site reactions.",
+          "warnings": "Boxed warning for osteosarcoma REMOVED November 2020. 24-month lifetime treatment cap REMOVED November 2020. Caution still warranted in patients at increased baseline osteosarcoma risk (Paget disease, prior skeletal radiation, unexplained alkaline phosphatase elevation, open epiphyses).",
+          "notes": "Recombinant human PTH(1-34). First anabolic agent approved (2002). Sequential antiresorptive recommended after course."
+        },
+        {
+          "generic": "Abaloparatide",
+          "brand": "Tymlos",
+          "use": "Postmenopausal women at high fracture risk (2017). Men with osteoporosis at high fracture risk (added December 2022 via ATOM trial).",
+          "dose": "80 mcg subcutaneous self-injection once daily into periumbilical region.",
+          "administration": "Patient self-injects from prefilled pen. Sit or lie down with first doses (orthostatic hypotension risk in first 4 hours).",
+          "sideEffects": "Hypercalciuria, dizziness, nausea, headache, palpitations, fatigue, upper abdominal pain, vertigo. In men: injection site reactions, dizziness, arthralgia.",
+          "warnings": "Osteosarcoma boxed warning REMOVED December 2021. 2-year cumulative lifetime limit REMAINS (unlike Forteo). Orthostatic hypotension. Hypercalcemia and urolithiasis risk.",
+          "notes": "PTHrP(1-34) analog. Differs from teriparatide in receptor binding pattern. Sequential antiresorptive recommended after 2-year course."
+        }
+      ]
+    },
+    {
+      "className": "Sclerostin Inhibitor (Dual Action)",
+      "classNotes": "Humanized monoclonal antibody against sclerostin. Unique dual mechanism: increases bone formation AND decreases bone resorption. Single 12-month course. Sequential antiresorptive recommended after.",
+      "drugs": [
+        {
+          "generic": "Romosozumab",
+          "brand": "Evenity",
+          "use": "Postmenopausal women with osteoporosis at very high fracture risk (history of fracture, multiple risk factors, or failure of other therapies).",
+          "dose": "210 mg subcutaneous (given as two 105 mg injections) monthly for 12 months.",
+          "administration": "Administered by healthcare professional. Course is exactly 12 months, then stop and transition.",
+          "sideEffects": "Arthralgia, headache, injection site reactions. Hypocalcemia.",
+          "warnings": "BOXED WARNING for cardiovascular events: myocardial infarction, stroke, cardiovascular death. Do NOT initiate within 1 year of MI or stroke. Consider risk-benefit in CV-risk patients.",
+          "notes": "Approved 2019. ARCH and FRAME trials. Course-limited to 12 months due to plateau of effect. Sequential antiresorptive required to maintain gains."
+        }
+      ]
+    },
+    {
+      "className": "Selective Estrogen Receptor Modulator (SERM)",
+      "classNotes": "Estrogen agonist in bone, estrogen antagonist in breast tissue. Tissue-selective action allows bone protection plus breast cancer risk reduction without uterine stimulation.",
+      "drugs": [
+        {
+          "generic": "Raloxifene",
+          "brand": "Evista",
+          "use": "Treatment and prevention of postmenopausal osteoporosis. Reduction in risk of invasive breast cancer in postmenopausal women at high risk.",
+          "dose": "60 mg orally once daily.",
+          "administration": "Take any time of day, with or without food. Calcium and vitamin D supplementation as needed.",
+          "sideEffects": "Hot flashes, leg cramps, peripheral edema, increased thromboembolic risk (DVT, PE).",
+          "warnings": "BOXED WARNING for venous thromboembolism and death due to stroke. Contraindicated in women with active or past VTE. Avoid in women at increased stroke risk.",
+          "notes": "Reduces vertebral fracture risk. Not shown to reduce hip fractures. Reduces invasive breast cancer risk by approximately 50 percent in high-risk women."
+        }
+      ]
+    },
+    {
+      "className": "Calcitonin",
+      "classNotes": "Older, weaker antiresorptive. Limited efficacy, no proven hip fracture reduction. Regulatory reviews identified possible small cancer signal with long-term use. Now rarely first-line. Some utility for acute vertebral fracture pain.",
+      "drugs": [
+        {
+          "generic": "Calcitonin-salmon",
+          "brand": "Miacalcin, Fortical",
+          "use": "Treatment of postmenopausal osteoporosis in women at least 5 years past menopause when other treatments not suitable.",
+          "dose": "200 IU intranasal spray daily, alternating nostrils. Also available as subcutaneous or IM injection.",
+          "administration": "Nasal spray prime before first use. Alternate nostrils daily.",
+          "sideEffects": "Rhinitis, nasal irritation, epistaxis, back pain, arthralgia. Injection form: flushing, nausea.",
+          "warnings": "Possible small increased cancer risk with long-term use (under regulatory review historically). Hypersensitivity reactions reported.",
+          "notes": "Modest vertebral fracture reduction only. Not first-line. May provide acute analgesic effect after vertebral compression fracture."
+        }
+      ]
+    },
+    {
+      "className": "Supplements",
+      "classNotes": "Foundation of all osteoporosis management. Supplements support but do not replace pharmacologic therapy. BHOF recommends total calcium intake 1200 mg/day (postmenopausal women, men over 70) and vitamin D 800 to 1000 IU/day for adults over 50.",
+      "drugs": [
+        {
+          "generic": "Calcium",
+          "brand": "Various (carbonate, citrate)",
+          "use": "Foundational supplement for bone health. Carbonate requires food for absorption; citrate does not.",
+          "dose": "1200 mg/day total intake (diet plus supplements) for postmenopausal women and men over 70. 1000 mg/day for younger adults.",
+          "administration": "Divide doses if taking more than 500 mg at one time (absorption saturates). Take carbonate with food.",
+          "sideEffects": "Constipation, bloating, kidney stones with excess intake. Possible cardiovascular concern with high-dose supplements (debated).",
+          "warnings": "Tolerable upper intake level: 2000 mg/day. Avoid taking with bisphosphonates, levothyroxine, or tetracyclines (binds and reduces absorption).",
+          "notes": "Diet preferred over supplements when possible. Dairy, leafy greens, fortified foods."
+        },
+        {
+          "generic": "Vitamin D",
+          "brand": "Various (D3 cholecalciferol preferred)",
+          "use": "Supports calcium absorption. Direct effects on bone and muscle function. Reduces fall risk in deficient patients.",
+          "dose": "800 to 1000 IU/day for adults over 50 (BHOF). Higher doses for deficiency. Target serum 25-OH vitamin D at least 30 ng/mL.",
+          "administration": "Daily oral. D3 (cholecalciferol) preferred over D2 (ergocalciferol). Can be taken with food for fat absorption.",
+          "sideEffects": "Toxicity rare at typical doses. Hypercalcemia and hypercalciuria with excess.",
+          "warnings": "Tolerable upper intake level: 4000 IU/day for adults. Monitor 25-OH vitamin D in deficient patients.",
+          "notes": "Synthesized in skin from UVB exposure. Deficiency contributes to osteomalacia (severe) and osteoporosis (mild)."
+        }
+      ]
+    }
+  ],
+  "quickReference": {
+    "byMechanism": {
+      "antiresorptive": ["Alendronate", "Risedronate", "Ibandronate", "Zoledronic acid", "Denosumab", "Raloxifene", "Calcitonin"],
+      "anabolic": ["Teriparatide", "Abaloparatide"],
+      "dualAction": ["Romosozumab"]
+    },
+    "byRoute": {
+      "oralDaily": ["Calcium", "Vitamin D", "Raloxifene"],
+      "oralWeekly": ["Alendronate", "Risedronate"],
+      "oralMonthly": ["Ibandronate", "Risedronate"],
+      "subcutaneousDaily": ["Teriparatide", "Abaloparatide"],
+      "subcutaneousMonthly": ["Romosozumab"],
+      "subcutaneousEvery6Months": ["Denosumab"],
+      "ivQuarterly": ["Ibandronate IV"],
+      "ivAnnual": ["Zoledronic acid"],
+      "nasalDaily": ["Calcitonin"]
+    },
+    "fdaBoxedWarnings": [
+      {
+        "drug": "Denosumab (Prolia)",
+        "warning": "Severe hypocalcemia in advanced CKD, especially dialysis or CKD-MBD",
+        "added": "January 2024"
+      },
+      {
+        "drug": "Romosozumab (Evenity)",
+        "warning": "Cardiovascular events (MI, stroke, CV death). Do not initiate within 1 year of MI or stroke",
+        "added": "At approval 2019"
+      },
+      {
+        "drug": "Raloxifene (Evista)",
+        "warning": "Venous thromboembolism and increased risk of death due to stroke",
+        "added": "Original label"
+      }
+    ],
+    "removedWarnings": [
+      {
+        "drug": "Teriparatide (Forteo)",
+        "removed": "Osteosarcoma boxed warning AND 24-month lifetime cap",
+        "date": "November 2020"
+      },
+      {
+        "drug": "Abaloparatide (Tymlos)",
+        "removed": "Osteosarcoma boxed warning",
+        "date": "December 2021",
+        "note": "2-year cumulative cap REMAINS"
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 import { pageShell, attachBackButton } from './layout.js';
 import { icon } from '../js/icons.js';
 import { navigate } from '../js/router.js';
+import drugData from '../data/drug_reference.json';
 
 const SECTIONS = [
   { id: 'formulas', title: 'Formulas and numbers', icon: 'calculator', blurb: 'BMD, T and Z scores, LSC, precision study design, reporting decimals' },
@@ -8,6 +9,7 @@ const SECTIONS = [
   { id: 'positioning', title: 'Positioning cheat sheet', icon: 'clipboard', blurb: 'AP spine, proximal femur, forearm, VFA, whole body' },
   { id: 'iscd', title: 'ISCD 2023 updates', icon: 'book', blurb: 'AFF screening, TBS, bilateral hip, transgender, SCI, periprosthetic' },
   { id: 'pediatric', title: 'Pediatric', icon: 'baby', blurb: 'ISCD 2019 diagnostic rule, terminology, sites, height adjustment' },
+  { id: 'drugs', title: 'Drug reference', icon: 'pill', blurb: 'Bisphosphonates, denosumab, anabolics, romosozumab, raloxifene, calcitonin, supplements' },
   { id: 'blueprint', title: 'Exam blueprint (2022)', icon: 'grid', blurb: '75 scored + 30 pilot, 1h 45m, 75 scaled passing' }
 ];
 
@@ -174,6 +176,95 @@ const CONTENT = {
       Short or tall stature can distort DXA results in growing skeletons. Adjust using BMAD (bone mineral apparent density), height for age Z score, or the CHOP (Children's Hospital of Philadelphia) calculator to avoid misclassification.
     </div>
   `,
+  drugs: () => {
+    function drugCard(drug) {
+      const warn = drug.warnings || '';
+      const hasBoxed = warn.toUpperCase().includes('BOXED WARNING');
+      return `
+        <div class="card mb-3">
+          <div class="font-display text-base text-accent-amber">${drug.generic}</div>
+          <div class="text-bone-300 text-xs mb-3">${drug.brand}</div>
+          <div class="grid gap-2 text-sm">
+            <div><span class="text-bone-300">Use:</span> <span class="text-bone-100">${drug.use}</span></div>
+            <div><span class="text-bone-300">Dose:</span> <span class="text-bone-100">${drug.dose}</span></div>
+            <div><span class="text-bone-300">Admin:</span> <span class="text-bone-100">${drug.administration}</span></div>
+            <div><span class="text-bone-300">Side effects:</span> <span class="text-bone-100">${drug.sideEffects}</span></div>
+            <div>${hasBoxed
+              ? `<span class="text-err font-medium">⚠ ${warn}</span>`
+              : `<span class="text-bone-300">Warnings:</span> <span class="text-bone-100">${warn}</span>`
+            }</div>
+            ${drug.notes ? `<div class="text-bone-300 text-xs border-t border-ink-700 pt-2 mt-1">${drug.notes}</div>` : ''}
+          </div>
+        </div>`;
+    }
+
+    function classSection(cls, idx) {
+      const id = `drug-class-${idx}`;
+      return `
+        <div class="mb-5">
+          <button data-toggle="${id}" class="w-full flex items-center justify-between text-left mb-2">
+            <div>
+              <h2 class="font-display text-lg">${cls.className}</h2>
+              <div class="text-bone-300 text-xs">${cls.drugs.length} drug${cls.drugs.length > 1 ? 's' : ''}</div>
+            </div>
+            <span class="text-bone-300 transition-transform" data-chevron="${id}">${icon('chevron_right', 'w-5 h-5')}</span>
+          </button>
+          <div id="${id}" class="hidden">
+            <div class="text-sm text-bone-200 mb-3 px-1 leading-relaxed">${cls.classNotes}</div>
+            ${cls.drugs.map(drugCard).join('')}
+          </div>
+        </div>`;
+    }
+
+    const qr = drugData.quickReference;
+    const mechRows = Object.entries(qr.byMechanism).map(([mech, drugs]) => {
+      const label = mech === 'dualAction' ? 'Dual action' : mech.charAt(0).toUpperCase() + mech.slice(1);
+      return `<div class="flex gap-3 border-b border-ink-700 pb-2">
+        <div class="text-sm text-bone-100 w-28 shrink-0">${label}</div>
+        <div class="flex flex-wrap gap-1">${drugs.map(d => `<span class="inline-block px-2 py-0.5 rounded-full bg-ink-700 text-xs text-accent-amber">${d}</span>`).join('')}</div>
+      </div>`;
+    }).join('');
+
+    const routeLabels = {
+      oralDaily: 'Oral daily', oralWeekly: 'Oral weekly', oralMonthly: 'Oral monthly',
+      subcutaneousDaily: 'SQ daily', subcutaneousMonthly: 'SQ monthly',
+      subcutaneousEvery6Months: 'SQ every 6 mo', ivQuarterly: 'IV quarterly',
+      ivAnnual: 'IV annual', nasalDaily: 'Nasal daily'
+    };
+    const routeRows = Object.entries(qr.byRoute).map(([key, drugs]) => {
+      return `<div class="flex gap-3 border-b border-ink-700 pb-2">
+        <div class="text-sm text-bone-100 w-28 shrink-0">${routeLabels[key] || key}</div>
+        <div class="flex flex-wrap gap-1">${drugs.map(d => `<span class="inline-block px-2 py-0.5 rounded-full bg-ink-700 text-xs text-bone-200">${d}</span>`).join('')}</div>
+      </div>`;
+    }).join('');
+
+    const boxedRows = qr.fdaBoxedWarnings.map(w => `
+      <div class="border-l-2 border-err pl-3 mb-3">
+        <div class="text-sm font-medium text-err">${w.drug}</div>
+        <div class="text-sm text-bone-200">${w.warning}</div>
+        <div class="text-xs text-bone-300">${w.added}</div>
+      </div>`).join('');
+
+    const removedRows = qr.removedWarnings.map(w => `
+      <div class="border-l-2 border-ok pl-3 mb-3">
+        <div class="text-sm font-medium text-ok">${w.drug}</div>
+        <div class="text-sm text-bone-200">${w.removed}</div>
+        <div class="text-xs text-bone-300">${w.date}${w.note ? ` — ${w.note}` : ''}</div>
+      </div>`).join('');
+
+    return `
+      <div class="text-bone-300 text-xs mb-5">${drugData.sourceNote}</div>
+      ${drugData.classes.map(classSection).join('')}
+      ${h('Quick lookup', 'By mechanism')}
+      <div class="card mb-4"><div class="grid gap-2">${mechRows}</div></div>
+      ${h('By route and frequency')}
+      <div class="card mb-4"><div class="grid gap-2">${routeRows}</div></div>
+      ${h('Current FDA boxed warnings')}
+      <div class="card mb-4">${boxedRows}</div>
+      ${h('Recently removed warnings', 'Older study materials may still list these')}
+      <div class="card">${removedRows}</div>
+    `;
+  },
   blueprint: () => `
     ${h('ARRT Bone Densitometry 2022 blueprint', 'Valid through Dec 31, 2026. 2027 revision effective Jan 1, 2027.')}
     <div class="card mb-4">
@@ -221,8 +312,20 @@ function list(container) {
 function section(container, id) {
   const s = SECTIONS.find(x => x.id === id);
   if (!s || !CONTENT[id]) return list(container);
-  container.innerHTML = pageShell(s.title, CONTENT[id](), { back: true, backTo: 'reference' });
+  const content = typeof CONTENT[id] === 'function' ? CONTENT[id]() : CONTENT[id];
+  container.innerHTML = pageShell(s.title, content, { back: true, backTo: 'reference' });
   attachBackButton(container);
+  container.querySelectorAll('[data-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = container.querySelector(`#${btn.getAttribute('data-toggle')}`);
+      const chev = btn.querySelector(`[data-chevron]`);
+      if (target) {
+        const open = !target.classList.contains('hidden');
+        target.classList.toggle('hidden', open);
+        if (chev) chev.style.transform = open ? '' : 'rotate(90deg)';
+      }
+    });
+  });
 }
 
 export async function renderReference(container, params = []) {
