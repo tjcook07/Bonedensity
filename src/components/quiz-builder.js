@@ -145,6 +145,18 @@ function buildBody(state) {
   ).join('');
 
   return `
+    <button data-nav-to="examSim" class="w-full card card-hover text-left mb-4 border border-accent-amber/40">
+      <div class="flex items-center gap-3">
+        <div class="text-accent-amber">${icon('clipboard', 'w-7 h-7')}</div>
+        <div class="flex-1">
+          <div class="text-accent-amber text-xs uppercase tracking-widest">Full registry simulator</div>
+          <div class="font-display text-lg mt-0.5">Registry Exam Simulator (120 questions, 2.5 hours)</div>
+          <div class="text-bone-300 text-xs mt-1 leading-snug">Simulates the real ARRT BD exam. 100 questions count toward your score, 20 are unscored pilots, just like the actual registry.</div>
+        </div>
+        <span class="text-bone-300">${icon('chevron_right', 'w-5 h-5')}</span>
+      </div>
+    </button>
+
     <div class="card mb-4">
       <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Quick start</div>
       <div class="flex gap-2">
@@ -218,6 +230,11 @@ function refreshMatchLine(container, state) {
 }
 
 function attachHandlers(container, state) {
+  // Navigation links (e.g., the simulator banner)
+  container.querySelectorAll('[data-nav-to]').forEach(btn => {
+    btn.addEventListener('click', () => navigate(btn.getAttribute('data-nav-to')));
+  });
+
   // Quick-start pills bypass current filter state — instant default-config quiz
   container.querySelectorAll('[data-quickstart]').forEach(btn => {
     btn.addEventListener('click', () => {

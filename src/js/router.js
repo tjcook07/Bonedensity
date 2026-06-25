@@ -4,6 +4,7 @@ import { renderFlashcards } from '../components/flashcards.js';
 import { renderReference } from '../components/reference.js';
 import { renderStats } from '../components/stats.js';
 import { renderExam } from '../components/exam.js';
+import { renderExamSimulator } from '../components/examSimulator.js';
 import { renderSettings } from '../components/settings.js';
 import { renderPrecision } from '../components/precision.js';
 import { renderStudyGuide } from '../components/studyGuide.js';
@@ -16,6 +17,7 @@ const routes = {
   'reference': renderReference,
   'stats': renderStats,
   'exam': renderExam,
+  'examSim': renderExamSimulator,
   'settings': renderSettings,
   'precision': renderPrecision,
   'study': renderStudyGuide
