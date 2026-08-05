@@ -67,3 +67,29 @@
   @apply card flex items-center justify-center text-center p-6;
 }
 .flashcard-back { transform: rotateY(180deg); }
+
+/* Drills */
+.drill-card { perspective: 1200px; min-height: 320px; }
+.drill-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  transition: transform 0.32s ease;
+  transform-style: preserve-3d;
+}
+.drill-card.flipped .drill-card-inner { transform: rotateY(180deg); }
+.drill-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  @apply rounded-2xl border flex flex-col items-center justify-center text-center p-6;
+}
+/* Front and back get a distinct background tint so the side is obvious */
+.drill-face-front { @apply bg-ink-800 border-ink-700; }
+.drill-face-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(160deg, rgba(245, 158, 11, 0.12), rgba(180, 83, 9, 0.06)), #1c2333;
+  @apply border-accent-amber/40;
+}
+.drill-btn { min-height: 52px; @apply text-base; }

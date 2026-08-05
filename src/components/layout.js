@@ -5,6 +5,7 @@ const NAV_TABS = [
   { key: 'home', label: 'Home', icon: 'home' },
   { key: 'quiz', label: 'Quiz', icon: 'brain' },
   { key: 'flashcards', label: 'Cards', icon: 'cards' },
+  { key: 'drills', label: 'Drills', icon: 'zap' },
   { key: 'reference', label: 'Ref', icon: 'book' },
   { key: 'stats', label: 'Stats', icon: 'chart' }
 ];

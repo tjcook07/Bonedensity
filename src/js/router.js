@@ -1,6 +1,7 @@
 import { renderHome } from '../components/home.js';
 import { renderQuiz } from '../components/quiz.js';
 import { renderFlashcards } from '../components/flashcards.js';
+import { renderDrills } from '../components/drills.js';
 import { renderReference } from '../components/reference.js';
 import { renderStats } from '../components/stats.js';
 import { renderExam } from '../components/exam.js';
@@ -14,6 +15,7 @@ const routes = {
   'home': renderHome,
   'quiz': renderQuiz,
   'flashcards': renderFlashcards,
+  'drills': renderDrills,
   'reference': renderReference,
   'stats': renderStats,
   'exam': renderExam,

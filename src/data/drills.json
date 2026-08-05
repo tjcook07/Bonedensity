@@ -1,0 +1,299 @@
+{
+  "title": "Paired-Fact Drills",
+  "description": "Atomic recall. One fact per card.",
+  "lastVerified": "2026-05-27",
+  "decks": [
+    {
+      "deckId": "drug-brand-generic",
+      "deckName": "Drug Brand and Generic",
+      "cards": [
+        { "id": "d1-001", "front": "Fosamax", "back": "Alendronate" },
+        { "id": "d1-002", "front": "Actonel", "back": "Risedronate" },
+        { "id": "d1-003", "front": "Boniva", "back": "Ibandronate" },
+        { "id": "d1-004", "front": "Reclast", "back": "Zoledronic acid" },
+        { "id": "d1-005", "front": "Zometa", "back": "Zoledronic acid" },
+        { "id": "d1-006", "front": "Prolia", "back": "Denosumab" },
+        { "id": "d1-007", "front": "Xgeva", "back": "Denosumab" },
+        { "id": "d1-008", "front": "Forteo", "back": "Teriparatide" },
+        { "id": "d1-009", "front": "Tymlos", "back": "Abaloparatide" },
+        { "id": "d1-010", "front": "Evenity", "back": "Romosozumab" },
+        { "id": "d1-011", "front": "Evista", "back": "Raloxifene" },
+        { "id": "d1-012", "front": "Miacalcin", "back": "Calcitonin" }
+      ]
+    },
+    {
+      "deckId": "drug-class",
+      "deckName": "Drug Class",
+      "cards": [
+        { "id": "d2-001", "front": "Alendronate", "back": "Bisphosphonate" },
+        { "id": "d2-002", "front": "Risedronate", "back": "Bisphosphonate" },
+        { "id": "d2-003", "front": "Ibandronate", "back": "Bisphosphonate" },
+        { "id": "d2-004", "front": "Zoledronic acid", "back": "Bisphosphonate" },
+        { "id": "d2-005", "front": "Denosumab", "back": "RANKL inhibitor" },
+        { "id": "d2-006", "front": "Teriparatide", "back": "Anabolic" },
+        { "id": "d2-007", "front": "Abaloparatide", "back": "Anabolic" },
+        { "id": "d2-008", "front": "Romosozumab", "back": "Sclerostin inhibitor" },
+        { "id": "d2-009", "front": "Raloxifene", "back": "SERM" },
+        { "id": "d2-010", "front": "Calcitonin", "back": "Antiresorptive" }
+      ]
+    },
+    {
+      "deckId": "drug-route",
+      "deckName": "Drug Route",
+      "cards": [
+        { "id": "d3-001", "front": "Alendronate", "back": "Oral" },
+        { "id": "d3-002", "front": "Risedronate", "back": "Oral" },
+        { "id": "d3-003", "front": "Ibandronate", "back": "Oral or IV" },
+        { "id": "d3-004", "front": "Zoledronic acid", "back": "IV" },
+        { "id": "d3-005", "front": "Denosumab", "back": "Subcutaneous" },
+        { "id": "d3-006", "front": "Teriparatide", "back": "Subcutaneous" },
+        { "id": "d3-007", "front": "Abaloparatide", "back": "Subcutaneous" },
+        { "id": "d3-008", "front": "Romosozumab", "back": "Subcutaneous" },
+        { "id": "d3-009", "front": "Raloxifene", "back": "Oral" },
+        { "id": "d3-010", "front": "Calcitonin", "back": "Nasal spray" }
+      ]
+    },
+    {
+      "deckId": "drug-frequency",
+      "deckName": "Drug Frequency",
+      "cards": [
+        { "id": "d4-001", "front": "Alendronate", "back": "Weekly" },
+        { "id": "d4-002", "front": "Risedronate", "back": "Weekly or monthly" },
+        { "id": "d4-003", "front": "Ibandronate oral", "back": "Monthly" },
+        { "id": "d4-004", "front": "Ibandronate IV", "back": "Every 3 months" },
+        { "id": "d4-005", "front": "Zoledronic acid", "back": "Yearly" },
+        { "id": "d4-006", "front": "Denosumab", "back": "Every 6 months" },
+        { "id": "d4-007", "front": "Teriparatide", "back": "Daily" },
+        { "id": "d4-008", "front": "Abaloparatide", "back": "Daily" },
+        { "id": "d4-009", "front": "Romosozumab", "back": "Monthly for 12 months" },
+        { "id": "d4-010", "front": "Raloxifene", "back": "Daily" }
+      ]
+    },
+    {
+      "deckId": "drug-mechanism",
+      "deckName": "Drug Target",
+      "cards": [
+        { "id": "d5-001", "front": "Bisphosphonates target", "back": "Osteoclasts" },
+        { "id": "d5-002", "front": "Denosumab target", "back": "RANKL" },
+        { "id": "d5-003", "front": "Romosozumab target", "back": "Sclerostin" },
+        { "id": "d5-004", "front": "Teriparatide mimics", "back": "PTH" },
+        { "id": "d5-005", "front": "Abaloparatide mimics", "back": "PTHrP" },
+        { "id": "d5-006", "front": "Raloxifene target", "back": "Estrogen receptors" },
+        { "id": "d5-007", "front": "OPG function", "back": "Decoy for RANKL" }
+      ]
+    },
+    {
+      "deckId": "drug-warnings",
+      "deckName": "Drug Warnings",
+      "cards": [
+        { "id": "d6-001", "front": "Prolia BBW 2024", "back": "Hypocalcemia in advanced CKD" },
+        { "id": "d6-002", "front": "Evenity BBW", "back": "Cardiovascular events" },
+        { "id": "d6-003", "front": "Evista BBW", "back": "Venous thromboembolism" },
+        { "id": "d6-004", "front": "Forteo cap removed", "back": "November 2020" },
+        { "id": "d6-005", "front": "Tymlos BBW removed", "back": "December 2021" },
+        { "id": "d6-006", "front": "Tymlos men approved", "back": "December 2022" },
+        { "id": "d6-007", "front": "Tymlos lifetime cap", "back": "2 years" },
+        { "id": "d6-008", "front": "Bisphosphonate CrCl cutoff", "back": "Below 35 mL/min" },
+        { "id": "d6-009", "front": "Denosumab stop risk", "back": "Rebound vertebral fractures" },
+        { "id": "d6-010", "front": "Drug holiday applies to", "back": "Bisphosphonates only" },
+        { "id": "d6-011", "front": "Oral bisphosphonate upright", "back": "30 minutes" },
+        { "id": "d6-012", "front": "Ibandronate upright", "back": "60 minutes" },
+        { "id": "d6-013", "front": "Zoledronic acute reaction rate", "back": "About 25 percent" },
+        { "id": "d6-014", "front": "ONJ associated with", "back": "Bisphosphonates and denosumab" }
+      ]
+    },
+    {
+      "deckId": "who-tscore",
+      "deckName": "WHO T-score Categories",
+      "cards": [
+        { "id": "d7-001", "front": "Normal", "back": "At or above -1.0" },
+        { "id": "d7-002", "front": "Osteopenia", "back": "-1.0 to -2.5" },
+        { "id": "d7-003", "front": "Osteoporosis", "back": "At or below -2.5" },
+        { "id": "d7-004", "front": "Severe osteoporosis", "back": "Below -2.5 plus fracture" },
+        { "id": "d7-005", "front": "Z-score below expected", "back": "At or below -2.0" }
+      ]
+    },
+    {
+      "deckId": "score-population",
+      "deckName": "Which Score for Which Patient",
+      "cards": [
+        { "id": "d8-001", "front": "Postmenopausal women", "back": "T-score" },
+        { "id": "d8-002", "front": "Men 50 and older", "back": "T-score" },
+        { "id": "d8-003", "front": "Premenopausal women", "back": "Z-score" },
+        { "id": "d8-004", "front": "Men under 50", "back": "Z-score" },
+        { "id": "d8-005", "front": "Children and teens", "back": "Z-score" },
+        { "id": "d8-006", "front": "T-score reference", "back": "Young adult" },
+        { "id": "d8-007", "front": "Z-score reference", "back": "Age matched" }
+      ]
+    },
+    {
+      "deckId": "iscd-positions",
+      "deckName": "ISCD 2023 Positions",
+      "cards": [
+        { "id": "d9-001", "front": "Hip T-score reference", "back": "White female NHANES III" },
+        { "id": "d9-002", "front": "Spine T-score reference", "back": "Manufacturer database" },
+        { "id": "d9-003", "front": "Bilateral hip diagnosis", "back": "Lowest of 4 ROIs" },
+        { "id": "d9-004", "front": "Bilateral hip monitoring", "back": "Mean total hip" },
+        { "id": "d9-005", "front": "Best hip ROI for diagnosis", "back": "Femoral neck" },
+        { "id": "d9-006", "front": "Best hip ROI for monitoring", "back": "Total hip" },
+        { "id": "d9-007", "front": "Standard spine ROI", "back": "L1 to L4" },
+        { "id": "d9-008", "front": "Diagnostic forearm site", "back": "33 percent radius" },
+        { "id": "d9-009", "front": "Which forearm to scan", "back": "Nondominant" },
+        { "id": "d9-010", "front": "Hip internal rotation", "back": "15 to 25 degrees" }
+      ]
+    },
+    {
+      "deckId": "lsc-precision",
+      "deckName": "LSC and Precision",
+      "cards": [
+        { "id": "d10-001", "front": "LSC 95 percent serial", "back": "2.77" },
+        { "id": "d10-002", "front": "LSC 80 percent serial", "back": "1.81" },
+        { "id": "d10-003", "front": "LSC single vs fixed", "back": "1.96" },
+        { "id": "d10-004", "front": "Precision study option A", "back": "30 patients x 2" },
+        { "id": "d10-005", "front": "Precision study option B", "back": "15 patients x 3" },
+        { "id": "d10-006", "front": "Precision study degrees of freedom", "back": "30" },
+        { "id": "d10-007", "front": "ISCD spine benchmark", "back": "1.9 percent" },
+        { "id": "d10-008", "front": "ISCD total hip benchmark", "back": "1.8 percent" },
+        { "id": "d10-009", "front": "ISCD femoral neck benchmark", "back": "2.5 percent" }
+      ]
+    },
+    {
+      "deckId": "qc-shewhart",
+      "deckName": "QC and Shewhart",
+      "cards": [
+        { "id": "d11-001", "front": "Shewhart control limit", "back": "1.5 percent" },
+        { "id": "d11-002", "front": "Shewhart trend", "back": "5 same direction" },
+        { "id": "d11-003", "front": "Shewhart shift", "back": "10 same side of mean" },
+        { "id": "d11-004", "front": "Hologic phantom", "back": "CaHA in epoxy" },
+        { "id": "d11-005", "front": "GE Lunar phantom", "back": "Aluminum Spine Phantom" }
+      ]
+    },
+    {
+      "deckId": "manufacturer-tech",
+      "deckName": "Manufacturer Tech",
+      "cards": [
+        { "id": "d12-001", "front": "Hologic dual energy", "back": "kVp switching" },
+        { "id": "d12-002", "front": "Hologic kVp", "back": "100 and 140" },
+        { "id": "d12-003", "front": "GE Lunar dual energy", "back": "K-edge filter" },
+        { "id": "d12-004", "front": "GE Lunar filter", "back": "Cerium" },
+        { "id": "d12-005", "front": "GE Lunar kVp", "back": "76" }
+      ]
+    },
+    {
+      "deckId": "radiation-numbers",
+      "deckName": "Radiation Numbers",
+      "cards": [
+        { "id": "d13-001", "front": "DXA dose per scan", "back": "1 to 10 uSv" },
+        { "id": "d13-002", "front": "US annual background", "back": "3 mSv" },
+        { "id": "d13-003", "front": "NRC whole body limit", "back": "50 mSv per year" },
+        { "id": "d13-004", "front": "NRC extremity limit", "back": "500 mSv per year" },
+        { "id": "d13-005", "front": "Double the distance", "back": "One fourth exposure" },
+        { "id": "d13-006", "front": "Triple the distance", "back": "One ninth exposure" },
+        { "id": "d13-007", "front": "ALARA principles", "back": "Time, distance, shielding" },
+        { "id": "d13-008", "front": "DXA tube current", "back": "Less than 1 mA" }
+      ]
+    },
+    {
+      "deckId": "bmma-frax",
+      "deckName": "BMMA and FRAX",
+      "cards": [
+        { "id": "d14-001", "front": "BMMA repeat interval", "back": "23 months" },
+        { "id": "d14-002", "front": "FRAX age range", "back": "40 to 90" },
+        { "id": "d14-003", "front": "FRAX risk factors", "back": "10" },
+        { "id": "d14-004", "front": "FRAX BMD site", "back": "Femoral neck" },
+        { "id": "d14-005", "front": "BHOF major osteoporotic threshold", "back": "20 percent" },
+        { "id": "d14-006", "front": "BHOF hip fracture threshold", "back": "3 percent" }
+      ]
+    },
+    {
+      "deckId": "vfa-genant",
+      "deckName": "Genant Grading",
+      "cards": [
+        { "id": "d15-001", "front": "Genant Grade 0", "back": "Less than 20 percent" },
+        { "id": "d15-002", "front": "Genant Grade 1", "back": "20 to 25 percent" },
+        { "id": "d15-003", "front": "Genant Grade 2", "back": "25 to 40 percent" },
+        { "id": "d15-004", "front": "Genant Grade 3", "back": "Over 40 percent" },
+        { "id": "d15-005", "front": "Vertebra plana", "back": "Over 90 percent" },
+        { "id": "d15-006", "front": "VFA vertebrae imaged", "back": "T4 to L4" },
+        { "id": "d15-007", "front": "Historical height loss threshold", "back": "Over 4 cm" },
+        { "id": "d15-008", "front": "Fracture morphologies", "back": "Wedge, biconcave, crush" },
+        { "id": "d15-009", "front": "Fracture bimodal peaks", "back": "T7-T8 and T12-L1" }
+      ]
+    },
+    {
+      "deckId": "nbha-fractures",
+      "deckName": "NBHA Fracture Sites",
+      "cards": [
+        { "id": "d16-001", "front": "Hip fracture alone", "back": "Diagnostic osteoporosis" },
+        { "id": "d16-002", "front": "Vertebral with osteopenia", "back": "Clinical osteoporosis" },
+        { "id": "d16-003", "front": "Proximal humerus with osteopenia", "back": "Clinical osteoporosis" },
+        { "id": "d16-004", "front": "Pelvis with osteopenia", "back": "Clinical osteoporosis" },
+        { "id": "d16-005", "front": "Wrist with osteopenia", "back": "Clinical osteoporosis" },
+        { "id": "d16-006", "front": "Not osteoporotic sites", "back": "Ankle, finger, skull, face" }
+      ]
+    },
+    {
+      "deckId": "physiology",
+      "deckName": "Bone Physiology",
+      "cards": [
+        { "id": "d17-001", "front": "Bone-forming cells", "back": "Osteoblasts" },
+        { "id": "d17-002", "front": "Bone-resorbing cells", "back": "Osteoclasts" },
+        { "id": "d17-003", "front": "Mechanosensor cells", "back": "Osteocytes" },
+        { "id": "d17-004", "front": "Most abundant bone cell", "back": "Osteocytes" },
+        { "id": "d17-005", "front": "RANKL stimulates", "back": "Osteoclast formation" },
+        { "id": "d17-006", "front": "OPG blocks", "back": "RANKL" },
+        { "id": "d17-007", "front": "Sclerostin blocks", "back": "Bone formation" },
+        { "id": "d17-008", "front": "Estrogen and RANKL", "back": "Suppresses it" },
+        { "id": "d17-009", "front": "Type 1 osteoporosis", "back": "Postmenopausal trabecular" },
+        { "id": "d17-010", "front": "Type 2 osteoporosis", "back": "Senile age 70 plus" },
+        { "id": "d17-011", "front": "33 percent radius", "back": "Cortical" },
+        { "id": "d17-012", "front": "Ultradistal radius", "back": "Trabecular" },
+        { "id": "d17-013", "front": "Vertebral body", "back": "Trabecular" }
+      ]
+    },
+    {
+      "deckId": "concepts",
+      "deckName": "Core Concepts",
+      "cards": [
+        { "id": "d18-001", "front": "DXA measures", "back": "Areal BMD" },
+        { "id": "d18-002", "front": "DXA units", "back": "g per cm squared" },
+        { "id": "d18-003", "front": "QCT measures", "back": "Volumetric BMD" },
+        { "id": "d18-004", "front": "QCT units", "back": "mg per cm cubed" },
+        { "id": "d18-005", "front": "BMD formula", "back": "BMC divided by area" },
+        { "id": "d18-006", "front": "Random error affects", "back": "Precision" },
+        { "id": "d18-007", "front": "Systematic error affects", "back": "Accuracy" },
+        { "id": "d18-008", "front": "TBS measures", "back": "Trabecular microarchitecture" },
+        { "id": "d18-009", "front": "TBS most useful in", "back": "T2DM and glucocorticoid users" },
+        { "id": "d18-010", "front": "Pediatric whole body", "back": "TBLH" },
+        { "id": "d18-011", "front": "Pediatric preferred sites", "back": "Spine and TBLH" }
+      ]
+    },
+    {
+      "deckId": "acronyms",
+      "deckName": "Acronyms",
+      "cards": [
+        { "id": "d19-001", "front": "LSC", "back": "Least Significant Change" },
+        { "id": "d19-002", "front": "BMD", "back": "Bone Mineral Density" },
+        { "id": "d19-003", "front": "BMC", "back": "Bone Mineral Content" },
+        { "id": "d19-004", "front": "DXA", "back": "Dual-energy X-ray Absorptiometry" },
+        { "id": "d19-005", "front": "QCT", "back": "Quantitative Computed Tomography" },
+        { "id": "d19-006", "front": "FRAX", "back": "Fracture Risk Assessment Tool" },
+        { "id": "d19-007", "front": "TBS", "back": "Trabecular Bone Score" },
+        { "id": "d19-008", "front": "VFA", "back": "Vertebral Fracture Assessment" },
+        { "id": "d19-009", "front": "BMMA", "back": "Bone Mass Measurement Act" },
+        { "id": "d19-010", "front": "ROI", "back": "Region of Interest" },
+        { "id": "d19-011", "front": "RMS-CV", "back": "Root Mean Square Coefficient of Variation" },
+        { "id": "d19-012", "front": "RANKL", "back": "Receptor Activator of NF-kB Ligand" },
+        { "id": "d19-013", "front": "OPG", "back": "Osteoprotegerin" },
+        { "id": "d19-014", "front": "PTH", "back": "Parathyroid Hormone" },
+        { "id": "d19-015", "front": "PTHrP", "back": "PTH related Peptide" },
+        { "id": "d19-016", "front": "SERM", "back": "Selective Estrogen Receptor Modulator" },
+        { "id": "d19-017", "front": "ONJ", "back": "Osteonecrosis of the Jaw" },
+        { "id": "d19-018", "front": "BBW", "back": "Boxed Warning" },
+        { "id": "d19-019", "front": "CrCl", "back": "Creatinine Clearance" },
+        { "id": "d19-020", "front": "TBLH", "back": "Total Body Less Head" },
+        { "id": "d19-021", "front": "ALARA", "back": "As Low As Reasonably Achievable" }
+      ]
+    }
+  ]
+}
