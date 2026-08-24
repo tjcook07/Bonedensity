@@ -3,9 +3,12 @@ import { icon } from '../js/icons.js';
 import { navigate } from '../js/router.js';
 import { shuffle, shuffleOptions, percent } from '../js/util.js';
 import { recordAttempt, startSession, endSession } from '../js/storage.js';
+import { saveSession, loadSession, clearSession } from '../js/resumeSession.js';
 import { getReviewQuestions } from '../js/stats.js';
 import { renderQuizBuilder, consumeBuilderSession } from './quiz-builder.js';
 import questions from '../data/questions.json';
+
+const RESUME_KIND = 'quiz';
 
 function dedupShuffle(pool) {
   const shuffled = shuffle(pool);
@@ -47,21 +50,68 @@ async function pickQuestions(key) {
   return { list: [], mode: 'study' };
 }
 
-async function runner(container, key) {
-  const { list: quiz, mode } = await pickQuestions(key);
-  if (quiz.length === 0) {
-    container.innerHTML = pageShell('Quiz', `
-      <div class="card text-center py-10">
-        <div class="text-bone-300">No questions available for this selection.</div>
-        <button data-action="back" data-to="quiz" class="btn-primary mt-4">Back</button>
-      </div>
-    `, { back: true, backTo: 'quiz' });
-    attachBackButton(container);
-    return;
+async function runner(container, key, resume = null) {
+  let quiz, mode, sessionId, state;
+  let finished = false;
+
+  if (resume && Array.isArray(resume.items) && resume.items.length) {
+    quiz = resume.items;
+    mode = resume.mode === 'test' ? 'test' : 'study';
+    sessionId = resume.sessionId;
+    state = {
+      index: 0,
+      answers: Array.isArray(resume.answers) ? resume.answers : new Array(quiz.length).fill(null),
+      startTime: resume.startTime || Date.now()
+    };
+    // Resume at the first still-unanswered question (the quiz runs linearly).
+    const firstOpen = state.answers.findIndex(a => !a);
+    state.index = firstOpen < 0 ? quiz.length : firstOpen;
+  } else {
+    const picked = await pickQuestions(key);
+    quiz = picked.list;
+    mode = picked.mode;
+    if (quiz.length === 0) {
+      container.innerHTML = pageShell('Quiz', `
+        <div class="card text-center py-10">
+          <div class="text-bone-300">No questions available for this selection.</div>
+          <button data-action="back" data-to="quiz" class="btn-primary mt-4">Back</button>
+        </div>
+      `, { back: true, backTo: 'quiz' });
+      attachBackButton(container);
+      return;
+    }
+    // Starting a new quiz replaces any previously saved in-progress one.
+    clearSession(RESUME_KIND);
+    sessionId = await startSession('quiz');
+    state = { index: 0, answers: new Array(quiz.length).fill(null), startTime: Date.now() };
   }
 
-  const sessionId = await startSession('quiz');
-  const state = { index: 0, answers: new Array(quiz.length).fill(null), startTime: Date.now() };
+  function persist() {
+    if (finished) return;
+    saveSession(RESUME_KIND, {
+      items: quiz,
+      answers: state.answers,
+      index: state.index,
+      mode,
+      sessionId,
+      meta: { key }
+    });
+  }
+
+  let torndown = false;
+  function onHide() { if (document.visibilityState === 'hidden') persist(); }
+  function onLeave() { teardown(true); }
+  function teardown(persistFirst) {
+    if (torndown) return;
+    torndown = true;
+    if (persistFirst) persist();
+    document.removeEventListener('visibilitychange', onHide);
+    window.removeEventListener('pagehide', persist);
+    window.removeEventListener('hashchange', onLeave);
+  }
+  document.addEventListener('visibilitychange', onHide);
+  window.addEventListener('pagehide', persist);
+  window.addEventListener('hashchange', onLeave);
 
   async function renderQ() {
     const q = quiz[state.index];
@@ -122,17 +172,22 @@ async function runner(container, key) {
         if (mode === 'study') explainEl.classList.remove('hidden');
         advanceEl.classList.remove('hidden');
         await recordAttempt({ qId: q.id, correct, sessionId, timeMs: Date.now() - tStart });
+        persist();
         const nextBtn = container.querySelector('#next-btn');
         nextBtn.addEventListener('click', () => {
           state.index++;
           if (state.index >= quiz.length) finish();
-          else renderQ();
+          else { persist(); renderQ(); }
         });
       });
     });
   }
 
   async function finish() {
+    if (finished) return;
+    finished = true;
+    teardown(false);
+    clearSession(RESUME_KIND);
     const correct = state.answers.filter(a => a && a.correct).length;
     const score = percent(correct, quiz.length);
     const pass = score >= 70;
@@ -171,12 +226,20 @@ async function runner(container, key) {
     });
   }
 
+  // A resumed quiz whose questions were all already answered goes straight to results.
+  if (state.index >= quiz.length) { finish(); return; }
   renderQ();
 }
 
 export async function renderQuiz(container, params = []) {
   if (params[0] === 'run' && params[1]) {
     await runner(container, params[1]);
+    return;
+  }
+  if (params[0] === 'resume') {
+    const saved = loadSession(RESUME_KIND);
+    if (saved) { await runner(container, saved.meta?.key || 'custom', saved); return; }
+    renderQuizBuilder(container);
     return;
   }
   renderQuizBuilder(container);

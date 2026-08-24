@@ -1,8 +1,11 @@
 import { pageShell, attachBackButton } from './layout.js';
 import { icon } from '../js/icons.js';
 import { navigate } from '../js/router.js';
-import { shuffle } from '../js/util.js';
+import { shuffle, timeAgo } from '../js/util.js';
+import { sessionSummary, clearSession } from '../js/resumeSession.js';
 import questions from '../data/questions.json';
+
+const RESUME_KIND = 'quiz';
 
 const STORAGE_KEY = 'quizBuilder.lastFilters';
 const SESSION_KEY = 'quizBuilder.currentSession';
@@ -134,6 +137,24 @@ function radio(name, value, label, selected, helper) {
   </label>`;
 }
 
+function resumeCardHtml(summary) {
+  return `
+    <div class="card mb-4 border-accent-amber/50 bg-accent-amber/5">
+      <div class="flex items-center gap-3">
+        <div class="text-accent-amber">${icon('refresh', 'w-6 h-6')}</div>
+        <div class="flex-1 min-w-0">
+          <div class="font-display text-lg">Quiz in progress</div>
+          <div class="text-bone-300 text-sm">${summary.answered} of ${summary.total} answered · saved ${timeAgo(summary.savedAt)}</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mt-3">
+        <button data-action="discard-quiz" class="btn-secondary">Discard</button>
+        <button data-action="resume-quiz" class="btn-primary">${icon('play', 'w-5 h-5')} Resume</button>
+      </div>
+    </div>
+  `;
+}
+
 function buildBody(state) {
   const filtered = applyFilters(state);
   const matchCount = filtered.length;
@@ -144,7 +165,10 @@ function buildBody(state) {
     chipButton(cat, CATEGORY_COUNTS[cat] || 0, state.categories.includes(cat))
   ).join('');
 
+  const resumeSummary = sessionSummary(RESUME_KIND);
+
   return `
+    ${resumeSummary ? resumeCardHtml(resumeSummary) : ''}
     <button data-nav-to="examSim" class="w-full card card-hover text-left mb-4 border border-accent-amber/40">
       <div class="flex items-center gap-3">
         <div class="text-accent-amber">${icon('clipboard', 'w-7 h-7')}</div>
@@ -233,6 +257,16 @@ function attachHandlers(container, state) {
   // Navigation links (e.g., the simulator banner)
   container.querySelectorAll('[data-nav-to]').forEach(btn => {
     btn.addEventListener('click', () => navigate(btn.getAttribute('data-nav-to')));
+  });
+
+  // Resume / discard an in-progress quiz
+  const resumeBtn = container.querySelector('[data-action="resume-quiz"]');
+  if (resumeBtn) resumeBtn.addEventListener('click', () => navigate('quiz/resume'));
+  const discardBtn = container.querySelector('[data-action="discard-quiz"]');
+  if (discardBtn) discardBtn.addEventListener('click', () => {
+    if (!confirm('Discard your in-progress quiz? This cannot be undone.')) return;
+    clearSession(RESUME_KIND);
+    rerender(container, state);
   });
 
   // Quick-start pills bypass current filter state — instant default-config quiz

@@ -1,9 +1,12 @@
 import { pageShell, attachBackButton } from './layout.js';
 import { icon } from '../js/icons.js';
 import { navigate } from '../js/router.js';
-import { shuffle, shuffleOptions, formatTime, percent } from '../js/util.js';
+import { shuffle, shuffleOptions, formatTime, percent, timeAgo } from '../js/util.js';
 import { recordAttempt, startSession, endSession } from '../js/storage.js';
+import { saveSession, loadSession, clearSession, sessionSummary } from '../js/resumeSession.js';
 import questions from '../data/questions.json';
+
+const RESUME_KIND = 'examSim';
 
 const SCORED_TOTAL = 100;
 const PILOT_TOTAL = 20;
@@ -49,8 +52,29 @@ function buildExam() {
   return shuffle(tagged).map(shuffleOptions);
 }
 
+function resumeCardHtml(summary) {
+  const mins = Math.max(1, Math.round(summary.remainingMs / 60000));
+  return `
+    <div class="card mb-4 border-accent-amber/50 bg-accent-amber/5">
+      <div class="flex items-center gap-3">
+        <div class="text-accent-amber">${icon('clock', 'w-6 h-6')}</div>
+        <div class="flex-1 min-w-0">
+          <div class="font-display text-lg">Exam in progress</div>
+          <div class="text-bone-300 text-sm">${summary.answered} of ${summary.total} answered · ~${mins} min left · saved ${timeAgo(summary.savedAt)}</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mt-3">
+        <button id="discard-resume" class="btn-secondary">Discard</button>
+        <button id="resume" class="btn-primary">${icon('play', 'w-5 h-5')} Resume</button>
+      </div>
+    </div>
+  `;
+}
+
 function introScreen(container) {
+  const summary = sessionSummary(RESUME_KIND);
   const body = `
+    ${summary ? resumeCardHtml(summary) : ''}
     <div class="card mb-4">
       <div class="text-accent-amber text-xs uppercase tracking-widest">Registry Exam Simulator</div>
       <h2 class="font-display text-2xl mt-1">120 questions · 2 h 30 m</h2>
@@ -75,34 +99,99 @@ function introScreen(container) {
   `;
   container.innerHTML = pageShell('Registry Exam Simulator', body, { back: true, backTo: 'quiz' });
   attachBackButton(container);
-  container.querySelector('#begin').addEventListener('click', () => navigate('examSim/run'));
+
+  container.querySelector('#begin').addEventListener('click', () => {
+    if (sessionSummary(RESUME_KIND) && !confirm('You have an exam in progress. Start a new one and discard it?')) return;
+    clearSession(RESUME_KIND);
+    navigate('examSim/run');
+  });
+
+  const resumeBtn = container.querySelector('#resume');
+  if (resumeBtn) resumeBtn.addEventListener('click', () => navigate('examSim/resume'));
+  const discardBtn = container.querySelector('#discard-resume');
+  if (discardBtn) discardBtn.addEventListener('click', () => {
+    if (!confirm('Discard your in-progress exam? This cannot be undone.')) return;
+    clearSession(RESUME_KIND);
+    introScreen(container);
+  });
 }
 
-async function runner(container) {
-  const exam = buildExam();
-  if (exam.length < TOTAL) {
-    container.innerHTML = pageShell('Registry Exam Simulator', `
-      <div class="card text-center py-10">
-        <div class="text-bone-300">Not enough questions in the bank to build a full ${TOTAL}-question exam.</div>
-        <button data-action="back" data-to="examSim" class="btn-primary mt-4">Back</button>
-      </div>
-    `, { back: true, backTo: 'examSim' });
-    attachBackButton(container);
-    return;
+async function runner(container, resume = null) {
+  let exam, sessionId, state;
+
+  if (resume && Array.isArray(resume.items) && resume.items.length) {
+    exam = resume.items;
+    sessionId = resume.sessionId;
+    state = {
+      index: Math.min(resume.index || 0, exam.length - 1),
+      answers: Array.isArray(resume.answers) ? resume.answers : new Array(exam.length).fill(null),
+      flagged: new Set(resume.flagged || []),
+      recorded: new Set(resume.recorded || []),
+      mode: resume.mode === 'nav' ? 'nav' : 'quiz',
+      startTime: resume.startTime || Date.now(),
+      // Clock was paused while away: resume from the saved remaining time.
+      endsAt: Date.now() + Math.max(resume.remainingMs || 0, 0),
+      timerId: null,
+      finished: false
+    };
+  } else {
+    exam = buildExam();
+    if (exam.length < TOTAL) {
+      container.innerHTML = pageShell('Registry Exam Simulator', `
+        <div class="card text-center py-10">
+          <div class="text-bone-300">Not enough questions in the bank to build a full ${TOTAL}-question exam.</div>
+          <button data-action="back" data-to="examSim" class="btn-primary mt-4">Back</button>
+        </div>
+      `, { back: true, backTo: 'examSim' });
+      attachBackButton(container);
+      return;
+    }
+    sessionId = await startSession('exam-sim');
+    state = {
+      index: 0,
+      answers: new Array(exam.length).fill(null),
+      flagged: new Set(),
+      recorded: new Set(),
+      mode: 'quiz',
+      startTime: Date.now(),
+      endsAt: Date.now() + DURATION_MS,
+      timerId: null,
+      finished: false
+    };
   }
 
-  const sessionId = await startSession('exam-sim');
-  const state = {
-    index: 0,
-    answers: new Array(exam.length).fill(null),
-    flagged: new Set(),
-    recorded: new Set(),
-    mode: 'quiz',
-    startTime: Date.now(),
-    endsAt: Date.now() + DURATION_MS,
-    timerId: null,
-    finished: false
-  };
+  function persist() {
+    if (state.finished) return;
+    saveSession(RESUME_KIND, {
+      items: exam,
+      answers: state.answers,
+      flagged: [...state.flagged],
+      recorded: [...state.recorded],
+      index: state.index,
+      mode: state.mode,
+      sessionId,
+      startTime: state.startTime,
+      remainingMs: Math.max(state.endsAt - Date.now(), 0)
+    });
+  }
+
+  let torndown = false;
+  function onHide() { if (document.visibilityState === 'hidden') persist(); }
+  function onLeave() { teardown(true); }
+  function teardown(persistFirst) {
+    if (torndown) return;
+    torndown = true;
+    if (persistFirst) persist();
+    stopTimer();
+    document.removeEventListener('visibilitychange', onHide);
+    window.removeEventListener('pagehide', persist);
+    window.removeEventListener('hashchange', onLeave);
+  }
+  document.addEventListener('visibilitychange', onHide);
+  window.addEventListener('pagehide', persist);
+  window.addEventListener('hashchange', onLeave);
+
+  persist();
 
   function applyTimerStyle(el, remaining) {
     el.classList.remove('text-warn', 'text-err');
@@ -185,19 +274,21 @@ async function runner(container) {
         }
         container.querySelectorAll('[data-opt]').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
+        persist();
       });
     });
 
     container.querySelector('#flag').addEventListener('click', () => {
       if (state.flagged.has(state.index)) state.flagged.delete(state.index);
       else state.flagged.add(state.index);
+      persist();
       renderQ();
     });
     container.querySelector('#prev').addEventListener('click', () => {
-      if (state.index > 0) { state.index--; renderQ(); }
+      if (state.index > 0) { state.index--; persist(); renderQ(); }
     });
     container.querySelector('#next').addEventListener('click', () => {
-      if (state.index < exam.length - 1) { state.index++; renderQ(); }
+      if (state.index < exam.length - 1) { state.index++; persist(); renderQ(); }
     });
     container.querySelector('#nav').addEventListener('click', () => {
       state.mode = 'nav';
@@ -250,6 +341,7 @@ async function runner(container) {
       btn.addEventListener('click', () => {
         state.index = parseInt(btn.getAttribute('data-goto'), 10);
         state.mode = 'quiz';
+        persist();
         renderQ();
       });
     });
@@ -271,7 +363,8 @@ async function runner(container) {
   async function finish(timeOut) {
     if (state.finished) return;
     state.finished = true;
-    stopTimer();
+    teardown(false);
+    clearSession(RESUME_KIND);
 
     const elapsedMs = Math.min(Date.now() - state.startTime, DURATION_MS);
     const scoredEntries = [];
@@ -384,6 +477,12 @@ async function runner(container) {
 export async function renderExamSimulator(container, params = []) {
   if (params[0] === 'run') {
     await runner(container);
+    return;
+  }
+  if (params[0] === 'resume') {
+    const saved = loadSession(RESUME_KIND);
+    if (saved) { await runner(container, saved); return; }
+    introScreen(container);
     return;
   }
   introScreen(container);
