@@ -3,6 +3,7 @@ import { icon } from '../js/icons.js';
 import { navigate } from '../js/router.js';
 import { computeStats } from '../js/stats.js';
 import { getSettings } from '../js/storage.js';
+import { sessionSummary } from '../js/resumeSession.js';
 import { daysBetween, percent } from '../js/util.js';
 
 function heroCard() {
@@ -14,6 +15,22 @@ function heroCard() {
         Question bank, Leitner flashcards, timed 75 question exam simulator, reference material, precision calculator, and per module tracking. Works offline.
       </p>
     </div>
+  `;
+}
+
+function resumeQuizCard(summary) {
+  const left = Math.max(summary.total - summary.answered, 0);
+  return `
+    <button data-nav-to="quiz/resume" class="card card-hover w-full text-left mb-4 border-accent-amber/50 bg-accent-amber/5">
+      <div class="flex items-center gap-3">
+        <div class="text-accent-amber">${icon('refresh', 'w-6 h-6')}</div>
+        <div class="flex-1 min-w-0">
+          <div class="font-display text-lg">Resume your quiz</div>
+          <div class="text-bone-300 text-sm">${left} question${left === 1 ? '' : 's'} left · ${summary.answered} of ${summary.total} answered</div>
+        </div>
+        <span class="text-bone-300">${icon('chevron_right', 'w-5 h-5')}</span>
+      </div>
+    </button>
   `;
 }
 
@@ -115,8 +132,11 @@ export async function renderHome(container) {
   let stats = { accuracy: 0, coverage: 0, streak: 0 };
   try { stats = await computeStats(); } catch {}
 
+  const quizResume = sessionSummary('quiz');
+
   const body = `
     ${heroCard()}
+    ${quizResume ? resumeQuizCard(quizResume) : ''}
     <div class="grid grid-cols-3 gap-2 mb-4">
       ${statCard('Accuracy', percent(stats.totalCorrect || 0, stats.totalAttempts || 0) + '%', `${stats.totalCorrect || 0} of ${stats.totalAttempts || 0}`)}
       ${statCard('Coverage', Math.round((stats.coverage || 0) * 100) + '%', `${stats.questionsAnswered || 0} of ${stats.totalQuestions || 0}`)}

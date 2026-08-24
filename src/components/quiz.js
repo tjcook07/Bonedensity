@@ -233,6 +233,11 @@ async function runner(container, key, resume = null) {
 
 export async function renderQuiz(container, params = []) {
   if (params[0] === 'run' && params[1]) {
+    // Starting a new quiz discards any in-progress one — confirm first, like the exams.
+    if (loadSession(RESUME_KIND) && !confirm('You have a quiz in progress. Start a new one and discard it?')) {
+      navigate('quiz');
+      return;
+    }
     await runner(container, params[1]);
     return;
   }
