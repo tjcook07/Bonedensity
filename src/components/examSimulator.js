@@ -12,7 +12,6 @@ const SCORED_TOTAL = 75;
 const PILOT_TOTAL = 30;
 const TOTAL = SCORED_TOTAL + PILOT_TOTAL;
 const DURATION_MS = 125 * 60 * 1000;
-const PASS_PCT = 75;
 const WARN_MS = 30 * 60 * 1000;
 const DANGER_MS = 10 * 60 * 1000;
 
@@ -87,7 +86,7 @@ function introScreen(container) {
       <ul class="text-sm text-bone-300 space-y-2 leading-relaxed">
         <li>125-minute countdown. Auto-submits at zero.</li>
         <li>Cannot pause once started.</li>
-        <li>Pass at 75% on the 75 scored questions (57 / 75).</li>
+        <li>Only the 75 scored questions count. ARRT uses a scaled score (1-99, pass at 75); this sim estimates readiness from your raw percentage.</li>
         <li>Every question and every option order is randomized — retake for a fresh mix.</li>
         <li>You can flag questions and revisit via the Navigator.</li>
         <li>Pilot questions are invisible during the exam and revealed at the end.</li>
@@ -377,11 +376,20 @@ async function runner(container, resume = null) {
     });
 
     const scoredCorrect = scoredEntries.filter(e => e.correct).length;
-    // Floor the displayed percent and test pass on the exact fraction so a
-    // sub-threshold score (e.g. 56/75 = 74.6%) cannot round up to a pass.
+    // Floor the displayed percent so a sub-threshold score never rounds up.
     const scoredPct = Math.floor((scoredCorrect / SCORED_TOTAL) * 100);
     const pilotCorrect = pilotEntries.filter(e => e.correct).length;
-    const pass = scoredCorrect / SCORED_TOTAL >= PASS_PCT / 100;
+
+    // ARRT reports a scaled score (1-99, pass at 75) that adjusts for form
+    // difficulty. We cannot reproduce that from raw counts, so instead of a
+    // hard PASS/FAIL we estimate readiness from the raw scored percentage.
+    let readiness, readinessTone;
+    if (scoredCorrect >= 64) { readiness = 'Strong pass - well above minimum'; readinessTone = 'ok'; }
+    else if (scoredCorrect >= 56) { readiness = 'Likely pass - comfortable margin'; readinessTone = 'ok'; }
+    else if (scoredCorrect >= 49) { readiness = 'Borderline - the real ARRT scaling could go either way'; readinessTone = 'warn'; }
+    else { readiness = 'Below passing range - more study needed'; readinessTone = 'err'; }
+    const toneText = readinessTone === 'ok' ? 'text-ok' : readinessTone === 'warn' ? 'text-warn' : 'text-err';
+    const toneChip = readinessTone === 'ok' ? 'chip-ok' : readinessTone === 'warn' ? 'chip-warn' : 'chip-err';
 
     const areaResults = ARRT_AREAS.map(area => {
       const items = scoredEntries.filter(e => e.q.arrtArea === area.id);
@@ -402,9 +410,12 @@ async function runner(container, resume = null) {
     const body = `
       <div class="card text-center mb-4">
         <div class="text-bone-300 text-xs uppercase tracking-widest">${timeOut ? 'Time up' : 'Exam complete'}</div>
-        <div class="font-display text-6xl mt-2 ${pass ? 'text-ok' : 'text-err'}">${scoredCorrect} / 75</div>
+        <div class="font-display text-6xl mt-2 ${toneText}">${scoredCorrect} / 75</div>
         <div class="text-bone-300 text-sm mt-1">${scoredCorrect} / 75 scored questions correct (${scoredPct}%)</div>
-        <div class="mt-3"><span class="${pass ? 'chip-ok' : 'chip-err'}">${pass ? 'PASS' : 'FAIL'} — 75% of 75 scored required</span></div>
+        <div class="mt-3"><span class="${toneChip}">Estimated readiness: ${readiness}</span></div>
+        <div class="mt-3 text-bone-300 text-xs leading-relaxed">
+          ARRT uses a scaled score (1-99, pass at 75) that adjusts for test form difficulty. This simulator uses raw percentage as an estimate. The actual passing threshold on the real exam typically falls around 65-70 percent correct on scored questions.
+        </div>
         <div class="mt-3 text-bone-300 text-xs">Time used: ${timeUsed} / 2h 5m</div>
       </div>
 
