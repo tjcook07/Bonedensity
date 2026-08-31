@@ -85,7 +85,7 @@ function introScreen(container) {
       <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Rules</div>
       <ul class="text-sm text-bone-300 space-y-2 leading-relaxed">
         <li>125-minute countdown. Auto-submits at zero.</li>
-        <li>Cannot pause once started.</li>
+        <li>Save &amp; pause anytime — the clock stops and resumes where you left off.</li>
         <li>Only the 75 scored questions count. ARRT uses a scaled score (1-99, pass at 75); this sim estimates readiness from your raw percentage.</li>
         <li>Every question and every option order is randomized — retake for a fresh mix.</li>
         <li>You can flag questions and revisit via the Navigator.</li>
@@ -258,7 +258,10 @@ async function runner(container, resume = null) {
           Next ${icon('chevron_right', 'w-4 h-4')}
         </button>
       </div>
-      <button id="submit" class="btn-danger w-full mt-3">Submit exam</button>
+      <div class="grid grid-cols-2 gap-2 mt-3">
+        <button id="save-exit" class="btn-secondary">${icon('clock', 'w-4 h-4')} Save &amp; pause</button>
+        <button id="submit" class="btn-danger">Submit exam</button>
+      </div>
     `;
     container.innerHTML = pageShell('Registry Exam Simulator', body, { back: false });
 
@@ -294,6 +297,16 @@ async function runner(container, resume = null) {
       renderNav();
     });
     container.querySelector('#submit').addEventListener('click', confirmSubmit);
+    const saveBtn = container.querySelector('#save-exit');
+    if (saveBtn) saveBtn.addEventListener('click', saveAndExit);
+  }
+
+  // Explicitly save progress and leave the exam. The countdown is stored as
+  // remaining time and pauses while away, so the exam can be resumed later
+  // from the Resume card on the start screen.
+  function saveAndExit() {
+    persist();
+    navigate('examSim');
   }
 
   function renderNav() {
@@ -329,12 +342,16 @@ async function runner(container, resume = null) {
         </div>
         <div class="grid grid-cols-6 gap-2">${cells}</div>
       </div>
+      <button id="save-exit-nav" class="btn-secondary w-full mb-2">${icon('clock', 'w-4 h-4')} Save &amp; pause — resume later</button>
       <div class="grid grid-cols-2 gap-2">
         <button id="back-to-q" class="btn-secondary">Back to question</button>
         <button id="submit-nav" class="btn-danger">Submit exam</button>
       </div>
     `;
     container.innerHTML = pageShell('Registry Exam Simulator', body, { back: false });
+
+    const saveNavBtn = container.querySelector('#save-exit-nav');
+    if (saveNavBtn) saveNavBtn.addEventListener('click', saveAndExit);
 
     container.querySelectorAll('[data-goto]').forEach(btn => {
       btn.addEventListener('click', () => {
