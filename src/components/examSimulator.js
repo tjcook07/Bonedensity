@@ -8,10 +8,10 @@ import questions from '../data/questions.json';
 
 const RESUME_KIND = 'examSim';
 
-const SCORED_TOTAL = 100;
-const PILOT_TOTAL = 20;
+const SCORED_TOTAL = 75;
+const PILOT_TOTAL = 30;
 const TOTAL = SCORED_TOTAL + PILOT_TOTAL;
-const DURATION_MS = 150 * 60 * 1000;
+const DURATION_MS = 125 * 60 * 1000;
 const PASS_PCT = 75;
 const WARN_MS = 30 * 60 * 1000;
 const DANGER_MS = 10 * 60 * 1000;
@@ -77,17 +77,17 @@ function introScreen(container) {
     ${summary ? resumeCardHtml(summary) : ''}
     <div class="card mb-4">
       <div class="text-accent-amber text-xs uppercase tracking-widest">Registry Exam Simulator</div>
-      <h2 class="font-display text-2xl mt-1">120 questions · 2 h 30 m</h2>
+      <h2 class="font-display text-2xl mt-1">105 questions · 125 minutes</h2>
       <p class="text-bone-300 text-sm mt-2 leading-relaxed">
-        Simulates the real ARRT BD exam. 120 questions pulled randomly from the full ${questions.length}-question bank. 100 count toward your score, 20 are unscored pilots, just like the actual registry. You will not know which are pilots until the results screen.
+        Simulates the real ARRT BD exam. 105 questions pulled randomly from the full ${questions.length}-question bank. 75 count toward your score, 30 are unscored pilots, just like the actual registry. You will not know which are pilots until the results screen.
       </p>
     </div>
     <div class="card mb-4">
       <div class="text-bone-300 text-xs uppercase tracking-widest mb-2">Rules</div>
       <ul class="text-sm text-bone-300 space-y-2 leading-relaxed">
-        <li>150-minute countdown. Auto-submits at zero.</li>
+        <li>125-minute countdown. Auto-submits at zero.</li>
         <li>Cannot pause once started.</li>
-        <li>Pass at 75% on the 100 scored questions (75 / 100).</li>
+        <li>Pass at 75% on the 75 scored questions (57 / 75).</li>
         <li>Every question and every option order is randomized — retake for a fresh mix.</li>
         <li>You can flag questions and revisit via the Navigator.</li>
         <li>Pilot questions are invisible during the exam and revealed at the end.</li>
@@ -377,9 +377,11 @@ async function runner(container, resume = null) {
     });
 
     const scoredCorrect = scoredEntries.filter(e => e.correct).length;
-    const scoredPct = percent(scoredCorrect, SCORED_TOTAL);
+    // Floor the displayed percent and test pass on the exact fraction so a
+    // sub-threshold score (e.g. 56/75 = 74.6%) cannot round up to a pass.
+    const scoredPct = Math.floor((scoredCorrect / SCORED_TOTAL) * 100);
     const pilotCorrect = pilotEntries.filter(e => e.correct).length;
-    const pass = scoredPct >= PASS_PCT;
+    const pass = scoredCorrect / SCORED_TOTAL >= PASS_PCT / 100;
 
     const areaResults = ARRT_AREAS.map(area => {
       const items = scoredEntries.filter(e => e.q.arrtArea === area.id);
@@ -400,10 +402,10 @@ async function runner(container, resume = null) {
     const body = `
       <div class="card text-center mb-4">
         <div class="text-bone-300 text-xs uppercase tracking-widest">${timeOut ? 'Time up' : 'Exam complete'}</div>
-        <div class="font-display text-6xl mt-2 ${pass ? 'text-ok' : 'text-err'}">${scoredCorrect} / 100</div>
-        <div class="text-bone-300 text-sm mt-1">${scoredPct}% on scored questions</div>
-        <div class="mt-3"><span class="${pass ? 'chip-ok' : 'chip-err'}">${pass ? 'PASS' : 'FAIL'} — 75 / 100 required</span></div>
-        <div class="mt-3 text-bone-300 text-xs">Time used: ${timeUsed} / 2h 30m</div>
+        <div class="font-display text-6xl mt-2 ${pass ? 'text-ok' : 'text-err'}">${scoredCorrect} / 75</div>
+        <div class="text-bone-300 text-sm mt-1">${scoredCorrect} / 75 scored questions correct (${scoredPct}%)</div>
+        <div class="mt-3"><span class="${pass ? 'chip-ok' : 'chip-err'}">${pass ? 'PASS' : 'FAIL'} — 75% of 75 scored required</span></div>
+        <div class="mt-3 text-bone-300 text-xs">Time used: ${timeUsed} / 2h 5m</div>
       </div>
 
       <div class="card mb-4">

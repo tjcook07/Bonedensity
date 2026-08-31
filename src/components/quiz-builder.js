@@ -174,8 +174,8 @@ function buildBody(state) {
         <div class="text-accent-amber">${icon('clipboard', 'w-7 h-7')}</div>
         <div class="flex-1">
           <div class="text-accent-amber text-xs uppercase tracking-widest">Full registry simulator</div>
-          <div class="font-display text-lg mt-0.5">Registry Exam Simulator (120 questions, 2.5 hours)</div>
-          <div class="text-bone-300 text-xs mt-1 leading-snug">Simulates the real ARRT BD exam. 100 questions count toward your score, 20 are unscored pilots, just like the actual registry.</div>
+          <div class="font-display text-lg mt-0.5">Registry Exam Simulator (105 questions, 125 minutes)</div>
+          <div class="text-bone-300 text-xs mt-1 leading-snug">Simulates the real ARRT BD exam. 75 questions count toward your score, 30 are unscored pilots, just like the actual registry.</div>
         </div>
         <span class="text-bone-300">${icon('chevron_right', 'w-5 h-5')}</span>
       </div>
